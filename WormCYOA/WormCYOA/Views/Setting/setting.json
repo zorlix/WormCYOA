@@ -1,0 +1,217 @@
+{
+    "basic": [
+        {
+            "title": "Canon Earth Bet",
+            "desc": "The original Earth Bet as referenced by Wildbow's work."
+        },
+        {
+            "title": "Alternate World",
+            "desc": "Instead of arriving on Earth Bet, you will find yourself on some other world that you may know from another fictional setting."
+        },
+        {
+            "title": "Crossover",
+            "desc": "Instead of arriving on Earth Bet's main continuity, you'll enter an alternate timeline where two worlds have merged together.\nWarning: This can result on any number of changes that may vastly alter the nature of both the Worm-verse as well as the other world. If you're lucky, it'll only mean that the Entities have chosen a different world for their experiement, but that alone is enough to completely alter the history of that world from the point of the Entities' arrival. If you're unlucky, you'll arrive on a world that is a strange amalgamation of Earth Bet and your chosen crossover world. This is likely to vastly reduce the predictability of your chosen world and will mostly render your knowledge of canon events useless."
+        },
+        {
+            "title": "No Transfer",
+            "desc": "Oh? You don't wish to go to another world at all? You want to take the abilities this CYOA provides for you and stay in your own (boring) world? As you wish, but be sure to not screw over your own world. Be especially careful when choosing Drawbacks. Any negative Drawback that affects the world around you will apply in your own world as well. So take care... unless you want to discover what having an Endbringer on a world with no cape population would look like. Anyway, other than a couple of scattered precogs, there currently aren't any parahumans. Aside from that, you know about your own world, so I won't bother giving you a dossier. "
+        }
+    ],
+    "wormCanon": [
+        {
+            "title": "Brockton Bay",
+            "CPGain": 5,
+            "desc": "Brockton Bay is where Wildbow's predictions began, where Taylor Hebert started her caped crusades. It also has a lot of powerful Parahumans, is home to the Protectorate ENE, and is a likely target for an Endbringer attack."
+        },
+        {
+            "title": "Boston",
+            "CPGain": 3,
+            "desc": "Not all of the story took place in Brockton Bay. Some of it took place in Boston. Boston has some powerful players like Accord, Blasto, and the Teeth."
+        },
+        {
+            "title": "Chicago",
+            "CPGain": 3,
+            "desc": "Taylor eventually joined the Chicago Wards after things went downhill in Brockton Bay. Most of Wildbow's Pre-Gold Morning predictions took place while Taylor was a member of the Chicago Wards. The Chicago Protectorate is run by Myrddin, a powerful and versatile Parahuman."
+        },
+        {
+            "title": "New York",
+            "CPGain": 3,
+            "desc": "Worm itself never focused on New York, but it is still a city with one of the largest parahuman populations in North America. It also happens to be Legend's hometown. Take this, and you'll find yourself in a location of your choosing in New York. "
+        },
+        {
+            "title": "Houston",
+            "CPGain": 2,
+            "desc": "A city which houses the third PRT department, one of the top departments, which is focused on providing training. It is a relatively safe city because Eidolon is the leader of the local Protectorate. With this, you'll find yourself in a location of your choosing in Houston. "
+        },
+        {
+            "title": "Los Angeles",
+            "CPGain": 3,
+            "desc": "A city with large parahuman population which focuses heavily on pure destructive might. The local Protectorate is lead by Alexandria, and the Elite has a large presence here. With this, you'll find yourself in a location of your choosing in the city. "
+        },
+        {
+            "title": "Las Vegas",
+            "CPGain": 4,
+            "desc": "It is one of the worst cities in terms of sheer villain population. Local cape population heavily focuses on Thinkers, Tinkers, and Strangers who rule the local underworld. With this, you'll find yourself in a location of your choosing in this lovely city. "
+        },
+        {
+            "title": "Newfoundland",
+            "CPGain": 1,
+            "desc": "Leviathan attacked Newfoundland in the early 2000s. It's found at the east coast of Canada."
+        },
+        {
+            "title": "Kyushu",
+            "CPGain": 3,
+            "desc": "You'll find yourself in Kyushu, where Leviathan attacked Japan on the November of 1999. I wouldn't suggest going there any later that that, it's completely flooded."
+        },
+        {
+            "title": "Containment Zone",
+            "CPGain": 15,
+            "desc": "Choose any location that is quarantined at the time of your arrival. This can be a Simurgh Containment Zone, Ellisburg, Eagleton, Flint, Freedom, etc."
+        },
+        {
+            "title": "Containment Camp",
+            "CPGain": 20,
+            "desc": "You'll find yourself at a containment camp you fit the criteria for. You can decide which organization the containment camp you'll appear in belongs to. Maybe you want to try your luck with a Gesellschaft (Neo-Nazi) camp, or maybe you think the CUI would be easier to escape. Either way, it'll be your choices here that decide whether or not you'll get out of there alive and still yourself."
+        },
+        {
+            "title": "Radioactive Wasteland",
+            "CPGain": 10,
+            "desc": "You'll find yourself at a location that Behemoth made uninhabitable during one of his attacks prior to 2011."
+        },
+        {
+            "title": "Birdcage",
+            "CPGain": 15,
+            "desc": "You'll find yourself trapped within the confines of the Baumann Parahuman Containment Center — a prison specifically designed to only allow prisoners to enter and never leave. So, be sure to pick some power that (you think) might allow you to escape."
+        }
+    ],
+    "wormRandom": [
+        {
+            "title": "Random",
+            "CPGain": 15,
+            "desc": "You don't get to choose your starting location."
+        },
+        {
+            "title": "North America",
+            "CPCost": 3,
+            "desc": "North America is a big place, you might want to be somewhere in North America that isn't covered by the Worm canon choices. Choose any location North America that isn't within 100 miles of Brockton Bay, Boston, Chicago, New York, Houston, LA, or Las Vegas."
+        },
+        {
+            "title": "Europe",
+            "desc": "Europe isn't nearly as well off as it is on your Earth, but it isn't nearly as bad as Africa is. Choose any location in Europe, and you'll find yourself there."
+        },
+        {
+            "title": "Australia",
+            "desc": "Canberra, Australia was attacked by the Endbringer the Simurgh during the early months of 2011. Choose any location in Australia, and you'll find yourself there."
+        },
+        {
+            "title": "New Zealand",
+            "desc": "New Zealand may not have been attacked by any Endbringer in canon. You can choose any location within New Zealand, and you'll find yourself there."
+        },
+        {
+            "title": "Polynesia",
+            "desc": "Chose any location within the Polynesian islands, including Hawaii and Easter island, and you'll find yourself there."
+        },
+        {
+            "title": "Melanesia",
+            "desc": "Chose any location within the Melanesia region of Oceania, including Fiji and Papua New Guinea, and you'll find yourself there."
+        },
+        {
+            "title": "Micronesia",
+            "desc": "Chose any location within the Micronesia region, including Guam and Kirabati, and you'll find yourself there."
+        },
+        {
+            "title": "South America",
+            "CPGain": 3,
+            "desc": "Choose any location in South America, and you'll find yourself there."
+        },
+        {
+            "title": "Asia",
+            "CPGain": 4,
+            "desc": "Choose any location Western Asia, and you'll find yourself there. Warning: Many places in Asia are very dangerous. For example, China is home to the brainwashed military cape team known as the Yangban. Japan, as of November 3rd, 1999 is completely flooded. Russia is home to Sleeper, the most mysterious of the S-Class Threats."
+        },
+        {
+            "title": "Africa",
+            "CPGain": 5,
+            "desc": "Africa is full of warlords and is also home to Ashbeast and Moord Nag. Choose any location in Africa, and you'll find yourself there."
+        },
+        {
+            "title": "Antarctica",
+            "CPGain": 4,
+            "desc": "Choose any location in Antarctica, and you'll find yourself there. Not sure what you'd want to there, but you've got the option."
+        },
+        {
+            "title": "Greenland",
+            "CPGain": 3,
+            "desc": "Choose any location in Greenland, and you'll find youself there. "
+        }
+    ],
+    "wormGeneric": [
+        {
+            "title": "Ocean",
+            "CPGain": 10,
+            "desc": "You'll find youself in a random location in the middle of an ocean. You won't be anywhere close to shore, and there won't be any islands anywhere near. "
+        },
+        {
+            "title": "Barren Island",
+            "CPGain": 10,
+            "desc": "You'll find yourself on a single lone barren island. There are no trees or food. It's just a rocky island with little life."
+        },
+        {
+            "title": "Personal Island",
+            "CPCost": 7,
+            "desc": "You'll find yourself on an island far from civilization and rich with any kind of resource you'll need to create a base. It'll have a rich underground, and it will be a long-lasting place with various animals and fruits. It'll even have an abandoned ruined shack with various damaged tools inside."
+        },
+        {
+            "title": "Forest",
+            "CPGain": 10,
+            "desc": "You'll find yourself in the middle of a random forest, completely lost."
+        },
+        {
+            "title": "Underwater Cave",
+            "CPGain": 15,
+            "desc": "You'll find yourself in a random underwater cave with limited oxygen supply. "
+        },
+        {
+            "title": "Mountains",
+            "CPGain": 10,
+            "desc": "You'll find yourself in a random location in barren mountains. You won't find civilisation anywhere close by."
+        },
+        {
+            "title": "Desert",
+            "CPGain": 12,
+            "desc": "You'll find yourself in the middle of a desert. There won't be civilisaiton anywhere close by."
+        }
+    ],
+    "wormAlernateEarths": [
+        {
+            "title": "Earth Aleph",
+            "CPCost": 7,
+            "desc": "You'll appear somewhere on Earth Aleph. It is a world that diverged paths from the time of Scion's first appearance. This world has variations of everyone born before said appearance (about 30 years before the start of Worm), though anyone born after will not have a duplicate in Earth Bet. It is much closer to your world than other Earths in the Worm local multiverse, even Earth Bet, but it still has capes. However, they're much weaker than the ones on Earth Bet."
+        },
+        {
+            "title": "Earth Gimel",
+            "CPGain": 20,
+            "desc": "You'll appear somewhere on Earth Gimel. It is an alternate Earth that seems to have diverged from other human occupied Earths roughly five thousand years ago. There were only a few native settlements. Due to the lack of human development, the world has regular climate shifts, unlike Earth Aleph with its global warming and Earth Bet's added Endbringer destruction."
+        },
+        {
+            "title": "Earth Cheit",
+            "CPGain": 10,
+            "desc": "You'll appear somewhere on Earth Cheit. Its point of divergence is situated around the fifteenth century and associated with over-inclusive reactionary movement against authoritarian anti-theist sentiment in some unknown monarchy. This went on to form a single Theocratic world government based on abrahamic roots, that provides for nearly twelve billion people. However, it is culturally stagnant. Like some other worlds, they have a relevant amount of parahumans, many of whom conceal their abilities and occupied positions of civilian power."
+        },
+        {
+            "title": "Earth Shin",
+            "CPGain": 15,
+            "desc": "You'll appear somewhere on Earth Shin. It is an alternate reality that featured villains operating like terrorist cells, destabilizing society to make people dependent on superhumans to get energy, food and safety. These parahumans eventually stages a global takverover, with non-superhumans as second class citizens. Eventually, these parahumans fell under controll of Goddess. Basically put, it is a world with superhumans that had no superheroes."
+        },
+        {
+            "title": "Contessa's World",
+            "CPGain": 10,
+            "desc": "You'll appear somewhere in Contessa's former homeworld, back when she was still just Fortuna. This world seems to have a limited level of technology and interconnectedness, as Fortuna was unaware that people with dark skin existed."
+        },
+        {
+            "title": "Eden's World",
+            "CPGain": 30,
+            "desc": "You'll appear somewhere on the world where Eden crash-landed. It is where Cauldron's compound is located, constructed around Eden's corpse. This world features a large number of monsterous creatures created by Eden's impact."
+        }
+    ]
+}

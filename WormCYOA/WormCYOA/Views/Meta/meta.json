@@ -1,0 +1,71 @@
+{
+    "target": [
+        {
+            "title": "You",
+            "SPGain": 5,
+            "desc": "You will be the one who the choices you choose apply to."
+        },
+        {
+            "title": "Someone Else",
+            "SPGain": 10,
+            "desc": "Choose a real person. They're the ones who the choices you choose will apply to."
+        },
+        {
+            "title": "Fictional Character (With Powers)",
+            "SPCost": 10,
+            "desc": "Choose a fictional character, they're the person to whom the choices you choose will apply to. They'll keep all their powers, even if it doesn't really make sense that they do. If you choose a character from Worm, their original version will remain (unless they reincarnate as themselves)."
+        },
+        {
+            "title": "Fictional Character (Without Powers)",
+            "SPGain": 5,
+            "CPCost": 5,
+            "desc": "Choose a fictional character, they're the person to whom the choices you choose will apply. They'll lose all their powers, though their skillset will remain. If you choose a character from Worm, their original version will remain (unless they reincarnate as themselves)."
+        },
+        {
+            "title": "Original Character (With Powers)",
+            "SPCost": 15,
+            "desc": "Create a character with powers from scratch. Then put them through this CYOA. They'll keep their original powers."
+        },
+        {
+            "title": "Original Character (Without Powers)",
+            "desc": "Create a character from scratch. This character might have powers, or they might not, but after this CYOA they won't have them anymore. Or perhaps they'd always had the powers chosen for them here."
+        },
+        {
+            "title": "Meta",
+            "SPCost": 30,
+            "desc": "You will be the one to whom these choices apply. However, before these choices take effect, make another build with any CYOA and that will take effect first. You can choose to live through the other build for a period of time first if it makes sense."
+        }
+    ],
+    "awareness": [
+        {
+            "title": "Someone Else",
+            "CPCost": 5,
+            "desc": "Someone else will make the choices, but the (Meta) Target will have to deal with the results."
+        },
+        {
+            "title": "CYOA",
+            "desc": "They will play a CYOA, adapted to fit their perceptions (so, it won't call their own reality a story, and if Worm doesn't exist as a story in their reality, then the CYOA will give them the cliff notes of it)."
+        },
+        {
+            "title": "Deal",
+            "desc": "A powerful third party will confront them and give them their choices, altered to fit their perceptions (so, it won't call their own reality a story, and if Worm doesn't exist as a story in their reality, then this third party will give them the cliff notes of it)."
+        },
+        {
+            "title": "Happenstance",
+            "CPGain": 5,
+            "desc": "Nobody made explicit choices, but the (Meta) Target still has the final build for some other reason."
+        }
+    ],
+    "other": [
+        {
+            "title": "Entities, what are these Entities you speak of?",
+            "incompatibility": "Shards, what are these Shards you speak of?",
+            "desc": "Don't want to deal with Scion but still want to enjoy the Worm-verse? I have the solution!\nPowers don’t come from Entities, instead Shards are a symbiotic species. When a colony migrates to a planet and nests, it grants the inhabitants powers. After some time, the Shards will reproduce and smaller colonies will migrate to other worlds. None of this brings about the end of the world, you're safe. You lose the ability to pick perks or drawbacks related to Scion/Eden and specific ones related to Entities.\nHowever, through some strange twist of fate, Cauldron still exists. Doctor Mother has found a dying colony of Shards and is exploiting the corpse to create vials. Eidolon still created and controls the Endbringers. With no Entity in charge, the rules are slightly different. Powers slowly grow as they are used and the Shards grow with the user. The world no longer exists on borrowed time, except the one imposed by human nature that is."
+        },
+        {
+            "title": "Shards, what are these Shards you speak of?",
+            "incompatibility": "Entities, what are these Entities you speak of?",
+            "desc": "Don't want to deal with Shards either but still want to enjoy the Worm-verse?\nPowers don’t come from Shards. All powers are Shardless. Trigger events are replaced by Awakenings, which work in similar ways but do not necessarily require a negative event.\nHowever, through some even stranger twist of fate, Cauldron still exists. Doctor Mother has the power to create vials that grant powers. Eidolon still created and controls the Endbringers. With no Entity or Shards in charge, the rules are slightly different. Powers slowly grow in strength and versatility the more they are used. The world no longer exists on borrowed time, except the one imposed by human nature that is."
+        }
+    ]
+}

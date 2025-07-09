@@ -1,0 +1,45 @@
+{
+    "genders": [
+        {
+            "title": "Same Gender",
+            "desc": "Your gender will not change.",
+            "image": ""
+        },
+        {
+            "title": "Masculine",
+            "desc": "You will identify as a masculine-presenting person. If you choose a female body, you may suffer from gender dysphoria.",
+            "image": ""
+        },
+        {
+            "title": "Non-Binary",
+            "desc": "You will identify as a non-binary person. Depending on your chosen body, you may or may not suffer from gender dysphoria.",
+            "image": ""
+        },
+        {
+            "title": "Feminine",
+            "desc": "You will identify as a feminine-presenting person. If you choose a male body, you may suffer from gender dysphoria.",
+            "image": ""
+        }
+    ],
+    "incarnationMethods": [
+        {
+            "title": "Character-Insert",
+            "incompatibility": "Setting — No Transfer",
+            "desc": "You will replace one of the people that already exist on your chosen world. This includes any of your chosen companions, so do not try to pick the same person as your character-insert and companion.\nYou will keep their power if they have already triggered, in addition to any powers you choose here. Even if they haven't triggered yet, their future Shard will still be interested in them (you), and a trigger event may still occur in the future. However, this is very likely to result in a very different power than their original one (although, there may be similarities). After all, every trigger event is different.\nYou shall also have all their memories and skills, and you'll be able to imitate them perfectly. You can decide how far you merge, if it'll just be your mind in their body with their memories and skills, or if your personalities will merge completely.\nShould you desire to do so, you can propose a way to make this work that would not result in you stealing their body and/or mind. ",
+            "image": ""
+        },
+        {
+            "title": "Reincarnation",
+            "incompatibility": "Setting — No Transfer",
+            "desc": "Pick this, and you will be reborn into your chosen world in your own body. In practice, it'll work like this:\nEvents will be slighly manipulated in such a way that whoever your new parents end up being, they will conceive you on top of their other children, should they even have any. You will then be born as their child. It'll be your soul in your new body, however, you will not remember anything about your old life. For all intents and purposes, you'll just be a normal child.\nThen, when the time of your chosen Scenario comes, the suppressed memories of your old life will return and the abilities, perks and drawbacks you'll choose in this CYOA will come into effect.\nYou can decide how much of an impact the years your unaware self spent will have on your whole self. You may choose to only keep the memories with little to no emotinal weight behind them. Or you may treat those memories truly as your memories, in which case they mean to you as much as the memories of your old life.\nJust keep in mind that even though you will be unaware of your past and the truth of the situation, deep down you will still be you.",
+            "image": ""
+        },
+        {
+            "title": "Drop–In",
+            "SPGain": 8,
+            "CPGain": 8,
+            "desc": "You will be dropped into your chosen world as you are now. Obviously, you will have no official identity wherever you end up.",
+            "image": ""
+        }
+    ]
+}

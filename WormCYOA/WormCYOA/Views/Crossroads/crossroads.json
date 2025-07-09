@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Lore",
+        "desc": "About this world you're about to enter..."
+    },
+    {
+        "title": "Meta",
+        "desc": "Who will be affected by the choices made here and their knowledge about it?"
+    },
+    {
+        "title": "Difficulty",
+        "desc": "How many points will you be granted by Scenarios and Drawbacks?\nHas no impact otherwise."
+    },
+    {
+        "title": "Setting",
+        "desc": "Where will you end up?"
+    },
+    {
+        "title": "Scenario",
+        "desc": "At what point will you arrive?"
+    },
+    {
+        "title": "Character",
+        "desc": "Who will you be?"
+    },
+    {
+        "title": "Perks",
+        "desc": "To be added"
+    },
+    {
+        "title": "Drawbacks",
+        "desc": "To be added"
+    }
+]
