@@ -24,12 +24,12 @@ final class ImagePrefetcher {
             return tempArr
         }
         
-        guard let decoded = try? JSONDecoder().decode([String].self, from: data) else {
+        guard let decoded = try? JSONDecoder().decode([String: String].self, from: data) else {
             print("Failed to decode urls from file in bundle.")
             return tempArr
         }
         
-        for urlStr in decoded {
+        for (key,urlStr) in decoded {
             if let url = URL(string: urlStr) {
                 tempArr.append(url)
             }
