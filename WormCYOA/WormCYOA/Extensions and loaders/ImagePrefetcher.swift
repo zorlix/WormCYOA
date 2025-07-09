@@ -29,7 +29,7 @@ final class ImagePrefetcher {
             return tempArr
         }
         
-        for (key,urlStr) in decoded {
+        for (_,urlStr) in decoded {
             if let url = URL(string: urlStr) {
                 tempArr.append(url)
             }
