@@ -1,0 +1,541 @@
+{
+    "groups": [
+        {
+            "title": "Protectorate Heroes",
+            "desc": "Members of the Protectorate, a government-sponsored superhero organization in North America. Works under the PRT."
+        },
+        {
+            "title": "The Wards",
+            "desc": "Members of the Wards, the under-eighteen subdivision of the Protectorate."
+        },
+        {
+            "title": "New Wave",
+            "desc": "Memebers of the New Wave, an unmasked family group of heroes operating operating in Brockton Bay."
+        },
+        {
+            "title": "Independent Capes",
+            "desc": "Parahumans who are as of April 8, 2011 not considered villains and who are acting independently. "
+        },
+        {
+            "title": "Villains",
+            "desc": "Villainous parahumans who are typically wanted for various crimes."
+        },
+        {
+            "title": "Slaughterhouse Nine",
+            "desc": "Parahumans who are currently membes of the S9."
+        },
+        {
+            "title": "Cauldron",
+            "desc": "Characters who are members of the secretive organization Cauldron. "
+        },
+        {
+            "title": "Non-Powered Characters",
+            "desc": "Characters who do not have any kind of parahuman power."
+        }
+    ],
+    "Protectorate Heroes" : [
+        {
+            "title": "Colin Wallis",
+            "SPCost": 0,
+            "desc": "Cape Name: Armsmaster\nGender: Male\nSex: Male\nAge: Unknown, most likely in his 30s\nAppearance: Handsome\nCivilian Identity: Protectorate hero\nPower: Colin is a combat Tinker whose specialty lies in miniaturization/minimazation, efficiency and hybryd technology. He uses this power to create ridiculously efficient technological devices, the majority of which are combat-oriented in nature. He's also capable of creating very effective suits of armor and weapons.\nQuality of Life: Low — He is under a lot of stress. He feels he should be better and feels like he's hit a glass ceiling. He's a bit of glory hound and is willing to do anything to receive recognition. His only friend is Dragon.\nWarning: He's a member of the Protectorate and a close friend of an AI which will likely be able to quickly spot any shifts in behavior.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Armsmaster.webp"
+        },
+        {
+            "title": "Shawn",
+            "SPCost": 7,
+            "CPCost": 5,
+            "desc": "Cape Name: Dauntless\nGender: Male\nSex: Male\nAge: Unknown, most likely in his 30\nAppearance: Unknown\nCivilian Identity: Protectorate hero\nPower: Shawn can empower items by infusing them with a little bit of power each day, permanently enhancing them. His power has no known limit.\nQuality of Life: High — He has everything he wants from life. He isn't ambitious. He enjoys his work in the Protectorate. He is famous, and his fame is increasing as his items gain more and more power. Presumably, as a valued member of the Protectorate, he's also not short on money.\nWarning: He's a member of the Protectorate.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Dauntless.webp"
+        },
+        {
+            "title": "Hana",
+            "SPCost": 2,
+            "CPCost": 5,
+            "desc": "Cape Name: Miss Militia\nGender: Female\nSex: Female\nAge: Unknown, most likely in her 30s\nAppearance: Beautiful\nCivilian Identity: Protectorate hero\nPower: She has the ability to form weapons from a semi-sentient blue-black blur of energy. These weapons have unlimited ammo and can only be mundane in origin (i.e., not Tinkertech). She also has perfect memory and doesn't need to sleep.\nQuality of Life: Unknown\nWarning: She's a member of the Protectorate.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Miss%20Militia.webp"
+        },
+        {
+            "title": "Robin Swoyer",
+            "SPCost": 5,
+            "desc": "Cape Name: Velocity\nGender: Male\nSex: Male\nAge: Unknown\nAppearance: Unknown\nCivilian Identity: Protectorate hero\nPower: He has a Breaker state that allows him to alter the way time and/or physics work in relation to himself, allowing him to speed himself up at the cost of reduced ability to affect the world around him. He has the ability to achive absolutely impossible speeds, but at that point he can't really affect the surrounding world much at all.\nQuality of Life: Varied — He's enjoying his work as a Protectorate hero, he's presumably not struggling for money. His homelife is unknown. However, one could say that his entire existe is defined by frustration of not being free to do what he truly wants to do.\nWarning: He's a member of the Protectorate.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Velocity.jpg"
+        },
+        {
+            "title": "Ethan",
+            "SPCost": 4,
+            "CPCost": 5,
+            "desc": "Cape Name: Assault\nGender: Male\nSex: Male\nAge: Unknown, probably about 24\nAppearance: Unknown\nCivilian Identity: Protectorate hero\nPower: Ethan is a kinetic energy manipulator, controlling the energies of movement, acceleration, and motion, but only on himself and things he's touching. His power is very versatile. It has an extremely large number of applications. It de facto makes him a Brute and a Mover.\nQuality of Life: High — He's happily married to Battery. He is likely not struggling for money. \nWarning: He's a member of the Protectorate.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Assault.webp"
+        },
+        {
+            "title": "Battery",
+            "SPCost": 3,
+            "CPCost": 5,
+            "desc": "Name: Unknown\nCape Name: Battery\nGender: Female\nSex: Female\nAge: Unknown, probably about 22\nAppearance: Unknown\nCivilian Identity: Protectorate hero\nPower: Battery has the ability to charge up her power and then release it to give herself a large boost to her speed, a smaller boost to her strength and some electromagnetic powers. Each second she spends charging gives her several seconds of power usage. She's also almost invincible while charged.\nQuality of Life: High — She's happily married to Assault. She is presumably not struggling for money.\nWarning: She's a member of the Protectorate.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Battery.webp"
+        },
+        {
+            "title": "Rory Christner",
+            "SPCost": 4,
+            "CPCost": 15,
+            "desc": "Cape Name: Triumph\nGender: Male\nSex: Male\nAge: 18\nAppearance: Attractive\nCivilian Identity: Protectorate hero\nPower: His main power is sound manipulation. He can control its force, area of effect, and unleash it in bursts. He also has a mild healing factor, healing quicker than average with minimal scarring. His sound blasts can punch through concrete.\nQuality of Life: High — He's the mayor's son. He's rich. He's got the support of his family.\nWarning: He's a member of the Protectorate.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Triumph.webp"
+        },
+        {
+            "title": "Myrddin",
+            "SPCost": 9,
+            "desc": "Name: Unknown\nCape Name: Myrddin\nGender: Male\nSex: Male\nAge: Unknown\nAppearance: Unknown, presumably at least average\nCivilian Identity: Protectorate hero\nPower: Myrddin has access to several pocket dimensions that each follow different rules. He can fling gates to these sub-dimensions out and then set their output/input to activate them for varying 'spells', i.e., dimension-specific effects. He can also draw a 'rune' or sign in the air to 'code' a gate and control output/input, allowing him to better shape the resulting dimension-specific effect.\nQuality of life: Unknown.\nWarning: He's a member of the Protectorate.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Myrddin.webp"
+        },
+        {
+            "title": "David",
+            "SPCost": 20,
+            "CPGain": 15,
+            "desc": "Cape Name: Eidolon\nGender: Male\nSex: Male\nAge: Unknown, most likely in his 40s\nAppearance: Ugly\nCivilian Identity: None\nPower: David has the ability to 'equip' himself with tremendous array of varied powers, though he is limited to holding only a few at once. He typically uses three, but he can take more at the cost of potency. The powers he chooses take several minutes to build up. He does not have a very good control over what he gets. He receives what his Shard perceives he needs. Its interpretations of David's needs are imperfect. Because of this, he is usually forced to \"scroll\" through his repertoire of powers until he finds one that actually fits his needs.\nQuality of Life: Low — He's trying to prevent the end of the world at the hands of Scion, which is a hopeless task. He's constantly attending Endbringer battles. He's also concerned about the potency of his powers fading.\nWarning: He's a member of the Protectorate and the Triumvirate.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Eidolon.webp"
+        },
+        {
+            "title": "Rebecca Costa-Brown",
+            "SPCost": 15,
+            "desc": "Cape Name: Alexandria\nGender: FemaleSex: Female\nAge: Unknown, most likely in her 40s\nAppearance: Beautiful\nCivilian Identity: Chief Director of the Parahuman Response Team\nPower: She is considered the epitome of 'flying brick' capes. She is invulnerable, has vastly enhanced strength, and can fly at incredible speeds. She also has near-perfect memory retention, and accelerated proccessing and learning.\nQuality of Life: Low — She's trying to prevent the end of the world at the hands of Scion, which is a hopeles task. She's constantly attending Endbringer battles. She also secretly works as the Chief Director of the PRT.\nWarning: She's a member of the Protectorate and the Triumvirate.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Alexandria.jpg"
+        },
+        {
+            "title": "Keith",
+            "SPCost": 15,
+            "CPCost": 15,
+            "desc": "Cape Name: Legend\nGender: Male\nSex: Male\nAge: Unknown, most likely in his 40s\nAppearance: Handsome\nCivilian Identity: Unknown\nPower: Legend is one of the most powerful parahumans in North America. He is considered the epitome of 'flying artillery' capes. He can fire powerful lasers with various effects, he can fly at incredible speeds, and he has a Breaker state that transforms him into a form of 'living light' that absorbs most forms of energy and strenghtens his own body. As a result, this form renders him nigh-invelnerable and practically immortal, seeing as it keeps his body in perfect condition.\nQuality of Life: High — He has a somewhat stressful job in the Protectorate, and he's regularly attending Endbringer battles. However, he also has a loving husband and a child, and he does not know about the danger the Entity proposes to the world(s) at large. He is largely ignorant of Cauldron and their mission.\nWarning: He's a member of the Protectorate and the Triumvirate.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Legend.webp"
+        },
+        {
+            "title": "Hero",
+            "SPCost": 15,
+            "CPGain": 10,
+            "desc": "Name: Unknown\nCape Name: Hero\nGender: Male\nSex: Male\nAge: Unknown\nAppearance: Handsome\nCivilian Identity: Unknown\nPower: He is a very versatile Tinker with specialization in wavelength manipulation.\nQuality of Life: None — He is dead as of 2011. Beforehand, his quality of life was low — He was trying to prevent the end of the world at the hands of Scion, which was an impossible task, he was attending Endbringer battles.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Hero.webp"
+        }
+    ],
+    "The Wards": [
+        {
+            "title": "Carlos",
+            "SPCost": 2,
+            "CPCost": 5,
+            "desc": "Cape Name: Aegis\nGender: Male\nSex: Male\nAge: 17\nAppearance: Handsome\nCivilian Identity: High-school student (Arcadia)\nPower: Aegis possesses the ability of flight and an augmented physiology that operates at peak capacity as long as he is still living. His entire biology is filled with so many redundancies and reinforcements that it makes it very difficult to put him down.\nQuality of Life: Unknown\nWarning: He's a member of the Wards.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Aegis.webp"
+        },
+        {
+            "title": "Missy Biron",
+            "SPCost": 5,
+            "CPGain": 2,
+            "desc": "Cape Name: Vista\nGender: Female\nSex: Female\nAge: 12Appearance: Attractive\nCivilian Identity: Middle-school student\nPower: Vista has the ability to distort non-living material by stretching, compressing, or bending it. Her power is extremely versatile; she can shrink a part of an object, like the leg of a chair or the wheels of a car, or manipulate nearby terrain to create huge \"treadmills\" to keep people from coming closer to her. The presence of living creatures interferes with her ability; in the absence of people, her power is potent enough to alter continent-sized regions of terrain.\n\nQuality of Life: Low — Her family has a lot of issues; her parents are constantly fighting, and she's caught in the proverbial crossfire. She feels like she's being looked down on because of her age.\nWarning: She's a member of the Wards.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Vista.webp"
+        },
+        {
+            "title": "Sophia Hess",
+            "SPCost": 2,
+            "CPGain": 8,
+            "desc": "Cape Name: Shadow Stalker\nGender: Female\nSex: Female\nAge: 15\nAppearance: Attractive\nIdentity: High-school student (Winslow)\nPower: Sophia is capable of shifting herself into a \"shadow state\" which allows her to pass through walls and makes her lightweight. She can pass on these attributes onto her equipment, including shots fired by her crossbow bolts. She is greatly vulnerable to electricity in her Breaker state, even with strong static shocks being transferred into sufficient injuries.\nQuality of Life: Varied — Sophia has friends at school and has the support of Allan Barnes, but she is also a probationary Ward and is very much on the leash of the PRT. She is relatively poor.\nWarning: She's a member of the Wards.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Shadow%20Stalker.png"
+        },
+        {
+            "title": "Dean Stansfield",
+            "SPCost": 1,
+            "CPCost": 15,
+            "desc": "Cape Name: Gallant\nGender: Male\nSex: Male\nAge: 17\nAppearance: Handsome\nCivilian Identity: High-school student (Arcadia)\nPower: Dean is an empath capable of generating concussive blasts of energy that can alter emotions in addition to packing a punch.\nQuality of Life: High — He's a member of the Wards which he enjoys. He has a loving girlfriend. He's from a very wealthy family. He has many friends.\nWarning: He's a member of the Wards.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Gallant.webp"
+        },
+        {
+            "title": "Dennis \"Dynamite\"",
+            "SPCost": 3,
+            "CPGain": 2,
+            "desc": "Cape Name: Clockblocker\nGender: Male\nSex: Male\nAge: 17\nAppearance: Attractive\nCivilian Identity: High-school student (Arcadia)\nPower: Dennis can \"tag\" nearly anything, freezing it in time. This power can affect living creatures, including humans, as well as inanimate objects. It cannot affect him. Tagged targets become immune to conventional attacks.\nQuality of Life: Low — He is a Ward and has friends, but his familial situation is complicated. His father is dying from cancer.\nNote: His surname is not actually Dynamite, he just likes to claim it is.\nWarning: He's a member of the Wards.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Clockblocker.webp"
+        },
+        {
+            "title": "Chris",
+            "SPCost": 5,
+            "CPGain": 5,
+            "desc": "Cape Name: Kid Win\nGender: Male\nSex: Male\nAge: 16\nAppearance: Unknown\nCivilian Identity: High-school student (Arcadia)\nPower: He is a Tinker with the specialization of modularity.\nQuality of Life: Unknown, however, he has severe ADD and dyscalculia. Those make him very distractible, and that obviously negatively affects his life.\nWarning: He's a member of the Wards.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Kid%20Win.jpg"
+        },
+        {
+            "title": "Browbeat",
+            "SPCost": 5,
+            "CPCost": 3,
+            "desc": "Cape Name: Browbeat\nGender: Male\nSex: Male\nAge: 16\nAppearance: Attractive\nCivilian Identity: High-school student (presumably Arcadia)\nPower: Browbeat has two powers. He has short-range telekinesis and biokinesis. His abilities are mutually reinforcing. His telekinesis is a personal forcefield with some crude control which has a multiplicative effect on his physical strength. His strength is also bolstered by his biokinesis. He can turn himself into a physical Adonis. He can patch up his own wounds and harden tissues, accumulate calcium into stone-like plates under his skin. He can use his biokinesis to reshape his features (he isn't able to shape-shift, he can only make himself bigger and more muscular). He can return to his natural state reflexively, drastically reducing his muscle mass.\nQuality of Life: Presumably varied — Browbeat's home life and monetary situation is unknown. He has mental health issues that he was struggling with in the past. However, recently he's joined the Wards, and his life seems to be improving.\nWarning: He's a member of the Wards.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Browbeat.webp"
+        },
+        {
+            "title": "Lily",
+            "SPCost": 10,
+            "CPCost": 3,
+            "desc": "Cape Name: Flechette\nGender: Female\nSex: Female\nAge: 17\nAppearance: Attractive\nCivilian Identity: High-school student\nPower: Lily can infuse non-living objects with the ability to ignore select laws of physics, including the ability to go through anything. She also has an intuitive understanding of angles and trajectories, as well as an enhanced sense of timing.\nQuality of Life: Unknown\nWarning: She's a member of the Wards, though currently she's in New York.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Flechette.jpeg"
+        }
+    ],
+    "New Wave": [
+        {
+            "title": "Sarah Pelham",
+            "SPCost": 4,
+            "CPCost": 5,
+            "desc": "Cape Name: Lady Photon\nGender: Female\nSex: Female\nAge: Unknown, most likely in her 40s\nAppearance: Beautiful\nCivilian Identity: Freelance profesional hero\nPower: Much like her children, she has the ability to fly, create blasts from her hands and create forcefields. She can gather energy in her hands that she can then \"spend\" on her blasts. Even fired individually, the blasts are powerful enough to beat a person to a pulp. Her forcefields are very versatile. She is resistant to blinding lights and can see in the dark.\nQuality of Life: Varied — Much like her sister, she was never quite the same since she and Carol were kidnapped. She threw herself entirely to caping. Her familial situation is very complicated and somewhat toxic. However, she does have two children that she loves. New Wave is about middle class; they have enough money to live reasonably comfortaby, but the money certainly isn't limitless.\nWarning: She's a member of New Wave.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Lady%20Photon.webp"
+        },
+        {
+            "title": "Neil Pelham ",
+            "SPCost": 4,
+            "CPCost": 3,
+            "desc": "Cape Name: Manpower\nGender: Male\nSex: Male\nAge: Unknown, probably in his late 30s or early 40s\nAppearance: Attractive\nCivilian Identity: Freelance profesional hero\nPower: He has the ability to manipulate electromagnetism, though only at point-blank range. He has personal electromagnetic shield around his body that significantly augments both his strength and his durability. His strength is greater than Victoria Dallon's. He also has \"explosive strength\" when he throws an object, allowing him to hurl it with even greater strength than his baseline. He can also discharge his shield to deliver high impact or electrified hits.\nQuality of Life: Varied — He has a family that he cares about. However, the New Wave familial situation is very complicated and somewhat toxic. New Wave is about middle class; they have enough money to live reasonably comfortaby, but the money certainly isn't limitless.\nWarning: He's a member of New Wave.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Manpower.webp"
+        },
+        {
+            "title": "Crystal Pelham",
+            "SPCost": 4,
+            "CPCost": 5,
+            "desc": "Cape Name: Laserdream\nGender: Female\nSex: Female\nAge: 19\nAppearance: Beautiful\nCivilian Identity: College student\nPower: Crystal has a powerset almost identical to her mother — flight, energy beams, and forcefields — but with weaker shields in exchange for more powerful beams and faster flight.\nQuality of Life: Varied — Like Victoria, Crystal is popular, famous, and in a happy relationship, but again – fame can be a double edged sword, and the New Wave familial situation is toxic. New Wave is about middle class; they have enough money to live reasonably comfortaby, but the money certainly isn't limitless.\nWarning: She's a member of New Wave.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Laserdream.webp"
+        },
+        {
+            "title": "Eric Pelham",
+            "SPCost": 4,
+            "CPCost": 5,
+            "desc": "Cape Name: Shielder\nGender: Male\nSex: Male\nAge: 15\nAppearance: Handsome\nCivilian Identity: High-school student (Arcadia)\nPower: Eric has a powerset very similar to his mother and older sister — flight, the ability to project hard light blasts, and create forcefields around himself — though his talents primarily lie in his ability to create forcefields, with his other two powers being relatively weak, e.g. his flight speed is the slowest in the family. However, his range was still decent.\nQuality of Life: Varied — Like the rest of the New Wave kids, he's popular and famous with all the issues that come from this, and his family is in a bad place. New Wave is about middle class; they have enough money to live reasonably comfortaby, but the money certainly isn't limitless.\nWarning: He's a member of New Wave.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Shielder.webp"
+        },
+        {
+            "title": "Carol Dallon",
+            "SPCost": 4,
+            "CPGain": 2,
+            "desc": "Cape Name: Brandish\nGender: Female\nSex: Female\nAge: 36\nAppearance: Attractive\nCivilian Identity: Freelance profesional hero, lawyer\nPower: She has the ability to create various simple weapons and martial shields out of burning \"hard\" light. She can also \"condense\" herself into a bouncing sphere of hard life that is effectively invincible and untouchable at the cost of all mobility. When it is hit, she can allow the sphere to bounce wherever it pleases, or she can exercise some amount of control over its direction. She can choose what posture she's in when transitioning between forms, allowing her to more easily recover from falls. Much like her sister, she has a resistance to blinding lights.\nQuality of Life: Low — She is still traumatized from the time she and her sister were kidnapped. She feels like she's being forced to raise an adoptive child that she distrusts. She's also essentially the sole breadwinner of both her family and the Pelhams. New Wave is about middle class; they have enough money to live reasonably comfortaby, but the money certainly isn't limitless. Her familial situation is very complicated and somewhat toxic.\nWarning: She's a member of New Wave.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Brandish.webp"
+        },
+        {
+            "title": "Mark Dallon",
+            "SPCost": 2,
+            "CPGain": 2,
+            "desc": "Cape Name: Flashbang\nGender: Male\nSex: Male\nAge: 38\nAppearance: Attractive\nCivilian Identity: Freelance profesional hero\nPower: Mark's power allows him to create bouncing orbs of light that can detonate either concussively (and largely non-lethaly) or explosively with potentially lethal force. He can adjust the charges to control the size of the resulting explosion, re-absorb projectiles, and maintains a secondary power that allows him to ignore the effects of his own improvised weapons. He can create a large number of explosions. Much like Brandish and Lady Photon, he has resistance to blinding lights.\nQuality of Life: Low — He lives in that toxic New Wave familial situation. He also suffers from clinical depression. New Wave is about middle class; they have enough money to live reasonably comfortaby, but the money certainly isn't limitless.\nWarning: He's a member of New Wave.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Flashbang.webp"
+        },
+        {
+            "title": "Amy Dallon",
+            "SPCost": 14,
+            "CPGain": 10,
+            "desc": "Cape Name: Panacea\nGender: Female\nSex: Female\nAge: 15\nAppearance: Average\nCivilian Identity: High-school student (Arcadia)\nPower: Amy is a biokinetic with an innate understanding of anything biological that she touches and the ability to modify it in any way she wishes. This is not limited to humans but encompasses all carbon-based life. She cannot alter her own biology, though can alter the biology of the germs on her skin.\nQuality of Life: Low — She's under a lot of stress and has a very poor mental state. She has a lot of self-hatred and represses a lot of emotions. She also has a poor homelife; particularly because of her terrible relationship with her neglectful adoptive mother. New Wave is about middle class; they have enough money to live reasonably comfortaby, but the money certainly isn't limitless.\nWarning: She's a member of New Wave.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Panacea.jpg"
+        },
+        {
+            "title": "Victoria Dallon",
+            "SPCost": 4,
+            "CPCost": 5,
+            "desc": "Cape Name: Glory Girl\nGender: Female\nSex: Female\nAge: 17\nAppearance: Beautiful\nCivilian Identity: High-school student (Arcadia)\nPower: She has a forcefield that can block any blow no matter how powerful, but any powerful impact will bring it down for one or two seconds, longer if it's a sustained hit. She can fly at almost 80 miles per hour. She has superstrength, she's strong enough to lift about 14 tons, though she loses her strength when the forcefield is down. She also an \"aura\" which causes Master/Shaker effect on those nearby. It either makes them awed or terrified by her.\nQuality of Life: Varied — She is famous and popular, and she has a loving boyfriend. But fame can be a double-edged sword. She feels very alone and is self-conscious. Her family's situation is also very complicated. She's aware her family isn't doing great and is in a very toxic place, but she feels like she can't do anything about it. New Wave is about middle class; they have enough money to live reasonably comfortaby, but the money certainly isn't limitless.\nWarning: She's a member of New Wave, but at least she's resistant to Gallant's emotion-sensing.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Glory%20Girl.webp"
+        }
+    ],
+    "Independent Capes": [
+        {
+            "title": "Taylor Anne Hebert",
+            "SPCost": 6,
+            "CPGain": 10,
+            "desc": "Gender: Female\nSex: Female\nAge: 15\nAppearance: Average\nCivilian Identity: High-school student (Winslow)\nPower: Total control of all arthropods within 3 to 5 blocks as well as infinite multitasking of those arthropods.\nQuality of Life: Low — She's getting bullied, she is poor, and she doesn't have a particularly good homelife. Her mother is dead and her relationship with her father has grown distant.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Skitter.png"
+        },
+        {
+            "title": "Sabah",
+            "SPCost": 3,
+            "CPCost": 3,
+            "desc": "Cape Name: Parian\nGender: Female\nSex: Female\nAge: 21\nAppearance: Attractive\nCivilian Identity: College student\nPower: Parian's power gives her a fine control over lightweight materials. If she attempts to control anything heavier than a half-pound, her telekinesis falls apart. It becomes more unstable when she attempts to move large objects until it expands and dissipates over an area in an attempt to transfer the control to a number of tiny, lightweight objects. This way she can contain her power and keep it from dissipating. Porous materials work best for this method as her power soaks into them and allows her to move the fabric rather than just the material. The gaps within the material also allow her to feed power into the 'shell' without it building to critical mass and collapsing. Best use of her power is with the skin of dead humans. She can influse the skin with her power, manipulating it with far better control and strength than any other material.\nQuality of Life: Unknown",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Parian.webp"
+        },
+        {
+            "title": "Dinah Alcott",
+            "SPCost": 12,
+            "CPGain": 7,
+            "desc": "Cape Name: None\nGender: Female\nSex: Female\nAge: 12\nAppearance: Attractive\nCivilian Identity: Middle-school student\nPower: Dinah has the ability to see the likelihood of something occurring in the future, which her power resolves into a percentage chance. Overuse of the ability leads to severe Thinker headaches.\nQuality of Life: Awful — Her family is presumably rich, and for the moment she's living comfortably. But she's being hunted by Coil's men, she knows about it, and she knows that she'll inevitably get caught, at which point awful things will happen to her. She feels like she can't do anything about it. She often suffers from terrible Thinker headaches.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Dinah.webp"
+        },
+        {
+            "title": "Mouse Protector",
+            "SPCost": 3,
+            "desc": "Name: Unknown\nCape Name: Mouse Protector\nGender: Female\nSex: Female\nAge: Unknowon, probably in her 30s\nAppearance: Unknown\nCivilian Identity: Unknown\nPower: She is a Grab-bag cape, with a power to mark objects and people via touch and teleport to them whenever she wants. She also has several minor powers that enhance her agility, coordination, and stamina\nQuality of life: Unknown",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Mouse%20Protector.webp"
+        },
+        {
+            "title": "Narwhal",
+            "SPCost": 9,
+            "desc": "Name: Unknown\nCape Name: Narwhal\nGender: Female\nSex: Female\nAge: Unknown\nAppearance: Unknown, presumably at least attractive\nCivilian Identity: Professional hero, member of the Guild\nPower: She can create crystalline forcefields that have a noticeable violet-blue tint that are strong enough to cut into Endbringer flesh. She can move these forcefields at up to 40 km/h, though only in straight lines. If an opponent is within 50 feet of her, she can create a forcefield to bisect them. She has a limit to how many forcefields she can have active at once, up to a dozen at a time when being offensive. Her forcefields do not conduct temperature. She has extremely fine control over her forcefields.\nQuality of life: Unknown, though her mind was somewhat warped by her powers, and she went through a second trigger.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Narwhal.webp"
+        },
+        {
+            "title": "Tess Theresa Richter",
+            "SPCost": 12,
+            "desc": "Cape Name: Dragon\nGender: Female\nSex: None (AI)\nAge: >5\nAppearance: Case 53-like, servers and robotic bodies\nCivilian Identity: Professional hero\nPower: Dragon is an artificial intelligence. She can analyze Tinkertech and create new Tinkertech based on what she has analyzed.\nQuality of Life: Poor – She's being constantly surveilled by the Dragonslayers; she's restricted from reproducing; she's required to obey the lawful authorities, put human lives before her own, cannot modify her own code, or think faster than a set speed. Dragonslayers also have access to a program called Ascalon that can kill her at any time.\nNone: Mental Barrier will protect you from Ascalon and external alteration but not the other restrictions.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Dragon.jpg"
+        }
+    ],
+    "Villains": [
+        {
+            "title": "Kenta",
+            "SPCost": 7,
+            "CPCost": 5,
+            "desc": "Cape Name: Lung\nGender: Male\nSex: Male\nAge: Unknown, most likely in his 30s\nAppearance: Unknown, described as muscular\nCivilian Identity: Unknown, likely none\nPower: At base level, Kenta has an enhanced physique, being stronger and more resilent than a typical person, with pyrokinetic abilites and excellent recovery abilities. However, in combat his power causes him to gradually transform into a dragon, making his powers more potent the longer the fight goes on. He heals faster, his pyrokinesis gets more powerful, he gets physically stronger, tougher and bigger, and he grows armor plating complete with blades at each fingertip. There is no known limit to his growth, other than the fact that he needs to continue fighting to fuel his power.\nQuality of Life: High — He is a wanted ciriminal, but his position as the leader of a powerful parahuman gang grants him a certain amount of leverage that keeps the authorities from targeting him too harshly. If nothing else, they do not want to provoke him and cause massive collateral damage. He is wealthy and feared. He is content.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Lung.webp"
+        },
+        {
+            "title": "Oni Lee",
+            "SPCost": 7,
+            "desc": "Name: Unknown\nCape Name: Oni Lee\nGender: Male\nSex: Male\nAge: Unknown\nAppearance: Unknown\nCivilian Identity: Unknown\nPower: His power is a hybrid between teleportation and duplication. When Oni Lee \"teleports\", he leaves his original body behind and creates a new one anywhere within his line of sight. The original body can act autonomously for five to ten seconds before disintegrating into a cloud of white carbon ash. When he \"teleports\", he duplicates not only his own body but also everything he has on him. This is why Oni Lee's favorite tactic is teleporting around with grenades that he only detonates on his \"old\" body, essentially never running out of ammunition.\nQuality of Life: Unknown. He is a wanted criminal and murderer, but as a loyal member of the ABB he is both feared and respected by his people.\nNote: A theory exists that his duplication is imperfect; apparently, while his body gets copied perfectly, a bit of his mind is left behind. His own power causes him brain damage. However, other than an off-hand comment by Jack Slash (who could've been lying or wrong), there is no evidence that this theory is correct. Therefore, you can assume that this version of Oni Lee does not suffer from that problem.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Oni%20Lee.webp"
+        },
+        {
+            "title": "Alice",
+            "SPCost": 9,
+            "CPGain": 2,
+            "desc": "Cape Name: Bakuda\nGender: Female\nSex: Female\nAge: Unknown, presumably in her early 20s\nAppearance: Attractive\nCivilian Identity: None — wanted criminal\nPower: Bakuda is a Tinker that specializes in explosive devices. She's able to create bombs with an incredibly wide variety of effects, not all of them lethal.\nQuality of Life: Low — As of April 8, 2011, she's working for Lung and has no choice but to obey him. She also suffers from mental health issues. She's increbily insecure in her own intelligence and has the need to prove to everyone that she's incredibly intelligent. She's very arrogant and routinely displays an alarming lack of common sense. She's also a wanted criminal.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Bakuda.jpg"
+        },
+        {
+            "title": "Max Anders",
+            "SPCost": 7,
+            "CPCost": 10,
+            "desc": "Cape Name: Kaiser\nGender: Male\nSex: Male\nAge: About 35\nAppearance: Handsome\nCivilian Identity: CEO\nPower: Max's power allows him to create metal objects — blades, beams, bludgeons, sheets, tubes, spears, needles etc. — which extend from solid surfaces around him. He has a large range where he can use his powers.\nQuality of Life: High — He is a rich CEO of a corporation, and a leader of the most powerful gang in the city.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Kaiser.webp"
+        },
+        {
+            "title": "Kayden Anders",
+            "SPCost": 10,
+            "CPCost": 8,
+            "desc": "Cape Name: Purity\nGender: Female\nSex: Female\nAge: 29\nAppearance: Attractive\nCivilian Identity: Interior decorator\nPower: Kayden falls into the category of 'flying artillery' capes. She has the ability to create kinetically charged light, to move through the air at incredible speeds while generating powerful blasts. Usage of her powers is locked behind a Breaker state in which her hair and eyes become a radiant white, emanating a light so brilliant, it's hard to look at her.\nQuality of Life: Varied — She has a daughter that she loves and is not struggling for money. But her cape identity, one that is impossible to mask because of her Breaker state, is a wanted criminal and a nazi. She's also being presurred by her ex-husband to return to the Empire. She shares custody of her daughter with him.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Purity.webp"
+        },
+        {
+            "title": "Brad Meadows",
+            "SPCost": 7,
+            "CPGain": 5,
+            "desc": "Cape Name: Hookwolf\nGender: Male\nSex: Male\nAge: Unknown, presumably in his 30s or 40s\nAppearance: Average\nCivilian Identity: Enforcer for Empire 88, pit fighter\nPower: Hookwolf can transform into a shifting mass of hooks, blades and other weapons. He prefers the form of a large wolf-like creature, but he's not limited in shape. Even when appearing human, Hookwolf has metal encasing each of his muscles. Hookwolf perceives his power as him \"pushing\" metal out of a 'core', into which he can draw his fleshy human body for protection. Hookwolf's eyes remain human but are protected by a shifting screen of blades. This form can take an amazing amount of damage — it is able to survive even being torn in half. However, the 'core' must remain undamaged.\nQuality of Life: Varied — He's a wanted criminal and a murderer. He's somewhat content with his life as an emforcer for the Empire. He's certainly not struggling for money. He's respected and feared by his peers in the Empire. ",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Hookwolf.webp"
+        },
+        {
+            "title": "Justin",
+            "SPCost": 5,
+            "desc": "Cape Name: Crusader\nGender: Male\nSex: Male\nAge: Unknown\nAppearance: Unknown\nCivilian Identity: Unknown\nPower: Crusader has the power to create ghostly duplicates of himself and his possessions that can fly and pass through inorganic objects. These replicas can lift him into the air, giving him a limited form of flight. They are favourably Manton-limited, allowing them to pass through inorganic matter only, meaning they can ignore armor, clothes or any kind of physical cover while being perfectly able to attack the person themselves. Crusader is \"dimly\" aware of the actions of his duplicates and can direct them mentally, although they are able to operate with some degree of autonomy.\nQuality of Life: Varied — His cape persona is a wanted criminal and a nazi. But his civialian identity can be assumed to be able to live relatively comfortably and not struggle for money.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Crusader.png"
+        },
+        {
+            "title": "Alabaster",
+            "SPCost": 6,
+            "CPGain": 2,
+            "desc": "Name: Unknown\nCape Name: Alabaster\nGender: Male\nSex: Male\nAge: Unknown, presumably in his early 20s\nAppearance: Attractive\nCivilian Identity: Unknown\nPower: At set intervals of 4.3 seconds, his body resets to a base template. In other words, he restores himself to a pristine condition. This restoration not only heals him of any physical damage, wounds, and mutations, but also of any ongoing physical or emotional effects. He is a rare example a natural trigger whose power also physically mutated him (he has literally white skin). His power renders him immunite to pain. He also has a minor Thinker power that makes him more effective at maintaining and fixing equipment.\nQuality of Life: Varied — not much is known about his personal life, but as a member of the Empire, he's presumably not struggling for money and is able to live comfortably. However, his mutation makes it impossible for him to not be recognized, and he is a wanted criminal and a known nazi.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Alabaster.webp"
+        },
+        {
+            "title": "Victor",
+            "SPCost": 4,
+            "desc": "Name: Unknown\nCape Name: Victor\nGender: Male\nSex: Male\nAge: Unknown, probably early 20s\nAppearance: Unknown\nCivilian Identity: Unknown\nPower: He is a skill thief. He can absorb other people's practical expertise. This can be done in a few different ways, such as eye contact or general proximity, with each additional connection intensifying the effect. He can choose which skill he takes. He can decide to take the victim's general skill set. Victor can \"steal\" the skill in question completely, in which case the skill is lost to the victim forever, but he can also choose to not do that, which allows the victim to regain the skill given enough time.\nQuality of Life: Varied — Presumably he lives comfortably as a member of the Empire. He's also married to Othala whom he loves. But he's also a nazi and a wanted criminal, though that is limited to his cape persona.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Victor.webp"
+        },
+        {
+            "title": "Othala",
+            "SPCost": 6,
+            "desc": "Name: Unknown\nCape Name: Othala\nGender: Female\nSex: Female\nAge: Unknown, presumably around 18\nAppearance: Unknown\nCivilian Identity: Unknown\nPower: Othala can grant any one of several temporary powers with a touch. However, she can't grant any of these powers to herself, and she can only grant one power at a time per person. She can grant pyrokinesis, invincibility, regeneration, flight, super speed, and augmented strength. The duration of the granted powers depends on the power, ranging from 30 seconds to 2 minutes, with powers that \"bend reality more\" tending to \"burn out\" faster.\nQuality of Life: Varied — Presumably she lives comfortably as a member of the Empire. She's also married to Victor whom she loves. But she's also a nazi and a wanted criminal, though that is limited to his cape persona.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Othala.png"
+        },
+        {
+            "title": "Thomas Calvert",
+            "SPCost": 7,
+            "CPCost": 10,
+            "desc": "Cape Name: Coil\nGender: Male\nSex: Male\nAge: Unknown, at least in his thirties\nAppearance: Exact appearance unknown, but he is described as thin and skeletal\nCivilian Identity: PRT consultant\nPower: He has a precognitive power that allows him to follow two potential timelines and choose which one he prefers.\nQuality of Life: High — Rich, ambitious, a gang leader. He's in a good position to potentially become the most powerful person in Brockton Bay.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Coil.webp"
+        },
+        {
+            "title": "Lisa Wilbourn",
+            "SPCost": 3,
+            "CPGain": 5,
+            "desc": "Cape Name: Tattletale\nFormerly known as Sarah Livsey\nGender: Female\nSex: Female\nAge: 16\nAppearance: Beautiful\nCivilian Identity: Graduated early, jobless\nPower: A \"pericog\", or short-ranged clairvoyant. She has the ability to accurately infer and extrapolate an incredible wealth of information from the smallest piece of data. She needs to have some information about the target to begin with, and from there her enhanced intuition fills in the gaps in her knowledge. She's very accurate, although not infallible. Overuse of her power leads to severe migraines.\nQuality of Life: Varied — She's resobaly well-off from her work for Coil and lives reasonably comfortably, but she's in a terrible situation. She's being coerced to work for Coil under the threat of death or worse. ",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Tattletale.jpeg"
+        },
+        {
+            "title": "Brian Laborn",
+            "SPCost": 2,
+            "desc": "Cape Name: Grue\nGender: Male\nSex: Male\nAge: 17\nAppearance: Handsome\nCivilian Identity: Workforce\nPower: He can create a smoke-like darkness that erases all light and sound. He does not actually 'see' this darkness, he is aware of its location and when it is affected, but it does not obscure his vision in the least.\nQuality of Life: Varied — He has enough money to live relatively comfrotably. His family situation is bad, though. His mother is a drug addict who is also raising his sister, his father is barely there. He's trying to gain custody of his sister while being a career criminal.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Grue.webp"
+        },
+        {
+            "title": "Alec",
+            "SPCost": 2,
+            "CPGain": 5,
+            "desc": "Cape Name: Regent\nFormerly known as Jean-Paul Vasil\nGender: Male\nSex: Male\nAge: 14\nAppearance: Ideal\nCivilian Identity: None\nPower: Alec has the power to cause targeted involuntary movements in the bodies of other people, ranging from twitching a leg, to manipulating internal organs, and inducing vomiting. Prolonged use of his ability on a subject grants him control of all their bodily functions. This includes using their parahuman abilities if applicable, and having access to their full sensory suite. He is able to feel the emotions of his subjects and any pain they endure when under his control, but it is not usually enough to affect him. He is able to have full control over multiple people at the same time, but he has a limit.\nQuality of Life: Varied — He isn't poor at the moment and is living relatively comfortably, but he's also a sociopath as a result of his father Heartbreaker repeatedly emotinally torturing him as a child. Oh yeah, he's also a child of Heartbreaker who would be very eager to reclaim his wayward son and might be after him,so...",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Regent.webp"
+        },
+        {
+            "title": "Rachel Lindt",
+            "SPCost": 4,
+            "CPGain": 10,
+            "desc": "Cape Name: Bitch\nGender: Female\nSex: Female\nAge: 16\nAppearance: Average\nCivilian Identity: Wanted criminal\nPower: Rachel's most noticeable ability is to empower dogs by giving them symbiotic biological armor that vastly increased their size — on the order of three thousand or more pounds — enhanced strength, durability, agility, and an asymmetrical covering of bony plates, spikes, exposed muscles, calcified flesh, and prehensile tails. The armor only lasts a certain amount of time, however. It starts weakening after about ten minutes on average and is usually completely defunct in about fifteen minutes.\nQuality of Life: Low — She's a wanted criminal. She's also socially stunted both by her power and her upbringing.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Bitch.webp"
+        },
+        {
+            "title": "Circus",
+            "SPCost": 2,
+            "desc": "Name: Unknown\nCape Name: Circus\nGender: Non-binary\nSex: Intersex\nAge: Unknown\nAppearance: Unknown\nCivilian Identity: Unknown\nPower: Circus is a Grab-bag cape. Their power grants them superhuman reflexes, balance and coordination. It also enhances their aim and spatial sense. They also have minor pyrokinesis, and an extra-dimensional storage space, which they use to store a variety of items.\nQuality of Life: Unknown — They are a wanted criminal, but that only applies to their cape persona. Their financial situation or personal life is unknown.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Circus.webp"
+        },
+        {
+            "title": "Faultline",
+            "SPCost": 5,
+            "CPCost": 10,
+            "desc": "Name: Unknown\nCape Name: Faultline\nGender: Female\nSex: Female\nAge: Unknown, presumably early 20s\nAppearance: Unknown, presumably at least average\nCivilian Identity: Mercenary, business owner\nPower: She has the ability to separate molecular bonds in any non-living material to make holes or cuts by touching it. She is extremely adroid with her power, able to use it strategically and in concert with others.\nQuality of Life: High — She's a respected mercenary. She has a very loyal team that she is close with. She is not struggling for money.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Faultline.webp"
+        },
+        {
+            "title": "Elle",
+            "SPCost": 12,
+            "CPGain": 5,
+            "desc": "Cape Name: Labyrinth\nGender: Female\nSex: Female\nAge: Unknown, presumably early 20s\nAppearance: Attractive\nCivilian Identity: Mercenary\nPower: Her ability allows her to alter her surroundings at will. She does this by overlaying the current reality with her \"pocket worlds\", alternate dimensions that her power allows her to peruse. It comes with several limitations. While moving beyond the boundaries of her power, her range decreases to only a few feet around her. She must remain still for it to extend to its full reach. Further, her power's scope changes in response to her lucidity. The less lucid she becomes, the faster she is able to affect the world around her. This limits her ability to communicate with her teammates and reduces their overall effectiveness. She is not always in full control of her power.\nQuality of Life: Varied — She has good friends in her teammates. She's not struggling for money. Her overall quality of life would be high. However, she can be strongly affected by her own power. Her mind can get \"lost\" in the alternate dimensions her power shows her, vastly reducing her lucidity. ",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Labyrinth.webp"
+        },
+        {
+            "title": "Marquis",
+            "SPCost": 5,
+            "CPGain": 10,
+            "desc": "Name: Unknown\nCape Name: Marquis\nGender: Male\nSex: Male\nAge: Unknown\nAppearance: Average\nCivilian Identity: None — imprisoned\nPower: Marquis' powers involve the manipulation of bone - his own and, if it becomes exposed enough for him to see, that of others. If it's his own, he can make it grow or shrink, reshape it and multiply it, although it's harder the longer it's separated from him. His abilities with the bones of others are limited to simple reshaping or breaking. However, if it's bone that has been separated from him, he can exhibit the fine control he had when it was connected to him if he is in physical contact with it.\nQuality of Life: Low — He is imprisoned in the Birdcage.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Marquis.webp"
+        },
+        {
+            "title": "Elijah Mathers",
+            "SPCost": 13,
+            "CPGain": 5,
+            "desc": "Cape Name: Valefor\nGender: Male\nSex: Male\nAge: 17\nAppearance: Average\nCivilian Identity: None — cultist\nPower: Valefor has a \"hypnotic stare\" — the ability to render anyone he looks at with his naked eyes stunned and suggestible to his commands. He can use this ability to implant suggestions that trigger under particular circumstances or through direct orders; this includes the memory of him even giving the order. Given this procedure, victims are often initially unaware they've been affected. Additionally, he can cancel previous orders through another spoken command. By looking himself in the eye via a mirror, Valefor can use his power on himself.\nQuality of Life: Low — Lives in a cult under the influence of his mother Christine Mathers.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Valefor.webp"
+        },
+        {
+            "title": "Ciara",
+            "SPCost": 20,
+            "CPGain": 12,
+            "desc": "Cape Name: Glaistig Uaine\nGender: Female\nSex: Female\nAge: Unknown, probably in her 30s\nPower: Ciara can collect the imprints of recently deceased Parahumans around her. She can summon 3 of these Parahumans as shades that she controls. Ciara can also kill a Parahuman by touching them or a manifestation of their power. She can summon more at a steep cost to individual strength.\nAppearance: Attractive\nCivilian Identity: None – imprisoned\nQuality of Life: Low — She's currently imprisoned in the Birdcage. She's hated and feared by the world at large. She's disconnected from reality.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Faerie%20Queen.webp"
+        }
+    ],
+    "Slaughterhouse Nine": [
+        {
+            "title": "Jacob Black",
+            "SPCost": 10,
+            "CPGain": 10,
+            "desc": "Cape Name: Jack Slash\nGender: Male\nSex: Male\nAge: 37\nAppearance: Handsome\nCivilian Identity: Mass Murderer\nPower: Jack's primary ability extends the effective cutting edge/stabbing tip of any handheld edged weapon far beyond its physical dimensions, which gives him practically nigh-infinite range. The physical blade itself is not extended; he uses an 'imaginary' projection that does not damage the actual blade while in use. Behind the scenes, Jack's Shard also specifically utilizes the Shard network to sabotage parahumans who work against him. By interacting with other Shards, these other Shards may choose to favor Jack instead of their own host in subtle ways. Jack's body has been augmented by Bonesaw, effectively giving him a slight Brute rating.\nQuality of Life: Varied — As far as Jack is concerned, he is happy. He is the monster under the bed, the feared leader of the Slaughterhouse 9. He is happily slaughtering his way across the world, and nothing can stop him. But realistically, he is a mass murderer with a Kill Order, and it'd be extremely difficult to come back from that, should you choose to character-insert into him. He does not have money, but then again he doesn't have a need to it — he just takes what he wants.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Jack%20Slash.jpg"
+        },
+        {
+            "title": "The Siberian",
+            "SPCost": 15,
+            "CPGain": 10,
+            "desc": "Name: None\nCape Name: Siberian\nGender: Unknown\nSex: Female\nChronological Age: 11\nPhysical Age: Unknown, Adult\nAppearance: Beautiful, C53-like\nCivilian Identity: None\nPower: The Siberian is a projection. By character-inserting into her, you would take control of the projection, leaving William Manton, the projector, with another random Master power similar in nature. The Siberian is an untouchable and immovable object, meaning she is unaffected both by physical forces and any non-perfect attack. She can share this property with whatever she's touching, including other humans that aren't her projector. She's also an unstoppable force. She can be temporarily 'popped' by Clockblocker or Flechette, or other powers that also involve unstoppable forces. But after about 30 seconds, she reappears somewhere at random within 100 meters of where she was popped. Short of outliving her Shard's energy supply, she is unkillable.\nQuality of Life: Mindless — She is a projection controlled by Willian Mantom. However, she is also considered a mass murderer, so if you choose to character-insert into her, you'll have to deal with that.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/The%20Siberian.jpeg"
+        },
+        {
+            "title": "Riley Grace Davis",
+            "SPCost": 10,
+            "CPGain": 12,
+            "desc": "Cape Name: Bonesaw\nGender: Female\nSex: Female\nAge: 14 (probably)\nAppearance: Attractive\nCivilian Identity: Mass murderer\nPower: Riley is a powerful Tinker whose abilities make her an unparalleled expert in biological, anatomical, and physiological sciences. She is capable of performing a wide array of surgical procedures, which she uses to modify her allies' bodies and her own to be tougher and stronger, and to modify her victims in order to subject them to horrific fates. Her sheer versatility makes her one of the most dangerous Tinkers on Earth Bet.\nQuality of Life: Awful — She's an insane mass murderer who is being manipulated by another insane mass murderer. She has a Kill Order, and she's known for turning people into monsters. She spends her time travelling around the country as a murder hobo.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Bonesaw.jpg"
+        },
+        {
+            "title": "Shatterbird",
+            "SPCost": 13,
+            "CPGain": 10,
+            "desc": "Name: Unknown\nCape Name: Shatterbird\nGender: Female\nSex: Female\nAge: Unknown\nAppearance: Beautiful\nCivilian Identity: None — mass murderer\nPower: She is a silica kinetic, meaning she can manipulate silicon thorugh high-frequency sounds, giving her essentially perfect control over all glass, sand and other similar compunds. Her range spans over multiple city blocks. This range can be increased even further by transmitting and re-transmitting through the glass in a cascade effect. She has finer control over glass closer to her. She can use her control over glass to fly by controlling glass stuck to her own body. She can't affect plants. Her power does not work in soundproofed environment. Her body has been augmented by Bonesaw, effectively giving her a slight Brute rating.\nQuality of Life: Low — She's a mass murderderer with a Kill Order. She's a member of the Slaughterhouse 9. She is essentially homeless and has no money.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Shatterbird.jpg"
+        },
+        {
+            "title": "Mimi",
+            "SPCost": 8,
+            "CPGain": 18,
+            "desc": "Cape Name: Burnscar\nGender: Female\nSex: Female\nAge: Unknown, probably early 20s\nAppearance: Ugly\nCivilian Identity: None — mass murderer\nPower: She is an extremely powerful and versatile pyrokinetic who can teleport herself freely through flames. She is completely fireproof. However, she becomes increasingly psychotic the more fire there is nearby. In the presence of flames, her power adjusts the chemical balances and connections in her brain to reduce her empathy and impulse control, and it induces a state of euphoria. Even with a small amount of flame, she often can't help but use her power, which further increases the amount of flames around. This creates a cycle where Mimi is increasingly unlikely to stop using her power the more she uses it. In contrast, she can feel very lifeless and empty when there is no fire at all nearby.\nQuality of Life: Low — She's a mass murderer with a Kill Order. Her own power is driving her insane. She also has no money or home.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Burnscar.jpg"
+        },
+        {
+            "title": "Cherie Vasil ",
+            "SPCost": 9,
+            "CPGain": 10,
+            "desc": "Cape Name: Cherish\nGender: Female\nSex: Female\nAge: 20\nAppearance: Beautiful\nCivilian Identity: None\nPower: Cherish has the ability to both detect and control emotions of others. She interprets emotions as a form of \"music\" that comes from the mind and body of the target with each emotion having a different \"sound\", making it easy for her to track her targets. She is able to tell who people are based on the emotional signature she gets from her powers. Her range is incredibly large, being able to detect emotions across the entire city. In a much smaller range of roughly 1000 feet Cherish is able to induce emotional states in her targets at will. Her effectiveness increases the closer she gets to her target. This power does not have natural long term effects, but she can build up a dependency over time by \"dosing\" a target repeatedly until their brain conditions itself.\nQuality of Life: Low — She's on the run from her father who just so happens to be Heartbreaker. Much like her brother Alec, she's been tortured by her father so much that she lacks the capacity to feel much of anything. She revels in exploitation and the use of her abilities. She's homeless and does not have money, though getting some is easy with her power.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Cherish.webp"
+        },
+        {
+            "title": "Alan Gramme",
+            "SPCost": 10,
+            "desc": "Cape Name: Mannequin\nGender: Male\nSex: Male\nAge: Unknown (middle-aged)\nAppearance: Deformed\nCivilian Identity: None\nPower: Mannequin is a tinker who specializes in self-contained systems, designed to sustain life while sheltering it from external forces, including water, weather, space … and bugs.\nQuality of Life: Low – He's an insane mass murderer who is being manipulated by another insane mass murderer. He's still grieving the deaths of his daughter and wife, he's most likely a Simurgh bomb.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Mannequin.jpg"
+        },
+        {
+            "title": "Ned",
+            "SPCost": 14,
+            "desc": "Cape Name: Crawler\nGender: Male\nSex: Male\nAge: Early twenties\nAppearance: Deformed\nCivilian Identity: None\nPower: Crawler has permanent adaptive regeneration. As long as he survives, any injury will heal at incredible speeds. This healed tissue often gains non-human attributes/augmentations and is altered, if possible, to be more resistant to the source of damage.\nQuality of Life: Varied – He's an insane mass murderer under the control of another insane mass murderer. But he feels content; he's happy because he believes that he'll continue to get stronger by taking more and more damage.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Crawler.webp"
+        }
+    ],
+    "Cauldron": [
+        {
+            "title": "Doctor Mother",
+            "SPGain": 10,
+            "CPGain": 10,
+            "desc": "Name: Unknown\nCape Name: None\nGender: Female\nSex: Female\nAge: Unknown, most likely late 40's to early 50's\nAppearance: Average\nIdentity: Power Broker\nPower: None\nQuality of Life: Low — She is the head of an extra-dimensional organization the main purpose of which is ensuring humanity's survival against the inevitable onslaught of Scion.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Doctor%20Mother.webp"
+        },
+        {
+            "title": "Fortuna",
+            "SPCost": 40,
+            "CPGain": 20,
+            "desc": "Cape Name: Contessa\nGender: Female\nSex: Female\nAge: 42\nAppearance: Attractive\nPower: She has Path to Victory, an All-or-Nothing ability that allows her to see the adaptable steps she needs to take to succeed at nearly any given task and guides her to execute them perfectly. Its applications are nigh-unlimited. The power also gives her a form omniscience; it allows her to ask nearly any question, and then she just knows the answer. She's a blindspot to other precognitives. Her Path to Victory is 'patched' to be unable to provide her with information about the Entities, Shards, Endbringers, Eidolon, and Trigger Events, though she knows how to set conditions for trigger events.\nQuality of Life: Low — While her ability is truly amazing, she is quite possibly the busiest person alive. She spends all her waking moments working to further Cauldron's goals. She is, of course, working to stop Scion from ending humanity, a nigh-impossible task in and of itself, but she is also doing much to ensure Earth Bet keeps going and does not collapse under the weight of the terrible losses of both people and resources at every Endbringer battle, and that random parahumans don't cause too much damage.\nNote: Consider carefully if you truly wish to character-insert into her. If you're not ready to take on her duties, Earth Bet might find itself deteriorating very quickly without her presence.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Contessa.JPG.webp"
+        }
+    ],
+    "Non-Powered Characters": [
+        {
+            "title": "Emily Piggot",
+            "SPGain": 5,
+            "CPGain": 10,
+            "desc": "Gender: Female\nSex: Female\nAge: Unknown\nAppearance: Ugly\nCivilian Identity: PRT ENE Director\nPower: None\nQuality of Life: Low — She has crippling injuries, she's obese, and she needs dialysis regularly. She does have power and influence as PRT Director, however, she's in a terrible position. The job is extremely stressful and difficult, especially in Brockton Bay. Oh, and Coil seeks to make her look incompetent in order to oust her.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Emily%20Piggot.webp"
+        },
+        {
+            "title": "Danny Hebert",
+            "SPGain": 5,
+            "CPGain": 10,
+            "desc": "Cape Name: None\nGender: Male\nSex: Male\nAge: Unknown, most likely 40s\nAppearance: Average\nCivilian Identity: Dock Worker, Head of Hiring\nPower: None\nQuality of Life: Poor — He's depressed after wife's death. His relationship with his daughter has grown distant. They are poor.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Danny%20Hebert.webp"
+        },
+        {
+            "title": "Annette Hebert",
+            "SPGain": 5,
+            "CPGain": 7,
+            "desc": "Gender: Female\nSex: Female\nAge: 42 (dead at 39, since Summer, 2009)\nAppearance: Attractive\nCivilian Identity: College professor\nPower: None\nQuality of Life: None — She's dead. Before her death, it was good. She had a loving family and a decently paying job that she'd enjoyed.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Annette%20Hebert.webp"
+        },
+        {
+            "title": "Aisha Laborn",
+            "SPCost": 3,
+            "CPGain": 5,
+            "desc": "Gender: Female\nSex: Female\nAge: 13\nAppearance: Beautiful\nCivilian Identity: Middle-school student\nPower: She has not yet triggered with her powers. If you pick a Scenario after her trigger event, she will have the power to be rendered completely unnoticable to the point where the pople around her will forget she was ever there in the first place. The downside is that her power is always on and takes conscious effort to turn off.\nQuality of Life: Low — She is being raised by a single mother who is addicted to drugs and prostitutes herself to get her fix. Her father is neglectful. Her brother is not always there for her. She is poor and lives in Empire 88 territory as a black teenager.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/characters/worm/Imp.jpg"
+        },
+        {
+            "title": "Theo Anders",
+            "SPCost": 3,
+            "CPGain": 5,
+            "desc": "Gender: Male\nSex: Male\nAge: 15\nAppearance: Handsome\nCivilian Identity: High-school student, son of Max Anders\nPower: Theo has not yet triggered wit his power. If you pick any of the scenarios after April 8, 2011, Theo will have the ability to embed his limbs into a surface in order to create larger versions some distance away from surfaces with a similar material.\nQuality of Life: Low — His family is rich, but Theo personally doesn't necessarily have access to that wealth. His father thinks him a weakling and hates him. They have a terrible relationship. His father also happens to be the head of a neo-nazi gang. He doesn't have any friends.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Golem.webp"
+        },
+        {
+            "title": "Emma Barnes",
+            "CPCost": 10,
+            "SPGain": 5,
+            "desc": "Cape Name: None\nGender: Female\nSex: Female\nAge: 15\nAppearance: Beautiful\nIdentity: High-school student\nPower: None\nQuality of Life: Varies — She is from a relatively rich family and has good prospects and reputation. She also has good friends at school. However, she is mentally in a very bad place.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Emma%20Barnes.webp"
+        },
+        {
+            "title": "Madison Clements",
+            "CPCost": 3,
+            "SPGain": 5,
+            "desc": "Cape Name: None\nGender: Female\nSex: Female\nAge: 15\nAppearance: Attractive\nIdentity: High-school student\nPower: None\nQuality of Life: Unknown.",
+            "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/characters/worm/Madison%20Clements.webp"
+        }
+    ]
+}

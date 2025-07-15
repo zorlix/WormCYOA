@@ -14,24 +14,38 @@ final class ImagePrefetcher {
     private var urls: [URL] {
         var tempArr = [URL]()
         
-        guard let url = Bundle.main.url(forResource: "imageURLs.json", withExtension: nil) else {
-            print("Failed to locate the file from bundle.")
-            return tempArr
-        }
+        let difficulties: [Item] = Bundle.main.decode("difficulty.json")
+        let scenarios: [String: [Item]] = Bundle.main.decode("scenarios.json")
+        let incarnation: [String: [Item]] = Bundle.main.decode("characters.json")
+        let wormCharacter: [String: [Item]] = Bundle.main.decode("worm.json")
         
-        guard let data = try? Data(contentsOf: url) else {
-            print("Failed to extract data from the file in bundle.")
-            return tempArr
-        }
-        
-        guard let decoded = try? JSONDecoder().decode([String: String].self, from: data) else {
-            print("Failed to decode urls from file in bundle.")
-            return tempArr
-        }
-        
-        for (_,urlStr) in decoded {
-            if let url = URL(string: urlStr) {
+        for item in difficulties {
+            if let image = item.image, let url = URL(string: image) {
                 tempArr.append(url)
+            }
+        }
+        
+        for (_,items) in scenarios {
+            for item in items {
+                if let image = item.image, let url = URL(string: image) {
+                    tempArr.append(url)
+                }
+            }
+        }
+        
+        for (_,items) in incarnation {
+            for item in items {
+                if let image = item.image, let url = URL(string: image) {
+                    tempArr.append(url)
+                }
+            }
+        }
+        
+        for (_,characters) in wormCharacter {
+            for character in characters {
+                if let image = character.image, let url = URL(string: image) {
+                    tempArr.append(url)
+                }
             }
         }
         

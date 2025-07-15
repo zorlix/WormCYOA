@@ -3,51 +3,51 @@
         "title": "Creator Mode",
         "SPGain": 100000,
         "desc": "Same SP and CP gains from Scenarios and Drawbacks as on Easy mode, but you also get essentially unlimited extra SP.... Pussy.",
-        "image": "https://drive.google.com/drive-viewer/AKGpihYZlw-sXIDLUZHS1OwC-j22muSQIga5_26nu_Glpfcw3FtHvYillz2bQRD-_KOZu2RLkRsN2DN3rmwxonuWzZqP-aRTLzXNtNw=w1349-h1244-rw-v1"
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/difficulty/creator%20mode.webp"
     },
     {
         "title": "God Mode",
         "SPGain": 30,
         "desc": "You gain as much SP and CP from Scenarios and Drawbacks as on Easy Mode, but you also get a lot of extra SP. ",
-        "image": "https://drive.google.com/drive-viewer/AKGpihZqG1AYWdoVTnFg63QhzNvrdz72sQLA4HwBQTzq0i4itP_g4CViweCV1V84iRnCEvKvqI2UTQhwq3iLWdhiaRCX3ZTXaHKiAPU=w1349-h1244-rw-v1"
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/difficulty/god%20mode.jpg"
     },
     {
         "title": "Very Easy",
         "SPGain": 15,
         "desc": "You gain as much SP and CP from Scenarios and Drawbacks as on Easy Mode, but you also get a bit of extra SP.",
-        "image": "https://drive.google.com/drive-viewer/AKGpihbvFbFiaLrnBFE1JIq1bwMpd-dtoz6U6QeVLbA6cbXjdASbXM6dES-n0PlkLOJGkwFkt3QP3zFqmAUWJXhgClpBC1Vf7ZAU5Q=w1349-h1244-rw-v1"
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/difficulty/very%20easy.webp"
     },
     {
         "title": "Easy",
         "desc": "You gain more SP and CP from Scenarios and Drawbacks.",
-        "image": "https://drive.google.com/drive-viewer/AKGpihZ3-29L8fV3UeLePNGPOzpD0svjgbnFQ5LqehO5ZarZObpt2iMjC4Ikd2lWeNt7k6h9dJRkWFpEYFrsmOshx59dZfEgLdrVkeA=w1349-h1244-rw-v1"
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/difficulty/easy.jpg"
     },
     {
         "title": "Standard",
         "desc": "You gain the standard amount of SP and CP gained from Scenarios and Drawbacks.",
-        "image": "https://drive.google.com/drive-viewer/AKGpihbkfBGiUEMbEnzoD6UEWGv34mS_hikaAMp69ktp4pa-zxc_vBlBQKHdnGiaVEm-QwkkhS8R3R5tHDsOhWjkexkBOoNcz-6OFQ=w1349-h1244-rw-v1"
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/difficulty/standard.jpg"
     },
     {
         "title": "Hard",
         "desc": "You gain less SP and CP from Scenarios and Drawbacks.",
-        "image": "https://drive.google.com/drive-viewer/AKGpihYtv0arkZTHAOEUIekfRgK-wjgTdoy9tjqIuqKHhXvtn8zve06C0ZpAns09IXE96LrhMcnjJjM5Bk4jVbO09nPftBvyCJwQ7Q=w1349-h1244"
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/difficulty/hard.jpg"
     },
     {
         "title": "Very Hard",
         "SPCost": 15,
         "desc": "As much SP and CP gains as on Hard Mode, but you also get an SP penalty.",
-        "image": "https://drive.google.com/drive-viewer/AKGpiha9yr609_HkSIMXGJgD5wTkIyBpW_8Jx_LQirwrhLplHQd_HmKgWfOjj4kxZq9WBlbCrVPQist55LUsyu877AiJRIXXNYSvONA=w1349-h1244-rw-v1"
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/difficulty/very%20easy.webp"
     },
     {
         "title": "Skitter Mode",
         "SPCost": 30,
         "desc": "As much SP and CP gains and on Hard Mode, but you must pay an even higher SP penalty.",
-        "image": "https://drive.google.com/drive-viewer/AKGpihbnIfZdpxFqAFE1J2HOhJZM4aMeJM2xcSW5oTtHYtEynCAwMbtAxLx0AAr88keEyf_EctCQahwPInTjnjIPseNRUsUT6lElobs=w1349-h1244-rw-v1"
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/difficulty/skitter%20mode.jpg"
     },
     {
         "title": "Masochist Mode",
         "SPCost": 50,
         "desc": "As much SP and CP gains and on Hard Mode, but you also pay an extremely high SP penalty. Why do this to yourself?",
-        "image": "https://drive.google.com/drive-viewer/AKGpihaE-92LXeCvY-Y2w3ySJC4N2Y11dFBH6Gi69SZU_cdDSTx8gWvB15A0LQmJ3EefWgSpj26ptk5G8URIIVMLLIuPftD5APi9sEo=w1349-h1244-rw-v1"
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/difficulty/masochist.jpg"
     }
 ]

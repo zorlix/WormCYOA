@@ -3,22 +3,22 @@
         {
             "title": "Same Gender",
             "desc": "Your gender will not change.",
-            "image": ""
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/incarnation/genders/same%20gender.png"
         },
         {
             "title": "Masculine",
             "desc": "You will identify as a masculine-presenting person. If you choose a female body, you may suffer from gender dysphoria.",
-            "image": ""
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/incarnation/genders/masculine.svg.png"
         },
         {
             "title": "Non-Binary",
             "desc": "You will identify as a non-binary person. Depending on your chosen body, you may or may not suffer from gender dysphoria.",
-            "image": ""
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/incarnation/genders/non-binary.png"
         },
         {
             "title": "Feminine",
             "desc": "You will identify as a feminine-presenting person. If you choose a male body, you may suffer from gender dysphoria.",
-            "image": ""
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/incarnation/genders/feminine.png"
         }
     ],
     "incarnationMethods": [
@@ -26,20 +26,245 @@
             "title": "Character-Insert",
             "incompatibility": "Setting — No Transfer",
             "desc": "You will replace one of the people that already exist on your chosen world. This includes any of your chosen companions, so do not try to pick the same person as your character-insert and companion.\nYou will keep their power if they have already triggered, in addition to any powers you choose here. Even if they haven't triggered yet, their future Shard will still be interested in them (you), and a trigger event may still occur in the future. However, this is very likely to result in a very different power than their original one (although, there may be similarities). After all, every trigger event is different.\nYou shall also have all their memories and skills, and you'll be able to imitate them perfectly. You can decide how far you merge, if it'll just be your mind in their body with their memories and skills, or if your personalities will merge completely.\nShould you desire to do so, you can propose a way to make this work that would not result in you stealing their body and/or mind. ",
-            "image": ""
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/incarnation/methods/character-insert.webp"
         },
         {
             "title": "Reincarnation",
             "incompatibility": "Setting — No Transfer",
             "desc": "Pick this, and you will be reborn into your chosen world in your own body. In practice, it'll work like this:\nEvents will be slighly manipulated in such a way that whoever your new parents end up being, they will conceive you on top of their other children, should they even have any. You will then be born as their child. It'll be your soul in your new body, however, you will not remember anything about your old life. For all intents and purposes, you'll just be a normal child.\nThen, when the time of your chosen Scenario comes, the suppressed memories of your old life will return and the abilities, perks and drawbacks you'll choose in this CYOA will come into effect.\nYou can decide how much of an impact the years your unaware self spent will have on your whole self. You may choose to only keep the memories with little to no emotinal weight behind them. Or you may treat those memories truly as your memories, in which case they mean to you as much as the memories of your old life.\nJust keep in mind that even though you will be unaware of your past and the truth of the situation, deep down you will still be you.",
-            "image": ""
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/incarnation/methods/reincarnation.png"
         },
         {
             "title": "Drop–In",
             "SPGain": 8,
             "CPGain": 8,
             "desc": "You will be dropped into your chosen world as you are now. Obviously, you will have no official identity wherever you end up.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/incarnation/methods/drop-in.png.webp"
+        }
+    ],
+    "incarnationTypes": [
+        {
+            "title": "Original Character",
+            "desc": "You'll reincarnate into an original character. You'll be able to somewhat influence what they'll look like, and you'll be able to freely choose their age and occupation.\nBy default, this character will not have any power (parahuman or otherwise). You will only have the abilities you chose in this CYOA."
+        },
+        {
+            "title": "Twin",
+            "desc": "You'll become the twin of an existing character. With this option you can also choose to either have the same power as this character, or you may leave things to chance.\nIf you choose to accept the same power as this individual, the two of you will have triggered at the same time (similarly to Fenja and Menja). You will be connected to the same Shard, much like two clones with identical memories might be.\nIf you choose to leave things to chance, you will have a bud of that Shard, and therefore you will have a somewhat similar but different power, and you will have had a different trigger event.\nIn such a case, if your age is greater then 6, you will already have had your trigger event. If not, then you will only gain this power when you go through a situation appropriate enough to trigger you. The power will chosen at random."
+        },
+        {
+            "title": "Family Member",
+            "desc": "You'll be a part of an existing character's family. With this option, you will have a bud of this character's Shard. Your power will be similar but somewhat different. The power will chosen at random.\nIf the age of your new self is greater then 6, you will have already had your trigger event. If not, then you will only gain this power when you go through a situation appropriate enough to trigger you.\nNote that this person must not be a twin of the chosen character. And if you're trying to assume a role in a family that is already \"filled\" with another existing character, this option may drastically alter the family's situation (and potentially more).\nFor example, if you use this to become the father of the Dallon family, events will be adjusted so that you will be the husband of Carol Dallon and the father of Victoria Dallon, but you will not become Mark Dallon (for that, choose to character-insert into him). What will happen Mark? Who knows!"
+        }
+    ],
+    "sex": [
+        {
+            "title": "Male",
+            "desc": "You are biologically male.",
             "image": ""
+        },
+        {
+            "title": "Intersex",
+            "desc": "Your body does not fit typical binary notions of male or female bodies.",
+            "image": ""
+        },
+        {
+            "title": "Female",
+            "desc": "You are biologically female.",
+            "image": ""
+        }
+    ],
+    "appearance": [
+        {
+            "title": "Ideal",
+            "CPCost": 10,
+            "desc": "You will be your ideal self. Whatever you subconsciously consider the peak of beauty will be what your new body will look like. Barring external factors, your body will always be garanteed to look its very best.",
+            "image": ""
+        },
+        {
+            "title": "Attractive",
+            "CPCost": 5,
+            "desc": "You will be attractive. You will not be the best-looking person in the world, but you will definitely be above average. Barring external factors, your body will always be garanteed to look attractive.",
+            "image": "0"
+        },
+        {
+            "title": "Average",
+            "desc": "You'll be neither strikingly good-looking nor particularly unattractive, you will be somewhere in the middle. Your appearance will be very unremarkable which will have its advantages. You won't be the type to turn heads, your appearance alone will not draw too much attention.",
+            "image": ""
+        },
+        {
+            "title": "Ugly",
+            "CPGain": 5,
+            "desc": "You will be at least somewhat ugly. Perhaps the shape of your face will not be pretty, perhaps the quality of your skin will not be great, perhaps you will be very prone to gaining a lot of weight. Either way, you will never consider yourself attractive.",
+            "image": ""
+        },
+        {
+            "title": "Hideous",
+            "CPGain": 10,
+            "desc": "Your new body will look horrible. Or at the very least, it will look that way to you. And if you are like most of the other mere mortals, your beauty standards are at least somewhat dictated by the beauty standards of the society you live in. Therefore, you are likely to be considered hideous by the majority of people. Are you sure you want to take this? Do you perhaps hate yourself?",
+            "image": ""
+        },
+        {
+            "title": "Deformed",
+            "CPGain": 12,
+            "desc": "Under normal circumstances, your looks would be considered average or even attractive. Unfortunately for you, your new face will be deformed in some way. Perhaps you will have hideous scarring or burns. Your deformity is guaranteed to be a place that is difficult to hide (most likely on your face). This choice is not going to limit you physically in any way, your deformity will not be a disability.",
+            "image": ""
+        }
+    ],
+    "education": [
+        {
+            "title": "Elementary School Student",
+            "requirement": "Age 5-10",
+            "desc": "You will be going to an elementary school. You may choose which elementary school you'll be attending (assuming you know any in the Setting that you've chosen). You may also choose to attend school with a known character, even if you don't know precisely which school they go to. Otherwise, it'll chosen at random.\nIf you've chosen to reincarnate as a child, then you are pretty much required to select this. You may choose not to, but that is likely to result in unwanted consequences. After all, for what reason would a child between 5 and 10 not go to school?\nThe answer to that will vary depending on your choice of Perks, Drawbacks and other Character information, but it is legally required for children that young to receive education (at least, in USA).\nTherefore, not going to school could be because of your family, in which case they are neglectul at best and are likely to get into trouble soon, or maybe because of your health. Hell, it could even be that you are wanted by the law even at that age. Maybe your trigger event went wrong?"
+        },
+        {
+            "title": "Middle School Student",
+            "requirement": "Age 11-14",
+            "desc": "You'll be attending a middle school. You may choose which middle school you'll be attending (assuming you know any in the Setting that you've chosen). You may also choose to attend school with a known character, even if you don't know precisely which school they go to. Otherwise, it'll chosen at random. If you've chosen to reincarnate as a child between 11 and 14, you are pretty much required to take this. You may choose not to, but that is likely to result in unwanted consequences. After all, for what reason would a child between 11 and 14 not go to school? The answer to that will vary depending on your choice of Perks, Drawbacks and other Character information, but it is legally required for children that young to receive education (at least, in USA). Therefore, not going to school could be because of your family, in which case they are neglectul at best and are likely to get into trouble soon, or maybe because of your health. Hell, it could even be that you are wanted by the law even at that age. Maybe your trigger event went wrong?"
+        },
+        {
+            "title": "Middle School Graduate",
+            "requirement": "Age 16+",
+            "desc": "You'll have completed a middle school. Currently you will no longer be a student of any educational institution. You wll be free to pursue your own goals outside of school.\nHowever, this does mean that any job prospects outside of your potential cape career are likely to be limited. You may still choose to be preparing for a GED. Depending on the area where you live, it is possible that you'll have spent at least some time in high school until you were old enough to not be required to in school."
+        },
+        {
+            "title": "High School Student",
+            "requirement": "Age 14-18",
+            "desc": "You will be a high school student. You may choose which high school you'll be attending (assuming you know any in the Setting that you've chosen). You may also choose to attend school with a known character, even if you don't know precisely which school they go to. Otherwise, it'll chosen at random.\nIf you're reincarnating into a body younger than 16, it's safer to select this anyway. Many areas have compulsary education at least until that age."
+        },
+        {
+            "title": "High School Graduate",
+            "requirement": "Age 18+",
+            "desc": "You'll have finished high school and will not be attending any college or university. You can assume that you'll have passed with straight As."
+        },
+        {
+            "title": "GED Graduate",
+            "requirement": "Age 18+",
+            "desc": "You'll have a GED. You will not be attending any college or university."
+        },
+        {
+            "title": "Homeschooled",
+            "CPCost": 3,
+            "requirement": "Age 6-18",
+            "desc": "Do you wish to reincarnate as a child and avoid going to school? Then take this option. It provides an alternative to studying elementary school, middle or high school, depending on your chosen age. Presumably, this should allow you to make use of your own education and not waste too much time on repeating it.\nBe warned that this is affected by the Homelife section. If you go for bad homelife, it is entirely possible that homeschooling is little more than an excuse for your new family to abuse you or deny you education in order to have an easier time brainwashing you."
+        },
+        {
+            "title": "Trade School",
+            "requirement": "Age 16+",
+            "desc": "You will currently be a student at a trade school. You may choose which vocational you'll have. You may also choose to attend school with a known character, provided you know one who goes to a trade school, even if you don't know which school they go to. Otherwise, it'll be chosen at random."
+        },
+        {
+            "title": "Trade School Graduate",
+            "requirement": "Age 18+",
+            "desc": "You'll have graduated a trade school. You may choose which vocational focus you'll have. Maybe you'll be an electrician, a plumber, or even a cook. It's up to you."
+        },
+        {
+            "title": "College/University Student",
+            "requirement": "Age 18+",
+            "desc": "You will currently be a student at a college or university. You may choose which college you'll be attending (assuming you know any in the Setting that you've chosen). You may also choose to attend college with a known character, even if you don't know precisely which school they go to. Otherwise, it'll chosen at random."
+        },
+        {
+            "title": "College/University Graduate",
+            "requirement": "Age 22+",
+            "desc": "You'll have graduated university. Depending on your age, you'll have either bachelor's or master's degree. You are no longer a student."
+        }
+    ],
+    "jobs": [
+        {
+            "title": "Full-Time Job",
+            "CPCost": 2,
+            "requirement": "Age 18+",
+            "desc": "You will have a full-time job."
+        },
+        {
+            "title": "Part-Time Job",
+            "CPCost": 1,
+            "requirement": "Age 16+",
+            "desc": "You will have a part-time job."
+        },
+        {
+            "title": "Unemployed",
+            "desc": "You will not have a job upon arrival. Perhaps you wish to focus entirely on you cape career or your education, or perhaps you've taken the Wealthy perk, and you don't need a job.\nNote that if you've chosen to reincarnate as a young child, then this is the only option you can realistically choose. "
+        }
+    ],
+    "family": [
+        {
+            "title": "Complete Nuclear Family",
+            "desc": "You will have a complete nuclear family.\nBoth of your parents are going to be alive and well, although the state of their marriage and their relationship with you will depend on the Homelife section."
+        },
+        {
+            "title": "Single Parent",
+            "desc": "You will only have one parent in your life.\nPerhaps your mother or father abandoned the other parent and yourself, or perhaps they died. Perhaps they're in prison. Either way, the end result is that you'll only have one parent."
+        },
+        {
+            "title": "Raised by Extended Family Member(s)",
+            "desc": "Both of your parents will be out of the picture for one reason or another, however, some extended family will have taken you in.\nPerhaps your elderly grandmother will have raised you (or will be raising you still), perhaps a cousin will have assumed the role of your guardian, or perhaps your creepy uncle unfortunately will have gotten your custody."
+        },
+        {
+            "title": "Orphan",
+            "CPGain": 6,
+            "desc": "You (and your siblings, should you choose to have any) will have no-one.\nYour parents will be out of the picture completely, and you won't have any other family. You're on your own."
+        },
+        {
+            "title": "New Family is Old Family",
+            "CPCost": 15,
+            "desc": "You will not be alone in your new life. Most, if not all, of your current family members will be reincarnated along with you. This also applies to your beloved pets.\nThey will not have a build of their own, and they will not be aware that they've been reincarnated. As far as they'll be concerned, they'll have been born in the other world, and they'll have lived their entire lives there.\nThere is a small possibility that they'll have gained a parahuman power somewhere along the line. If they for some strange reason already have a special ability that is not parahuman in nature, this ability will somehow be converted to fit into the world you're about to enter.\nIf there are certain members in your family you do not want to be bring along, you can choose to leave them behind. You can also choose to bring your extended family if you wish to.\nYou are still allowed to 'purchase' some more siblings and/or cousins with the following options, but do keep in mind that this might change your family dynamic or perhaps even change them as people."
+           
+        }
+    ],
+    "extraFamily": [
+        {
+            "title": "Siblings",
+            "count": 0,
+            "desc": "Do you want to have any siblings?\nYou can pick this multiple times, and for every puchase you will have another sibling. Keep in mind past events are going to be adjusted so that your new family fits neatly into this new world you're about to enter. So, if you 'buy' 25 siblings, your family situation might be a tad ridiculous.\nNote: Tap to buy/increase amount, hold to discard."
+        },
+        {
+            "title": "Cousins",
+            "count": 0,
+            "desc": "Do you want to have any cousins?\nYou can pick this multiple times, and for every puchase you will have another sibling. Keep in mind that past events are going to be adjusted, so that your new family fits neatly into this new world you're about to enter.\nNote: Tap to buy/increase amount, hold to discard."
+        },
+        {
+            "title": "Spouse",
+            "CPCost": 10,
+            "requirement": "Age 18+",
+            "desc": "By the time you awaken in your chosen world, you will already be married to a loving spouse.\nNote: Your  spouse is guaranteed to very compatible with you, but that doesn't necessarily mean that your relationship will last. If you allow it, your relationship may very well fall apart."
+        },
+        {
+            "title": "Children",
+            "CPCost": 5,
+            "count": 0,
+            "requirement": "Age 22+",
+            "desc": "By the time you awaken in your chosen world, you will already have children. Each purchase of this perk will grant you one child.\nNote: This will not grant you a spouse. If you do not purchase the option above, you will be a single parent."
+        }
+    ],
+    "homelife": [
+        {
+            "title": "Same as before",
+            "requirement": "New Family is Old Family",
+            "desc": "Have you chosen to take your old family along for the ride? If so, then this option will not change anything about your homelife, and it'll remain the same in this new world you're about to enter."
+        },
+        {
+            "title": "Happy",
+            "CPCost": 10,
+            "desc": "Your homelife is going to be happy. Your relationship with your family will be about as good as it can be. Your relationships will not toxic nor unhealthy. Your family will not have suffered any tragedies."
+        },
+        {
+            "title": "Good",
+            "CPCost": 10,
+            "desc": "Your home life is going to be mostly happy. Everything won't be sunshine and rainbows, though. Perhaps you will have a particularly family member who will be very toxic, but everyone else will be great. Or maybe they will all be somewhat flawed but still good people."
+        },
+        {
+            "title": "Life Has Its Ups and Downs",
+            "desc": "Your life isn't going to be terrible, but it won't be very good either. Maybe for some reason it'll be switching between good and terrible periods on regular basis. Perhaps the flaws of your family members will just about equal out the positive influence they'll have on your life. Or maybe your family won't truly be toxic or very flawed, but it will have suffered some terrible tragedies.\nThis option may also be used if you good relationship with some of your family members while having terrible relationship with others."
+        },
+        {
+            "title": "Bad",
+            "CPGain": 5,
+            "desc": "Your life won't be terrible, but it'll far from good. Bad things will happen to your family on a regular basis. This could be the result of a toxic family member or tragedies endured. Warning: This may have an effect on your mental health, although at this stage, you're unlikely to suffer from anything unrecoverable."
+        },
+        {
+            "title": "Terrible",
+            "CPGain": 10,
+            "desc": "Your life will be awful. Maybe your family will just be terribly abusive, or maybe they'll all have suffered greatly. Many of them are likely to be dead or worse. Warning: This is very likely to have a very negative effect on your mental health. You are likely to be suffering from depression and maybe even PTSD."
         }
     ]
 }

@@ -73,13 +73,21 @@ struct SettingView: View {
                                     print("Saved")
                                 }
                         }
+                        .onChange(of: character.auElements) { _, newValue in
+                            if newValue == false {
+                                character.auDesc = nil
+                                try? modelContext.save()
+                            }
+                        }
                     }
                 }
-                .onChange(of: character.auElements) { _, newValue in
-                    if newValue == false {
-                        character.auDesc = nil
-                        try? modelContext.save()
-                    }
+                .onChange(of: character.setting) {
+                    character.auElements = false
+                    character.reset([\.location, \.scenario, \.timeShift, \.gender, \.incarnationMethod, \.overtakenIdentity, \.reincarnationType, \.twin, \.familyMember, \.sex, \.appearance, \.family, \.homelife, \.education, \.job])
+                    character.reset([\.name, \.nickName, \.capeName, \.appearanceDesc, \.homelifeDesc, \.eduJobHistory])
+                    character.reset([\.age])
+                    character.extraFamily = []
+                    try? modelContext.save()
                 }
             }
         }
@@ -96,10 +104,6 @@ struct SettingView: View {
                     print("Saved")
                 }
             }
-        }
-        .onChange(of: character.setting) {
-            character.reset([\.location, \.scenario, \.timeShift])
-            try? modelContext.save()
         }
     }
 }

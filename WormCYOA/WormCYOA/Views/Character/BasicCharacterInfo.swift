@@ -19,6 +19,30 @@ struct BasicCharacterInfo: View {
         ScrollView {
             Headline(heading: "Basic Character Info")
             
+            if let identity = character.overtakenIdentity {
+                MinorHeadline(text: "Character-Insert")
+                
+                ItemView(item: identity)
+                
+                PureText("You've chosen to character-insert into \(identity.title). This means that you'll asume the position of this character in your selected universe. Their name will be your name, their history will be your history, and their cape name will be your cape name.\nAfter your arrival, you're of course welcome to change what you wish.\nPlease fill the text fields below with relevant information to from your selected character's card.\nWarning: Filling in incorrect information might result in changes in your chosen world.")
+            }
+            
+            if let twin = character.twin {
+                MinorHeadline(text: "Twin")
+                
+                ItemView(item: twin)
+                
+                PureText("You've chosen to reincarnate as an identical twin of \(twin.title). Because this is a reincarnation as opposed to character-insertion, canon events will be ever so slightly adjusted so as to accomodate your presence in this character's family. By default, the changes to canon are going to be as minor as possible.\nSeeing as you will be your own person, you are allowed to choose your own name. However, consider choosing the same last name as this character. Doing otherwise may alter your character's backstory to make sense of two siblings — twins, at that — having a different last name.")
+            }
+            
+            if let familyMember = character.familyMember {
+                MinorHeadline(text: "Family Member")
+                
+                ItemView(item: familyMember)
+                
+                PureText("You've chosen to reincarnate as a family member of \(familyMember.title). You may decide what exact familial relationship you will have. Because of this, you may choose whichever name you want, though if your relationship dictates that you should share last name (e.g., you are sisters, the character is your child, etc.), it is recommended that you do so. Doing otherwise may alter your character's backstory to make sense of two close family members having different last names.")
+            }
+            
             VStack {
                 MinorHeadline(text: "Name")
                 let name = Binding<String>(
@@ -73,13 +97,14 @@ struct BasicCharacterInfo: View {
             
             VStack {
                 Headline(heading: "Notes", subheading: "Do you wish to note down some information about the character? What are your plans for the future? What's your character's backstory (obviously within the confines of your choices)?\nAnything and everything about your character that you want to note down, you may do so right here.\nPlease don't use this to note down things about your powers. There will be a separate text field for that in the future.")
+             
                 let notes = Binding<String>(
-                    get: { character.characterInfo ?? "" },
+                    get: { character.characterNotes ?? "" },
                     set: { newValue in
-                        character.characterInfo = newValue.isEmpty ? nil : newValue
+                        character.characterNotes = newValue.isEmpty ? nil : newValue
                     }
                 )
-                TextField("Character Info", text: notes, axis: .vertical)
+                TextEditor(text: notes)
                     .textfieldStyle()
                     .focused($focused)
             }

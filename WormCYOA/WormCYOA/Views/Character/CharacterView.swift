@@ -14,6 +14,8 @@ struct CharacterView: View {
     
     let incarnation: [String: [Item]] = Bundle.main.decode("characters.json")
     
+    @FocusState var focused: Bool
+    
     var body: some View {
         ScrollView {
             Headline(heading: "Character")
@@ -57,15 +59,6 @@ struct CharacterView: View {
             }
             .buttonStyle(.plain)
             
-            Button("Nullify") {
-                character.name = nil
-                character.nickName = nil
-                character.capeName = nil
-                character.gender = nil
-                character.characterInfo = nil
-                character.incarnationMethod = nil
-            }
-            
             GridView {
                 ForEach(incarnation["incarnationMethods"]!, id: \.title) { inc in
                     Button {
@@ -78,31 +71,61 @@ struct CharacterView: View {
                     .disabled(disableOption(inc.title))
                 }
             }
+            .onChange(of: character.incarnationMethod) {
+                character.reset([\.gender, \.overtakenIdentity, \.reincarnationType, \.twin, \.familyMember, \.sex, \.appearance, \.family, \.homelife, \.education, \.job])
+                character.reset([\.name, \.nickName, \.capeName, \.appearanceDesc, \.homelifeDesc, \.eduJobHistory])
+                character.reset([\.age])
+                character.extraFamily = []
+                try? modelContext.save()
+            }
             
             switch character.incarnationMethod?.title {
             case "Character-Insert":
-                Text("kk")
+                CharacterInsert(character: character, focused: $focused, incarnation: incarnation)
+                
             case "Reincarnation":
-                Text("kk")
+                Reincarnation(character: character, incarnation: incarnation, focused: $focused) // Get better image
+                
             case "Drop–In":
-                Text("kk")
+                if character.setting?.title == "No Transfer" {
+                    MinorHeadline(text: "No Transfer")
+                    PureText("You've chosen to remain in your original universe. There are no characters you can choose to character-insert into because there are no characters at all in your world. Only real people. I know... boring.")
+                }
+                
             default:
                 EmptyView()
             }
         }
         .scrollBounceBehavior(.basedOnSize)
+        .defaultScrollAnchor(.top)
         .contentMargins(30, for: .scrollContent)
+        .toolbar {
+            ToolbarItemGroup(placement: .keyboard) {
+                Spacer()
+                Button("Done", systemImage: "keyboard.chevron.compact.down") {
+                    focused = false
+                    try? modelContext.save()
+                    print("Saved")
+                }
+            }
+        }
+        .onSubmit {
+            try? modelContext.save()
+            print("Saved")
+        }
     }
     
     func disableOption(_ string: String) -> Bool {
-        if string == "Drop–In" {
-            return false
-        } else {
-            if character.setting?.title == "No Transfer" {
-                return true
-            }
+        var tempBool = true
+        
+        if string == "Reincarnation" || string == "Drop–In" {
+            tempBool = false
         }
         
-        return false
+        if character.setting?.title == "Canon Earth Bet" {
+            tempBool = false
+        }
+        
+        return tempBool
     }
 }

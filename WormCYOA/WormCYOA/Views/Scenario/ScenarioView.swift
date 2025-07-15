@@ -9,6 +9,7 @@ import SwiftData
 import SwiftUI
 
 struct ScenarioView: View {
+    @Environment(\.modelContext) var modelContext
     @Bindable var character: PlayerCharacter
     
     let scenarios: [String: [Item]] = Bundle.main.decode("scenarios.json")
@@ -37,5 +38,9 @@ struct ScenarioView: View {
         }
         .scrollBounceBehavior(.basedOnSize)
         .contentMargins(30, for: .scrollContent)
+        .onChange(of: character.scenario) {
+            character.reset([\.timeShift])
+            try? modelContext.save()
+        }
     }
 }

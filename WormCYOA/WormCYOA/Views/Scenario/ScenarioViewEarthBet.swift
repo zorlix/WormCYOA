@@ -30,26 +30,14 @@ struct ScenarioViewEarthBet: View {
         Headline(heading: "Time Shift", subheading: "Is the exact moment of arrival as outlined by the Scenarios not to your liking?\nNever fear!\nWith the options below you can adjust the moment of your arrival as much as you desire.")
         GridView {
             ForEach(scenarios["timeShift"]!, id: \.title) { shift in
-                if character.timeShift?.title == shift.title {
-                    ItemView(item: shift, selected: true, count: character.timeShift?.count, increase: { changeCount(with: shift, action: .increase) }, decrease: { changeCount(with: shift, action: .decrease) })
-                } else {
-                    ItemView(item: shift, selected: false,  increase: { changeCount(with: shift, action: .increase) }, decrease: { changeCount(with: shift, action: .decrease) })
-                }
+                ItemView(item: character.displayCountedItem(shift, forVar: character.timeShift), selected: character.isItemSelected(shift, inVar: character.timeShift), increase: {
+                    character.changeCount(of: shift, for: &character.timeShift, action: .increase)
+                    try? modelContext.save()
+                }, decrease: {
+                    character.changeCount(of: shift, for: &character.timeShift, action: .decrease)
+                    try? modelContext.save()
+                })
             }
         }
-    }
-    
-    func changeCount(with item: Item, action: CountOperations) {
-        if character.timeShift?.title == item.title {
-            character.timeShift = character.resolveCount(of: character.timeShift!, action: action)
-        } else {
-            if action == .increase {
-                var tempItem = item
-                tempItem.count = 1
-                character.timeShift = tempItem
-            }
-        }
-        
-        try? modelContext.save()
     }
 }

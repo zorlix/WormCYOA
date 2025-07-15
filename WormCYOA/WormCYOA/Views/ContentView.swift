@@ -12,11 +12,10 @@ struct StartView: View {
     @Environment(\.modelContext) var modelContext
     @Query var characters: [PlayerCharacter]
     
-    @State private var path = NavigationPath()
     @State private var showingImages = ShowingImages()
     
     var body: some View {
-        NavigationStack(path: $path) {
+        NavigationStack {
             List(characters) { character in
                 NavigationLink(value: character) {
                     Text("SP: \(character.sp), CP: \(character.cp)")
@@ -24,7 +23,7 @@ struct StartView: View {
             }
             .navigationTitle("Worm CYOA")
             .navigationDestination(for: PlayerCharacter.self) { character in
-                CrossroadsView(path: $path, character: character)
+                CrossroadsView(character: character)
             }
             .toolbar {
                 Button("Sample") {

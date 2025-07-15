@@ -11,19 +11,6 @@ struct ItemView: View {
     let item: Item
     var selected: Bool = false
     var difficulty: Item?
-    var count: Int?
-    
-    var countFormatted: Int? {
-        guard let passedCount = count else {
-            if let itemCount = item.count {
-                return itemCount
-            } else {
-                return nil
-            }
-        }
-        
-        return passedCount
-    }
     
     var descriptionFormatted: [String] { item.desc.components(separatedBy: "\n") }
     
@@ -38,22 +25,19 @@ struct ItemView: View {
             let half: Int = Int(halfDouble.rounded(.up))
             var tempNum = number
             var count = 1
-            if let tempCount = countFormatted {
+            if let tempCount = item.count {
                 count = tempCount
             }
             
             if let difficultyTemp = difficulty {
                 if easyDiffs.contains(difficultyTemp.title) {
                     tempNum += half
-                    tempNum *= count
-                    return tempNum
                 } else if hardDiffs.contains(difficultyTemp.title) {
                     tempNum -= half
-                    tempNum *= count
-                    return tempNum
-                } else {
-                    return number
                 }
+                
+                tempNum *= count
+                return tempNum
             } else {
                 return tempNum * count
             }
@@ -97,10 +81,10 @@ struct ItemView: View {
                     .fontWeight(.semibold)
                     .multilineTextAlignment(.center)
                 
-                if let count = countFormatted {
+                if let count = item.count {
                     HStack {
-                        Button(action: increase) {
-                            Image(systemName: "plus.circle")
+                        Button(action: decrease) {
+                            Image(systemName: "minus.circle")
                                 .font(.title2.bold())
                         }
                         
@@ -109,8 +93,8 @@ struct ItemView: View {
                             .padding(.bottom, 3)
                             .padding(.horizontal, 5)
                         
-                        Button(action: decrease) {
-                            Image(systemName: "minus.circle")
+                        Button(action: increase) {
+                            Image(systemName: "plus.circle")
                                 .font(.title2.bold())
                         }
                     }

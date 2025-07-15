@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct CrossroadsView: View {
-    @Binding var path: NavigationPath
     @Bindable var character: PlayerCharacter
     
     let tabItems: [Item] = Bundle.main.decode("crossroads.json")
@@ -17,9 +16,7 @@ struct CrossroadsView: View {
         ScrollView {
             GridView {
                 ForEach(tabItems, id: \.self) { item in
-                    Button {
-                        path.append(item)
-                    } label: {
+                    NavigationLink(value: item) {
                         ItemView(item: item)
                     }
                     .buttonStyle(.plain)
