@@ -39,6 +39,8 @@ struct CrossroadsView: View {
                 ScenarioView(character: character)
             case "Character":
                 CharacterView(character: character)
+            case "Perks":
+                PerksView(character: character)
             default:
                 Text("Never should happen...")
             }

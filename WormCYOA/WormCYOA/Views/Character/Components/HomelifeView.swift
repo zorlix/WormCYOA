@@ -27,7 +27,7 @@ struct HomelifeView: View {
                     ItemView(item: homelife, selected: character.homelife == homelife)
                 }
                 .buttonStyle(.plain)
-                .disabled(character.isReqMet(of: homelife, in: character.family))
+                .disabled(character.isReqMet(of: homelife))
             }
         }
         

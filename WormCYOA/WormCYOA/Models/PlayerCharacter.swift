@@ -119,6 +119,89 @@ import SwiftUI
         return false
     }
     
+    // Resolving requirements:
+    func isReqMet(of item: Item) -> Bool {
+        guard let req = item.requirement else {
+            return false // If it doesn't have requirement, just return false - never disable.
+        }
+        
+        if req.starts(with: "Age") {
+            let cleaned = req.replacingOccurrences(of: "Age", with: "").trimmingCharacters(in: .whitespaces)
+            
+            if cleaned.hasSuffix("+") {
+                let number = cleaned.dropLast()
+                if let minimumAge = Int(number) {
+                    if let unwrappedAge = age {
+                        if unwrappedAge >= minimumAge {
+                            return false
+                        }
+                    }
+                }
+            }
+            
+            if cleaned.contains("-") {
+                let parts = cleaned.split(separator: "-").compactMap { Int($0.trimmingCharacters(in: .whitespaces)) }
+                if parts.count == 2 {
+                    if let unwrappedAge = age {
+                        if unwrappedAge >= parts[0] && unwrappedAge <= parts[1] {
+                            return false
+                        }
+                    }
+                }
+            }
+            
+            return true
+        }
+        
+        let andSegments = req.components(separatedBy: ";").map { $0.trimmingCharacters(in: .whitespaces) }
+        
+        for segment in andSegments {
+            let orSegments = segment.components(separatedBy: " or ").map { $0.trimmingCharacters(in: .whitespaces) }
+            
+            let classContains = orSegments.contains(where: { requirement in
+                ownsItem(withTitle: requirement)
+            })
+            
+            if classContains {
+                return false
+            }
+        }
+        
+//        if let unwrappedArray = array {
+//            if unwrappedArray.contains(where: { $0.title == req }) {
+//                return false
+//            }
+//        }
+//
+//        if let unwrappedVariable = variable {
+//            if req == unwrappedVariable.title {
+//                return false
+//            }
+//        }
+        
+        return true
+    }
+    
+    func ownsItem(withTitle title: String) -> Bool {
+        let mirror = Mirror(reflecting: self)
+        
+        for child in mirror.children {
+            if let optional = child.value as? Item?, let item = optional {
+                if item.title == title {
+                    return true
+                }
+            }
+            
+            if let array = child.value as? [Item] {
+                if array.contains(where: { $0.title == title }) {
+                    return true
+                }
+            }
+        }
+        
+        return false
+    }
+    
     // Change values in this class.
     /// Assigning to simple variable
     func setValue<T: Equatable>(for classValue: inout T?, from value: T) {
@@ -207,54 +290,5 @@ import SwiftUI
         for keyPath in keyPaths {
             self[keyPath: keyPath] = nil
         }
-    }
-    
-    // Resolving requirements:
-    func isReqMet(of item: Item, for array: [Item]? = nil, in variable: Item? = nil) -> Bool {
-        guard let req = item.requirement else {
-            return false // If it doesn't have requirement, just return false - never disable.
-        }
-        
-        if req.starts(with: "Age") {
-            let cleaned = req.replacingOccurrences(of: "Age", with: "").trimmingCharacters(in: .whitespaces)
-            
-            if cleaned.hasSuffix("+") {
-                let number = cleaned.dropLast()
-                if let minimumAge = Int(number) {
-                    if let unwrappedAge = age {
-                        if unwrappedAge >= minimumAge {
-                            return false
-                        }
-                    }
-                }
-            }
-            
-            if cleaned.contains("-") {
-                let parts = cleaned.split(separator: "-").compactMap { Int($0.trimmingCharacters(in: .whitespaces)) }
-                if parts.count == 2 {
-                    if let unwrappedAge = age {
-                        if unwrappedAge >= parts[0] && unwrappedAge <= parts[1] {
-                            return false
-                        }
-                    }
-                }
-            }
-            
-            return true
-        }
-        
-        if let unwrappedArray = array {
-            if unwrappedArray.contains(where: { $0.title == req }) {
-                return false
-            }
-        }
-        
-        if let unwrappedVariable = variable {
-            if req == unwrappedVariable.title {
-                return false
-            }
-        }
-        
-        return true
     }
 }
