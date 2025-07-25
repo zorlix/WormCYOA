@@ -333,6 +333,7 @@
     {
         "title": "Power Tweak (All)",
         "SPCost": 10,
+        "incompatibility": "Power Tweak",
         "desc": "You can change how any aspects of any of your powers, objects of powers, or perks work. This doesn't make it more powerful but can change some of its mechanics.\nYou can use this to alter the mechanics of some of your powers or OoPs, a single one of them, fuse all of them or allow them to be expressed through one power or object, or any combination of alterations you can think of. This doesn’t allow you to make yourself more powerful on its own."
     },
     {

@@ -5,9 +5,11 @@
 //  Created by Josef Černý on 05.07.2025.
 //
 
+import SwiftData
 import SwiftUI
 
 struct CrossroadsView: View {
+    @Environment(\.modelContext) var modelContext
     @Bindable var character: PlayerCharacter
     
     let tabItems: [Item] = Bundle.main.decode("crossroads.json")
@@ -47,5 +49,9 @@ struct CrossroadsView: View {
         }
         .scrollBounceBehavior(.basedOnSize)
         .contentMargins(30, for: .scrollContent)
+        .onAppear {
+            character.validateRequirements()
+            try? modelContext.save()
+        }
     }
 }

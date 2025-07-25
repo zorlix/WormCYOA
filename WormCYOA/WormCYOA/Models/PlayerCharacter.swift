@@ -66,7 +66,10 @@ import SwiftUI
     var eduJobHistory: String?
     
     /// Notes
-    var characterNotes: String? 
+    var characterNotes: String?
+    
+    // Perks
+    var perks: [Item] = []
     
     init(id: UUID, sp: Int, cp: Int) {
         self.id = id
@@ -119,6 +122,15 @@ import SwiftUI
         return false
     }
     
+    // All values to check for methods below
+    private static let itemsToCheck: [ReferenceWritableKeyPath<PlayerCharacter, Item?>] = [
+        \.metaTarget, \.metaAwareness, \.metaOther, \.difficulty, \.setting, \.altWorld, \.crossover, \.location, \.scenario, \.timeShift, \.gender, \.incarnationMethod, \.overtakenIdentity, \.reincarnationType, \.twin, \.familyMember, \.sex, \.appearance, \.family, \.homelife, \.education, \.job
+    ]
+    
+    private static let arraysToCheck: [ReferenceWritableKeyPath<PlayerCharacter, [Item]>] = [
+        \.extraFamily, \.perks
+    ]
+    
     // Resolving requirements:
     func isReqMet(of item: Item) -> Bool {
         guard let req = item.requirement else {
@@ -153,47 +165,63 @@ import SwiftUI
             return true
         }
         
-        let andSegments = req.components(separatedBy: ";").map { $0.trimmingCharacters(in: .whitespaces) }
+        let andSegments = req.split(separator: ";")
         
         for segment in andSegments {
-            let orSegments = segment.components(separatedBy: " or ").map { $0.trimmingCharacters(in: .whitespaces) }
+            let orSegments = segment.split(separator: " or ").map { $0.trimmingCharacters(in: .whitespaces) }
             
             let classContains = orSegments.contains(where: { requirement in
                 ownsItem(withTitle: requirement)
             })
             
-            if classContains {
-                return false
+            if !classContains {
+                return true
             }
         }
         
-//        if let unwrappedArray = array {
-//            if unwrappedArray.contains(where: { $0.title == req }) {
-//                return false
-//            }
-//        }
-//
-//        if let unwrappedVariable = variable {
-//            if req == unwrappedVariable.title {
-//                return false
-//            }
-//        }
-        
-        return true
+        return false
     }
     
-    func ownsItem(withTitle title: String) -> Bool {
-        let mirror = Mirror(reflecting: self)
-        
-        for child in mirror.children {
-            if let optional = child.value as? Item?, let item = optional {
+    private func ownsItem(withTitle title: String) -> Bool {
+        for keypath in Self.itemsToCheck {
+            let optionalItem = self[keyPath: keypath]
+            
+            if let item = optionalItem {
                 if item.title == title {
                     return true
                 }
             }
+        }
+        
+        for keypath in Self.arraysToCheck {
+            let itemArray = self[keyPath: keypath]
             
-            if let array = child.value as? [Item] {
-                if array.contains(where: { $0.title == title }) {
+            if itemArray.contains(where: { $0.title == title }) {
+                return true
+            }
+        }
+        
+        return false
+    }
+    
+    // Resolving incompatibilities:
+    func isCompatible(_ item: Item) -> Bool {
+        guard let incompatibility = item.incompatibility else { return false }
+        
+        let incompatibilities = incompatibility.split(separator: ";").map { $0.trimmingCharacters(in: .whitespaces) }
+        
+        for keypath in Self.itemsToCheck {
+            if let classItem = self[keyPath: keypath] {
+                if incompatibilities.contains(classItem.title) {
+                    return true
+                }
+            }
+        }
+        
+        for keypath in Self.arraysToCheck {
+            let array = self[keyPath: keypath]
+            for classItem in array {
+                if incompatibilities.contains(classItem.title) {
                     return true
                 }
             }
@@ -203,22 +231,118 @@ import SwiftUI
     }
     
     // Change values in this class.
+    var deletedItems: [Item] = []
+    
     /// Assigning to simple variable
-    func setValue<T: Equatable>(for classValue: inout T?, from value: T) {
-        if classValue == value {
-            classValue = nil
+    func setValue(for classItem: inout Item?, from value: Item) {
+        if classItem == value {
+            classItem = nil
+            deletedItems.append(value)
         } else {
-            classValue = value
+            classItem = value
         }
     }
     
     /// Assigning to array.
-    func setValue<T: Equatable>(for classArray: inout [T], from value: T) {
-        if let array = classArray as? [Item], let item = value as? Item {
-            if let index = array.firstIndex(of: item) {
-                classArray.remove(at: index)
-            } else {
-                classArray.append(value)
+    func setValue(for classArray: inout [Item], from value: Item) {
+        if classArray.contains(value) {
+            classArray.removeAll(where: { $0 == value })
+            deletedItems.append(value)
+        } else {
+            classArray.append(value)
+        }
+        
+    }
+    
+    /// Confirming requirements
+    func validateRequirements() {
+        guard deletedItems.isEmpty == false else { return }
+        
+        print("Validating...")
+        
+        for item in deletedItems {
+            for keypath in Self.itemsToCheck {
+                if let classItem = self[keyPath: keypath], let req = classItem.requirement {
+                    if req.contains(item.title) {
+                        if req.contains(" or ") {
+                            let andSegments = req.split(separator: ";")
+                            
+                            for segment in andSegments {
+                                var orSegments = segment.split(separator: " or ").map { $0.trimmingCharacters(in: .whitespaces) }
+                                
+                                if orSegments.contains(item.title) && orSegments.count == 1 {
+                                    self[keyPath: keypath] = nil
+                                }
+                                
+                                if orSegments.contains(item.title) {
+                                    if let index = orSegments.firstIndex(of: item.title) {
+                                        orSegments.remove(at: index)
+                                        
+                                        var reqFulfilled = false
+                                        for orSegment in orSegments {
+                                            if ownsItem(withTitle: orSegment) {
+                                                reqFulfilled = true
+                                            }
+                                        }
+                                        if !reqFulfilled {
+                                            self[keyPath: keypath] = nil
+                                        }
+                                    }
+                                }
+                            }
+                        } else {
+                            self[keyPath: keypath] = nil
+                        }
+                    }
+                }
+            }
+            
+            for keypath in Self.arraysToCheck {
+                for classItem in self[keyPath: keypath] {
+                    if let req = classItem.requirement {
+                        if req.contains(item.title) {
+                            if req.contains(" or ") {
+                                let andSegments = req.split(separator: ";")
+                                
+                                for segment in andSegments {
+                                    var orSegments = segment.split(separator: " or ").map { $0.trimmingCharacters(in: .whitespaces) }
+                                    
+                                    if orSegments.contains(item.title) && orSegments.count == 1 {
+                                        if let index = self[keyPath: keypath].firstIndex(of: classItem) {
+                                            self[keyPath: keypath].remove(at: index)
+                                        }
+                                    }
+                                    
+                                    if orSegments.contains(item.title) {
+                                        if let orIndex = orSegments.firstIndex(of: item.title) {
+                                            orSegments.remove(at: orIndex)
+                                            
+                                            var reqFulfilled = false
+                                            for orSegment in orSegments {
+                                                if ownsItem(withTitle: orSegment) {
+                                                    reqFulfilled = true
+                                                }
+                                            }
+                                            if !reqFulfilled {
+                                                if let index = self[keyPath: keypath].firstIndex(of: classItem) {
+                                                    self[keyPath: keypath].remove(at: index)
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            } else {
+                                if let index = self[keyPath: keypath].firstIndex(of: classItem) {
+                                    self[keyPath: keypath].remove(at: index)
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            if let index = deletedItems.firstIndex(of: item) {
+                deletedItems.remove(at: index)
             }
         }
     }
@@ -239,7 +363,9 @@ import SwiftUI
                     case .decrease:
                         count -= 1
                         if count == 0 {
+                            let tempVar = variable
                             variable = nil
+                            deletedItems.append(tempVar!)
                             return
                         }
                         variable?.count = count
@@ -269,7 +395,9 @@ import SwiftUI
                     case .decrease:
                         count -= 1
                         if count == 0 {
+                            let itemToCheck = array[index]
                             array.remove(at: index)
+                            deletedItems.append(itemToCheck)
                             return
                         }
                         array[index].count = count
@@ -287,8 +415,22 @@ import SwiftUI
     }
     
     func reset<T>(_ keyPaths: [ReferenceWritableKeyPath<PlayerCharacter, T?>]) {
+        var tempArray = [Item]()
+        
         for keyPath in keyPaths {
+            if let opt = self[keyPath: keyPath] as? Item?, let item = opt {
+                tempArray.append(item)
+            }
+            
+            if let array = self[keyPath: keyPath] as? [Item] {
+                for item in array {
+                    tempArray.append(item)
+                }
+            }
+            
             self[keyPath: keyPath] = nil
         }
+        
+        deletedItems.append(contentsOf: tempArray)
     }
 }

@@ -113,6 +113,10 @@ struct CharacterView: View {
             try? modelContext.save()
             print("Saved")
         }
+        .onChange(of: character.deletedItems) {
+            character.validateRequirements()
+            try? modelContext.save()
+        }
     }
     
     func disableOption(_ string: String) -> Bool {

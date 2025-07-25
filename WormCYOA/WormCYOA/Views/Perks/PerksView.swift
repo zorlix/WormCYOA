@@ -20,12 +20,36 @@ struct PerksView: View {
             
             GridView {
                 ForEach(perks, id: \.title) { perk in
-                    ItemView(item: perk)
+                    Group {
+                        if perk.count != nil {
+                            ItemView(item: character.displayCountedItem(perk, forArr: character.perks), selected: character.isItemSelected(perk, inArr: character.perks), increase: {
+                                character.changeCount(of: perk, in: &character.perks, action: .increase)
+                                try? modelContext.save()
+                            }, decrease: {
+                                character.changeCount(of: perk, in: &character.perks, action: .decrease)
+                                try? modelContext.save()
+                            })
+                        } else {
+                            Button {
+                                character.setValue(for: &character.perks, from: perk)
+                                try? modelContext.save()
+                            } label: {
+                                ItemView(item: perk, selected: character.perks.contains(perk))
+                            }
+                            .buttonStyle(.plain)
+                        }
+                    }
+                    .disabled(character.isReqMet(of: perk))
+                    .disabled(character.isCompatible(perk))
                 }
             }
         }
         .scrollBounceBehavior(.basedOnSize)
         .defaultScrollAnchor(.top)
         .contentMargins(30, for: .scrollContent)
+        .onChange(of: character.deletedItems) {
+            character.validateRequirements()
+            try? modelContext.save()
+        }
     }
 }

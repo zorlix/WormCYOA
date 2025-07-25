@@ -31,6 +31,7 @@ struct ExtraFamilyView: View {
                     } else {
                         Button {
                             character.setValue(for: &character.extraFamily, from: family)
+                            try? modelContext.save()
                         } label: {
                             ItemView(item: family, selected: character.extraFamily.contains(family))
                         }

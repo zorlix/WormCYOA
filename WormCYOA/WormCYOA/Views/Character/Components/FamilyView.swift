@@ -28,9 +28,5 @@ struct FamilyView: View {
                 .buttonStyle(.plain)
             }
         }
-        .onChange(of: character.family) {
-            character.reset([\.homelife])
-            try? modelContext.save()
-        }
     }
 }
