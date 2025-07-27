@@ -92,6 +92,10 @@ struct CharacterView: View {
                     PureText("You've chosen to remain in your original universe. There are no characters you can choose to character-insert into because there are no characters at all in your world. Only real people. I know... boring.")
                 }
                 
+                if character.perks.contains(where: { $0.title == "Cosmetic Shapeshift" }) {
+                    CosmeticShapeshift(character: character, focused: $focused, incarnation: incarnation)
+                }
+                
             default:
                 EmptyView()
             }

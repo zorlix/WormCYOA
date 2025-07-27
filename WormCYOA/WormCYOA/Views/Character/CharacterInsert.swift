@@ -64,6 +64,10 @@ struct CharacterInsert: View {
                 ExtraFamilyView(character: character, extraFamily: incarnation["extraFamily"]!)
                 
                 HomelifeView(character: character, focused: $focused, homelife: incarnation["homelife"]!)
+                
+                if character.perks.contains(where: { $0.title == "Cosmetic Shapeshift" }) {
+                    CosmeticShapeshift(character: character, focused: $focused, incarnation: incarnation)
+                }
             }
         }
     }

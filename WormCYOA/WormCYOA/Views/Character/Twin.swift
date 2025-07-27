@@ -40,17 +40,23 @@ struct Twin: View {
             }
         }
         
-        AgeView(character: character, focused: $focused)
-        
-        EducationView(character: character, education: incarnation["education"]!)
-        
-        JobView(character: character, jobs: incarnation["jobs"]!)
-        
-        EduJobHistoryView(character: character, focused: $focused)
-        
-        ExtraFamilyView(character: character, extraFamily: incarnation["extraFamily"]!)
-        
-        HomelifeView(character: character, focused: $focused, homelife: incarnation["homelife"]!)
+        if character.twin != nil {
+            AgeView(character: character, focused: $focused)
+            
+            EducationView(character: character, education: incarnation["education"]!)
+            
+            JobView(character: character, jobs: incarnation["jobs"]!)
+            
+            EduJobHistoryView(character: character, focused: $focused)
+            
+            ExtraFamilyView(character: character, extraFamily: incarnation["extraFamily"]!)
+            
+            HomelifeView(character: character, focused: $focused, homelife: incarnation["homelife"]!)
+            
+            if character.perks.contains(where: { $0.title == "Cosmetic Shapeshift" }) {
+                CosmeticShapeshift(character: character, focused: $focused, incarnation: incarnation)
+            }
+        }
     }
     
     

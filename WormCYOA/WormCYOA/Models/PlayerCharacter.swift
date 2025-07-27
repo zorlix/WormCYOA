@@ -137,41 +137,17 @@ import SwiftUI
             return false // If it doesn't have requirement, just return false - never disable.
         }
         
-        if req.starts(with: "Age") {
-            let cleaned = req.replacingOccurrences(of: "Age", with: "").trimmingCharacters(in: .whitespaces)
-            
-            if cleaned.hasSuffix("+") {
-                let number = cleaned.dropLast()
-                if let minimumAge = Int(number) {
-                    if let unwrappedAge = age {
-                        if unwrappedAge >= minimumAge {
-                            return false
-                        }
-                    }
-                }
-            }
-            
-            if cleaned.contains("-") {
-                let parts = cleaned.split(separator: "-").compactMap { Int($0.trimmingCharacters(in: .whitespaces)) }
-                if parts.count == 2 {
-                    if let unwrappedAge = age {
-                        if unwrappedAge >= parts[0] && unwrappedAge <= parts[1] {
-                            return false
-                        }
-                    }
-                }
-            }
-            
-            return true
-        }
-        
         let andSegments = req.split(separator: ";")
         
         for segment in andSegments {
             let orSegments = segment.split(separator: " or ").map { $0.trimmingCharacters(in: .whitespaces) }
             
             let classContains = orSegments.contains(where: { requirement in
-                ownsItem(withTitle: requirement)
+                if requirement.starts(with: "Age ") {
+                    return verifyAge(from: requirement)
+                } else {
+                    return ownsItem(withTitle: requirement)
+                }
             })
             
             if !classContains {
@@ -198,6 +174,32 @@ import SwiftUI
             
             if itemArray.contains(where: { $0.title == title }) {
                 return true
+            }
+        }
+        
+        return false
+    }
+    
+    private func verifyAge(from req: String) -> Bool {
+        guard req.starts(with: "Age ") else { return false }
+        
+        let cleaned = req.replacingOccurrences(of: "Age", with: "").trimmingCharacters(in: .whitespaces)
+        
+        if cleaned.hasSuffix("+") {
+            let number = cleaned.dropLast()
+            if let minimumAge = Int(number), let unwrappedAge = age {
+                if unwrappedAge >= minimumAge {
+                    return true
+                }
+            }
+        }
+        
+        if cleaned.contains("-") {
+            let parts = cleaned.split(separator: "-").compactMap { Int($0.trimmingCharacters(in: .whitespaces)) }
+            if parts.count == 2, let unwrappedAge = age {
+                if unwrappedAge >= parts[0] && unwrappedAge <= parts[1] {
+                    return true
+                }
             }
         }
         
@@ -343,6 +345,60 @@ import SwiftUI
             
             if let index = deletedItems.firstIndex(of: item) {
                 deletedItems.remove(at: index)
+            }
+        }
+    }
+    
+    func validateAgeReq() {
+        for keypath in Self.itemsToCheck {
+            if let classItem = self[keyPath: keypath], let req = classItem.requirement {
+                if req.contains("Age ") {
+                    let andSegments = req.split(separator: ";")
+                    
+                    for segment in andSegments {
+                        var orSegments = segment.split(separator: " or ").map { $0.trimmingCharacters(in: .whitespaces) }
+                        
+                        let fulfilled = orSegments.contains(where: { requirement in
+                            if requirement.starts(with: "Age ") {
+                                return verifyAge(from: requirement)
+                            } else {
+                                return true
+                            }
+                        })
+                        
+                        if !fulfilled {
+                            self[keyPath: keypath] = nil
+                        }
+                    }
+                }
+            }
+        }
+        
+        for keypath in Self.arraysToCheck {
+            for classItem in self[keyPath: keypath] {
+                if let req = classItem.requirement {
+                    if req.contains("Age ") {
+                        let andSegments = req.split(separator: ";")
+                        
+                        for segment in andSegments {
+                            var orSegments = segment.split(separator: " or ").map { $0.trimmingCharacters(in: .whitespaces) }
+                            
+                            let fulfilled = orSegments.contains(where: { requirement in
+                                if requirement.starts(with: "Age ") {
+                                    return verifyAge(from: requirement)
+                                } else {
+                                    return true
+                                }
+                            })
+                            
+                            if !fulfilled {
+                                if let index = self[keyPath: keypath].firstIndex(of: classItem) {
+                                    self[keyPath: keypath].remove(at: index)
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
