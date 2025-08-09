@@ -27,7 +27,7 @@ struct ScenarioView: View {
                 case "Crossover":
                     Text("Coming soon...")
                 case "No Transfer":
-                    MinorHeadline(text: "No Transfer")
+                    MinorHeadline(text: "No transfer")
                     PureText("You've chosen to remain in your original universe, so there are no scenarios to be picked. You will remain exactly where you are, when you are. No reason to send you back or forward in time in your own home universe.\nThis also means that you will not receive extra points for picking certain scenarios.")
                 default:
                     EmptyView()

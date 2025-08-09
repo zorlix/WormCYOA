@@ -14,27 +14,48 @@ struct PerksView: View {
     
     let perks: [Item] = Bundle.main.decode("perks.json")
     
+    @State private var searchString = ""
+    
+    var filteredPerks: [Item] {
+        if searchString.isEmpty {
+            return perks
+        } else {
+            return perks.filter { perk in
+                perk.title.localizedStandardContains(searchString)
+            }
+        }
+    }
+    
     var body: some View {
         ScrollView {
             Headline(heading: "Perks", subheading: "Perks are beneficial side effects.")
             
             GridView {
-                ForEach(perks, id: \.title) { perk in
+                ForEach(filteredPerks, id: \.title) { perk in
                     Group {
                         if perk.count != nil {
-                            ItemView(item: character.displayCountedItem(perk, forArr: character.perks), selected: character.isItemSelected(perk, inArr: character.perks), increase: {
-                                character.changeCount(of: perk, in: &character.perks, action: .increase)
-                                try? modelContext.save()
-                            }, decrease: {
-                                character.changeCount(of: perk, in: &character.perks, action: .decrease)
-                                try? modelContext.save()
-                            })
+                            ItemView(
+                                item: character.displayCountedItem(perk, forArr: character.perks),
+                                selected: character.isItemSelected(perk, inArr: character.perks),
+                                subItems: character.processSubItems(perk.subItems),
+                                increase: {
+                                    character.changeCount(of: perk, in: &character.perks, action: .increase)
+                                    try? modelContext.save()
+                                },
+                                decrease: {
+                                    character.changeCount(of: perk, in: &character.perks, action: .decrease)
+                                    try? modelContext.save()
+                                })
                         } else {
                             Button {
                                 character.setValue(for: &character.perks, from: perk)
                                 try? modelContext.save()
                             } label: {
-                                ItemView(item: perk, selected: character.perks.contains(perk))
+                                ItemView(
+                                    item: perk,
+                                    selected: character.perks.contains(perk),
+                                    subItems: character.processSubItems(perk.subItems)
+                                )
                             }
                             .buttonStyle(.plain)
                         }
@@ -47,9 +68,10 @@ struct PerksView: View {
         .scrollBounceBehavior(.basedOnSize)
         .defaultScrollAnchor(.top)
         .contentMargins(30, for: .scrollContent)
+        .searchable(text: $searchString)
         .onChange(of: character.perks) { oldValue, newValue in
             if oldValue.contains(where: { $0.title == "Cosmetic Shapeshift" }) && !newValue.contains(where: { $0.title == "Cosmetic Shapeshift" }) {
-                if character.overtakenIdentity != nil || character.twin != nil || character.incarnationMethod?.title == "Drop–In" {
+                if character.overtakenIdentity != nil || character.twin != nil || character.incarnationMethod?.title == "Drop-In" {
                     character.reset([\.sex, \.appearance])
                     character.reset([\.appearanceDesc])
                     try? modelContext.save()

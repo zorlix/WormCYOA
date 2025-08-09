@@ -15,7 +15,7 @@ struct ExtraFamilyView: View {
     let extraFamily: [Item]
     
     var body: some View {
-        Headline(heading: "Extra Family", subheading: "Do you wish to have some extra family members? Do you wish to have some siblings or cousins? Perhaps you're old enough and you have a wife of your own, or even children.\nNote: If you've chosen to character-insert into a canon character, or if you've chosen to become a twin or a family member of a canon character, these choices may result in significant changes to the family's dynamic.")
+        Headline(heading: "Extra Family", subheading: "Do you wish to have some extra family members? Do you wish to have some siblings or cousins? Perhaps you're old enough and you have a wife of your own, or even children.\nNote: If you've chosen to Character-Insert into a canon character, or if you've chosen to become a twin or a family member of a canon character, these choices may result in significant changes to the family's dynamic.")
         
         GridView {
             ForEach(extraFamily, id: \.title) { family in

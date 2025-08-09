@@ -24,7 +24,7 @@ struct BasicCharacterInfo: View {
                 
                 ItemView(item: identity)
                 
-                PureText("You've chosen to character-insert into \(identity.title). This means that you'll asume the position of this character in your selected universe. Their name will be your name, their history will be your history, and their cape name will be your cape name.\nAfter your arrival, you're of course welcome to change what you wish.\nPlease fill the text fields below with relevant information to from your selected character's card.\nWarning: Filling in incorrect information might result in changes in your chosen world.")
+                PureText("You've chosen to Character-Insert into \(identity.title). This means that you'll asume the position of this character in your selected universe. Their name will be your name, their history will be your history, and their cape name will be your cape name.\nAfter your arrival, you're of course welcome to change what you wish.\nPlease fill the text fields below with relevant information to from your selected character's card.\nWarning: Filling in incorrect information might result in changes in your chosen world.")
             }
             
             if let twin = character.twin {
@@ -32,7 +32,7 @@ struct BasicCharacterInfo: View {
                 
                 ItemView(item: twin)
                 
-                PureText("You've chosen to reincarnate as an identical twin of \(twin.title). Because this is a reincarnation as opposed to character-insertion, canon events will be ever so slightly adjusted so as to accomodate your presence in this character's family. By default, the changes to canon are going to be as minor as possible.\nSeeing as you will be your own person, you are allowed to choose your own name. However, consider choosing the same last name as this character. Doing otherwise may alter your character's backstory to make sense of two siblings — twins, at that — having a different last name.")
+                PureText("You've chosen to reincarnate as an identical twin of \(twin.title). Because this is a Reincarnation as opposed to Character-Insertion, canon events will be ever so slightly adjusted so as to accomodate your presence in this character's family. By default, the changes to canon are going to be as minor as possible.\nSeeing as you will be your own person, you are allowed to choose your own name. However, consider choosing the same last name as this character. Doing otherwise may alter your character's backstory to make sense of two siblings — twins, at that — having a different last name.")
             }
             
             if let familyMember = character.familyMember {
@@ -51,20 +51,20 @@ struct BasicCharacterInfo: View {
                         character.name = newValue.isEmpty ? nil : newValue
                     }
                 )
-                TextField("Character Name", text: name, axis: .vertical)
+                TextField("Character name", text: name, axis: .vertical)
                     .textfieldStyle()
                     .focused($focused)
             }
             
             VStack {
-                MinorHeadline(text: "Cape Name")
+                MinorHeadline(text: "Cape name")
                 let capeName = Binding<String>(
                     get: { character.capeName ?? "" },
                     set: { newValue in
                         character.capeName = newValue.isEmpty ? nil : newValue
                     }
                 )
-                TextField("Cape Name", text: capeName, axis: .vertical)
+                TextField("Cape name", text: capeName, axis: .vertical)
                     .textfieldStyle()
                     .focused($focused)
             }
@@ -82,7 +82,7 @@ struct BasicCharacterInfo: View {
                     .focused($focused)
             }
             
-            Headline(heading: "Gender", subheading: "Your new body is going to be created to be a perfect fit for your consciousness. With one exception: You are free to choose to reincarnate as any sex you want, you can also character-insert into both men and women. This might cause problems if your gender is different from your sex.\nDo you wish to tweak your consciousness a little so as to change your gender identity?")
+            Headline(heading: "Gender", subheading: "Your new body is going to be created to be a perfect fit for your consciousness. With one exception: You are free to choose to reincarnate as any sex you want, you can also Character-Insert into both men and women. This might cause problems if your gender is different from your sex.\nDo you wish to tweak your consciousness a little so as to change your gender identity?")
             GridView {
                 ForEach(genders, id: \.title) { gender in
                     Button {

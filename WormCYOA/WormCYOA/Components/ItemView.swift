@@ -10,9 +10,15 @@ import SwiftUI
 struct ItemView: View {
     let item: Item
     var selected: Bool = false
+    var subItems: [SubItem]? = nil
     var difficulty: Item?
     
-    var descriptionFormatted: [String] { item.desc.components(separatedBy: "\n") }
+    var descriptionFormatted: [String] {
+        item.desc
+            .components(separatedBy: .newlines)
+            .map { $0.trimmingCharacters(in: .whitespaces) }
+            .filter { !$0.isEmpty }
+    }
     
     var points: [String: Int] {
         var tempDict = [String: Int]()
@@ -133,15 +139,54 @@ struct ItemView: View {
             
             if let comment = item.comment {
                 Text(comment)
+                    .multilineTextAlignment(.center)
                     .font(.footnote)
                     .italic()
                     .padding(.bottom, 10)
             }
             
             ForEach(descriptionFormatted, id: \.self) { paragraph in
-                Text(paragraph)
+                Text(.init(paragraph))
                     .multilineTextAlignment(.center)
                     .padding(.bottom, descriptionFormatted.last == paragraph ? 0 : 5)
+            }
+            
+            if let subItems = subItems {
+                ForEach(subItems, id: \.self) { subItem in
+                    VStack {
+                        Text(subItem.title)
+                            .font(.title)
+                            .fontWeight(.semibold)
+                            .multilineTextAlignment(.center)
+                        
+                        Text("Synergy: \(subItem.synergy)")
+                            .multilineTextAlignment(.center)
+                            .font(.caption)
+                            .padding(.bottom, 10)
+                        
+                        if let comment = subItem.comment {
+                            Text(comment)
+                                .multilineTextAlignment(.center)
+                                .font(.footnote)
+                                .italic()
+                                .padding(.bottom, 10)
+                        }
+                        
+                        let paragraphs = subItem.desc
+                            .components(separatedBy: .newlines)
+                            .map { $0.trimmingCharacters(in: .whitespaces) }
+                            .filter { !$0.isEmpty }
+                        
+                        ForEach(paragraphs, id: \.self) { paragraph in
+                            Text(.init(paragraph))
+                                .multilineTextAlignment(.center)
+                                .padding(.bottom, paragraphs.last == paragraph ? 0 : 5)
+                        }
+                    }
+                    .padding()
+                    .background(selected ? ((subItem.isSelected ?? false) ? .subItemSelected : .subItemBasic) : .subItemBasic)
+                    .padding(.top, 8)
+                }
             }
         }
         .frame(maxWidth: .infinity)
@@ -156,22 +201,22 @@ struct ItemView: View {
     }
 }
 
-#Preview {
-    NavigationStack {
-        let showingImage = ShowingImages()
-        
-        ScrollView {
-            Button {
-                
-            } label: {
-                ItemView(item: .example, selected: false, difficulty: Item(title: "Standard", SPCost: 12, desc: "sksk"))
-                    .environment(showingImage)
-            }
-            .buttonStyle(.plain)
-        }
-        .navigationTitle("Character")
-        .navigationBarTitleDisplayMode(.inline)
-        .contentMargins(20, for: .scrollContent)
-    }
-    .preferredColorScheme(.dark)
-}
+//#Preview {
+//    NavigationStack {
+//        let showingImage = ShowingImages()
+//        
+//        ScrollView {
+//            Button {
+//                
+//            } label: {
+//                ItemView(item: .example, selected: false, difficulty: Item(title: "Standard", SPCost: 12, desc: "sksk"))
+//                    .environment(showingImage)
+//            }
+//            .buttonStyle(.plain)
+//        }
+//        .navigationTitle("Character")
+//        .navigationBarTitleDisplayMode(.inline)
+//        .contentMargins(20, for: .scrollContent)
+//    }
+//    .preferredColorScheme(.dark)
+//}

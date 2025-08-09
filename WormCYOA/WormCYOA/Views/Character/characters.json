@@ -24,18 +24,18 @@
     "incarnationMethods": [
         {
             "title": "Character-Insert",
-            "incompatibility": "Setting — No Transfer",
-            "desc": "You will replace one of the people that already exist on your chosen world. This includes any of your chosen companions, so do not try to pick the same person as your character-insert and companion.\nYou will keep their power if they have already triggered, in addition to any powers you choose here. Even if they haven't triggered yet, their future Shard will still be interested in them (you), and a trigger event may still occur in the future. However, this is very likely to result in a very different power than their original one (although, there may be similarities). After all, every trigger event is different.\nYou shall also have all their memories and skills, and you'll be able to imitate them perfectly. You can decide how far you merge, if it'll just be your mind in their body with their memories and skills, or if your personalities will merge completely.\nShould you desire to do so, you can propose a way to make this work that would not result in you stealing their body and/or mind. ",
+            "incompatibility": "No Transfer",
+            "desc": "You will replace one of the people that already exist on your chosen world. This includes any of your chosen companions, so do not try to pick the same person as your Character-Insert and companion.\nYou will keep their power if they have already triggered (and of course, if they had one in the first place), in addition to any powers you choose here. Even if they haven't triggered yet, their future Shard will still be interested in them (you), and a trigger event may still occur in the future. However, this is very likely to result in a very different power than their original one (although, there may be similarities). After all, every trigger event is different.\nIn essence, this will result in you being connected to two Shards (unless you chose to be Shardless), and unlike the way it normally works, you will be able to trigger even if you already have the Shard you picked in this CYOA.\nYou shall also have all their memories and skills, and you'll be able to imitate them perfectly. You can decide how far you merge, if it'll just be your mind in their body with their memories and skills, or if your personalities will merge completely.\nShould you desire to do so, you can propose a way to make this work that would not result in you stealing their body and/or mind. ",
             "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/incarnation/methods/character-insert.webp"
         },
         {
             "title": "Reincarnation",
-            "incompatibility": "Setting — No Transfer",
-            "desc": "Pick this, and you will be reborn into your chosen world in your own body. In practice, it'll work like this:\nEvents will be slighly manipulated in such a way that whoever your new parents end up being, they will conceive you on top of their other children, should they even have any. You will then be born as their child. It'll be your soul in your new body, however, you will not remember anything about your old life. For all intents and purposes, you'll just be a normal child.\nThen, when the time of your chosen Scenario comes, the suppressed memories of your old life will return and the abilities, perks and drawbacks you'll choose in this CYOA will come into effect.\nYou can decide how much of an impact the years your unaware self spent will have on your whole self. You may choose to only keep the memories with little to no emotinal weight behind them. Or you may treat those memories truly as your memories, in which case they mean to you as much as the memories of your old life.\nJust keep in mind that even though you will be unaware of your past and the truth of the situation, deep down you will still be you.",
+            "incompatibility": "No Transfer",
+            "desc": "Pick this, and you will be reborn into your chosen world in your own body. In practice, it'll work like this:\nEvents will be slighly manipulated in such a way that whoever your new parents end up being, they will conceive you on top of their other children, should they even have any. You will then be born as their child. It'll be your soul in your new body, however, you will not remember anything about your old life. For all intents and purposes, you'll just be a normal child.\nThen, when the time of your chosen scenario comes, the suppressed memories of your old life will return and the abilities, perks and drawbacks you'll choose in this CYOA will come into effect.\nYou can decide how much of an impact the years your unaware self spent will have on your whole self. You may choose to only keep the memories with little to no emotinal weight behind them. Or you may treat those memories truly as your memories, in which case they mean to you as much as the memories of your old life.\nJust keep in mind that even though you will be unaware of your past and the truth of the situation, deep down you will still be you.",
             "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/incarnation/methods/reincarnation.png"
         },
         {
-            "title": "Drop–In",
+            "title": "Drop-In",
             "SPGain": 8,
             "CPGain": 8,
             "desc": "You will be dropped into your chosen world as you are now. Obviously, you will have no official identity wherever you end up.",
@@ -49,11 +49,11 @@
         },
         {
             "title": "Twin",
-            "desc": "You'll become the twin of an existing character. With this option you can also choose to either have the same power as this character, or you may leave things to chance.\nIf you choose to accept the same power as this individual, the two of you will have triggered at the same time (similarly to Fenja and Menja). You will be connected to the same Shard, much like two clones with identical memories might be.\nIf you choose to leave things to chance, you will have a bud of that Shard, and therefore you will have a somewhat similar but different power, and you will have had a different trigger event.\nIn such a case, if your age is greater then 6, you will already have had your trigger event. If not, then you will only gain this power when you go through a situation appropriate enough to trigger you. The power will chosen at random."
+            "desc": "You'll become the twin of an existing character. With this option you can also choose to either have the same power as this character (if they actually had any), or you may leave things to chance.\nIf you choose to accept the same power as this individual, the two of you will have triggered at the same time (similarly to Fenja and Menja). You will be connected to the same Shard, much like two clones with identical memories might be.\nIf you choose to leave things to chance, you will have a bud of that Shard, and therefore you will have a somewhat similar but different power, and you will have had a different trigger event.\nIn such a case, if your age is greater then 6, you will already have had your trigger event. If not, then you will only gain this power when you go through a situation appropriate enough to trigger you. The power will chosen at random.\nUnless you chose to be Shardless, this means that you will effectively be connected to two Shards – your twin's own Shard and the one you picked in this CYOA – and unlike the way it normally works, you might become connected to them separately."
         },
         {
             "title": "Family Member",
-            "desc": "You'll be a part of an existing character's family. With this option, you will have a bud of this character's Shard. Your power will be similar but somewhat different. The power will chosen at random.\nIf the age of your new self is greater then 6, you will have already had your trigger event. If not, then you will only gain this power when you go through a situation appropriate enough to trigger you.\nNote that this person must not be a twin of the chosen character. And if you're trying to assume a role in a family that is already \"filled\" with another existing character, this option may drastically alter the family's situation (and potentially more).\nFor example, if you use this to become the father of the Dallon family, events will be adjusted so that you will be the husband of Carol Dallon and the father of Victoria Dallon, but you will not become Mark Dallon (for that, choose to character-insert into him). What will happen Mark? Who knows!"
+            "desc": "You'll be a part of an existing character's family. With this option, you will have a bud of this character's Shard. Your power will be similar but somewhat different. The power will chosen at random.\nIf the age of your new self is greater then 6, you will have already had your trigger event. If not, then you will only gain this power when you go through a situation appropriate enough to trigger you.\nUnless you chose to be Shardless, this means that you will effectively be connected to two Shards – the character's own Shard and the one you picked in this CYOA – and unlike the way it normally works, you might become connected to them separately.\nNote: This person must not be a twin of the chosen character. And if you're trying to assume a role in a family that is already 'filled' with another existing character, this option may drastically alter the family's situation (and potentially more).\nFor example, if you use this to become the father of the Dallon family, events will be adjusted so that you will be the husband of Carol Dallon and the father of Victoria Dallon, but you will not become Mark Dallon (for that, choose to Character-Insert into him). What will happen Mark? Who knows!"
         }
     ],
     "sex": [
@@ -114,12 +114,12 @@
         {
             "title": "Elementary School Student",
             "requirement": "Age 5-10",
-            "desc": "You will be going to an elementary school. You may choose which elementary school you'll be attending (assuming you know any in the Setting that you've chosen). You may also choose to attend school with a known character, even if you don't know precisely which school they go to. Otherwise, it'll chosen at random.\nIf you've chosen to reincarnate as a child, then you are pretty much required to select this. You may choose not to, but that is likely to result in unwanted consequences. After all, for what reason would a child between 5 and 10 not go to school?\nThe answer to that will vary depending on your choice of Perks, Drawbacks and other Character information, but it is legally required for children that young to receive education (at least, in USA).\nTherefore, not going to school could be because of your family, in which case they are neglectul at best and are likely to get into trouble soon, or maybe because of your health. Hell, it could even be that you are wanted by the law even at that age. Maybe your trigger event went wrong?"
+            "desc": "You will be going to an elementary school. You may choose which elementary school you'll be attending (assuming you know any in the setting that you've chosen). You may also choose to attend school with a known character, even if you don't know precisely which school they go to. Otherwise, it'll chosen at random.\nIf you've chosen to reincarnate as a child, then you are pretty much required to select this. You may choose not to, but that is likely to result in unwanted consequences. After all, for what reason would a child between 5 and 10 not go to school?\nThe answer to that will vary depending on your choice of perks, drawbacks and other character information, but it is legally required for children that young to receive education (at least, in USA).\nTherefore, not going to school could be because of your family, in which case they are neglectul at best and are likely to get into trouble soon, or maybe because of your health. Hell, it could even be that you are wanted by the law even at that age. Maybe your trigger event went wrong?"
         },
         {
             "title": "Middle School Student",
             "requirement": "Age 11-14",
-            "desc": "You'll be attending a middle school. You may choose which middle school you'll be attending (assuming you know any in the Setting that you've chosen). You may also choose to attend school with a known character, even if you don't know precisely which school they go to. Otherwise, it'll chosen at random. If you've chosen to reincarnate as a child between 11 and 14, you are pretty much required to take this. You may choose not to, but that is likely to result in unwanted consequences. After all, for what reason would a child between 11 and 14 not go to school? The answer to that will vary depending on your choice of Perks, Drawbacks and other Character information, but it is legally required for children that young to receive education (at least, in USA). Therefore, not going to school could be because of your family, in which case they are neglectul at best and are likely to get into trouble soon, or maybe because of your health. Hell, it could even be that you are wanted by the law even at that age. Maybe your trigger event went wrong?"
+            "desc": "You'll be attending a middle school. You may choose which middle school you'll be attending (assuming you know any in the setting that you've chosen). You may also choose to attend school with a known character, even if you don't know precisely which school they go to. Otherwise, it'll chosen at random. If you've chosen to reincarnate as a child between 11 and 14, you are pretty much required to take this. You may choose not to, but that is likely to result in unwanted consequences. After all, for what reason would a child between 11 and 14 not go to school? The answer to that will vary depending on your choice of perks, drawbacks and other character information, but it is legally required for children that young to receive education (at least, in USA). Therefore, not going to school could be because of your family, in which case they are neglectul at best and are likely to get into trouble soon, or maybe because of your health. Hell, it could even be that you are wanted by the law even at that age. Maybe your trigger event went wrong?"
         },
         {
             "title": "Middle School Graduate",
@@ -129,7 +129,7 @@
         {
             "title": "High School Student",
             "requirement": "Age 14-18",
-            "desc": "You will be a high school student. You may choose which high school you'll be attending (assuming you know any in the Setting that you've chosen). You may also choose to attend school with a known character, even if you don't know precisely which school they go to. Otherwise, it'll chosen at random.\nIf you're reincarnating into a body younger than 16, it's safer to select this anyway. Many areas have compulsary education at least until that age."
+            "desc": "You will be a high school student. You may choose which high school you'll be attending (assuming you know any in the setting that you've chosen). You may also choose to attend school with a known character, even if you don't know precisely which school they go to. Otherwise, it'll chosen at random.\nIf you're reincarnating into a body younger than 16, it's safer to select this anyway. Many areas have compulsary education at least until that age."
         },
         {
             "title": "High School Graduate",
@@ -160,7 +160,7 @@
         {
             "title": "College/University Student",
             "requirement": "Age 18+",
-            "desc": "You will currently be a student at a college or university. You may choose which college you'll be attending (assuming you know any in the Setting that you've chosen). You may also choose to attend college with a known character, even if you don't know precisely which school they go to. Otherwise, it'll chosen at random."
+            "desc": "You will currently be a student at a college or university. You may choose which college you'll be attending (assuming you know any in the setting that you've chosen). You may also choose to attend college with a known character, even if you don't know precisely which school they go to. Otherwise, it'll chosen at random."
         },
         {
             "title": "College/University Graduate",
@@ -205,7 +205,7 @@
             "desc": "You (and your siblings, should you choose to have any) will have no-one.\nYour parents will be out of the picture completely, and you won't have any other family. You're on your own."
         },
         {
-            "title": "New Family is Old Family",
+            "title": "New Family Is Old Family",
             "CPCost": 15,
             "desc": "You will not be alone in your new life. Most, if not all, of your current family members will be reincarnated along with you. This also applies to your beloved pets.\nThey will not have a build of their own, and they will not be aware that they've been reincarnated. As far as they'll be concerned, they'll have been born in the other world, and they'll have lived their entire lives there.\nThere is a small possibility that they'll have gained a parahuman power somewhere along the line. If they for some strange reason already have a special ability that is not parahuman in nature, this ability will somehow be converted to fit into the world you're about to enter.\nIf there are certain members in your family you do not want to be bring along, you can choose to leave them behind. You can also choose to bring your extended family if you wish to.\nYou are still allowed to 'purchase' some more siblings and/or cousins with the following options, but do keep in mind that this might change your family dynamic or perhaps even change them as people."
            
@@ -225,6 +225,7 @@
         {
             "title": "Spouse",
             "CPCost": 10,
+            "incompatibility": "Lonely",
             "requirement": "Age 18+",
             "desc": "By the time you awaken in your chosen world, you will already be married to a loving spouse.\nNote: Your  spouse is guaranteed to very compatible with you, but that doesn't necessarily mean that your relationship will last. If you allow it, your relationship may very well fall apart."
         },
@@ -238,8 +239,8 @@
     ],
     "homelife": [
         {
-            "title": "Same as before",
-            "requirement": "New Family is Old Family",
+            "title": "Same as Before",
+            "requirement": "New Family Is Old Family",
             "desc": "Have you chosen to take your old family along for the ride? If so, then this option will not change anything about your homelife, and it'll remain the same in this new world you're about to enter."
         },
         {

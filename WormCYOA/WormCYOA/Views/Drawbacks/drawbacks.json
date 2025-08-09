@@ -1,3 +1,1904 @@
 [
+    {
+        "title": "Case 53",
+        "SPGain": 10,
+        "CPGain": 10,
+        "incompatibility": "Shardless; Cover Story",
+        "desc": "When your Shard connects to you, your appearance will mutate into a non-human form. Your new appearance may or may not in some way reflect your chosen powerset.\nThis will open up a new section in the Character tab where you may customize your Case 53 form. ",
+        "image": ""
+    },
+    {
+        "title": "Cauldron Tattoo",
+        "SPGain": 5,
+        "CPGain": 10,
+        "incompatibility": "Drop-In",
+        "desc": "Your backstory will be altered in a significant way. Somehow, someway you had dealings with Cauldron in the past (prior to your awakening). Perhaps you worked for them for a while, perhaps they kidnapped you because you weren’t cooperative, and they needed you for something. Perhaps you are a Case 53. Either way, Cauldron will be aware of you, and your relationship with them will not be strictly friendly. Or at the very least, they will not consider you a valuable colleague.\nThis means that Cauldron will have thorough knowledge of youor abilities, and that includes the abilities and bonuses gained from perks (though perhaps there may be some they are not aware of). In fact, your perks may have been exactly the reason why they reached out to you.\nNote: This relationship may be altered by other drawbacks and perks such as Cauldron Membership, Cauldron Debt, or Cauldron Amnesia.",
+        "image": ""
+    },
+    {
+        "title": "Cauldron Debt",
+        "SPGain": 5,
+        "CPGain": 15,
+        "incompatibility": "Drop-In; Cauldron Amnesia",
+        "requirement": "Shard of the Thinker Entity",
+        "desc": "You did not go through a ‘natural’ trigger event, but you gained your powers from a Cauldron vial that you purchased from the organization. This means that you still owe them money for your vial. You will owe $100,000 for every SP you gained in this CYOA. You will still need to pay this back, though reincarnations into a rich family or the Wealthy perk may make this easy.\nYou also owe them 3 favors of their choosing, to be called in whenever they wish.\nNote: Cauldron may be willing to make a deal with to do away with your debt in exchange for more favors or more direct cooperation. Alternatively, they may be willing to do away with the debt and the favors in exchange for your knowledge of the Shard network and your future knowledge. ",
+        "image": ""
+    },
+    {
+        "title": "Cauldron Amnesia",
+        "SPGain": 25,
+        "CPGain": 50,
+        "incompatibility": "Drop-In; Cauldron Debt; Clean Slate; Half of Who I Am; What Do You Mean I Did This to Myself?",
+        "requirement": "Case 53",
+        "desc": "In your past, you purchased a vial from Cauldron, and that is how you gained your abilities. Unfortunately for you, your vial did not connect properly, and you suffered severe deviations. As such, Cauldron put you through the Slug and destroyed all your memories. You will awaken right as they dumped you in the location of your choosing (in the Setting tab). Therefore, you will not remember anything of your past.",
+        "image": ""
+    },
+    {
+        "title": "Pint Sized",
+        "CPGain": 10,
+        "requirement": "Drop-In",
+        "desc": "Your body will be aged down to somewhere between 6 and 12 years old. You will age normally but cannot use powers to age yourself up. Your physical abilities will be reduced to match your age. Adults will not take you seriously and your independence will be severely limited.",
+        "image": ""
+    },
+    {
+        "title": "Childlike",
+        "SPGain": 5,
+        "CPGain": 10,
+        "incompatibility": "Who Wants to Live Forever",
+        "requirement": "Pint Sized or Age 1-12",
+        "desc": "You will not age. This grants some of the same benefits as the perk Who Wants to Live Forever. However, you will be stuck as a child forever. Powers and perks will cannot permanently negate this, though temporary power-ups will allow you to look like an adult while under its effects.\nIf you’ve taken the perk Countdown, once the conditions have been achieved, you will grow into an adult and stop again again.",
+        "image": ""
+    },
+    {
+        "title": "Won't Somebody Please Think of the Children!?",
+        "CPGain": 15,
+        "requirement": "Pint Sized or Age 1-12",
+        "desc": "Whether it’ll be a concerned citizen, a responsible adult, or even a school principal, someone will have alerted child services that you, a child, have endangered yourself and used your abilities recklessly (in their opinion).\nNow, child services will be hot on your trail, aiming to protect you. You may be forced to join the Wards, and you will be monitored to make sure you’re not trying to go out as a cape on your own. If you’re a Tinker, all your creations will be confiscated, and you will only be allowed to use them as a Ward. Your family will not be allowed to monitor you on their own, as doing so would be deemed too dangerous, and you would be removed from their care. \nIf you decide to go against this and ditch the PRT monitoring, you will effectively have go on the run. If you’re caught, you will become a probationary Ward. If you’ve caused too much damage trying to escape, you will be considered a Villain and will be locked up upon capture (though not necessarily to prison).",
+        "image": ""
+    },
+    {
+        "title": "Conscious Geas",
+        "count": 0,
+        "SPGain": 3,
+        "CPGain": 8,
+        "desc": "A powerful Geas will be placed upon you, a magical compulsion you will be bound to obey. Even if you are immune to Master/Stranger powers, this Geas will still affect you.\nYou will be fully aware of your Geas and it won't mentally corrupt you, but resisting it will be impossible. Should you try to disobey, your body will move on its own, forcing compliance. For instance, if your Geas is 'be a good person,' you'll find yourself compelled to perform actions aligned with your personal interpretation of what a good person would do.\nThe more specific your Geas, the more debilitating and painful resistance will become. A general Geas, like 'be a good person,' might only cause mild discomfort (e.g., heartburn) for minor transgressions like being an asshole or petty theft. However, a specific Geas such as 'never steal' will result in immediate paralysis and agonizing pain, feeling as if hundreds of red-hot needles were being forced into every nerve in your body should you attempt to steal.",
+        "image": ""
+    },
+    {
+        "title": "Unconscious Geas",
+        "count": 0,
+        "SPGain": 8,
+        "CPGain": 3,
+        "desc": "A powerful Geas will be placed upon you, a magical compulsion you will be bound to obey. Even if you are immune to Master/Stranger powers, this Geas will still affect you.\nYou will be entirely unaware of your Geas, and its effects will be purely mental. For example, if your chosen Geas is 'be a good person,' you'll find yourself genuinely striving to be a good person. This compulsion will not be caused by your Shard, if you have one.\nTo be clear, you will forget that you chose this perk, even if you remember all your other choices. The more general the Geas, the less it will affect your personality: if your Geas is to 'be good,' you'll find yourself a significantly better person, or at least trying to be, yet you might still occasionally do something you know isn't good due to selfishness, revenge, or another reason, without much reluctance. However, if your Geas is more specific, like to 'not steal,' you'll obsessively hate the idea of stealing and likely won't be able to do it, even if it could stop the Entity from ending all worlds.",
+        "image": ""
+    },
+    {
+        "title": "Enmity",
+        "CPGain": 10,
+        "desc": "You'll find you have a knack for pissing off people with opposing viewpoints. Something about you will cause individuals with incompatible perspectives to develop an unnatural dislike of you. This will easily lead to arguments when you encounter them, create friction in collaborative settings, and turn any attempt to interact with those holding different views into a pissing contest.",
+        "image": ""
+    },
+    {
+        "title": "Odd",
+        "CPGain": 10,
+        "desc": "Your outsider nature will be palpable, drawing all the wrong kinds of attention. Expect to be treated poorly by others.",
+        "image": ""
+    },
+    {
+        "title": "In One Ear...",
+        "CPGain": 10,
+        "incompatibility": "Explained",
+        "desc": "You will find yourself unable to explain your powers to others. Or to be more accurate – nobody will believe you or try to understand what you're telling them. Only the people who truly trust you will actually listen.",
+        "image": ""
+    },
+    {
+        "title": "Murphy",
+        "CPGain": 10,
+        "desc": "You will seem to be a walking, talking failure of basic operational security. Even if you consciously try, you'll tend to inadvertently reveal information about yourself. And whenever you do slip up, that information will somehow reach the ears of those who can actually use it. It's safe to say your enemies might know where you live, work, relax, and even the name of your pet poodle.",
+        "image": ""
+    },
+    {
+        "title": "Weak Body",
+        "CPGain": 10,
+        "desc": "Your physical traits will be below average compared to the general population. It will take you twice as long to build strength as it does for others, and your immune system will be weak, causing you to fall ill frequently.",
+        "image": "",
+        "subItems": [
+            {
+                "title": "Overtaxed Body",
+                "synergy": "Olympic",
+                "desc": "Congratulations, your body will be enhanced beyond average, to the point where some might mistake you for a Parahuman. Unfortunately, this will come with many different side effects.\nMuch like those with Hyperesthesia, Osteopetrosis, and Myostatin-related muscle hypertrophy, your body will be overwhelmed by its own enhancements in certain areas. Your increased muscle mass will cause cramps and joint pain. Your increased bone density will make it harder to swim and easier to suffer fractures. Your heightened sensitivity means you'll be overstimulated more easily.\nOverall, your body will be more prone to disease as nutrients are heavily utilized by your muscles and bones. You will be stronger than others, but without careful health regulation, you will easily become wracked with sickness and pain."
+            }
+        ]
+    },
+    {
+        "title": "Diseased",
+        "CPGain": 15,
+        "requirement": "Weak Body",
+        "desc": "Your poor constitution will result in you getting infected by some kind of disease. It could be mundane or magical, but it will be incurable at first. A cure may eventually be discovered, but until then, you must navigate life with this affliction, adapting to its challenges and finding ways to manage your symptoms as best as possible.\nSymptoms could include chronic fatigue, periodic fevers, intense muscle pain, and sporadic coughing fits. At times, your condition might flare up, leaving you bedridden and unable to perform even the simplest of tasks.",
+        "image": ""
+    },
+    {
+        "title": "Terminally Ill",
+        "CPGain": 25,
+        "requirement": "Weak Body; Diseased",
+        "desc": "You won't just be weak and sick; you will be terminally ill. Whether it's Cancer, Heart Disease, or some obscure illness, you will be incurably sick.\nYou cannot fix this with your starting abilities, at least not immediately. You might be able to figure something out later, and a cure may also be discovered by others at a later date.\nSymptoms could include chronic fatigue, periodic fevers, intense muscle pain, and sporadic coughing fits. At times, your condition might flare up, leaving you bedridden and unable to perform even the simplest of tasks.\nAs the name of the drawback implies, unless you manage to find a cure in time, this will eventually kill you unless you manage to cure yourself.",
+        "image": ""
+    },
+    {
+        "title": "It's Called Suffering",
+        "SPGain": 15,
+        "CPGain": 15,
+        "desc": "One year after your arrival, you will suffer a horrible, unavoidable death. This death will be torturously painful and traumatic. If you have some method to revive yourself, it will activate as normal, but anyone who isn't insane is guaranteed to be traumatized by witnessing it.",
+        "image": ""
+    },
+    {
+        "title": "Vegas Sendoff",
+        "SPGain": 20,
+        "CPGain": 20,
+        "desc": "You will wake up in a doctor's office in the middle of nowhere after being shot twice in the head and left for dead in a shallow grave outside of town, with no memory of why or how you got there. You won't remember your own name and only hazy fragments of your memories from the last few months will remain. Luckily, this will only have a very minor impact on your character and personality.\nThe only clues you'll have are the pair of bullets pulled out of your skull and some random trash the doctor found in your pockets. What happened during that time? Who tried to kill you and why? Will you seek the answers or leave the past behind?\nNo matter which one you choose, you will encounter former friends and foes on your journey, clues about your past will surface, and the truth will come to light.\nThis drawback will trigger between 6 to 8 months after your arrival in your chosen world. It will adapt to your form if you are non-human.",
+        "image": ""
+    },
+    {
+        "title": "New Soul, Whose This?",
+        "SPGain": 10,
+        "CPGain": 10,
+        "requirement": "Vegas Sendoff; Character-Insert or Reincarnation",
+        "desc": "Your point of insert/reincarnation will now be the events of the Vegas Sendoff, where you wake up in the body on the doctor's table. The memories from your reincarnated life or inserted character will be just as damaged, but whatever memories you bring with you will be unaffected.",
+        "image": "",
+        "subItems": [
+            {
+                "title": "New Person",
+                "synergy": "Half of Who I Am",
+                "desc": "With both drawbacks combined, you'll have very little of your mind left. In fact, your traumatic brain injury is going to be the reason for the damage suffered from Half of Who I Am.\nNot only will the memories of the body you've taken over or been reincarnated in be severely damaged, almost destroyed, really, but so will your memories from your previous life. While you will retain some bits and pieces here and there, there's not going to be much left. Except, that is, for your surprisingly clear memories of a certain webnovel you've once read."
+            }
+        ]
+    },
+    {
+        "title": "Narcissism",
+        "CPGain": 10,
+        "desc": "You will have an overinflated sense of your own worth. Your new favorite pastime will be making sure that you look your absolute best at all times.",
+        "image": ""
+    },
+    {
+        "title": "Depression",
+        "CPGain": 10,
+        "desc": "You won't be able to find any motivation; sometimes you won't even want to do anything. While not suicidal, sometimes you won't feel like eating when you really need to. You will need strong willpower to live a normal life, but you will regularly just stop doing something halfway and have trouble starting something.",
+        "image": ""
+    },
+    {
+        "title": "Anxiety: [Internally Screaming]",
+        "SPGain": 10,
+        "desc": "You will find yourself more bothered and tense, both angsty and easily panicked, than normal.\nYour ever-present insecurities or doubts will creep over you, a constant sense of doom or danger with no discernible direction will permeate occasionally, and you'll be skittish at best and high-strung at worst.\nThe slightest setback or inconvenience will cause a downward spiral, with stressful environments becoming your greatest enemy. A sense of apprehension or wariness will spike across any person you encounter. You'll pace with almost a sense of contained franticness, a coiled spring, ever-vigilant, with sweeping gazes.\nDeep-seated dread will be your beloved company.",
+        "image": "",
+        "subItems": [
+            {
+                "title": "Panic Attacks",
+                "synergy": "The Only Thing I Fear or Indecisive Nature",
+                "desc": "Your anxiety will reach a boiling point where you suffer from panic attacks, either the closer you are to your deepest fear or as your wavering confidence reaches a fever pitch.\nOften, the course of action to prevent future attacks will be avoidance, distraction, or the nurturing of maladaptive coping mechanisms."
+            },
+            {
+                "title": "Courage",
+                "synergy": "Invictus",
+                "comment": "'I learned courage was not the absence of fear, but the triumph over it. The brave man is not he who does not feel afraid, but he who conquers that fear.' – Nelson Mandela",
+                "desc": "Your fear will propel you to conquer any doubt, insecurity, or hesitation and find the resolve to see it through. Fear will now be the awareness of danger, driving you to fight and deal with this threat, hurdle, or obstacle despite the panic boiling in your veins. You will face what you are afraid of relentlessly, gaining vigilance and precaution. You will act with clarity even amidst the most extreme horrors or traumatic experiences, allowing you to endure immense mental stress and master fear's power for your own benefit."
+            }
+        ]
+    },
+    {
+        "title": "Wrath",
+        "CPGain": 10,
+        "desc": "You will find yourself slightly more easily angered than usual. If you were normally calm and composed, you'd find yourself making harsh retorts or giving others the cold shoulder a bit more often. If you only had the emotional intelligence of a baby larva, even the slightest insults toward yourself would fill you with fury.",
+        "image": ""
+    },
+    {
+        "title": "Slothful",
+        "CPGain": 10,
+        "desc": "You will often find yourself falling victim to the siren call of procrastination, continually putting off tasks until the last possible moment.\nThe weight of fatigue will seem ever-present, sapping your energy and leaving you feeling lethargic. Motivation will feel like a distant dream, elusive and fleeting, as you navigate through each day with a sense of inertia.\nYour pace will be slow, your movements sluggish, as if the very essence of slothfulness has taken root within you.",
+        "image": ""
+    },
+    {
+        "title": "Battle Junkie",
+        "CPGain": 10,
+        "desc": "You will find yourself caught in the grips of a fierce and addictive passion for battle. As a Battle Junkie, you will be driven by an insatiable desire to engage in combat, constantly seeking out new challenges and victories. However, be warned, for the art of combat will provide a massive dopamine hit comparable to hard drugs. Be careful not to become addicted to violence.",
+        "image": ""
+    },
+    {
+        "title": "The Only Thing I Fear",
+        "CPGain": 10,
+        "desc": "You will be deathly afraid of something. A phobia so debilitating it will almost stop you from functioning as any other person when closer to it. You will be aware of it, yet you won't be able to help how frantic you feel about it. It could be anything, from insects, holes, and the ocean, to open spaces or large groups of people, etc. You will panic at the mere sight of it and if you force the issue you might even faint.",
+        "image": ""
+    },
+    {
+        "title": "Indecisive Nature",
+        "CPGain": 10,
+        "incompatibility": "Natural Leader",
+        "desc": "You will struggle with confidence and making decisions, leading to frequent hesitation and second-guessing. You will find it difficult to assert your opinions or make persuasive arguments, hindering leadership. Your indecision will delay progress and may lead to missed opportunities or unintended consequences. Even your skill development will be hindered by self-doubt, making it harder to decide which skills to improve.",
+        "image": ""
+    },
+    {
+        "title": "Coward",
+        "CPGain": 10,
+        "requirement": "Indecisive Nature; The Only Thing I Fear",
+        "desc": "It seems you will be quite the scaredy-pants. In addition to your phobia, you will be prone to fear and tend to avoid danger whenever possible, resulting in frequent retreats and reluctance to engage in risky situations. Your first choice will always be to flee or freeze under pressure. You will appear unreliable or untrustworthy, your instinct being to choose the safest, often less rewarding, path. You will also gain a tendency to hoard supplies for fear of future scarcity.",
+        "image": ""
+    },
+    {
+        "title": "Miser",
+        "CPGain": 10,
+        "desc": "Your hunger for wealth will be undeniable, insatiable, and unquenchable. You will desire money and all things that can help you financially above all else. If you lack a strong will, you can abandon any morals in the face of the almighty dollar. Your sole focus will be money, the means to your end. For you, the difficulty of a task will be irrelevant; only the potential reward will matter.",
+        "image": ""
+    },
+    {
+        "title": "Shopping Addiction",
+        "CPGain": 10,
+        "desc": "You will be afflicted by a condition, known as compulsive spending, which will make it virtually impossible for you to save money. You simply won't be able to control your urges to spend and will constantly feel the need to purchase items, whether necessary or not. This habit will drain your finances, leaving you always wanting more money. It will be a difficult condition to deal with, as it can lead to excessive debt and stress, and can negatively impact your social and personal relationships.",
+        "image": ""
+    },
+    {
+        "title": "Old Dog",
+        "CPGain": 10,
+        "desc": "Old habits die hard, huh? Clinging to your being, stubbornly, burying their roots deep inside. From now on, you'll need to consciously and actively work on yourself if you wish to avoid slipping back into all your familiar pitfalls, vices, or bad habits. Any vice or detrimental behavior you possess – or develop – will become significantly more demanding to overcome. Without active effort, you'll unconsciously revert to these old patterns, making the process of breaking free more arduous and time-consuming than it would be for most.\nThis will inherently extend to addictions as well. In whatever form they may be, kicking an addiction will demand immense perseverance and determination, as the grip of dependency will feel heavier and more difficult to shake off than for others.",
+        "image": ""
+    },
+    {
+        "title": "Thou Shalt Not Utter Lord's Name in Vain",
+        "CPGain": 10,
+        "desc": "Every time you utter a divine being's name in vain or say curse words, something terrible will happen to you. This effect lasts until you ascend to divinity and only applies to gods you are aware of. If you are an atheist and say something like 'dear god,' a random god will smite you 'gently'.",
+        "image": ""
+    },
+    {
+        "title": "Allergic",
+        "count": 0,
+        "CPGain": 10,
+        "desc": "You will be allergic to something. It might be dust, animals, food, material, substance, energy, etc.\nEvery purchase of this drawback will give you another allergy.",
+        "image": ""
+    },
+    {
+        "title": "Disreputable",
+        "CPGain": 7,
+        "incompatibility": "Reputable",
+        "desc": "You will find it grueling to gain a reputation. Your accomplishments will often be downplayed by others, usually crediting your successes to others and failures to you, and public opinion about you will be either somewhat poor or infamously bad. Anything you do can be reviled and ridiculed if left unchecked. A loss with this drawback will probably be a humiliating affair, a win an exercise in pyrrhic futility. Impressions you leave behind will be out of your control, being normally unflattering.",
+        "image": ""
+    },
+    {
+        "title": "Unmasked",
+        "CPGain": 8,
+        "incompatibility": "Cover Story; Keep the Secret",
+        "desc": "No matter what, you will be unable to keep your civilian identity secret. Perhaps your voice will be recognized by a childhood friend and they'll tell everyone, or perhaps you'll be forced into revealing your identity to save someone's life. It doesn't matter how, but your civilian identity will be revealed one way or another within a month.",
+        "image": ""
+    },
+    {
+        "title": "Wanted (Local)",
+        "count": 0,
+        "SPGain": 5,
+        "CPGain": 5,
+        "desc": "You will attract the interest of a local group (like the E88 and ABB, or the Ambassadors and the Teeth if you end up in Boston, etc.). They will either want to recruit you or eliminate you.\nIf you participate in dismantling that group, another will not appear. If you move locations, you will inevitably attract the interest of another group.\nWarning: You may not choose which exact group will take interest in you nor what exactly the nature of their interest will be.",
+        "image": ""
+    },
+    {
+        "title": "Wanted (Global)",
+        "count": 0,
+        "SPGain": 10,
+        "CPGain": 10,
+        "desc": "You will attract the interest of a group with national or international reach (like PRT, CUI, the Elite, etc.). They will either want to recruit you or eliminate you.\nIf you participate in dismantling that group, another will not appear. If you move locations, you will inevitably attract the interest of another group.\nWarning: You may not choose which exact group will take interest in you nor what exactly the nature of their interest will be.",
+        "image": ""
+    },
+    {
+        "title": "Wanted (Parallel Worlds)",
+        "count": 0,
+        "SPGain": 15,
+        "CPGain": 15,
+        "desc": "You will have caught the attention of a group, either possessing national or international reach into multiple parallel worlds of your setting (so for Earth Bet it would be parallel worlds like Aleph, Shin, Gimel, etc.), and having access to interdimensional Tinker-tech or other means to travel to other alternate worlds.\nThis group, intrigued by your potential or threatened by your presence, will seek to recruit you for their purposes or eliminate any potential competition you may pose.\nWarning: You may not choose which exact group will take interest in you nor what exactly the nature of their interest will be.",
+        "image": ""
+    },
+    {
+        "title": "Fugitive",
+        "SPGain": 5,
+        "CPGain": 10,
+        "desc": "At some point after you arrive, you will be wrongfully accused of a serious crime that you did not commit. You will be forced to go on the run, and a manhunt will be instigated by local law enforcement agencies such as the PRT. The seriousness of the crime and apparent evidence against you will be strong enough that if you are caught, you will be found guilty and likely given life imprisonment or the death penalty if you undergo a fair trial.\nYou can potentially exonerate yourself if you gather enough evidence to prove or convince them of your innocence. Outside of Earth Bet, this drawback extends to you being wanted by the closest thing to a local government law enforcement agency within whatever world you choose, such as the Aurors in Harry Potter.",
+        "image": ""
+    },
+    {
+        "title": "Blood-Stained Hands",
+        "SPGain": 10,
+        "CPGain": 5,
+        "requirement": "Fugitive",
+        "desc": "Before, you were wrongfully accused of a crime you didn't do. Now, you will instead be forced to carry out the crime you are accused of, even if you were unwilling. The worst part? No one will know. To law enforcement, you will be the same fugitive as before; only now the evidence will be undeniable.\nThe precise way this drawback manifests is up to you. Perhaps you were subject to a Master/Stranger effect or acting under extreme coercion and duress. Maybe you were being manipulated via chemical or psychological means, had your memories altered, or were subjected to some other force. The end result, however, will be the same.\nNaturally, this will make it significantly harder to exonerate yourself. If you were controlled by a Master/Stranger effect or something similar, how well-known these influences are in the setting will affect the ease of being acquitted. Even then, proving your innocence will require strong evidence, and convincing others will be an uphill battle.\nWhile you weren't in full control of your actions, the weight of what has happened might still leave you grappling with intense guilt and trauma. Additionally, the social consequences may be just as severe as people's trust in you is shattered depending on the nature of the crime and its impact.\nYou can optionally choose to have committed this crime entirely of your own free will with no outside factors limiting your culpability.",
+        "image": ""
+    },
+    {
+        "title": "CUI Summer Camp",
+        "SPGain": 10,
+        "CPGain": 10,
+        "desc": "You will be targeted by the Yàngbǎn or Gesellschaft to be kidnapped and indoctrinated. They will violate international sovereignty and attempt to kidnap you directly as a high-priority target. They will only begin to target you once you start to act as a cape (if you don't have powers yet, you are safe).\nIf those groups have yet to form, they will, or another group with similar goals will form instead.",
+        "image": ""
+    },
+    {
+        "title": "Some Terms and Conditions Apply",
+        "SPGain": 15,
+        "CPGain": 15,
+        "desc": "The perks Blank, Trumped the Trump, All-Seeing Precognition, and Plot Armor will no longer work everywhere. Instead, they will be limited to the Multiverse cluster you start in.\nIf you choose the Canon Earth Bet or AU Earth Bet, the range will be limited to what the Entities can reach (1080 universes). For Crossover, it will include the Multiverses of any settings you select. Alternate World will contain the Multiverse of your chosen destination(s). And with No Transfer you remain in your own world, but officially your world is a part of the Worm Multiverse cluster.",
+        "image": ""
+    },
+    {
+        "title": "No Such Thing as Absolutes",
+        "SPGain": 20,
+        "CPGain": 20,
+        "desc": "The perks Blank, Trumped the Trump, Mental Barrier, Sanctity of The Mind, and All-Seeing Precognition will no longer be absolute or completely invincible.\nYour perks can be sidestepped, and some other powers may overcome them. However, these perks will still possess a high level of effectiveness in most situations, although their efficacy against higher-tier opponents may be reduced. For example, Contessa may not be able to path you, but she can simulate you like she does for Eidolon.\nIf you take either Only A Sith Deals in Absolutes or Countdown, then its effects will only be partially negated:\nFor Only A Sith Deals in Absolutes, powers will still be absolutes even if they wouldn't be otherwise, whereas your perks will still be normal or even weakened to be no longer absolute. Additionally, you won't get to choose if your absolute power wins against another absolute power in any case; it will just usually win.\nFor Countdown, rather than completely removing your drawbacks when its requirements are met, it would merely reduce them to a more manageable level, with them completely disappearing after time and/or effort, with all your drawbacks (including this one) being removed after at maximum 10 years.",
+        "image": ""
+    },
+    {
+        "title": "Work for It",
+        "SPGain": 10,
+        "CPGain": 10,
+        "requirement": "No Such Thing as Absolutes",
+        "desc": "The perks affected by No Such Thing as Absolutes will all be further reduced to only provide about half of their benefits alongside the perks: Powered Sustenance, Noctis Cape, Manton Protected, Accentuate the Positive, Eliminate the Negative, and Platinum Kryptonite. With training, it will be possible to restore them to their previous state. It will not be possible to restore perks to an 'absolute' state.\nperks such as Powered Sustenance and Noctis Cape will be reduced to simply needing fewer resources and generally better memory. They can be trained by fasting and mental exercises. Mental exercises will also be valid for perks like Mental Barrier.\nperks like Blank, Only A Sith Deals in Absolutes, and Manton Protected will require training with another person or minion to use the appropriate powers against you. The use of a minion will require it to have some measure of independence from you.",
+        "image": "",
+        "subItems": [
+            {
+                "title": "Same Start, Same Speed",
+                "synergy": "Acclimation",
+                "desc": "The growth for your perks will now be affected by any additional drawback for Acclimation you have chosen. The speed at which your perks grow from training and how much you need to train them will be the same as how much you need to do the same for powers. This does not mean that their growth is linked; it simply means they must both be equally trained."
+            }
+        ]
+    },
+    {
+        "title": "Definition of Insanity",
+        "SPGain": 10,
+        "CPGain": 10,
+        "requirement": "Invictus",
+        "desc": "Instead of having an indomitable will, you will be very stubborn, to a degree that some would call you downright stupid. You will be the type of person to keep throwing your head against a wall time and time again until the wall breaks or your head does, and even then, you will try throwing your head against the wall again. You will keep trying the same solution to the same problem, even if it doesn't work the first time and shows no chance of success.",
+        "image": ""
+    },
+    {
+        "title": "Wildbow? Where Have I Heard That Before?",
+        "SPGain": 10,
+        "CPGain": 5,
+        "desc": "You will forget everything you know about Worm. Why? You had a chance to save everything! Stop the bloodshed, and save the Multiverse! Well, there's still a chance if you got Backup that you'll save everyone, or that you'll be powerful enough to save everyone by chance. Please don't pick this without Backup, especially not if you chose to arrive on April 8th, 2011!\nYou will retain knowledge of your build, but the context behind some of your choices – why you picked certain perks or powers – will be lost to you.\nNote: If you pick Alternate World or Crossover, knowledge of whatever other worlds you chose will be erased from your knowledge.",
+        "image": ""
+    },
+    {
+        "title": "Clean Slate",
+        "SPGain": 5,
+        "CPGain": 10,
+        "incompatibility": "Another Person; Cauldron Amnesia",
+        "requirement": "Reincarnation or Character-Insert",
+        "desc": "You will lose access to the memories your new self made prior to your awakening. You will be like a walking duckling who has no clue who or what everything outside of your knowledge of canon. Any friends your new self made, any family, and even any enemies – you won't remember them.",
+        "image": ""
+    },
+    {
+        "title": "Half of Who I Am",
+        "SPGain": 5,
+        "CPGain": 10,
+        "incompatibility": "Cauldron Amnesia",
+        "desc": "You will forget a large part of everything from your first life EXCEPT Wildbow's predictions. While you'll forget a lot of facts such as the name of your parents or maybe even yourself, you'll still remember important key information like pets you had or key events that shaped your personality. While you will no longer remember your past self, the memories you do have will ensure you still retain your personality, goals, emotions, and overall identity.",
+        "image": ""
+    },
+    {
+        "title": "Selective Amnesia",
+        "SPGain": 10,
+        "CPGain": 20,
+        "requirement": "Half of Who I Am",
+        "desc": "You will forget everything from your first life EXCEPT Wildbow's predictions. Wow, that's some serious dedication. You won't remember your thoughts or feelings about Wildbow's predictions, just the facts. You will retain knowledge of your build, but lose the personal context and feelings behind your choices – except those made specifically in response to Wildbow’s predictions.",
+        "image": ""
+    },
+    {
+        "title": "What Do You Mean I Did This to Myself?",
+        "SPGain": 5,
+        "CPGain": 10,
+        "incompatibility": "Cauldron Amnesia",
+        "desc": "All the choices you made in this CYOA leading up to your dimensional displacement will be forgotten. You won't even remember you filled out this CYOA in the first place. You will keep all the perks, drawbacks, missions, powers, skills, and items you have chosen, but you will have to (re)discover yourself what exactly these are. You won't remember your chosen challenges either, which might make completing them... complicated. You will be given hints that need to complete them, though. You will still have a fated meeting with your Companions.",
+        "image": ""
+    },
+    {
+        "title": "Truck-kun",
+        "CPGain": 15,
+        "desc": "Your transfer to your chosen world won't be quite a clean nap. Instead, whatever sparked your transfer, an important catalyst for it will be your traumatic death in the previous one.\nYou will have a supernaturally clear memory of how you died and will find it difficult to fully suppress recalling it when related things come up.",
+        "image": "",
+        "subItems": [
+            {
+                "title": "Nightmares",
+                "synergy": "Selective Amnesia or Cauldron Amnesia",
+                "desc": "Your amnesia will fail to fully scrub the memory of your death from your mind, merely causing it to seem more like a persistent, weirdly realistic daydream than a straight-up memory.\nYour conscious mind may have trouble remembering it fully, but your subconscious will not, leading to nightmares and instinctive discomfort whenever topics related to your death come up, as at least some part of your mind will be forced to relive that moment."
+            }
+        ]
+    },
+    {
+        "title": "Banana Peel",
+        "CPGain": 5,
+        "requirement": "Truck-kun",
+        "desc": "Your death will not only be traumatic, it will also be incredibly embarrassing as well, whether by it being easily avoidable, or even just being inherently comedic and mockable.",
+        "image": ""
+    },
+    {
+        "title": "Smarmy Asshole",
+        "SPGain": 5,
+        "CPGain": 10,
+        "desc": "You will be incredibly annoying, cocky, and arrogant to your last breath. Most people will garner actual hate and disgust for you and your attitude after a single sentence.",
+        "image": ""
+    },
+    {
+        "title": "Inverted Controls",
+        "SPGain": 5,
+        "CPGain": 5,
+        "desc": "You will experience an unusual reflex occasionally, where your senses will invert, leading to temporary disorientation. For instance, you may perceive colors as inverted, hear sounds in reverse, or even feel sensations like hot and cold swapped. These episodes can occur randomly and last for random durations.",
+        "image": ""
+    },
+    {
+        "title": "Druggie",
+        "SPGain": 5,
+        "CPGain": 10,
+        "desc": "You will have an addiction to illegal substances, hindering your overall performance. The constant use of these drugs will diminish your mental capacity and cognitive abilities, reducing your mental capabilities and perception. This, in turn, will make it more difficult to perform critical tasks such as planning, strategizing, and executing complex plans. Furthermore, prolonged drug use will leave your body in a state of dependency, causing you to experience painful and debilitating withdrawals when not using. During this time, your physical abilities will be reduced, resulting in a decrease in strength, agility, and stamina.",
+        "image": ""
+    },
+    {
+        "title": "Alcoholic",
+        "SPGain": 5,
+        "CPGain": 5,
+        "desc": "You will develop an addiction to alcohol, resulting in impaired judgment, reckless behavior, and an inability to perform certain tasks. You will struggle with the need to drink, often consuming large amounts of alcohol in a short period of time. As a result, you will experience physical and emotional consequences, including headaches, vomiting, and withdrawals.",
+        "image": "",
+        "subItems": [
+            {
+                "title": "Depressive Drunk",
+                "synergy": "Depression",
+                "desc": "As a depressive drunk, you will be prone to unpredictable and unstable moods. When under the influence of alcohol, you may experience bouts of sadness or hopelessness that can last hours or even days. You may have difficulty finding joy in things that used to bring you happiness. To cope with these negative emotions, you may turn to more alcohol, leading to a vicious cycle of depression and drinking."
+            },
+            {
+                "title": "Reckless Drunk",
+                "synergy": "Wrath",
+                "desc": "As a reckless drunk, your existing anger issues will be amplified by alcohol. You will have a tendency to make poor, impulsive decisions, often leading to reckless behavior and a higher chance of accidents. While under the influence, you will be even more easily angered and will struggle to maintain your composure, making you prone to lashing out and making regrettable choices."
+            },
+            {
+                "title": "Blackout Drunk",
+                "synergy": "Lightweight",
+                "desc": "As a blackout drunk, your low alcohol tolerance will make you highly susceptible to losing consciousness, memory, and control when drinking, even in small amounts. This can lead to unpredictable and reckless behavior, as well as a lack of awareness of your surroundings and poor decision-making. You will also struggle with significant memory loss, leaving you with gaps in your recollection of the previous night's events."
+            }
+        ]
+    },
+    {
+        "title": "Ryoga Hibiki",
+        "SPGain": 10,
+        "CPGain": 10,
+        "incompatibility": "Shardless",
+        "desc": "Good news, you will have a teleportation power. Bad news, it will only work when no one is looking at you through mundane means, and you won't be able to control it.\nIt's also global in scale.\nThis drawback only activates every 24 to 48 hours and, after this drawback triggers, you cannot teleport further than 10 kilometers from your landing spot for one hour.",
+        "image": ""
+    },
+    {
+        "title": "Reluctant Dimension Hopper",
+        "SPGain": 15,
+        "CPGain": 15,
+        "incompatibility": "A Little While Longer",
+        "requirement": "Ryoga Hibiki",
+        "desc": "Good news, you will no longer teleport around the Earth at random. Bad news, you will now teleport across the Multiverse at random.\nYou will be stuck in the universe you arrive in for one hour, and when your hour is up, you will be returned to a random place near to where you were when the drawback activated. You will not be teleported somewhere where you instantly die, such as a volcano or space. You can optionally choose to extend your stay at the destination beyond one hour for any amount of time up until the next time the drawback triggers.\nThe places you arrive have a 1 in 3 chance to be beneficial, such as inside Scrooge McDuck's vault, a 1 in 3 chance to be benign, such as a random street in King's Landing, and a 1 in 3 chance to be dangerous, such as Northrend or the Outlands in World of Warcraft.\nThis drawback wears off after 100 jumps and only activates once every 5 to 7 days. This interval can be increased with Power Tweak but it will increase the time you must stay at the destination proportionally.\nYou can also activate this drawback yourself before the deadline up to once every 24 hours.",
+        "image": ""
+    },
+    {
+        "title": "Zelretch's Entertainment",
+        "SPGain": 15,
+        "CPGain": 15,
+        "requirement": "Reluctant Dimension Hopper",
+        "comment": "For the Adventurous!",
+        "desc": "The destinations this drawback sends you to will be more dangerous. You'll have 1 in 6 chance to arrive somewhere beneficial, a 1 in 3 chance to arrive somewhere benign, a 1 in 3 chance to be sent somewhere dangerous, and finally you'll have a 1 in 6 chance to be sent somewhere deadly like the jungles of Catachan or Commorragh in Warhammer 40k.\nThe latter does not mean you will die immediately on arrival as you are guaranteed to have at least a chance to survive, but it will not be easy unless you are powerful.\nThis drawback wears off after 75 jumps and only activates once every 10 to 15 days.",
+        "image": ""
+    },
+    {
+        "title": "Friend of the Doctor",
+        "SPGain": 20,
+        "CPGain": 20,
+        "requirement": "Zelretch's Entertainment",
+        "comment": "For the Adrenaline Junkies!",
+        "desc": "The destinations this drawback sends you to will be more dangerous. You have 1 in 6 chances to arrive somewhere benign, a 1 in 3 chance to be sent somewhere dangerous, and a 1 in 2 chance to be sent somewhere deadly.\nThis drawback wears off after 50 jumps and only activates once every 20 to 30 days.",
+        "image": ""
+    },
+    {
+        "title": "Stranded",
+        "SPGain": 10,
+        "CPGain": 10,
+        "requirement": "Reluctant Dimension Hopper",
+        "comment": "One-way ticket to anywhere but here.",
+        "desc": "When you teleport, you will now stay around for longer than an hour. In fact, you won't return at all.\nEvery jump will leave you stranded in a new dimension. You will also be stuck in this dimension for at least an hour and dimensional transportation powers will not work during this time. You can choose to delay your next jump and remain at your destination for up to 12 months.\nLuckily, every 3 to 5 jumps you will be transported to your original dimension. You will be able to stay in your original dimension for the time it takes for your drawback to trigger again.\nNote: You can designate any dimension you have visited previously as your 'home' and the power will periodically send you there instead of your original dimension. This can be changed once a year at most.",
+        "image": ""
+    },
+    {
+        "title": "Never Ending Adventure",
+        "SPGain": 10,
+        "CPGain": 10,
+        "requirement": "Reluctant Dimension Hopper",
+        "comment": "This dimensional train has no brakes.",
+        "desc": "This Drawback never wears off. However, Friend of the Doctor and Zelretch's Entertainment will downgrade into their lower danger variants when their specified amount of jumps is exhausted until they reach the level of Reluctant Dimension Hopper. After this happens, you can always choose to be sent to a higher danger destination on your next jump.\nAdditionally, once the drawbacks have exhausted their mandatory jumps, you can extend your stays to any length of time up to 10 years.",
+        "image": ""
+    },
+    {
+        "title": "Displaced",
+        "SPGain": 20,
+        "CPGain": 20,
+        "requirement": "Reincarnation or Character-Insert",
+        "desc": "You've picked a certain setting where you're supposed to be reincarnated or where your chosen Character-Insert lives. However, with this drawback the setting where you'll wake up is not the one you chose. Instead, shortly before you awaken in your new body, your unaware self or Character-Insert will be will be isekai'd into a new, random world that your new identity is not native to. You will still gain all the benefits of your reincarnation or Character-Insertion, such as getting their identity and memories (unless other drawbacks change that). You can choose the specific scenario of how your new self arrived – maybe it was a freak science accident, maybe an enemy technique threw you here, or maybe it was something stranger.\nYour history and perks are affected by this: perks and items such as A Pencil. A Fucking Pencil! is only applied to their home world. If your new self had Homecoming and an appropriate teleportation power or an item priot to your awakening, it's entirely possible they chose to come to this new world of their own free will. Maybe they were sent there on a mission, or maybe it's even a vacation destination for them or their entire family.",
+        "image": ""
+    },
+    {
+        "title": "Infamous Origins",
+        "SPGain": 5,
+        "CPGain": 10,
+        "requirement": "Reincarnation or Character-Insert",
+        "desc": "Your origin will not be something most would be proud of. You could be a villain's child or a villain's spouse. Either way, people will know and distrust you because of it.\nWarning: If you reincarnate or Character-Insert into a family who aren't canonically villains, this might cause some serious butterflies.",
+        "image": ""
+    },
+    {
+        "title": "Evil Sibling",
+        "SPGain": 15,
+        "CPGain": 10,
+        "requirement": "Reincarnation or Character-Insert",
+        "desc": "You were not born into this world as an only child. It does not matter if they are your older brother, younger sister, or even identical twin. What does matter is that they will have obtained an equal amount of power as you and will have decided to use it for nefarious purposes.\nYour path in life will naturally cross theirs, and not in a good way. Should you become a hero, they will become one of your greatest foes. Become a villain yourself, they will become your strongest rival. Even being a rogue will get you in their crosshairs, as your business becomes one of their targets.\nWhether you can go back to a healthy sibling relationship is completely unknown. Only conflict is certain in your future.\nNote: If you've chosen to Character-Insert as a character who already has a sibling, or if you decided to reincarnate as a twin of a canon character, or if you've chosen to become a family member of a canon character, and you decided to become their sibling, then this sibling will not be your evil sibling. No, this will automatically create another sibling for you both. Not only that, your regular sibling will have their own power rise to match both of yours.\nWarning: This *will* cause butterflies.",
+        "image": ""
+    },
+    {
+        "title": "The Family Business",
+        "SPGain": 5,
+        "CPGain": 15,
+        "requirement": "Infamous Origins; Evil Sibling",
+        "desc": "It isn't just your sibling and parents that are villains; it is your entire extended family. You're born as one of the children of the head of a notorious crime family. They rose to prominence during the time parahumans first started triggering with lies, deceit, and their newfound unrivaled power.\nYour attempts at being good will be seen with immense doubt from just about everyone, with most assuming you're attempting to lull them into a false sense of security before you strike. Your attempt at becoming a full-blown cape will also get a hit ordered on you by the family for your perceived betrayal.\nAttempting to stay in the family will still net a hit on your life because you're in line to be the next head, and EVERYBODY wants to be the next head. Trying to pass this on to one of your siblings to avoid the heat won't work. More than likely, they are the ones who put the hit out in the first place. So, once you declare them the heir, you will have outlived your usefulness in their eyes.\nYou **will** be caught up in a web of lies, deceit, and betrayal, whether you like it or not.\nWarning: If you go for Reincarnation or Character-Insert into a family that canonically aren't villains will cause butterflies.",
+        "image": "",
+        "subItems": [
+            {
+                "title": "Allies",
+                "synergy": "Heir to the Throne",
+                "desc": "No matter the situation with your family, you will always have some allies. This can be a relative, a parent, or even another sibling. These allies will stand by your side through thick and thin, providing support and assistance whenever you need it. The standard rules for Heir to the Throne apply, so you may still decide what their power will look like.\nYou will never truly be alone in your endeavors. This bond of shared strength and mutual support can help you navigate even the most challenging circumstances."
+            }
+        ]
+    },
+    {
+        "title": "Bound by Blood",
+        "SPGain": 15,
+        "CPGain": 25,
+        "desc": "All personal drawbacks you suffer will now be inherited by your descendants and retroactively given to any other family member you may have. Initially, these drawbacks will be weak but will fully activate by their twenty-fifth birthday. The order in which they receive the drawbacks progresses from the least dangerous and least lethal to the most dangerous with the greatest consequence. For example, if you have the Alcoholic drawback, your child will also become an alcoholic by the age of twenty-five. However, seeing as you're their parent, you can absolutely do your best to prevent it from happening earlier. If a drawback is impossible to manifest directly, it will alter to achieve a similar effect; for instance, if your child has a power that prevents them from getting drunk, they might become addicted to another drug. Drawbacks that require time to be fulfilled, such as Acclimation, will manifest earlier.",
+        "image": "",
+        "subItems": [
+            {
+                "title": "Paid in Blood",
+                "synergy": "Heir to the Throne",
+                "desc": "The effects of this drawback will weaken with each subsequent generation. Each new generation will experience the drawbacks more slowly, with the full effects taking longer to manifest. Over time, the severity of the drawbacks will also diminish, resulting in weaker manifestations. For instance, a drawback that would fully activate by the age of twenty-five in the first generation might take until thirty in the next generation, and the impact would be less severe. This gradual weakening continues with each generation, offering a glimmer of hope that the drawbacks might eventually fade away entirely.\nYou can optionally choose to make it so that your ancestors also had the same drawbacks and thus created ways to manage them (such as specific medicine for the Weak Body drawback)."
+            }
+        ]
+    },
+    {
+        "title": "Face Thyself",
+        "SPGain": 10,
+        "CPGain": 15,
+        "desc": "Somewhere out there, there’s another you lurking in the shadows, a warped reflection of yourself; all your negative traits brought to the surface, everything about yourself you hate or fear or disgust, every bad memory, vice, and past mistake. This dark copy of yours will have everything you do, from the exact same powers and skills to even perks and items, and will be filled with a burning, singular desire that they are willing to pursue at any cost to themselves - not to defeat you, but rather to confront you about your flaws and bring them to light, to make you acknowledge and accept them.\nDespite the overwhelming drive, they are not 'evil,' or even ruthless, unless you also happen to be; while antagonistic, they are still you - in mind, body, and soul, whether or not you agree with it - and they are fully willing to simply talk things out and be reasonable rather than resort to brute force. They still, in fact, share many of the same attachments and motives as yourself, and in times of crisis are fully willing to call a truce in the face of a greater threat, or compromise if the both of you are especially stubborn, but they will never stop at least keep trying until you’ve fully accepted all the worse aspects of yourself for what they are.",
+        "image": "",
+        "subItems": [
+            {
+                "title": "I Can Neither Live with You nor Without You",
+                "synergy": "Inland Empire",
+                "desc": "If you manage to reconcile with your dark reflection, you'll achieve a state of true psychological wholeness. By accepting the flaws, fears, and mistakes you once hated, your shadow self will return to its rightful place within your mind. It will no longer be an enemy, but a distinct part of you that you can call upon when needed, like a projection.\nThis reconciliation will give you a profound connection to the world around you. You'll gain an intuitive understanding of how people feel and think, and you will no longer be held back by the fear of what others think. With a clearer mind and a newfound sense of purpose, you will feel lighter and more driven than ever before.\nMaking peace with your worst self gives you the chance to become a better version of yourself than you could ever have been otherwise. This is your ultimate reward for the courage to face and accept your own demons."
+            }
+        ]
+    },
+    {
+        "title": "Won't You Fly High, Free Bird",
+        "SPGain": 15,
+        "CPGain": 10,
+        "desc": "The morning tomorrow of your arrival, somehow there will be a massive breakout at the Baumann Parahuman Center with practically all prisoners escaping, more than half of them will encounter you and find a reason to target you.",
+        "image": "",
+        "subItems": [
+            {
+                "title": "Unleashed",
+                "synergy": "Birdcage",
+                "desc": "You will be among the escaped prisoners. This effectively means that you will some get to have your cake and eat it, too. You will be free, and you will all the points for both drawbacks. However, it also means that you will be effectively on the run, and there will be many super-powered criminals at large, many of whom want you dead."
+            }
+        ]
+    },
+    {
+        "title": "Caged Still",
+        "CPGain": 16,
+        "requirement": "Won't You Fly High, Free Bird; Birdcage",
+        "desc": "The Birdcage may have suffered a mass breakout, but you are among the few Birdcage inmates who didn't manage to escape. The remaining inmates harbor varying degrees of enmity towards you. Similarly, some of the inmates who did escape also share this animosity.",
+        "image": ""
+    },
+    {
+        "title": "The Asian Parent",
+        "CPGain": 10,
+        "desc": "You will harbor exceedingly high expectations for everything and everyone around you, yet you will inevitably face disappointment. You might expect your son to achieve A+++, but he only manages an A. You aspire for him to become a doctor, but he chooses to be a musician instead. You hope your best friend will always support your dreams, but they pursue their own path, leaving you feeling abandoned. You expect your sibling to uphold family traditions, but they reject them entirely. You believe your top student will win a prestigious scholarship, but they fall short. You purchase a new phone expecting it to be flawless, only to find it lagging frequently. This will push others around you away, as the weight of your expectations is too heavy for them to bear. The most frustrating part? Someone else unrelated to you will always meet or exceed your lofty expectations, as if to spite you.",
+        "image": ""
+    },
+    {
+        "title": "Poor",
+        "CPGain": 10,
+        "incompatibility": "Wealthy; Drop-In",
+        "desc": "You (or your family) are not very wealthy. If you're a CEO, then your business is quickly going downhill, though you're not yet poor, just getting there with a lot of momentum.",
+        "image": ""
+    },
+    {
+        "title": "Homeless",
+        "CPGain": 15,
+        "requirement": "Poor",
+        "desc": "You live on the streets or in the wild. Your whole family could be like this, or just you if you're an orphan.\nWarning: If you've chosen to Character-Insert into an existing character or become a family member of one, this might lead to butterflies.",
+        "image": ""
+    },
+    {
+        "title": "Debt",
+        "count": 0,
+        "CPGain": 5,
+        "desc": "Uh-oh, you are in deep trouble now. You will owe some people the greatest power of them all… money. On the first selection, you will owe a shady group (either the Elite, or whatever comparable group in your world) $50,000 or the equivalent, with each selection increasing it by additional $100,000. They will charge 3% in interest per month. If you refuse to pay, they will send goons after you and your properties to cover their losses. You can beat them, but each time they will send stronger people after you, each time stronger than the previous.",
+        "image": "",
+        "subItems": [
+            {
+                "title": "Nefarious Sources",
+                "synergy": "Wealthy",
+                "desc": "It seems that your source of wealth was actually lent by the shady group. Now besides the money you owe by taking this drawback, you also owe them the value of what you gained with Wealthy.\nNote: Seeing as it is a criminal organization that you owe all your money to, this will not go to court. Officially, all your money is your own. This means that you may be able to either destroy their group or push them into a corner and force them to forgive your debt. However, it also means that they can and will resort to underhanded means to get you to pay up."
+            }
+        ]
+    },
+    {
+        "title": "Monologue",
+        "SPGain": 5,
+        "CPGain": 10,
+        "desc": "You tend to monologue. It's nothing overpowering, but if you don't actively go out of your way to not monologue, you're probably going to monologue after you feel you've won.",
+        "image": ""
+    },
+    {
+        "title": "Silent Protagonist",
+        "SPGain": 5,
+        "CPGain": 10,
+        "desc": "You tend to not say much. It's nothing overpowering, but if you don't actively try to talk, you'll find yourself doing roundabout things like elaborate gestures or saying the bare minimum when spoken to.",
+        "image": ""
+    },
+    {
+        "title": "Slaughterhouse 8",
+        "SPGain": 10,
+        "CPGain": 5,
+        "incompatibility": "Shardless",
+        "desc": "Assuming the Slaughterhouse 9 has formed, they're after you. Not to kill you or torture you, no, something worse – they have a vacancy and recruitment in mind, only for you. If the Slaughterhouse 9 has yet to form, they will, and they will survive long enough to try to recruit you. If you don't have powers yet, they will only come after you once you've triggered.",
+        "image": ""
+    },
+    {
+        "title": "Slaughterhouse 9000",
+        "SPGain": 15,
+        "CPGain": 15,
+        "requirement": "Slaughterhouse 8",
+        "desc": "If the Slaughterhouse 9 have already formed, then they'll be guaranteed to successfully clone themselves and their former members. While there will in truth only be around 300 clones in total instead of 9000, they'll still be just as vicious, and they'll all have been implanted with the desire to subdue you and make you part of their ilk, not to mention that they're just as strong as their original selves, although with alternate expressions of their powers. Should they not manage to find you, they'll go after whatever you hold dearest; they will cause chaos and mayhem to draw you out if they can't find you. If they do know where you are, then they'll come after you in groups of 9, one group at a time. Should they not have formed yet, they will, and they will manage to survive long enough to clone themselves. If you don't have powers yet, they will only come after you once you've triggered.",
+        "image": ""
+    },
+    {
+        "title": "Jaws of the Butcher",
+        "SPGain": 5,
+        "CPGain": 10,
+        "desc": "For whatever reason, the Teeth (and consequently the Butcher) will decide to make you their next leader. They will pursue and attack you relentlessly, all with the goal of possessing your mind and making you the next incarnation of the Butcher.\nShould they die and fail to possess you, whether due to someone else killing them, your powers or perks making possession impossible, or another reason entirely, they will still not waver in their dedication, as each previous incarnation will pressure the new one into pursuing you with the same relentless drive.\nYou can overcome this drawback by killing the Butcher in such a way that they cannot possess another person, like destroying their shard, for example, agreeing to lead the Teeth in such a way that the voices in the current Butcher's head will be content with, or helping the most recent incarnation overcome the maddening influence of the voices before they drive them completely insane.",
+        "image": ""
+    },
+    {
+        "title": "Endbringer Target",
+        "SPGain": 10,
+        "CPGain": 5,
+        "desc": "The first time you go to an Endbringer fight, the Endbringer will go slightly out of its way to kill you. Unless you show that you're very powerful, you won't be its main focus.",
+        "image": ""
+    },
+    {
+        "title": "Hostile Endbringers",
+        "SPGain": 15,
+        "CPGain": 15,
+        "requirement": "Endbringer Target",
+        "desc": "Endbringers now perceive you as a potential existential threat. Regardless of how many battles you’ve fought, they will always make killing you a priority – though not necessarily above all other targets. They may alter their tactics, adapt their attacks, and occasionally ignore more pressing strategic objectives to eliminate you. However, they will not pursue you beyond the battlefield or seek you out if you choose not to engage.",
+        "image": ""
+    },
+    {
+        "title": "Singular Target",
+        "SPGain": 15,
+        "CPGain": 15,
+        "requirement": "Hostile Endbringers",
+        "desc": "Endbringers now recognize you as an anomaly that must be erased. They will prioritize you above all other targets, even altering their attack locations to ensure you are within the destruction zone. They may reveal previously unseen abilities, escalate encounters beyond known limits, and share information between battles to adapt to your tactics. If they consider you a great enough threat, pairs of Endbringers may coordinate their efforts, and in extreme cases strike together to eliminate you. While they will not accelerate their attack schedule, your presence guarantees a far deadlier fight for everyone involved.",
+        "image": ""
+    },
+    {
+        "title": "Whispers in the Mind",
+        "SPGain": 25,
+        "CPGain": 20,
+        "desc": "A silent screech lies in the back of your mind. You are now an unwilling part of a Simurgh plot. Maybe you'll wind up thinking that the plot must go as closely to the canon as possible, causing you to never do something that could jeopardize the plot or even try to correct perceived deviations. Maybe you will attempt to 'remove' any threat to your city and burn it down in the process. Whatever the case, it is almost certainly negative in nature. This power overrides Mental Barrier and Blank.",
+        "image": ""
+    },
+    {
+        "title": "Would You Kindly...",
+        "SPGain": 15,
+        "CPGain": 15,
+        "desc": "Regardless if you're immune to Master/Stranger powers or not, at some time after you gained powers, you will succumb to a master effect and be compelled to forget about it. You'll become a sleeper agent, compelled to perform certain actions or behaviors upon hearing a specific trigger phrase, chosen by the master. These actions will seem entirely 'normal' to you and will be carried out accordingly, even if they would otherwise be deemed unusual or inappropriate, or they could 'ask' them to be forgotten.",
+        "image": ""
+    },
+    {
+        "title": "Echidna Clone",
+        "SPGain": 10,
+        "CPGain": 5,
+        "desc": "Sooner or later, Noelle Meinhardt, later dubbed Echidna, will snap due to the constant maddening influence of her powers. At this point, she will hold you solely responsible for her current predicament and desire revenge above all else. If she manages to consume you and you lack protections of any kind, she will produce numerous clones of yourself, each possessing all your memories, a connection to a variant of your shard powers, and a burning hatred for you in particular. If she fails to catch you, she will try to gather as many parahumans as possible to overwhelm you with sheer numbers.\nYou may prevent this by healing Noelle before she completely loses her mind.",
+        "image": ""
+    },
+    {
+        "title": "Fairy Goddess",
+        "SPGain": 10,
+        "CPGain": 5,
+        "desc": "Glaistig Uaine never entered the Birdcage and has continued gathering powers, often targeting those with strong or interesting powers. She has become a boogeyman for Capes and is now regarded as even above Eidolon (as he is now). Whatever your powers, regardless of how strong or weak they are, she has decided to add you to her collection. You have about a week before Glaistig Uaine arrives so use that time to get familiar with your powers and the layout of the city.",
+        "image": ""
+    },
+    {
+        "title": "You are the Worthy Opponent",
+        "SPGain": 10,
+        "CPGain": 5,
+        "desc": "Eidolon will learn, through one means or another like Thinker powers or Watchdog evaluation, that you are a worthy challenge for him. A Worthy Opponent. Anti-thinker perks cannot protect you against this. Even if you are a hero, he will find a way to challenge you. And you better provide an adequate challenge as Eidolon will be coming at you with all his might.",
+        "image": ""
+    },
+    {
+        "title": "Chosen One",
+        "SPGain": 8,
+        "CPGain": 8,
+        "requirement": "You are the Worthy Opponent",
+        "desc": "Eidolon will learn that he can restore his powers to their full strength by killing you. He will not give up and will not hesitate to exhaust his Shard to kill you.",
+        "image": ""
+    },
+    {
+        "title": "Saintly Purge",
+        "SPGain": 10,
+        "CPGain": 5,
+        "desc": "At some point in the future, Saint and the Dragonslayers will become convinced that you will be a serious threat to humanity, even if you don't plan on doing anything big with AIs. Saint will use his remote access to Dragon's code combined with Teacher's granted skills to master her, forcing her to fight you as a high-priority target.",
+        "image": ""
+    },
+    {
+        "title": "Targeted for Termination",
+        "SPGain": 15,
+        "CPGain": 10,
+        "desc": "Through some method, the Machine Army will learn about you, determining you as an existential threat to their survival. They will not stop at anything to collect you before dissecting you to determine how your powers work. They will ignore all existing rules and truces in their single-minded pursuit to capture you. The Machine Army is guaranteed to breach their containment zone in Eagleton.\nShould you find yourself on an alternate Earth without the Machine Army, a threat analogous to them and just as dogmatic will be formed.",
+        "image": ""
+    },
+    {
+        "title": "Ditz",
+        "SPGain": 5,
+        "CPGain": 5,
+        "desc": "Outside of battle, you're clumsy and forgetful. These can both be removed through your powers or through practice.",
+        "image": ""
+    },
+    {
+        "title": "Misunderstandings",
+        "SPGain": 5,
+        "CPGain": 10,
+        "desc": "Your life is full of misunderstandings, almost like a comedy anime, without the comedic undertones while being prone to cause serious problems. Maybe a hero might think you are committing a crime, the public blames you for a bank heist when you were there to just open an account, or a villain thinks you are responsible for killing their child. Almost all misunderstandings you’re personally involved in will have a detrimental price, to put it shortly.\nNote: If you take Trouble Magnet as well… well, get ready.",
+        "image": ""
+    },
+    {
+        "title": "Contractual Villainy",
+        "SPGain": 15,
+        "CPGain": 15,
+        "desc": "You will frequently be required to perform villainous acts or suffer escalating consequences. You are not required to succeed but an attempt with a reasonable possibility of success must be made. These tasks will require illegal acts to be performed, from theft and robbery to arson or even assassination. As long as you cooperate, what will be asked of you will test but not overstep your moral boundaries but will be inconvenient to your plans in some way. Such as robbing a bank if you are trying to lay low.",
+        "image": ""
+    },
+    {
+        "title": "I'm Altering the Deal",
+        "SPGain": 30,
+        "CPGain": 30,
+        "requirement": "Contractual Villainy",
+        "desc": "The tasks you receive are no longer constrained by moral boundaries. Instead, they will slowly escalate and become more morally reprehensible until you reach depravities that would make even the Slaughterhouse Nine sick. Or, more likely, recruit you.",
+        "image": ""
+    },
+    {
+        "title": "Lightweight",
+        "SPGain": 5,
+        "CPGain": 5,
+        "desc": "You can't hold your alcohol. No matter the type of drink, your tolerance is so low, anything gets you easily intoxicated. A single shot and you're slurring your words, stumbling, and likely making a fool of yourself. It might raise the likelihood of alcohol poisoning due to your low tolerance.",
+        "image": ""
+    },
+    {
+        "title": "Rogues Gallery",
+        "SPGain": 12,
+        "CPGain": 12,
+        "desc": "Over time you will find Parahumans of opposing alignments and goals drawn to you like moths to a flame. This will happen at a rate of roughly one Normal Shard parahuman per month, and an additional person with a Vital Shard appearing yearly. However the more powerful you are, the more rapidly enemies will rise to challenge you. This drawback will wear off after 10 years.",
+        "image": ""
+    },
+    {
+        "title": "Manton Unlimited",
+        "SPGain": 15,
+        "CPGain": 15,
+        "incompatibility": "Manton Protected",
+        "desc": "Your body is anomalous, causing it to defy the conventional Manton Limit. For example, Vista's power won't recognize you as a living being, allowing her to warp the space your body occupies as if you weren't there. However, Crusader's ghost treats you as a living target, able to inflict harm upon you. In other words, you exist on the unfavorable side of the Manton Effect, where the usual rules and protections do not apply to you.",
+        "image": ""
+    },
+    {
+        "title": "Inconsistent Minor Misfortune",
+        "SPGain": 3,
+        "CPGain": 5,
+        "desc": "When it comes to irrelevant, everyday inconveniences, you have terrible luck. You will stub your toe more frequently, often arrive at a stoplight just as it turns red, will never win at bingo, and experience other such frustrations. This drawback will wear off after 10 years.",
+        "image": ""
+    },
+    {
+        "title": "Consistent Minor Misfortune",
+        "SPGain": 5,
+        "CPGain": 3,
+        "requirement": "Inconsistent Minor Misfortune",
+        "desc": "You are slightly less lucky in all aspects. This is a very subtle, very small decrease, but affects even combat. This effect is twice as potent if you have any perks or powers that increase your luck. This drawback will wear off after 10 years.",
+        "image": ""
+    },
+    {
+        "title": "Shounen",
+        "SPGain": 5,
+        "CPGain": 10,
+        "desc": "You're not necessarily any less intelligent... you just care less. You're really bad at anything you're not significantly motivated to do.",
+        "image": ""
+    },
+    {
+        "title": "Servant",
+        "SPGain": 5,
+        "CPGain": 5,
+        "desc": "People will expect you to do small favors for them whenever you're not busy with something important. People might ask you to mow their lawn or save their cat from a tree. You can decline to do so, but most people will be offended by this.",
+        "image": ""
+    },
+    {
+        "title": "Sick",
+        "CPGain": 10,
+        "desc": "When you awaken in your chosen world, you will find you have been infected by an incurable Tinker-tech sickness. It will not kill you, but you will feel very sick, and you won't be in the condition to do much of anything for about a week.",
+        "image": ""
+    },
+    {
+        "title": "Injured",
+        "CPGain": 10,
+        "desc": "Your body will be injured in some way. It could be a broken arm or even a gun wound. The injury must be serious enough to hinder you in some way, but not enough to be lethal. You cannot heal yourself of these injuries for a week, but you can mitigate them to a degree. However, you can still be healed by others.",
+        "image": ""
+    },
+    {
+        "title": "Minor Disability",
+        "count": 0,
+        "SPGain": 5,
+        "CPGain": 5,
+        "desc": "With each purchase of this drawback, you will have a disability which slightly impacts your day-to-day life. For example, this disability can range from (but is not limited to): minor deafness, partial vision loss, mild speech disorders, partial paralysis, minor genetic disorders, mild cognitive disabilities or limited amputations such as the loss of a single eye or section of a limb. No powers you possess can outright heal your disability. Instead, you will have to a while to understand your disability before you can deal with it (even if your powers should normally heal it just fine). This drawback also doesn't stop others from healing you.",
+        "image": "",
+        "subItems": [
+            {
+                "title": "Monster Cape",
+                "synergy": "Case 53",
+                "desc": "As you're a Case 53, healing you might be much more difficult. Your form was warped by your Shard, possibly into an entirely alien form. Therefore, biokinetics like Panacea might have a hard time understanding your biology, much less working on it. However, depending on your mutations, healing you might still be possible."
+            },
+            {
+                "title": "Grievous Injury",
+                "synergy": "Injured",
+                "desc": "The injuries you sustained will now likely be the cause of your disability. Lost an eye? Be prepared to enter with a bloody socket. Nerve damage? Perhaps a burn rides up the portion it resides in. This does not apply for disabilities that cannot reasonably come from physical damage."
+            }
+        ]
+    },
+    {
+        "title": "Major Disability",
+        "count": 0,
+        "SPGain": 10,
+        "CPGain": 10,
+        "desc": "With each purchase of this drawback, you will have a severe disability which strongly impacts your day-to-day life. For example, this disability can range from (but is not limited to): complete deafness, blindness, muteness, paraplegia, severe genetic and mental disorders or major amputations such as the loss of an entire limb. No powers you possess can outright heal your disability. Instead, you will have to a while to understand your disability before you can deal with it (even if your powers should normally heal it just fine). This drawback also doesn't stop others from healing you. ",
+        "image": "",
+        "subItems": [
+            {
+                "title": "Monster Cape",
+                "synergy": "Case 53",
+                "desc": "As you're a Case 53, healing you might be much more difficult. Your form was warped by your Shard, possibly into an entirely alien form. Therefore, biokinetics like Panacea might have a hard time understanding your biology, much less working on it. However, depending on your mutations, healing you might still be possible."
+            },
+            {
+                "title": "Debilitating Injury",
+                "synergy": "Injured",
+                "desc": "The injuries you sustained will now likely be the cause of your disability. Blinded? Prepare for sharp pain and darkness. Lost an arm? Best pray you’re close to a healer… or at least a hospital. This does not apply for disabilities that cannot reasonably come from physical damage."
+            }
+        ]
+    },
+    {
+        "title": "Returning Monsterous Form",
+        "SPGain": 10,
+        "CPGain": 10,
+        "requirement": "Minor Disability; Case 53",
+        "desc": "Your Case 53 mutations are forever stuck as they are, and whatever disabilities you have are now a part of that form. This works by giving you a minor Changer power that actively works against you, constantly returning you to your base form. You are beyond saving.\nThough, this means that you effectively have a healing factor – you are returning to your base form, which does not include any injuries you might sustain. The injuries and disabilities gained from drawbacks obviously don't count.",
+        "image": ""
+    },
+    {
+        "title": "Morsel",
+        "SPGain": 5,
+        "CPGain": 5,
+        "desc": "Good news — everyone wants a piece of you. Bad news — this is meant quite literally.\nAnything, from your blood to your flesh and everything else, will now be tailored to be perfect for those that consume it. A vampire will find your blood tastier than that of any other human; a ghoul will find the flesh of others tasteless and bland after having a piece of you.\nWhile this will not affect those who do not appreciate the taste of human blood or flesh in the first place, those who do, like cannibals, ghouls, vampires, zombies, etc., will now instinctually understand that you are the best meal they will ever come across. How they react depends on their moral disposition, as well as their relation to you.",
+        "image": ""
+    },
+    {
+        "title": "Cold Heart",
+        "SPGain": 10,
+        "CPGain": 5,
+        "incompatibility": "Well-Adjusted; Emotional",
+        "desc": "Your empathy will be muffled, with your emotional intelligence hampered, making it harder to see things from the perspective of others; on top of it all, any emotional response or general sentimentality will be indirectly dulled, coming as aloof or wooden to other people.",
+        "image": ""
+    },
+    {
+        "title": "Emotional",
+        "CPGain": 10,
+        "incompatibility": "Cold Heart",
+        "desc": "Your emotions will run deep and often cloud your judgment, leading you to form quick and strong emotional attachments with others. For example, you might fall in love quickly and deeply, which can lead to heartbreak. Additionally, you might make decisions based on your emotions rather than logic, causing problems in your life. It’s hard for you to take a step back and think things through before following your intuition, and as your emotions tend to control you.",
+        "image": "",
+        "subItems": [
+            {
+                "title": "Hatred",
+                "synergy": "Wrath",
+                "desc": "You will be quick to hate and hold grudges. If someone has ever slighted you, even if unknowingly, you will remember it. This can cause you to act on this petty hatred, such as directly attacking them in retaliation, or doing something more sinister that could result in the target's death or worse."
+            },
+            {
+                "title": "Pride",
+                "synergy": "Narcissism",
+                "desc": "Your pride and honor will be among your most valued traits. You will absolutely hate having your pride insulted, even more than a typical narcissist. And when challenged or making a promise, you will feel compelled to follow through, no matter the personal cost. This commitment to your principles and self-worth is a strength, but it can also be a burden. You will never back down or accept anything less than your best."
+            },
+            {
+                "title": "Fear",
+                "synergy": "Anxiety: [Internally Screaming]",
+                "desc": "Your fear will move you to a careful and distrustful demeanor. Anything that flares your uneasiness will be either avoided or reactively 'dealt with.' Born out of a desire for self-preservation, you will be compelled to assert control or compensate due to your dread. Disbelief and denial will be the defense mechanisms you grapple with.\nHaving the 'Courage perk will transform this into a sense of carefulness and concern for those around you, a healthy skepticism that never becomes cynicism, and the ability to acknowledge your doubts with passionate certainty."
+            },
+            {
+                "title": "Threshold",
+                "synergy": "Inner Harmony",
+                "desc": "You can achieve a state of perfect self-control, allowing you to act with flawless logic and precision. In this state, you remain acutely aware of your emotions—you still feel everything deeply—but their influence is entirely suppressed, preventing them from clouding your judgment or ruling your decision-making.\nThis ability is not without a cost. Maintaining this state is emotionally draining, and the emotions you suppress will not disappear. When you release your control, the full weight of those feelings will 'catch up' to you all at once, potentially overwhelming you with sorrow, anger, or despair. The severity entirely depends on your actions in your controlled state. If you've been forced to do something you percieve as wrong or if you've encoutered some situation you view as terribly tragid, the emotional whiplash will be particularly difficult. On the other hand, if you've simply used it to stop your emotions from distracting you while you solved a problem, you may only need a few seconds to regain your equilibrium.\nInner Harmony will help recover from this emotional deluge, and some other perks like Well-Adjusted or Inland Empire may speed up said recovery, but the experience will still be deeply painful and not to be taken lightly."
+            }
+        ]
+    },
+    {
+        "title": "What Do You Desire",
+        "CPGain": 10,
+        "requirement": "Emotional",
+        "desc": "You'll wear your heart on your sleeve, broadcasting your emotions and desires to the world with unmistakable clarity. Your emotions will shine through, impossible to conceal even from the most dense people. Whether it be about you liking someone or you hating an activity, anyone will be able to tell. There'll be no hiding your wants and desires; they will be laid bare for all to witness.",
+        "image": "",
+        "subItems": [
+            {
+                "title": "Action on a Whim",
+                "synergy": "Head Empty, No Thoughts",
+                "desc": "You will be guided by your desires, putting your own needs and wants above all else. Whether you are in the midst of a fierce battle or an intense negotiation, if you suddenly get a craving for fried chicken, you will simply drop everything and leave to satisfy your craving. Your impulsive and erratic behavior, driven by your desires, can be both unpredictable and dangerous. Nevertheless, you'll remain steadfast in your pursuit of personal pleasure, regardless of the consequences."
+            }
+        ]
+    },
+    {
+        "title": "Tsundere",
+        "CPGain": 10,
+        "incompatibility": "Robot",
+        "desc": "You will develop a personality characterized by initial coldness, cynicism, or hostility towards those you secretly like or care about. Despite genuinely positive feelings, you'll find yourself struggling to express anything but annoyance, anger, or indifference, especially when flustered or embarrassed. Your true affection will only surface in rare, private, or vulnerable moments, making genuine connections difficult until others learn to see past your harsh exterior.",
+        "image": ""
+    },
+    {
+        "title": "Keep the Secret",
+        "SPGain": 8,
+        "CPGain": 8,
+        "incompatibility": "Unmasked",
+        "desc": "You will feel a compulsive desire to separate your everyday life from your cape identity. If you choose to become a hero, and encounter someone who needs help while you're in your civilian identity, you will hesitate to help them to avoid exposing yourself. You will try your very best to avoid using your powers in obvious ways while dressed as a civilian. You will also have a very hard time trusting someone with your secret identity, even if you otherwise trust them completely.",
+        "image": ""
+    },
+    {
+        "title": "Eh, I Can Take You",
+        "SPGain": 5,
+        "CPGain": 10,
+        "desc": "You will have a dangerous habit of underestimating the threat certain people pose, and this will always end up biting you in the ass.\nMajor players are exempt from this. Instead, this drawback will trigger whenever you go against lesser foes or threats.\nExpect a lot of humiliation to come your way that could have been avoided. Be careful not to get yourself killed.",
+        "image": ""
+    },
+    {
+        "title": "Trouble Magnet",
+        "SPGain": 10,
+        "CPGain": 10,
+        "desc": "You will tend to attract trouble or, more likely, trouble will tend to find you.\nEven if you live a normal life, you will occasionally be involved in minor events that spice up your routine. These predicaments will rarely, if ever, completely disturb your life or put you in serious danger, and your involvement in them will generally match your principles and morals. In most cases, the problems can be resolved without the use of violence on your part.\nFor example, the local police could ask you to assist with a mysterious murder if you’re known as a detective if not a P.I. Additionally, your neighbors will want help investigating the strange happenings around the block if you are heroically aligned or known as a helpful person. You might also uncover conspiracies or cabals by accident, like the school principal committing fraud or local Thinkers manipulating property prices.",
+        "image": ""
+    },
+    {
+        "title": "Wild Wasteland",
+        "SPGain": 10,
+        "CPGain": 10,
+        "requirement": "Trouble Magnet",
+        "desc": "The frequency, scope, and general... oddness of the events you become involved with will all increase.\nFor example, you might find yourself at the center of an underground war between the Mafia and Yakuzas after you befriend the heiress to one of their clans at school, or you might get dragged into a long trip to uncover the dark secrets of the Golden Idol you received from a long lost acquaintance, or you might even discover that Medhall Corporation is working on a bioweapon to turn people into zombies.\nThe sky is very much not the limit, and those adventures might get dangerous but never outside of your ability to solve — or at least survive — with your current skill set, powers, and allies.",
+        "image": ""
+    },
+    {
+        "title": "May You Live in Interesting Times",
+        "SPGain": 10,
+        "CPGain": 10,
+        "requirement": "Trouble Magnet",
+        "desc": "You will attract trouble. Even if you try to live a completely mundane life, you will get pulled into the schemes of others or strong parahumans will always find you and challenge you to a fight. Either way, your life will be interesting in the Chinese sense.\nThis could be considered a perk if you have a power that grows with the use or that gets significantly more useful with increased skill, but it ensures you're never overpowered.\nIf you're stronger than anyone in the setting, a Tinker might find themselves opening a portal between the universe you're in and one with stronger fighters.",
+        "image": ""
+    },
+    {
+        "title": "Fated Journey",
+        "SPGain": 15,
+        "CPGain": 15,
+        "requirement": "Trouble Magnet",
+        "desc": "Your life is now destined for a grand journey – a tale brimming with adventure, thrills, sorrows, joys, and terrors, with so much more in between, weaving together into a tapestry of unforgettable experiences.\nWhile your role in fate's design is significant, it won't overshadow all others, nor will it pull everyone into your orbit. Instead, your life will be a balance of remarkable events and meaningful connections, filled with intrigue and excitement. However, please note that you won't have any plot armor to shield you through this journey; the stakes are very much real.\nEven so, when the time comes for your grandest adventures to draw to a close and as you enter the quieter chapters of your life, the journey won't entirely fade. You'll continue to attract a subtle flow of intrigue and challenges – a touch of excitement just enough to keep your days vibrant. Yet amidst all this, leaving you enough peace and solitude to find true contentment in the quieter moments.",
+        "image": ""
+    },
+    {
+        "title": "Child of Fate",
+        "SPGain": 20,
+        "CPGain": 20,
+        "requirement": "Fated Journey",
+        "desc": "You have been blessed with the fate to live out your own story, with you as the protagonist. You will meet the most interesting people, be present for the most momentous events, and get to see the most amazing places around, all the while getting into no end of dangerous trouble, just like any other protagonist out there.\nThis practically guarantees that regardless of your desires, you will be drawn into and be a major player in the main story of any world you land in or visit, if there is any – and if it doesn't have any, fate will put you on a path that determines the future of the world, whether for better or for worse. This might sound amazing but know that this doesn't give you any plot armor, so there is nothing that guarantees your safety, and while you will have some downtime between adventures, you will inevitably get dragged back into another grandiose adventure.",
+        "image": ""
+    },
+    {
+        "title": "Mr. Regular",
+        "SPGain": 30,
+        "CPGain": 30,
+        "requirement": "Trouble Magnet; Homecoming or Never Ending Adventure",
+        "desc": "Wow, you really must be a glutton for the strange, weird, and adventurous, aren't you? Well, you now have that in abundance.\nYou are going to see everything the Multiverse has to offer if you live that long, from the Reapers invading, Darkseid attacking whatever world you currently live in, to a rowdy and destructive group of mages crashing in your house, and Justice League randomly appearing in your current world, et cetera. You will never lack for any form of excitement.\nThis in essence makes your life a massive multi-crossover, where you will meet several characters not limited to franchises you know regardless of your current world, they will find you, and they will involve you in their nonsense, so I hope you're ready.\nNote: If you take this and Child of Fate, you are in for a hell of a time.",
+        "image": ""
+    },
+    {
+        "title": "Chains of Fate",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "The Fate of this world actively resists change, skewing probability and railroading events to produce the 'Canon' outcome, as if the very world itself conspires against attempts to change things. While this may not have much impact in places far from the main 'story' as it were, the closer you get to the action, the more luck and probability distort to result in a specific outcome.\nWhile this may not sound so bad at first, you’ll find that any attempt to influence things for the better will result in pushback. For instance in Worm, if you try to kill Jack Slash to prevent him from triggering Golden Morning, you will experience progressively more and more ludicrous events designed to prolong his existence until he can fulfil his role.\nSuch is the strength of this affect that in order to kill him you would need to cut off every possible avenue of survival or escape no matter how unlikely, and even if you do kill him, events will conspire to resurrect or clone him, and if you prevent all ways of that happening, something else will come along to trigger Scion instead.\nIf you intend to change the Fate of this world, strap yourself in because you’re going to need to be on top of things 24/7 in order to get anything done.",
+        "image": ""
+    },
+    {
+        "title": "Plotbound",
+        "SPGain": 7,
+        "CPGain": 7,
+        "desc": "Your fate is now intertwined with the main plot of the world you first appear in. You will find yourself encountering canon characters more often, and events will conspire to encourage your participation in the main story.\nFor example, the Undersiders may bump into you while fleeing from Lung, you may be chosen as another member or a Jonin instructor of Team 7, etc. This drawback naturally expires when the main plot reaches its conclusion.",
+        "image": ""
+    },
+    {
+        "title": "Fallen Worship",
+        "SPGain": 5,
+        "CPGain": 10,
+        "desc": "The Fallen believe you to be one of the Endbringers, possibly not believing you've yet to receive whatever divine wisdom causes the Endbringers to destroy cities every couple of months. They will worship you and try to get you to act like the Endbringers. Even if you don't take this, they might still come to this conclusion.",
+        "image": ""
+    },
+    {
+        "title": "Tinfoil Hat",
+        "SPGain": 5,
+        "CPGain": 10,
+        "desc": "No one will believe you if you tell them about the entity or Cauldron unless you show them definite proof or they already know about what you're telling them. Powers like (Stranger) Truth overpowers this drawback.\nThe effects of this drawback become less and less potent the more an individual trusts you. If you're trying to explain things to a stranger, the chances of them believing you are pretty much zero. If you're talking to a family member like Carol Dallon who is unable to fully trust anyone, the chances are low as well. But if you're talking to your best friend, a loving parent, or a romantic partner who respects you and trusts you, they will naturally find your claims outlandish, but they will accept them as the truth. They might still want to see a proof, though.",
+        "image": ""
+    },
+    {
+        "title": "Conspiracy Theory",
+        "SPGain": 5,
+        "CPGain": 10,
+        "requirement": "Tinfoil Hat",
+        "desc": "Now the effects of Tinfoil Hat apply to your meta-knowledge as well. People are naturally going to assume you're insane or lying.\nMuch like in the case of Tinfoil Hat, though, you will have an easier time convincing people who already trust you.",
+        "image": ""
+    },
+    {
+        "title": "Despair Event Horizon",
+        "SPGain": 10,
+        "CPGain": 15,
+        "desc": "Every negative event can impact your mental state, accumulating mental wounds that, if not properly healed, can cause significant damage. The more severe the event, the greater the damage, while mild events can cause mild to no damage. As mental damage accumulates, your thoughts gradually darken, worsening at certain points. Unhealed mental wounds will haunt you with flashbacks. After a certain amount of mental damage, a break can occur so severe that it turns a paragon of heroes into the most vile of villains. Once the Despair Event Horizon is passed, recovery becomes very difficult, though not impossible.\nAre you sure you want to do this to yourself?",
+        "image": ""
+    },
+    {
+        "title": "Arbitrary Weakness",
+        "SPGain": 10,
+        "CPGain": 15,
+        "desc": "Coming in contact with a certain thing weakens and maybe even debilitates you. Like Kryptonite, you find yourself losing power in the face of that something. This can be sunlight, a certain element on the periodic table, or even an object like the Bible.",
+        "image": ""
+    },
+    {
+        "title": "Just Following Orders",
+        "SPGain": 10,
+        "CPGain": 15,
+        "desc": "You will follow the orders given to you by your superiors unless they clash personally with your morals or viewpoint, e.g., you wouldn’t obey orders forcing you to kill innocent civilians if your standards defy this.\nYou also take legality into account where it’s harder to question or challenge orders you disagree with, although made legitimately or with the law supporting it, i.e., if a despot were to seize power through legal means like an election, you would be more inclined to follow the orders of the new government than if they seized power through a violent coup.",
+        "image": ""
+    },
+    {
+        "title": "Pragmatist",
+        "SPGain": 10,
+        "CPGain": 5,
+        "incompatibility": "Complexity Addiction",
+        "desc": "You have a pragmatist mindset. Your plans and solutions do not always consider the human factor or the PR angle, though even so, your ethics and morals still influence your plans. This makes working in a team somewhat difficult if the other members are less pragmatic than you. It depends on whether you are ready to compromise and accept the opinion of others or follow their plans.",
+        "image": ""
+    },
+    {
+        "title": "Mercy",
+        "SPGain": 10,
+        "CPGain": 5,
+        "desc": "You must always attempt a peaceful resolution before resorting to subduing an opponent by force. Your effort at peaceful resolution must be genuine, though it can be fulfilled through a simulation or by an action that is later undone by time travel. The attempt should be proportional to the situation; for instance, you won't be expected to solve a random ganger's family problems before arresting them for armed robbery.",
+        "image": ""
+    },
+    {
+        "title": "Complexity Addiction",
+        "SPGain": 10,
+        "CPGain": 15,
+        "incompatibility": "Pragmatist",
+        "desc": "You won't be able to resist making unnecessarily elaborate and dramatic plans. Perhaps you'll steal an entire building just to acquire a single item inside, or maybe you'll only use a tank filled with sharks to eliminate your enemies. Regardless, your plans will always prioritize drama over practicality.",
+        "image": ""
+    },
+    {
+        "title": "Personality Conflict",
+        "SPGain": 8,
+        "CPGain": 8,
+        "incompatibility": "Natural Leader; Friendly; Peaceful Vibes",
+        "desc": "You will find yourself unable to work effectively with others for any extended period unless you exert significant effort. Any team you join will inevitably either dissolve or remove you. This effect only applies if you are genuinely attempting to work with the team, so joining a group with the sole intent of causing its collapse won't activate this drawback.",
+        "image": ""
+    },
+    {
+        "title": "Terrible Fashion",
+        "CPGain": 10,
+        "desc": "You will simply be bad at looking charismatic or appealing due to your horrendous fashion choices. Even when wearing otherwise normal clothing, you'll somehow appear slightly 'off,' enough that people will subconsciously find you less attractive.",
+        "image": ""
+    },
+    {
+        "title": "Souls Game",
+        "SPGain": 30,
+        "CPGain": 30,
+        "desc": "Everyone – and I mean *everyone*, including that cat by the side of the road – will have at least a 50% chance of defeating you unless you can read their attack patterns and time your own attacks perfectly. This doesn't inherently make enemies stronger; rather, it makes all combat more skill-based rather than purely power-based. This doesn't negate the fact that overwhelming power can still help you win, but it introduces a significant chance that someone more skilled than you could snatch victory. This chance of losing does not stack with each opponent you face simultaneously.",
+        "image": ""
+    },
+    {
+        "title": "Always on the Clock",
+        "SPGain": 10,
+        "CPGain": 5,
+        "incompatibility": "Peaceful Life",
+        "desc": "Your social life will suffer significantly due to your hero career. If you work for an organization, you'll frequently be interrupted during your off-time for various 'urgent' matters. Your romantic candlelit dinner date might be cut short by a villain attack or another emergency. However, none of these interruptions will put your secret identity at risk, if you have one, as you'll always find an opportunity to slip away discreetly or politely excuse yourself.",
+        "image": ""
+    },
+    {
+        "title": "Parker Luck",
+        "SPGain": 25,
+        "CPGain": 25,
+        "incompatibility": "Peaceful Life; Worriless",
+        "requirement": "Always on the Clock",
+        "desc": "Your superhero activities won't just negatively impact your social life; they'll make it absolutely miserable, as if some invisible force delights in your suffering. Supervillains might attack and even kill your loved ones. You'll constantly struggle with work and earning money, always at risk of being fired or falling into poverty. Or, someone might come along and steal the love of your life from you. Being a hero is a sacrifice, and your duty will demand its pound of flesh from you, but remember: with great power comes great responsibility. Despite all this, you will somehow still manage to make it through.",
+        "image": ""
+    },
+    {
+        "title": "Kill Order",
+        "SPGain": 5,
+        "CPGain": 10,
+        "desc": "You will inevitably have a kill order placed on your head by the PRT. This means anyone in the world can murder you with no legal consequences whatsoever, and will, in fact, be rewarded for doing so. Heroes, especially, will be actively hunting you whenever they have the chance. All those unwritten rules that typically discourage lethal force in cape conflicts will no longer apply to you, and your opponents will generally be going all out to eliminate you.",
+        "image": ""
+    },
+    {
+        "title": "Overwatch 2",
+        "SPGain": 20,
+        "CPGain": 20,
+        "desc": "You won't be able to resist adding things that absolutely no one desires. You'll make promises and then vastly under-deliver. You'll be a complete buzzkill when it comes to creating anything.\nIf you claim you'll forge a sword capable of annihilating continents, you'll only end up putting in enough effort to craft a sword that barely scratches a building.\nYour promises are essentially lies, and you're likely to be perceived as a douchebag.",
+        "image": ""
+    },
+    {
+        "title": "A Little While Longer",
+        "count": 0,
+        "SPGain": 5,
+        "CPGain": 5,
+        "requirement": "Homecoming",
+        "incompatibility": "Reluctant Dimension Hopper; Dimensional Flux",
+        "desc": "Your ability to traverse the Multiverse will be disabled, and all methods you attempt to use to leave your initial world will fail. You must wait a significant amount of time before you can successfully jump to another universe. It will take 1 year for your soul anchor to fade. Taking this option repeatedly will increase this duration by 1 year for each selection.",
+        "image": ""
+    },
+    {
+        "title": "Apocalypse Now",
+        "count": 0,
+        "SPGain": 18,
+        "CPGain": 18,
+        "desc": "Scion/Zion will be haunted by visions of his own death. For each time this drawback is taken, it will halve the time until Zion initiates Golden Morning (counting from your arrival), triggered by something that sets him off – it could be Jack gaining early influence over him, Zion realizing humans are using his partner's remains to create more parahumans, or any other catalyst. Once this happens, the timeline is locked in, and nothing can change Zion's course. Even if you kill Jack Slash before he sets off Zion, Golden Morning will still occur after the designated time.\nIf taken on an Alternate World, this will instead trigger the local doomsday scenario, such as The Snap (MCU), the Reapers' harvest of the universe (Mass Effect), or Voldemort's return and subsequent fall of Hogwarts (Harry Potter).\nIf there is no pre-existing existential threat, a random one will appear and activate in about a decade.",
+        "image": ""
+    },
+    {
+        "title": "Dimensional Flux",
+        "SPGain": 10,
+        "CPGain": 10,
+        "incompatibility": "A Little While Longer",
+        "desc": "Your transfer (or your empowerment, if you picked No Transfer) will destabilize your 'position' in space. While this won't be much of an issue on its own, it will cause any attempts to travel to other dimensions or universes to almost always fail catastrophically. At best, you'll be sent far from your intended destination within that world; at worst, you'll end up in a completely different universe entirely. Thankfully, your initial transfer has anchored you to your chosen world, preventing this from interfering with any attempts to return, should the need arise. This flux will persist for approximately 10 years before stabilizing.\nNote: This will not affect Reluctant Dimension Hopper and related drawbacks, at least not directly – it will absolutely affect your own attempt to return to previously visited universes.",
+        "image": ""
+    },
+    {
+        "title": "Power Boost Additive",
+        "count": 0,
+        "SPGain": 5,
+        "CPGain": 5,
+        "incompatibility": "Power Boost Multiplicative; Power Boost Exponential",
+        "desc": "For each purchase of this drawback, the power of all sentient beings, excluding yourself, will increase by 10%. Each boost will take one month to fully manifest. Therefore, if for example 10 boosts are taken, it will take 10 months for the full effect to become apparent. It's important to note that these boosts are not cumulative in a compound way; if you take 10 boosts, the final increase will be a straightforward 100% rather than a compounded 259.37%.\nOptionally, you can choose to make the power boost retroactive, making it appear as if the characters were always this strong through various methods such as simply triggering with a stronger power, enhanced training, rituals, or simply being born stronger. The exact method will adapt to suit the specific setting and/or character.\nWarning: Be very careful not to overdo this. For example, in Worm a 1000% power increase would mean even the Endbringers (and Scion, though it's debatable how much that would matter) would be that much stronger.",
+        "image": ""
+    },
+    {
+        "title": "Power Boost Multiplicative",
+        "count": 0,
+        "SPGain": 7,
+        "CPGain": 7,
+        "incompatibility": "Power Boost Additive; Power Boost Exponential",
+        "desc": "For each purchase of this drawback, the power of all sentient beings, excluding yourself, will cumulatively increase by 20%. Each boost will take one month to fully manifest. Therefore, if 10 boosts are taken, it will take 10 months for the full effect to become apparent, resulting in a total increase of approximately 619.17% (i.e., power multiplied by 1.2^10 ≈ 6.1917) rather than a simple 200% increase.\nOptionally, you can choose to make the power boost retroactive, making it appear as if the characters were always this strong through various methods such as simply triggering with a stronger power, enhanced training, rituals, or simply being born stronger. The exact method will adapt to suit the specific setting and/or character.\nWarning: Be very careful not to overdo this. For example, in Worm a 2000% power increase would mean even the Endbringers (and Scion, though it's debatable how much that would matter) would be that much stronger.",
+        "image": ""
+    },
+    {
+        "title": "Power Boost Exponential",
+        "count": 0,
+        "SPGain": 12,
+        "CPGain": 12,
+        "incompatibility": "Power Boost Additive; Power Boost Multiplicative",
+        "desc": "For each purchase of this drawback, the power of all sentient beings, excluding yourself, will increase exponentially by 30%. Each boost will take one month to fully manifest. Therefore, if 10 boosts are taken, it will take 10 months for the full effect to become apparent, resulting in a total increase of approximately 2008% (i.e., power multiplied by e^3 ≈ 20.09) rather than a simple 300% increase.\nOptionally, you can choose to make the power boost retroactive, making it appear as if the characters were always this strong through various methods such as simply triggering with a stronger power, enhanced training, rituals, or simply being born stronger. The exact method will adapt to suit the specific setting and/or character.\nWarning: Be very careful not to overdo this. For example, in Worm a 3000% power increase would mean even the Endbringers (and Scion, though it's debatable how much that would matter) would be that much stronger.",
+        "image": ""
+    },
+    {
+        "title": "Instant Boost",
+        "SPGain": 7,
+        "CPGain": 7,
+        "requirement": "Power Boost Additive or Power Boost Multiplicative or Power Boost Exponential",
+        "desc": "Instead of being retroactive or taking months to manifest, the power boost will occur instantly upon your arrival in the world, quite possibly plunging the world into total chaos.\nIf you take this drawback, you may not choose the optional retroactive power boost. The boost will be instant and very unexpected.",
+        "image": ""
+    },
+    {
+        "title": "Lonely",
+        "SPGain": 10,
+        "CPGain": 15,
+        "incompatibility": "Friendly; Spouse; Natural Leader",
+        "desc": "Any friends you make will eventually turn on you, or die, or perhaps they were never truly your friends to begin with.\nIn the end, you will find yourself alone.\nNote: You may still force someone to be loyal to you, to be your true friend or a lover, if you have an appropriate Master power or if you brainwash them in some other way.",
+        "image": ""
+    },
+    {
+        "title": "Separation Anxiety",
+        "SPGain": 8,
+        "CPGain": 8,
+        "desc": "Choose any character – this could be one of your companions, a canon character from your destination world, your significant other, or even someone random. You both will now suffer from extreme separation anxiety. Being in different rooms will already cause deep discomfort, but if you are separated for more than a few hours, the anxiety and depression will become so overwhelming that you will be unable to function, unless your actions are specifically aimed at reuniting with each other.\nThe precise way you first meet this character is up to you; you might already have history with them, or you could be about to meet them, but the drawback must take effect within a few days of your arrival.",
+        "image": ""
+    },
+    {
+        "title": "Stalker",
+        "SPGain": 5,
+        "CPGain": 10,
+        "desc": "You will gain a stalker. This individual will possess the Insane: Obsession drawback, specifically directed towards you, and will go to extreme lengths to gain your attention and affection.\nWhile not necessarily stronger than you, they will be naturally gifted in stealth, espionage, and acting, allowing them to pursue their obsession without drawing excessive suspicion.\nYou may choose which character this applies to, or you can allow it to be someone random.",
+        "image": ""
+    },
+    {
+        "title": "I Will Fix Her",
+        "SPGain": 10,
+        "CPGain": 10,
+        "desc": "You will attract unstable individuals of the gender you are attracted to. It will be very easy for you to become the target of a yandere, be invited to a goth girl's party only to discover she plans to sacrifice you to dark powers, or find yourself charmed by the best person you've ever met, only to later realize they have nine other personalities.",
+        "image": ""
+    },
+    {
+        "title": "Red Flag Lover",
+        "SPGain": 15,
+        "CPGain": 15,
+        "desc": "You'll find yourself involuntarily, inexplicably, and irreversibly drawn to 'red flags.' The warning signs of toxic traits and unstable behavior in those you're attracted to will only seem to intensify your desire to pursue them.\nThe more broken, volatile, or dangerous they are, the harder you'll fall for them, no matter how problematic it becomes. You'll instinctively rationalize their actions and convince yourself they're not as bad as they seem. Just try not to lose yourself entirely while chasing after those who might break you far more than they ever love you.",
+        "image": "",
+        "subItems": [
+            {
+                "title": "They Can Ruin Me",
+                "synergy": "I Will Fix Her",
+                "desc": "You won't just fall for red flags – you'll actively nurture them, feeding into their instability with care and devotion until they blossom into full-blown disasters. What might have been minor flaws in someone else will slowly grow into consuming storms while they are in your orbit, magnifying their worst impulses. The more you give of yourself, the more they will unravel, becoming clingier, crueler, and more erratic in the process, until they finally collapse.\nAnd the deeper they spiral, the tighter you will hold on. Every outburst, every breakdown will feel like proof they need you more, dragging you from affection into obsession. At some point, you'll stop loving them despite the damage – you'll start loving them because of it."
+            }
+        ]
+    },
+    {
+        "title": "Villain Target",
+        "SPGain": 5,
+        "CPGain": 10,
+        "desc": "You will be much more likely to encounter villains in your new life, either as a victim of their schemes or as a target for recruitment into their ranks.",
+        "image": ""
+    },
+    {
+        "title": "Late to the Party",
+        "SPGain": 20,
+        "CPGain": 15,
+        "desc": "Three other individuals will arrive on your chosen world with builds of their choice, but they will arrive at different times _before_ you and possess similar overall strength.",
+        "image": ""
+    },
+    {
+        "title": "Party's Just Getting Started",
+        "SPGain": 15,
+        "CPGain": 8,
+        "desc": "Three other individuals will arrive on Earth Bet with builds of their choice, at the exact same time as you, and will possess similar overall strength.",
+        "image": ""
+    },
+    {
+        "title": "This Party's About to Get Crazy",
+        "SPGain": 10,
+        "CPGain": 5,
+        "desc": "Three other individuals will arrive on Earth Bet with builds of their choice, but they will arrive at different times _after_ you, not simultaneously with each other, and will possess similar overall strength to you.",
+        "image": ""
+    },
+    {
+        "title": "Clone Conspiracy",
+        "count": 0,
+        "SPGain": 17,
+        "CPGain": 17,
+        "desc": "Instead of there only being one 'you' to worry about, there will now be multiple versions of you. For every purchase of this drawback, 3 to 5 clones of you will be created, either at the exact moment of your arrival or shortly thereafter, at most one year following your entry.\nAt least one-third of these clones are guaranteed to be hostile towards you, with the remainder falling anywhere along the spectrum of opinions. Their goals aren't necessarily contradictory to yours, but they will certainly have their own distinct aims.\nMost notably, these clones will possess variants of your perks and powers. These variations can be minor, like cosmetic differences, or as significant as completely different expressions of the same underlying power. For instance, if you have 'Blank,' all clones would also have 'Blank,' but if you have a Breaker power, they might instead manifest a Changer or Striker variant of that power.\nIf you have a Shard, you'll experience greater power drain because it has to share energy among each clone's abilities. If you're Shardless, the effect is more variable, but they will always be equivalent to you in terms of strength and utility.\nThese clones are fully formed individuals with complete internal experiences and can be reasoned with, though it's likely to be difficult depending on your circumstances. Additionally, the circumstances of their creation are variable; they could be batch-made clones, parallel versions of you, or the result of even stranger duplication methods, but they will always be, at minimum, reflections of you.",
+        "image": ""
+    },
+    {
+        "title": "The Summoning",
+        "SPGain": 7,
+        "CPGain": 7,
+        "desc": "Instead of arriving discreetly in your new world or assuming an existing identity, you will be intentionally summoned through a magical or technological ritual. Your summoner won't actually have a way to control you with the ritual, but they will immediately know that you're an outsider. For Drop-Ins, this is straightforward. However, for Reincarnations or Character-Inserts, the ritual will place you directly into that person's body.",
+        "image": ""
+    },
+    {
+        "title": "Extremely Obvious Summoning",
+        "SPGain": 8,
+        "CPGain": 8,
+        "requirement": "The Summoning",
+        "desc": "Instead of being summoned by a clandestine group or through a discreet magical mishap, you will be summoned by someone who is live-streaming or during another highly public event. Your arrival will be a very public spectacle, ensuring that almost everyone knows you are not from Earth Bet, or any other currently known Earth!",
+        "image": ""
+    },
+    {
+        "title": "The Binding",
+        "SPGain": 25,
+        "CPGain": 25,
+        "requirement": "The Summoning",
+        "desc": "With this, the ritual used to summon you will also compel you to obey your summoner for a year and a day, or until you have completed a task they defined when you were summoned. You can only resist commands that are deeply heinous to you, and the summoner will have commands prepared for you before letting you leave the summoning circle.",
+        "image": ""
+    },
+    {
+        "title": "Acclimation",
+        "SPGain": 15,
+        "CPGain": 15,
+        "incompatibility": "Shardless",
+        "desc": "Your powers will begin 50% weaker than their base strength and will grow over time to reach 200% of their base power.\nNormally, they will grow to 100% in 6 months and reach 200% in 12 months. The more creatively you use your powers, the faster they will grow.\nIn the context of powers with multiple numerical values (e.g., number of charges and strength of charges), the product of all values will double. This means either one parameter doubles, two parameters increase by 1.4, three by 1.25, etc. (the n-th root of 2 for 'n' parameters). For frequencies, they are multiplied by the inverse (e.g., 2x becomes 1/2). You can choose which parameters are affected.\nThis drawback progresses in 'real' time, meaning time as experienced in the same reference frame as everyone else in the solar system. Anomalies like localized temporal distortions, pocket dimensions, and the like will not affect growth in either direction. In summary: this drawback cannot be cheesed with any kind of time travel.\nTemporal rewind effects like (Thinker) Time Loop and Return by Death from Re:Zero will reset your growth to where it was at the last checkpoint. True time travel, where you physically move from one point in space-time to another, does not change your progress.",
+        "image": ""
+    },
+    {
+        "title": "Jet Lag",
+        "SPGain": 10,
+        "CPGain": 10,
+        "requirement": "Acclimation",
+        "desc": "The time required for Acclimation to grow from 50% to 100% will increase to 12 months, and the time from 100% to 200% will increase to 24 months. The more creatively you use your powers, the faster they will grow.",
+        "image": ""
+    },
+    {
+        "title": "Snail's Pace",
+        "SPGain": 20,
+        "CPGain": 20,
+        "requirement": "Jet Lag",
+        "desc": "The time necessary for Acclimation to grow from 50% to 100% will increase to 4 years (48 months), and the time from 100% to 200% will increase to 8 years (96 months). The more creatively you use your powers, the faster they will grow, but each stage will last at least 12 months.",
+        "image": ""
+    },
+    {
+        "title": "Snails Are Quicker Than You",
+        "SPGain": 20,
+        "CPGain": 20,
+        "requirement": "Snail's Pace",
+        "desc": "The time necessary for Acclimation to grow from 50% to 100% will increase to 8 years, and the time from 100% to 200% will increase to 16 years. The more creatively you use your powers, the faster they will grow, but each stage will last at least 2 years.",
+        "image": ""
+    },
+    {
+        "title": "Growing Up",
+        "SPGain": 15,
+        "CPGain": 15,
+        "requirement": "Snails Are Quicker Than You; Age 1-6",
+        "desc": "Instead of being tied to elapsed time, your Acclimation will now be linked with your physical maturity, and training will be less effective at increasing it. You'll reach 100% at the beginning of puberty – around 12-15 years old for a baseline human, give or take a couple years – and reach 200% at full physical maturity, typically around 22-25 years old for a baseline human.\nIf you're a race that grows slower or faster, the time it takes you to acclimate will adjust accordingly, remaining linked with your physical maturity. If, for any reason, you are physically de-aged or have your aging accelerated, your acclimation percentage will change with your body. If you are de-aged into a newborn, your percentage will be as low as it can get.\nNote: If you go to Earth Bet or another Earth in the Worm local multiverse, you will be considered an anomaly for having been born with your powers instead of triggering with them. This could very well lead to your parents reaching out to the PRT for assistance, meaning that this could lead to many consequences down the line.\nThis also means that with this drawback you will a power even prior to you becoming self-aware. However, you don't have to worry about your toddler self having some kind of serious accident with your power, i.e., if you choose to take a copy of the Faerie Queen's power, you won't accidentally kill your parents. The more dangerous aspects of your powers will locked away until you're much older.\nWarning: This does mean that you will have a Shard from a very young age, meaning that it'll almost certainly have some degree of influence on your development. Be careful to select at least neutral relationship with your Shard if you take this. Even with a positive relationship, though, you should be careful. After all, Shards don't understand humanity particularly well. Even if it thinks it's being helpful... well, 'helpful' is very much subjective.",
+        "image": ""
+    },
+    {
+        "title": "Quarter Pounder",
+        "SPGain": 10,
+        "CPGain": 10,
+        "incompatibility": "Starting from Nothing",
+        "requirement": "Acclimation",
+        "desc": "Acclimation will be modified to make your powers start at 25% instead of 50%. This does not affect the time necessary for them to grow.",
+        "image": ""
+    },
+    {
+        "title": "Starting from Nothing",
+        "SPGain": 20,
+        "CPGain": 20,
+        "incompatibility": "Quarter Pounder",
+        "requirement": "Acclimation",
+        "desc": "Acclimation will be modified to make your powers start at 0% instead of 50%. This does not affect the time necessary for them to grow.",
+        "image": ""
+    },
+    {
+        "title": "No More, No Less",
+        "SPGain": 20,
+        "CPGain": 20,
+        "requirement": "Acclimation",
+        "desc": "Acclimation will no longer allow your powers to grow past 100% strength.",
+        "image": ""
+    },
+    {
+        "title": "Not Faster, Not Slower",
+        "SPGain": 10,
+        "CPGain": 10,
+        "requirement": "Acclimation",
+        "desc": "Acclimation cannot be made quicker through training.",
+        "image": ""
+    },
+    {
+        "title": "Hard Reboot",
+        "SPGain": 15,
+        "CPGain": 15,
+        "requirement": "Acclimation",
+        "desc": "Your powers will need some time to fully manifest and reach the Acclimation floor. This can take anywhere from a few hours, if you have only a few weak powers, to a few days, if you possess several strong powers. Powers will manifest in order of their usefulness, and stressful or dangerous situations can accelerate their appearance.\nNote: Powers with multiple sub-powers, like Dynamist, will manifest progressively.",
+        "image": ""
+    },
+    {
+        "title": "Quest-Lock",
+        "count": 0,
+        "SPGain": 10,
+        "CPGain": 10,
+        "requirement": "Acclimation",
+        "desc": "Not all of your powers will unlock automatically. Instead, for each time you purchase this drawback, one of your powers will be Quest-Locked. It will only become available once you've met a specific condition that you set. Once unlocked, that power will begin its own growth period, lasting the regular Acclimation's 12 months (or longer, if you've taken time-extending drawbacks). Any powers not 'Quest-Locked' will develop normally.\nThe unlock condition must always be reasonable. You will always know exactly how to unlock each of your Quest-Locked powers.\nWarning: If you purchase this drawback more times than you have powers, one of your already unlocked powers will be randomly re-locked later, and you will not know its new unlock condition. The same punishment applies if you set arbitrary or overly easy conditions for any of your Quest-Locked powers.",
+        "image": ""
+    },
+    {
+        "title": "Can't You Walk and Talk at the Same Time?",
+        "SPGain": 10,
+        "CPGain": 10,
+        "requirement": "Acclimation",
+        "desc": "Your powers will now grow and develop one at a time over your Acclimation period, with the development time proportional to their SP cost relative to your total spent on all powers. For example, if you bought 100SP worth of powers, a 10SP power would take one-tenth of the acclimation period to fully develop.\nYou are now forced to experience the entire length of your acclimation to grow into your abilities, and they will develop in the same order as their requirements; no level of creativity will shorten this duration. Multitasking abilities cannot allow you to train more than one purchased power at a time, but they may be used to work on abilities contained within a single power.",
+        "image": ""
+    },
+    {
+        "title": "Arbitrary Limitations (All Powers)",
+        "SPGain": 15,
+        "CPGain": 15,
+        "desc": "You or your Shard will place limitations on all of your powers. When restrictions are imposed on some aspects, others can be improved to compensate. These changes will either apply to individual powers, or merge multiple powers to work together as a single whole, or a combination of both. The restrictions can be extended to some or all of your perks and objects of power.\nFor example, your powers might only be usable through minions, or only one thematic group of powers can be used at a time, or you might have to build Tinker devices to produce those powers (if you have a Tinker power, for example).\nIf the restrictions for a group of powers are centered around one power, like a minion Master power or Tinker ability, this ability will receive a major boost.\nWarning: If you use this to merge multiple powers into one, then the drawback Quest-Lock will only lock away that one power. Be careful to not purchase more Quest-Locks, or the punishment condition will be triggered.",
+        "image": ""
+    },
+    {
+        "title": "Arbitrary Limitations (One Power)",
+        "SPGain": 5,
+        "CPGain": 5,
+        "desc": "You or your Shard will place limitations on one of your powers, perks, or objects. When restrictions are imposed on some aspects, others can be improved to compensate. This drawback affects one power per selection.\nFor example, the power might only be usable under certain circumstances but its effect is increased, or its range is reduced in exchange for potency, or the number of choices it offers is limited, but they can be improved over time, etc.\nWarning: Do not purchase this more times than you have powers, or for each extra purchase another random Arbitrary Limitation will be placed on one of your powers or perks.",
+        "image": ""
+    },
+    {
+        "title": "Power Cap",
+        "SPGain": 10,
+        "CPGain": 10,
+        "incompatibility": "Shardless",
+        "desc": "Your overall power level for all your abilities will be capped at a certain level, which depends on the strength of your current enemies. For example, if your enemy possesses only city-destroying levels of power at most, then you will be limited to city-destroying levels as well, regardless of your actual potential strength. It is only when you are fighting an enemy with equal or greater levels of power that you can unleash your full strength.\nWhen not actively in combat, your power will instead scale to the strongest individual in the area you currently occupy. If you limit yourself to operating only on a single planet or in one region, your power will scale with the strongest person in that area, whereas if you expand your operations to an entire solar system or beyond (provided you are capable of doing so), the power-scaling's range will increase accordingly.",
+        "image": ""
+    },
+    {
+        "title": "Prolong the Pain",
+        "count": 0,
+        "SPGain": 5,
+        "CPGain": 5,
+        "desc": "With this, you can now extend the duration of any time-limited drawback or applicable effect of your choice by an additional year per purchase.\nIf desired, you may continue to stack this extension on the same drawback each time you take this, or apply it to a different eligible drawback instead.\nWarning: If you don't have any such drawbacks or if you purchase this too many times, one of your perks (chosen at random) will not come online until the extra time has passed.",
+        "image": ""
+    },
+    {
+        "title": "Constant Activation",
+        "count": 0,
+        "SPGain": 10,
+        "CPGain": 10,
+        "desc": "One of your powers can never be deactivated, neither by the power's inherent mechanisms nor by outside sources or your other abilities. If you have laser eyes, they will be constantly active. If you have an invisibility power, you will forever remain unseen.\nWhile the power can never be fully deactivated, you can still control its intensity if you could do so in the first place. Instead of laser eyes constantly disintegrating everything in your field of vision, they may now be merely a harmless source of light. This, however, does not affect all-or-nothing aspects of the power.\nNote: This effectively gives that constantly active aspect of your powers immunity to Trump abilities.\nWarning: Once again, be very careful not to purchase this too many times, or further restrictions will be placed on another of your abilities, only this time you won't have a say in how this will manifest. If we run out of powers to restrict, we will move on to perks.",
+        "image": ""
+    },
+    {
+        "title": "Get Back Here, Shocker! SHOCKER!!! You Can’t Escape Me! I’ll Chase You to the Ends of the EARTH!!!",
+        "SPGain": 10,
+        "CPGain": 10,
+        "desc": "Perhaps they were just having a bad day, and you were a convenient target for their frustrations, or maybe you accidentally spoiled the ending of a TV series for them.\nWhatever the case, sometime after your insertion, a usually kind-natured, skilled, and powerful hero will become incredibly enraged at you and do their best to beat you to a pulp.\nThis doesn't permanently affect their mood; if you manage to escape and lay low for a few months, they should return to a normal emotional state and will no longer want to turn you into hamburger. However, if you are a villain or generally have a poor relationship with the law, they just might hate you forever.\nNote: This has a strong potential to affect their entire life. Maybe this kind of behavior will be acceptable if you have a Kill Order, but otherwise... well, they might find themselves in trouble with the law for attacking you. Especially if you're not wanted for any kind of crime.\nWarning: You may not choose who this hero will be; it'll be chosen at random.",
+        "image": ""
+    },
+    {
+        "title": "Memetic",
+        "SPGain": 10,
+        "CPGain": 10,
+        "desc": "Events will conspire to ensure that every embarrassing moment you ever have in public will be remembered in some fashion. The more embarrassing it is to you, the better recorded it will be.\nIf you stutter when talking to someone you like, that stutter will always be what the people involved remember first about you. If you get hit in the face by a flying stop sign during a cape fight, the GIF of that will instantly become a guaranteed meme.",
+        "image": ""
+    },
+    {
+        "title": "The IRS",
+        "CPGain": 30,
+        "desc": "Beware, for the IRS will be on your tail! They will ruthlessly attempt to audit you and your funds. And remember, this is the organization that brought down Al Capone, and which even the Joker would dare not cross. If you fail to be 100% squeaky clean for the 3 years the IRS will continually test and scrutinize you, you will become wanted by the law.",
+        "image": ""
+    },
+    {
+        "title": "The Strongest",
+        "CPGain": 30,
+        "desc": "The strongest, the one with the skills and abilities to consistently surpass their contemporaries, the one burdened with starting and ending the biggest of fights, the overwhelming might that leaves behind a legacy that is revered, envied, or feared. This is a legacy you will never possess, for you will never be the strongest.\nWhether through a stroke of fate or divine intervention, in whichever universe you find yourself, there will always be someone stronger than you, surpassing you in every capacity. Worse yet, surpassing this individual will be impossible for you; every improvement you make, they will improve twofold. Even if you were to conquer this mountain, another individual would quickly rise to take the mantle of the strongest, forever preventing you from being the strongest. This also affects public perception, as others will always know that there is someone stronger than you, making propaganda or manipulation futile.\nThis individual will not have a predetermined disposition towards you unless you initiate it. Their disposition will also be random – they could be a hero, an antihero, a villain, or anything in between.",
+        "image": ""
+    },
+    {
+        "title": "Deadened",
+        "SPGain": 30,
+        "incompatibility": "Awakened",
+        "desc": "This drawback will get in the way of you gaining supernatural and preternatural abilities outside of this CYOA. Please read how power acquisition normally works in the setting app.\nWith this drawback, any power not gained in this CYOA is going to be largely unavailable to you. You will still gain the native power to that world like Naruto’s chakra if you reincarnate or Character-Insert there as that technically counts as you getting that power from in this CYOA. But any external magic or power systems will not work for you. As a Shardless person in Worm you will never be able to trigger. In Faerûn the Weave will always slip through your fingers.\nYou will still have the option to ‘forcefully’ take some external power for yourself, but this drawback will stand in your way even then. Drinking a Cauldron vial would very much still work, however, there would be increased chance of you suffering from deviations (mutations) and experiencing some other issues with your power – perhaps you’d have issues controlling it, perhaps the overall potency of the power would not be very high, or perhaps the power would come with a steep learning curve as your Shard would be damaged and unable to assists you properly. Going through some power-imbuing ritual would perhaps also work, but there might be some unfortunate side effects. The same thing might happen if you try to alter your body to accept an inherent power – shapeshifting into a being whose power is a part of their DNA will give you that power, but there might be something wrong; even worse results might come out of you trying to use self-biokinesis to integrate a native power into your own DNA. Generally, the more all-or-nothing is the effect you’re trying to achieve, the safer it’ll be. For example, the Golden Apples of the Hesperides in Greek Mythology make you immortal. There are no half-measures with them. So, there are unlikely to be any side effects.\nNote: This restriction specifically targets supernatural and preternatural abilities. The use of mundane martial arts, learned skills, items, or technology (like Cyberware in Cyberpunk) will remain completely unaffected and function as normal.",
+        "image": ""
+    },
     
+    {
+        "title": "Nemesis",
+        "SPGain": 15,
+        "CPGain": 15,
+        "desc": "You will gain a Nemesis who has an ideological position incompatible with yours that cannot be reconciled. Your Nemesis does not necessarily want to kill you; their goals will just be diametrically opposed to yours. They will be the villain to your hero, a rival business partner, or a competing shadowy organization.\nYour Nemeses will respect the Truce as long as you do as well if they’re a person who values their privacy or has something to lose otherwise.\nYour Nemesis will not necessarily be stronger than your or even particularly stronger than the average parahuman. And it is entirely possible that you will outclass them by a wide margin.\nIf you picked Late to the Party, your Nemesis will be one of those individuals.\nYou may not pick who your Nemesis will be.",
+        "image": ""
+    },
+    {
+        "title": "The Rival",
+        "SPCost": 11,
+        "CPCost": 11,
+        "incompatibility": "The Hated",
+        "requirement": "Nemesis",
+        "desc": "Your Nemesis will not actually be someone diametrically opposed to you. Instead, they will be a friendly rival that will want to compete with you for some goal that you both share.\nYou are guaranteed to at least somewhat like them.\nYour exact relationship will depend on who your Nemesis will be as well as other factors, such as your (and theirs) power level. If you're vastly more powerful, they will somewhat look up to you while also being envious of you. They will want to surpass you. If they're strong, it'll be a more competitive rivalry.",
+        "image": ""
+    },
+    {
+        "title": "The Loved One",
+        "SPCost": 10,
+        "CPCost": 10,
+        "requirement": "The Rival",
+        "desc": "Your Nemesis will be someone who will be extremely compatible with you on a personal level. They will be the kind of person who can become your best friend, a lover, a parental figure, or a protégé, depending on who exactly they are. The relationship will begin as a rivalry, but it will have the potential to expand far beyond that.",
+        "image": ""
+    },
+    {
+        "title": "The Hated",
+        "SPGain": 8,
+        "CPGain": 8,
+        "incompatibility": "The Rival",
+        "requirement": "Nemesis",
+        "desc": "You Nemesis will be the kind of person you absolutely despise. Their personality, actions, and behaviors will be exactly the kind of things you hate. If there's something that annoys you, it's likely they'll be doing it. The feeling will be very much mutual. This drawback makes it far more likely that your Nemesis will attempt to escalate the conflict between you as much as possible, and due to your dislike of them, there's a good chance you'll try to do the same. This might make them come after you in your civilian life as well.",
+        "image": ""
+    },
+    {
+        "title": "Yandere",
+        "SPGain": 17,
+        "CPGain": 17,
+        "incompatibility": "The Rival; The Hated",
+        "requirement": "Nemesis; Stalker",
+        "desc": "Your Nemesis will want you. All of you. So much. They will do anything to get your love and attention. They'll want nothing more than to kidnap you and shove you into their basement for all of eternity.\nThis does not necessarily mean that they'll have the ability to do that, and it is possible that you can somewhat reason with them if you offer to be 'theirs' in a more limited capacity. Still, they're going to be crazy.\nNote: This technically means that you can choose who your nemesis is since the Stalker drawback allows you to select which character is your Stalker.",
+        "image": ""
+    },
+    {
+        "title": "Better Than You",
+        "SPGain": 15,
+        "CPGain": 15,
+        "requirement": "Nemesis",
+        "desc": "Your Nemesis is guaranteed to be stronger than you. This does not necessarily mean that they'll have your raw power output or versatility, but they'll be uniquely uquipped to overcome you. They might even overcome some of your protective perks. For example, if your Nemesis is a human Master, they might be able to Master you even if you have Mental Barrier. If you've a seemingly perfect defense, they might have a way around it. Or they might be immune to your own precognition, even if you have the All-Seeing Precognition.\nIn short – be very careful, especially if you've picked The Hated or Yandere. Especially if you picked Yandere. Especially then.",
+        "image": ""
+    },
+    {
+        "title": "True Antagonist",
+        "SPGain": 25,
+        "CPGain": 25,
+        "requirement": "Nemesis",
+        "desc": "After some time, a powerful being will introduce itself. This being will be directly opposed to both you and your Nemesis. Similarly to your Nemesis if you pick the drawback Better than You, your True Antagonist will be uniquely equipped to handle both you and your Nemesis. It will require you to get along and work together with your Nemesis in order to defeat The True Antagonist. Only together will you prevail. If you actually manage to do that, it's very likely that your Nemesis and you will grow much closer, or at least you won't hate each other anymore. It'll be a learning experience for you both.",
+        "image": ""
+    },
+    {
+        "title": "Reign of the Kaiju",
+        "SPGain": 40,
+        "CPGain": 40,
+        "desc": "All the Endbringers will now be fully charged and no longer holding back. You can never be sure which Endbringer will attack, as they will abandon their specific attack order and regular dormant periods between attacks. Additionally, they will be around twice as strong as they were before this power-up.\nIf this drawback is taken in a world without Endbringers, it will inevitably lead to another Endbringer network awakening there, with a potential maximum of 20 such entities. The first three will emerge within the next 7 years at seemingly random times – the network will adapt to the actions of the locals and you.",
+        "image": ""
+    },
+    {
+        "title": "The Cycle Begins Anew",
+        "SPGain": 100,
+        "CPGain": 100,
+        "desc": "At some point within 5 to 10 years after your arrival, a second pair of Entities will arrive and begin a new Cycle. If the original Warrior and/or Thinker Entities are still alive, they might clash with this new pair or choose to join forces. If you have already defeated the original Warrior and Thinker, this new pair will attempt to take over the existing Shard networks for their own purposes. Take a lot of points, because you'll need all the help you can get.\nIf this drawback is taken in a world without any existing Entities, this will lead to a pair finding the place and initiating a new Cycle there. Consequently, Parahumans (or other para-species) will begin appearing after their arrival, and these new Entities will be very interested in your Shard, as it is not their own.",
+        "image": ""
+    },
+    {
+        "title": "Second Wave Parahumans",
+        "desc": "This drawback will significantly increase the normal rate of Parahuman triggers in the world by a certain amount (see section below). These new triggers will follow standard budding probabilities and normal trigger and second trigger conditions.\nIf this drawback is taken in a world that previously had no parahumans, it will connect or draw the attention of Zion's and Eden's Shard networks, expanding their experiment/Cycle to include this world. This means a normal parahuman trigger rate will commence there. Importantly, the Entities themselves will not directly notice this expansion, so this world's parahumans will not be included in their apocalypse.",
+        "image": ""
+    },
+    {
+        "title": "Insane",
+        "incompatibility": "Well-Adjusted",
+        "desc": "You will gain a form of insanity. This can range from various mental disorders to hallucinations.\nChoose one or more of the derivatives below.\nNote: This does nothing if no derivative is chosen.",
+        "image": ""
+    },
+    {
+        "title": "Inverted Emotional Expression",
+        "SPGain": 8,
+        "CPGain": 10,
+        "incompatibility": "Robot",
+        "requirement": "Insane",
+        "desc": "You will find yourself unable to properly convey your emotions. Your actions will often be the opposite of what you truly feel; for instance, your happiness might appear as anger, and your anger as happiness. You won't even be able to cry naturally.\nWarning: This can compound terribly with the Tsundere drawback.",
+        "image": ""
+    },
+    {
+        "title": "Robot",
+        "SPGain": 8,
+        "CPGain": 10,
+        "incompatibility": "Tsundere; Inverted Emotional Expression",
+        "requirement": "Insane",
+        "desc": "You will be completely unable to display emotions. Any attempts to do so will come across as flat and emotionless. Even your voice will remain a monotonous drone, no matter how hard you try to vary it.",
+        "image": ""
+    },
+    {
+        "title": "Inhumanity",
+        "SPGain": 8,
+        "CPGain": 10,
+        "incompatibility": "Humanity",
+        "requirement": "Insane",
+        "desc": "You will become detached from your own humanity, regarding other living beings as fundamentally different and separate from yourself. You may feel superior, protective, indifferent, or even hostile towards them, potentially treating humans as if they were mere pets or toys. This will make it difficult for you to truly understand or empathize with others.",
+        "image": ""
+    },
+    {
+        "title": "Transhumanist",
+        "SPGain": 10,
+        "CPGain": 15,
+        "requirement": "Insane",
+        "desc": "Whether due to your trigger event or your inherent nature, you will become acutely aware of your body's weaknesses, and this realization will disgust you. You will constantly seek to augment yourself in any way possible, from mundane steroids to experimental Tinker-tech (or other) cybernetics or bioware.\nDespite how much you enhance your body, you will invariably find it lacking over time, constantly seeking further improvements.",
+        "image": ""
+    },
+    {
+        "title": "Brain to Mouth Filter",
+        "SPGain": 8,
+        "CPGain": 10,
+        "requirement": "Insane",
+        "desc": "You will lack a 'brain-to-mouth filter,' meaning you'll say whatever's on your mind the moment you think it. While this might make you less considerate of others' feelings, it also means your speech will be more honest and unfiltered. Just be cautious not to accidentally hurt someone with your blunt honesty.",
+        "image": ""
+    },
+    {
+        "title": "Head Empty, No Thoughts",
+        "SPGain": 10,
+        "CPGain": 20,
+        "requirement": "Insane",
+        "desc": "Whatever idea pops into your mind, you will find yourself acting on it without hesitation. You'll struggle to resist your impulses, and unwanted thoughts will frequently take over your actions.",
+        "image": ""
+    },
+    {
+        "title": "Dense",
+        "SPGain": 8,
+        "CPGain": 10,
+        "requirement": "Insane",
+        "desc": "You will be unable to accurately read other people's facial expressions, their underlying emotions, or the subtle nuances in their words. You'll consistently miss emotional cues, making social interactions challenging.",
+        "image": ""
+    },
+    {
+        "title": "Faceless",
+        "SPGain": 8,
+        "CPGain": 10,
+        "requirement": "Insane",
+        "desc": "You will be unable to identify people, as they will all look and sound exactly the same to you. You won't even be able to recognize your own face.",
+        "image": ""
+    },
+    {
+        "title": "Obsession",
+        "SPGain": 8,
+        "CPGain": 10,
+        "requirement": "Insane",
+        "desc": "You will become fixated on something to an unhealthy degree. This could be anything from collecting stuffed animals to playing games, or any other interest that captures your attention. The more you act on this obsession, the better you will feel.",
+        "image": ""
+    },
+    {
+        "title": "Voron Method",
+        "SPGain": 8,
+        "CPGain": 10,
+        "requirement": "Insane",
+        "desc": "Your insanity will manifest as a communication disorder. You can't help but speak in a chosen, peculiar way. This could range from sounding like an old-fashioned knight to a crazed Magical Girl. It won't affect your actions, only your manner of speech.",
+        "image": ""
+    },
+    {
+        "title": "Personified Powers",
+        "count": 0,
+        "SPGain": 10,
+        "CPGain": 4,
+        "incompatibility": "Day and Night",
+        "requirement": "Insane",
+        "desc": "For each purchase of this drawback, one of your powers will become a sentient being that can communicate with you. It will possess its own personality, reflecting the nature of the power itself (e.g., a fire power might be impulsive, while a water power would be calmer).\nWhile it cannot prevent you from using it, your relationship with this sentient power will affect its strength: if you get along well, its potency will double; if you clash, its power will be halved. If the power involves summoning, it will gain the ability to control its summons independently of you. Your sentient power will remain only a voice in your head and cannot take over your body or mind./nThis effect is independent of Hallucination and does not grow stronger from it.",
+        "image": ""
+    },
+    {
+        "title": "Human Killing Ghost",
+        "SPGain": 15,
+        "CPGain": 20,
+        "requirement": "Insane",
+        "desc": "The mere thought of killing other people will bring a smile to your face. You can't help but relish in the act of murder and death. The more people you kill, the happier you will become, as you grow obsessed with the concept of murder and demise.",
+        "image": ""
+    },
+    {
+        "title": "Berserk State",
+        "SPGain": 15,
+        "CPGain": 20,
+        "requirement": "Insane",
+        "desc": "Sometimes, completely at random, you will enter a berserk state of uncontrollable rage and attack everyone around you. This will also occur whenever you're reminded of certain bad memories or past embarrassments. In this state, you won't be able to distinguish friends from foes.",
+        "image": ""
+    },
+    {
+        "title": "Anathema",
+        "SPGain": 20,
+        "CPGain": 15,
+        "incompatibility": "Day and Night",
+        "requirement": "Insane",
+        "desc": "You will possess a power that absorbs the minds of whomever you kill. Because of this, their minds will live inside your head and can communicate with you. Most likely, you will go insane from the multitude of voices if you continue to kill many people. The minds of those you kill will remain only voices in your head and will have no actual power over you.",
+        "image": ""
+    },
+    {
+        "title": "Superiority Complex",
+        "SPGain": 15,
+        "CPGain": 15,
+        "requirement": "Insane",
+        "desc": "You will be plagued with the constant need to prove your strength and dominance. Refusing to back down from a challenge or tolerate being compared to others, you'll engage in a constant cycle of one-upmanship to demonstrate your worthiness. Showing weakness will not be an option, and any sign of vulnerability or humility can be perceived as such. You must always be the biggest, the strongest, the smartest, the best. This endless cycle of escalation will consume your mind, leaving you unable to see beyond the need to prove yourself. Even amongst friends and family, you must continue to show that you are better than them; you cannot show weakness by opening up to them about any problems you face. Even showing anything other than confidence can be considered weakness.",
+        "image": "",
+        "subItems": [
+            {
+                "title": "God Complex",
+                "synergy": "Narcissism",
+                "desc": "You will be the best, and no one can convince you otherwise. In fact, people should be grateful to simply be in your presence, worshipping the ground you walk on. Your narcissism will reach another level, bordering on delusion. You will be unable to see beyond your own needs, desires, and abilities, truly believing yourself to be superior to everyone around you. Your ego will be so inflated that you will be completely unaware of your own limitations and faults. Instead, you'll perceive yourself as a perfect, godlike figure who deserves constant admiration, worship, and attention. Any attempt to challenge your self-perception will be met with denial, anger, or even violence, as you won't tolerate any criticism or pushback against your deluded sense of superiority. Your level of vanity and hubris will be beyond what most people can even imagine, and it will likely lead to your ruin."
+            }
+        ]
+    },
+    {
+        "title": "Black Hole Brain",
+        "SPGain": 25,
+        "CPGain": 25,
+        "requirement": "Insane",
+        "desc": "Now, trauma enters your mind and never disappears. Every negative memory, every torment, everything you wish you didn't remember will constantly play on a loop in your mind.\nAll of your senses and thoughts will guide your looped memories to specific ones; the taste of a spoon might remind you of the day you tasted your own blood due to almost dying, touching paper might remind you of your bad grades, and thinking about buying a pizza might remind you of the day you didn't have money for anything.\nOnce you acquire a negative memory, you can never get rid of it. Even if your mind were completely erased, the negative memories and the memories that give context to them would return.",
+        "image": "",
+        "subItems": [
+            {
+                "title": "Tainted Hallucinations",
+                "synergy": "Mild Hallucinations or Moderate Hallucinations or Major Hallucinations",
+                "desc": "Your negative memories will color your hallucinations, making them entirely negative and pushing you further from reality. The sky will appear red, water will be black, plants will look dead, and people will say things that trigger all your trauma buttons, among many other disturbing perceptions.\nThese hallucinations are not static; they are subject to constant subtle changes, and from time to time, a major change will occur.\nHaving Wonderland will allow you to recognize that they are not real. Having Sunshine Upon You will make all your memories color your hallucinations, blending happiness and unhappiness into everything you experience."
+            },
+            {
+                "title": "Reminder",
+                "synergy": "Thematic",
+                "desc": "Your negative memories will begin to influence your theme, and the more of them you accumulate, the less control over it you will have. For example, the memory of the day you were trapped inside a burning building might transform your forcefields from being transparent into blocks of drywall that will appear to be burning and emit smoke. The actual properties of the forcefields will not change, only their appearance. They will not actually be burning, they'll only look like it.\nSunshine Upon You shifts all negativity to neutrality by making Thematic be affected by all of your memories instead of only the negative ones. Wonderland will give you back some measure of control over your theme, so it'll be up to you how your negative memories are represented."
+            },
+            {
+                "title": "Sunshine Upon You",
+                "synergy": "Noctis Cape",
+                "desc": "Instead of only your negative memories, now your positive and neutral memories will also be affected by Black Hole Brain. Laughing might remind you of the day you were dancing in the rain, sitting in your chair might remind you of the day you were in your bed staring at the ceiling in boredom, and so on."
+            }
+            ,
+            {
+                "title": "Voices of a Memory",
+                "synergy": "Noctis Cape; Fractured Psyche",
+                "desc": "Fractured Psyche will now also affect your memories, but only the significant ones. Not all happy memories will gain a voice, only the happiest ones will."
+            },
+            {
+                "title": "Downward Spiral",
+                "synergy": "Anxiety: [Internally Screaming]",
+                "desc": "Your dread and trauma will be nigh-inescapable; every bitter and hurtful memory will spill over into your conscious mind, making it a futile exercise to ignore or escape your anguish. The constant presence of dread will compound with Black Hole Brain, turning its mechanics into an ever-constant montage of your life's tragedies.\nHaving Wonderland will allow you to understand that this is your mind fighting itself. Having Sunshine Upon You will make the experience more agreeable, with both your greatest failures and successes at the forefront of your mind. Having Tainted Hallucinations will ramp up the rendering of your hallucinations, increasing their depth and how deeply they affect you."
+            }
+        ]
+    },
+    {
+        "title": "Altered Mind",
+        "SPGain": 15,
+        "CPGain": 15,
+        "requirement": "Insane",
+        "desc": "Your mentality will be heavily altered, fundamentally changing the way you think and process information to the point where it can only be described as alien. The cognitive pathways you take to arrive at conclusions will be vastly different from those of others, leading to perspectives and behaviors that seem strange or incomprehensible. For example, where a typical person might quickly recognize a pattern or a straightforward solution, your mind might delve into an elaborate array of possibilities, generating connections that others would never consider.\nIn problem-solving scenarios, your approach might be so unconventional that it appears nonsensical to others. This can result in solutions that are either brilliantly unorthodox or disastrously impractical, causing frustration and confusion among colleagues who cannot follow your thought process. You might experience the world in a way that others find bizarre. For example, you could perceive time non-linearly, making it hard for you to adhere to schedules or deadlines. An event that seems imminent to others might feel distant to you, and vice versa, causing constant disorientation and frustration in time-sensitive situations.\nAdditionally, your altered cognitive processes can cause difficulties in learning new tasks or adapting to new environments. While others might quickly grasp a new concept or adjust to a new setting, your brain's unique wiring could lead you to focus on irrelevant details, making the learning process slow and arduous.",
+        "image": ""
+    },
+    {
+        "title": "Another Self",
+        "SPGain": 10,
+        "CPGain": 10,
+        "incompatibility": "Fractured Psyche",
+        "requirement": "Insane",
+        "desc": "You will possess a second mind within your head that shares your values and morals and that will be agreeable to whatever your goals are, though their methods of achieving them might differ from your own. It's very likely that you will get along very well with them. They will comment or speak in your head, but they cannot control your body in any way. However, you can hand any of your powers over to them, or you can share control. This means that if you have a Master power, they can interact with the world around you through a minion they control with your power.",
+        "image": "",
+        "subItems": [
+            {
+                "title": "Hallucination",
+                "synergy": "Mild Hallucinations or Moderate Hallucinations or Major Hallucinations",
+                "desc": "**Note:** This is incompatible with Day and Night. If you take the drawback, hallucinations will function 'normally.'\nOtherwise, possessing any of the Hallucination drawbacks will cause your secondary mind to become a part of your hallucination. Additionally, it'll have a degree of control over what you're seeing and hearing.\nIf you only have Mild Hallucinations, then the only hallucination you'll be seeing is the 'avatar' of this secondary mind of yours.\nIf you have Moderate Hallucinations, you will be seing the 'avatar' of your mental companion as well as other things. It'll still be next to impossible for you to differentiate between your hallucinations and reality. However, your mental companion is going to be fully in control of whatever it is you're seeing. They cannot just 'disable' all your hallucinations, but they can make it extremely obvious what isn't real.\nIf you have Major Hallucinations, you will be living in a hallucinatory dream state. Your mental companion will only have a minor amount of control over your hallucinations. However, they can see 'through' all your hallucinations, and so they can guide you. If you stay on their good side, you can rely on them.\n****\n"
+            },
+            {
+                "title": "Vegas Sendoff for Two",
+                "synergy": "Vegas Sendoff",
+                "desc": "Having a mental companion will not help you remember your lost memories. Both of your minds will be damaged in a similar way."
+            }
+        ]
+    },
+    {
+        "title": "Another Ego",
+        "SPGain": 12,
+        "CPGain": 12,
+        "incompatibility": "Another Person",
+        "requirement": "Another Self",
+        "desc": "Your mental companion will actually not share your values and morals. They are not at all guaranteed to be agreeable to your goals. Your personalities are unlikely to mesh well together – in fact, there's a good chance you won't like each other at all.",
+        "image": ""
+    },
+    {
+        "title": "Another Person",
+        "SPGain": 12,
+        "CPGain": 12,
+        "incompatibility": "Another Ego; Clean Slate",
+        "requirement": "Character-Insert; Another Self",
+        "desc": "The second mind within your head will actually be the true personality of your chosen Character-Insert. Whether or not you will be agreeable with one another will depend entirely on both of your personalities. However, they might not exactly be pleased that you took over their body\nNote: This restricts your choices when it comes to the Character-Insertion. You canot merge with them, nor can you gain their memories.",
+        "image": ""
+    },
+    {
+        "title": "Yet Another",
+        "count": 0,
+        "SPGain": 13,
+        "CPGain": 13,
+        "requirement": "Another Self",
+        "desc": "With each purchase, the amount of extra psyches in your head will increase by one. It's somewhat random what these extra personalities will be like. If you have Another Ego, there's a higher chance they'll be adversarial, but even then there's no guarantee. It's a bit of a lottery.\nIf you've taken Another Person, then the extra personality will be an altered version of your Character-Insert. So, for example, if you Character-Insert into Victoria Dallon, then you'll have in your head the original Victoria as well as a different version of Victoria, maybe her evil self or even her more... hedonistic self.",
+        "image": ""
+    },
+    {
+        "title": "Deteriorating Mind",
+        "SPGain": 15,
+        "CPGain": 15,
+        "requirement": "Insane",
+        "desc": "As time progresses, whatever insanity drawback you'll be afflicted with will become increasingly difficult to manage. Regardless of how much effort you put into mastering it, it will inevitably grow more challenging to keep at bay, and its effects will become more severe with each passing day.",
+        "image": ""
+    },
+    {
+        "title": "Mild Hallucinations",
+        "SPGain": 10,
+        "CPGain": 10,
+        "incompatibility": "Moderate Hallucinations; Major Hallucinations",
+        "requirement": "Insane",
+        "desc": "You will experience mild auditory and visual hallucinations from time to time. You'll hear things that aren't there or see things that aren't real. However, this won't bother you much in most situations. You may occasionally act on something that was never said, which might cause you some embarrassment.",
+        "image": ""
+    },
+    {
+        "title": "Moderate Hallucinations",
+        "SPGain": 15,
+        "CPGain": 15,
+        "incompatibility": "Mild Hallucinations; Major Hallucinations",
+        "requirement": "Insane",
+        "desc": "You will hallucinate and struggle to differentiate your imagination from reality, though you will have moments of complete clarity.",
+        "image": ""
+    },
+    {
+        "title": "Major Hallucinations",
+        "SPGain": 20,
+        "CPGain": 20,
+        "incompatibility": "Mild Hallucinations; Moderate Hallucinations",
+        "requirement": "Insane",
+        "desc": "You will be forever stuck in a massive hallucinatory dream state. You can tell your imagination from reality.",
+        "image": ""
+    },
+    {
+        "title": "Fractured Psyche",
+        "SPGain": 15,
+        "CPGain": 15,
+        "incompatibility": "Another Self",
+        "requirement": "Insane",
+        "desc": "Your consciousness and mental monologue will be splintered: every skill, belief, and desire will now have a voice of its own. You will experience internal dialogue with various aspects of your own personality, each representing different thoughts, emotions, and impulses. These internal voices will often clash, leading to inner turmoil and conflicting motivations.\n**Hallucinations**\n*Synergy: Mild Hallucinations or Moderate Hallucinations or Major Hallucinations*\nThe individual elements of your Fractured Psyche will now be featured in your hallucinations. The severity depends on which hallucination drawback you picked.\nIf you have Mild Hallucinations, then you will only be seeing the 'avatars' of the individual fractures. With Moderate Hallucinations, you will be seeing the 'avatars' as well as other things that will be fully under their control. With Major Hallucinations, you will be seeing random things that the fractures may affect but not fully control.",
+        "image": "",
+        "subItems": [
+            {
+                "title": "Faded Psyche",
+                "synergy": "Inland Empire",
+                "desc": "Your Fractured Psyche will settle into a coherent system after a thorough self-examination, reaching a realization of being part of a greater whole, making them finally receptive to structure. Your thoughts will present themselves for an overall picture of their notions and foundations after fully reflecting on them, capable of being internalized and integrated. Emotions and impulses will be open to being processed and finding peace with them, as will every fragment. This strengthens them since they reach their culmination in your psyche, finding their place and understanding why they are who they are. You will now be 'whole,' a faded reflection of who you once were."
+            },
+            {
+                "title": "Internalized Power",
+                "synergy": "Personified Powers",
+                "desc": "The personifications of your powers will now intermingle with the personifications of different aspects of your mind. The results are impossible to predict. Perhaps some of your powers will merge with some aspects of your mind, thus enhancing those apsects and perhaps even developing certain skills to parahuman levels. However, it might also lead to shifts in power expressions."
+            }
+        ]
+    },
+    {
+        "title": "Wonderland",
+        "SPCost": 7,
+        "CPCost": 7,
+        "requirement": "Insane",
+        "desc": "You'll learn to master your insanity to a certain degree. You'll still experience it, but you can usually distinguish between what is real and what is not.\nThis will prevent you from being distracted in situations that require focus and concentration, such as combat. You can even ignore your hallucinations when they are not being helpful. You can lead a relatively normal life, at least to a certain degree, although others might think you are a bit of a daydreamer. However, you won't have complete control over your insanity. It can still flare up at random times, causing you to lose touch with reality.",
+        "image": ""
+    },
+    {
+        "title": "Inland Empire",
+        "SPCost": 15,
+        "CPCost": 15,
+        "requirement": "Wonderland",
+        "desc": "Your insanity will transcend mere lunacy, reaching a state where genius and madness intertwine, allowing you to achieve greater heights in both. You'll gain a deeper, more accepting grasp of your own mental distortions, and while your forms of insanity will be 'worsened' in a sense, they will paradoxically work to your advantage. This means that your Obsession might become a focused, healthy drive, your emotional density will impair you less, and even something like Human Killing Ghost will be self-examined and mellowed through acceptance. This process extends to your abilities and faculties, fully embracing your distortion without losing your sense of self or self-determination.\nYou will hold an odd yet profoundly insightful overview of the world, a strange blend of magical and critical thinking that allows you to glimpse beyond the surface. Your subconscious thoughts, dreams, and unleashed gut feelings will provide glaring clarity about people, motives, and situations. If you have Hallucinations, imagination and reality will reach an accord, allowing you to perceive the world for what it truly is while maintaining objective awareness, animating the inanimate, feeling city 'spirits,' and 'hearing' distant crucial conversations—all balanced by staggering self-awareness.\nThis profound understanding helps you lead a relatively normal life despite your condition. Accepting your insanity won't make it disappear, as it has become a fundamental part of you that you've come to terms with. Some days may be harder than others, but you will never truly go off the deep end or abandon your relative composure.",
+        "image": "",
+        "subItem": [
+            {
+                "item": "Cosmic Instrument",
+                "synergy": "Fated Journey or Child of Fate",
+                "desc": "The Winds of Fate will have smiled upon you, and you will feel it wash over you, comprehending its inherent transience. You'll see its nature and sense its presence in your life.\nFate will manifest as gut feelings or subtle intuitions, a nudge in your hands drawing you to anything relevant to your destiny. It will function as a radar for fortuitous or ill-fated events that occur around you; when present, you’ll be at the right place at the right moment with the right tools or skills to solve or ruin, depending on your fate. You won't know where it might lead or end up, yet you'll trust in Fate not to lead you astray.\nAt times, Fate will leave signs for momentous occasions, pushing your involvement, all for a greater Plan at hand. This transforms you into a Cosmic Instrument: a person who changes the world’s Fate according to the desires of the Cosmos."
+            }
+        ]
+    },
+    {
+        "title": "Day and Night",
+        "SPGain": 20,
+        "CPGain": 20,
+        "incompatibility": "Anathema; Personified Powers",
+        "requirement": "Another Self; Insane",
+        "desc": "You and the other person who shares your mind will be unaware of each other’s existence. You will switch places randomly, with the time between switches ranging from a few hours to half a day, taking turns being conscious and unconscious. Whenever the person currently in control goes unconscious, another person gains control. If you have more than one person in your head, the amount of time you stay in control is equally divided. This will cause a lot of confusion as you'll have no memory of what the other person did or why. If you're a Noctis Cape, your time in control will be doubled. Once your time is up, you switch places with the other person in your mind.",
+        "image": ""
+    },
+    {
+        "title": "Eventful Day",
+        "SPGain": 10,
+        "CPGain": 10,
+        "desc": "Your first day on Earth Bet (or wherever you arrive) will be eventful, to say the least. Something interesting will happen, you will meet lots of interesting people, and maybe make an enemy or two.\nYou are guaranteed to survive this day. Still, you're being thrown into the deep end, so be careful.",
+        "image": ""
+    },
+    {
+        "title": "Bad Day",
+        "SPGain": 10,
+        "CPGain": 10,
+        "incompatibility": "Worst Day",
+        "requirement": "Eventful Day",
+        "desc": "Actually, your first day will be pretty bad. If something could go wrong, it will. You'll crash through the roof of a Merchant rave party with every cape in attendance, stumble upon an Empire rally or dog fighting ring, or something of that order. You'll most likely have to fight your way out or pack a good pair of running shoes.",
+        "image": ""
+    },
+    {
+        "title": "Worst Day",
+        "SPGain": 20,
+        "CPGain": 20,
+        "incompatibility": "Bad Day",
+        "requirement": "Eventful Day",
+        "desc": "Actually, your first day will absolutely suck. It will be ten times worse than the bad day, and you'll really have to use all your wits to survive. This might combine with some of your other chosen drawbacks. Maybe you have the Fugitive drawback or even Blood-Stained Hands, and you awaken right as you're being chased by the entire force of the local Protectorate for your alleged crime. Or maybe the Slaughterhouse 9 have *conveniently* decided to visit your place of arrival. Good luck! ",
+        "image": ""
+    },
 ]

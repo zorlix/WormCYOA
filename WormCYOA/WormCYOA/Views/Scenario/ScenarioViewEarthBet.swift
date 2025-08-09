@@ -27,7 +27,7 @@ struct ScenarioViewEarthBet: View {
             }
         }
         
-        Headline(heading: "Time Shift", subheading: "Is the exact moment of arrival as outlined by the Scenarios not to your liking?\nNever fear!\nWith the options below you can adjust the moment of your arrival as much as you desire.")
+        Headline(heading: "Time Shift", subheading: "Is the exact moment of arrival as outlined by the scenarios not to your liking?\nNever fear!\nWith the options below you can adjust the moment of your arrival as much as you desire.")
         GridView {
             ForEach(scenarios["timeShift"]!, id: \.title) { shift in
                 ItemView(item: character.displayCountedItem(shift, forVar: character.timeShift), selected: character.isItemSelected(shift, inVar: character.timeShift), increase: {

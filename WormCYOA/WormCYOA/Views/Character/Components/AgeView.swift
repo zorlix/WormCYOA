@@ -29,7 +29,7 @@ struct AgeView: View {
         if let insert = character.overtakenIdentity {
             MinorHeadline(text: "Character-Insert")
             
-            PureText("You've chosen to character-insert into the body of \(insert.title).\nAs stated before, this means that your age will be that character's age, and all data on the character's card assumes it's April 8, 2011.\nHowever, seeing as many scenarios can take you to different points on the timeline, your age might be different than what's written on the card. You can use the text field below to note down the age that your chosen character's body will be when you awaken within it.\nNote: If you've purposefully chosen a Scenario prior to this character's birth, write 0. If you've chosen a Scenario after their death, write down the age they were when they died. That will be the age their body will have after your reincarnation, regardless of how much time has passed since they died.")
+            PureText("You've chosen to Character-Insert into the body of \(insert.title).\nAs stated before, this means that your age will be that character's age, and all data on the character's card assumes it's April 8, 2011.\nHowever, seeing as many scenarios can take you to different points on the timeline, your age might be different than what's written on the card. You can use the text field below to note down the age that your chosen character's body will be when you awaken within it.\nNote: If you've purposefully chosen a scenario prior to this character's birth, write 0. If you've chosen a scenario after their death, write down the age they were when they died. That will be the age their body will have after your reincarnation, regardless of how much time has passed since they died.")
             
             if character.perks.contains(where: { $0.title == "Cosmetic Shapeshift" }) {
                 PureText("If you've taken the perk Cosmetic Shapeshift, you may choose your age freely.")
@@ -39,7 +39,7 @@ struct AgeView: View {
         if let twin = character.twin {
             MinorHeadline(text: "Twin")
             
-            PureText("You've chosen to become the identical twin of \(twin.title).\nThis means that your age will be that character's age, and all data on the character's card assumes it's April 8, 2011.\nHowever, seeing as many scenarios can take you to different points on the timeline, your age might be different than what's written on the card. You can use the text field below to note down the age that your chosen character's body will be when you awaken within it.\nNote: If you've purposefully chosen a Scenario prior to this character's birth, write 0. If you've chosen a Scenario after their death, write down the age they were when they died. That will be the age their body will have after your reincarnation, regardless of how much time has passed since they died.")
+            PureText("You've chosen to become the identical twin of \(twin.title).\nThis means that your age will be that character's age, and all data on the character's card assumes it's April 8, 2011.\nHowever, seeing as many scenarios can take you to different points on the timeline, your age might be different than what's written on the card. You can use the text field below to note down the age that your chosen character's body will be when you awaken within it.\nNote: If you've purposefully chosen a scenario prior to this character's birth, write 0. If you've chosen a scenario after their death, write down the age they were when they died. That will be the age their body will have after your reincarnation, regardless of how much time has passed since they died.")
             
             if character.perks.contains(where: { $0.title == "Cosmetic Shapeshift" }) {
                 PureText("If you've taken the perk Cosmetic Shapeshift, you may choose your age freely.")
@@ -52,7 +52,7 @@ struct AgeView: View {
             PureText("You've chosen to become a family member of \(famMember.title).\nAs stated before, you may choose exactly which family member you'll become as long as it's not the character's identical twin. Therefore, you may choose how old you'll be when you awaken in your new body.")
         }
         
-        MinorHeadline(text: "You Age")
+        MinorHeadline(text: "You age")
         
         PureText(displayAge)
             .font(.largeTitle.bold())
@@ -78,29 +78,5 @@ struct AgeView: View {
         } message: {
             Text("Enter your new age.")
         }
-        
-//        let age = Binding<String>(
-//            get: {
-//                if let age = character.age {
-//                    String(age)
-//                } else {
-//                    ""
-//                }
-//            },
-//            set: { newVaue in
-//                if let int = Int(newVaue) {
-//                    character.age = int
-//                } else {
-//                    character.age = nil
-//                }
-//            }
-//        )
-//        TextField("Character Age", text: age)
-//            .textfieldStyle(numbersOnly: true)
-//            .focused($focused)
-//            .onChange(of: character.age) {
-//                character.validateAgeReq()
-//                try? modelContext.save()
-//            }
     }
 }

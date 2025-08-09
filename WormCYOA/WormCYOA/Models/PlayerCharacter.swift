@@ -43,7 +43,7 @@ import SwiftUI
     /// Incarnation method
     var incarnationMethod: Item?
     
-    /// Character-insert
+    /// Character-Insert
     var overtakenIdentity: Item?
     
     /// Reincarnation
@@ -71,11 +71,23 @@ import SwiftUI
     // Perks
     var perks: [Item] = []
     
+    // Drawbacks
+    var drawbacks: [Item] = []
+    
     init(id: UUID, sp: Int, cp: Int) {
         self.id = id
         self.sp = sp
         self.cp = cp
     }
+    
+    // All values to check for methods below
+    private static let itemsToCheck: [ReferenceWritableKeyPath<PlayerCharacter, Item?>] = [
+        \.metaTarget, \.metaAwareness, \.metaOther, \.difficulty, \.setting, \.altWorld, \.crossover, \.location, \.scenario, \.timeShift, \.gender, \.incarnationMethod, \.overtakenIdentity, \.reincarnationType, \.twin, \.familyMember, \.sex, \.appearance, \.family, \.homelife, \.education, \.job
+    ]
+    
+    private static let arraysToCheck: [ReferenceWritableKeyPath<PlayerCharacter, [Item]>] = [
+        \.extraFamily, \.perks
+    ]
     
     // Item structs that have count
     func displayCountedItem(_ item: Item, forArr: [Item]? = nil, forVar: Item? = nil) -> Item {
@@ -122,14 +134,36 @@ import SwiftUI
         return false
     }
     
-    // All values to check for methods below
-    private static let itemsToCheck: [ReferenceWritableKeyPath<PlayerCharacter, Item?>] = [
-        \.metaTarget, \.metaAwareness, \.metaOther, \.difficulty, \.setting, \.altWorld, \.crossover, \.location, \.scenario, \.timeShift, \.gender, \.incarnationMethod, \.overtakenIdentity, \.reincarnationType, \.twin, \.familyMember, \.sex, \.appearance, \.family, \.homelife, \.education, \.job
-    ]
-    
-    private static let arraysToCheck: [ReferenceWritableKeyPath<PlayerCharacter, [Item]>] = [
-        \.extraFamily, \.perks
-    ]
+    // Process subItems
+    func processSubItems(_ subItems: [SubItem]?) -> [SubItem]? {
+        guard let unwrapped = subItems else { return nil }
+        guard !unwrapped.isEmpty else { return nil }
+        
+        var processed = [SubItem]()
+        
+        for subItem in unwrapped {
+            var tempSubItem = subItem
+            tempSubItem.isSelected = true
+            
+            let andSegments = tempSubItem.synergy.split(separator: ";")
+            
+            for segment in andSegments {
+                let orSegments = segment.split(separator: " or ").map { $0.trimmingCharacters(in: .whitespaces) }
+                
+                let classContains = orSegments.contains(where: { synergy in
+                    ownsItem(withTitle: synergy)
+                })
+                
+                if !classContains {
+                    tempSubItem.isSelected = false
+                }
+            }
+            
+            processed.append(tempSubItem)
+        }
+        
+        return processed
+    }
     
     // Resolving requirements:
     func isReqMet(of item: Item) -> Bool {
@@ -208,14 +242,24 @@ import SwiftUI
     
     // Resolving incompatibilities:
     func isCompatible(_ item: Item) -> Bool {
-        guard let incompatibility = item.incompatibility else { return false }
+        var itemIncompatibilities = [String]()
         
-        let incompatibilities = incompatibility.split(separator: ";").map { $0.trimmingCharacters(in: .whitespaces) }
+        if let incompatibility = item.incompatibility {
+            itemIncompatibilities = incompatibility.split(separator: ";").map { $0.trimmingCharacters(in: .whitespaces) }
+        }
         
         for keypath in Self.itemsToCheck {
             if let classItem = self[keyPath: keypath] {
-                if incompatibilities.contains(classItem.title) {
+                if itemIncompatibilities.contains(classItem.title) {
                     return true
+                }
+                
+                if let incompatibility = classItem.incompatibility {
+                    let incompatibilities = incompatibility.split(separator: ";").map { $0.trimmingCharacters(in: .whitespaces) }
+                    
+                    if incompatibilities.contains(item.title) {
+                        return true
+                    }
                 }
             }
         }
@@ -223,8 +267,16 @@ import SwiftUI
         for keypath in Self.arraysToCheck {
             let array = self[keyPath: keypath]
             for classItem in array {
-                if incompatibilities.contains(classItem.title) {
+                if itemIncompatibilities.contains(classItem.title) {
                     return true
+                }
+                
+                if let incompatibility = classItem.incompatibility {
+                    let incompatibilities = incompatibility.split(separator: ";").map { $0.trimmingCharacters(in: .whitespaces) }
+                    
+                    if incompatibilities.contains(item.title) {
+                        return true
+                    }
                 }
             }
         }
@@ -356,7 +408,7 @@ import SwiftUI
                     let andSegments = req.split(separator: ";")
                     
                     for segment in andSegments {
-                        var orSegments = segment.split(separator: " or ").map { $0.trimmingCharacters(in: .whitespaces) }
+                        let orSegments = segment.split(separator: " or ").map { $0.trimmingCharacters(in: .whitespaces) }
                         
                         let fulfilled = orSegments.contains(where: { requirement in
                             if requirement.starts(with: "Age ") {
@@ -381,7 +433,7 @@ import SwiftUI
                         let andSegments = req.split(separator: ";")
                         
                         for segment in andSegments {
-                            var orSegments = segment.split(separator: " or ").map { $0.trimmingCharacters(in: .whitespaces) }
+                            let orSegments = segment.split(separator: " or ").map { $0.trimmingCharacters(in: .whitespaces) }
                             
                             let fulfilled = orSegments.contains(where: { requirement in
                                 if requirement.starts(with: "Age ") {

@@ -3,324 +3,343 @@
         "title": "Regular Badass",
         "CPCost": 10,
         "requirement": "Shardless",
-        "desc": "You may be Shardless, but you have one thing going for you – you're a fucking badass! You pick up new skills with ease and master them much quicker than most would. If you weren't already a genius, you become a low-end genius. You become more perceptive. You also find that finding weaknesses in a Parahuman's powers or creations is a lot easier for you than it is for most others. Note: This means that you may not select any parahuman powers in this CYOA, but that does not stop you from triggering once you’re in your new world, nor does it stop you from acquiring a power from a Cauldron vial.",
+        "desc": "You may be Shardless, but you will be a badass. You will pick up new skills with ease and master them quicker than most. If you aren't already a genius, you will become a low-end genius and more perceptive. You will find that discovering weaknesses in a parahuman's powers or creations is a lot easier for you than for others.\nNote: This means you may not select any parahuman powers in this CYOA, but you can still trigger once you are in your new world or acquire a power from a Cauldron vial. If you choose to Character-Insert into parahuman or become a family member of one, you may also gain their power or its bud. You simply may not take a Shard from this CYOA.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/regular%20badass.jpg"
     },
     {
         "title": "Olympic",
         "CPCost": 5,
-        "desc": "Your muscles, natural regeneration, bone density, intelligence, perception, and senses are all just short of Parahuman.",
+        "desc": "Your muscles, natural regeneration, bone density, intelligence, perception, and senses will all be just short of parahuman levels.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/olympic.jpg"
     },
     {
         "title": "Rapid Learning",
-        "CPCost": 8,
-        "desc": "Your ability to learn anything is greatly improved. You learn both theoretical and practical knowledge over 10 times faster than your base capability. This only affects you mentally, meaning while you can learn multiple martial arts, you may not be physically capable. This only works on mundane skills and your ability to use power effectively.",
-        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/rapid%20learning.jpg"
+        "CPCost": 5,
+        "desc": "Your ability to learn anything will be greatly improved. You will learn both theoretical and practical knowledge over 5 times faster than your base capability. This only affects you mentally, meaning that while you can learn multiple martial arts, you may not be physically capable of performing them. This only works on mundane skills and your ability to use power effectively.",
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/rapid%20learning.jpg",
+        "subItems": [
+            {
+                "title": "Excellent Education",
+                "synergy": "Teaching; Learning",
+                "desc": "In addition to this perk, you have also selected the regular Learning as well as Teaching skills. All these factors together will significantly enhance your own learning ability. You will now learn 15 times faster, and those you teach will experience improvements as if they had the Rapid Learning perk and Learning skill."
+            }
+        ]
     },
     {
         "title": "Genius",
         "CPCost": 10,
-        "desc": "You represent the mental apex of humanity... and a little beyond. Your mental faculties are just short of parahumans. You're certainly up there with the likes of Hawking and Einstein though you will need to study to accumulate the same amount of knowledge as them. Your creativity, critical thinking, and problem-solving skills all also get boosted. You're able to pick up and master new skills much quicker than most. You also have a perfectly eidetic memory, capable of perfectly recalling anything that has happened to you.",
+        "desc": "You will represent the mental apex of humanity, and a little beyond. Your mental faculties will be just short of parahuman levels. You will be up there with the likes of Hawking and Einstein, though you will need to study to accumulate the same amount of knowledge as them. Your creativity, critical thinking, and problem-solving skills will all be boosted. You can pick up and master new skills much quicker than most, and you will also have eidetic memory, capable of perfectly recalling anything that has happened to you.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/genius.jpg"
     },
     {
         "title": "Frankenstein",
         "CPCost": 10,
-        "desc": "You're a low-level Brute in durability, strength, and regeneration. A low-level Thinker in reflexes, reaction time, and senses. And finally, a low-level Mover in speed. You are resistant to Master effects and predictions about you are often slightly off. Thinker powers that sense your mind won't work properly.",
-        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/frankenstein.jpg"
-    },
-    {
-        "title": "Unity of Mind and Body",
-        "requirement": "Frankenstein; Olympic or Rapid Learning or Genius",
-        "desc": "Your mind now matches your body. You are a low-level Thinker, with enhanced cognitive capabilities that elevate your learning speed, memory, and analytical skills far beyond human limits. You can acquire and master new skills at a parahuman level, learning in weeks what would take others years. Additionally, your enhanced mind and body work in concert. When engaged in high-pressure situations, your mind shifts into tactical overdrive, allowing you to analyze threats, predict likely outcomes, and make optimal decisions in real time.",
-        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/unity%20of%20mind%20and%20body.png.jpeg"
+        "desc": "You will be a low-level Brute in durability, strength, and regeneration. A low-level Thinker in reflexes, reaction time, and senses. And finally, a low-level Mover in speed. You will be resistant to Master effects, and predictions about you will often be slightly off. Thinker powers that sense your mind will not work properly.",
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/frankenstein.jpg",
+        "subItems": [
+            {
+                "title": "Unity of Mind and Body",
+                "synergy": "Olympic or Rapid Learning or Genius",
+                "desc": "Your mind will now match your body. You will be a low-level Thinker, with enhanced cognitive capabilities that elevate your learning speed, memory, and analytical skills far beyond human limits. You will acquire and master new skills at a parahuman level, learning in weeks what would take others years. Additionally, your enhanced mind and body will work in concert. When engaged in high-pressure situations, your mind will shift into tactical overdrive, allowing you to analyze threats, predict likely outcomes, and make optimal decisions in real time."
+            }
+        ]
     },
     {
         "title": "Pain Switch",
         "SPCost": 3,
-        "desc": "You're able to control how much pain you are able to feel at will. You can turn off your ability to feel pain totally or even partially at any time. You cannot control how much pain individual body parts feel, only your entire body."
+        "desc": "You will be able to control how much pain you feel at will. You can turn off your ability to feel pain totally or even partially at any time. You won't be able to control how much pain individual body parts feel, only your entire body.",
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/pain%20switch.png"
     },
     {
         "title": "Cosmetic Shapeshift",
         "CPCost": 5,
-        "desc": "Have you chosen to enter your new world in a form you have no say over? Have you chosen to just drop-in or maybe you've chosen to Character-Insert into a canon character or even became their Twin? Then this perk will grant you access to the Sex and Appearance sections in the Character tab, and you may also choose your age freely.\nWarning: While you may still take this perk if you've chosen to Reincarnate as an Original Character or a Family Member, it will not do anything. This simply exposes the sections those two Reincarnation Methods already have access to.\nWarning: This transformation is not 'lore-friendly'. If your chosen method of insertion into your new world grants you a past in this world (character-insert or reincarnation), then people will not recognize you as your 'old' self. This can be both an advantage and a hindrance.",
+        "desc": "Have you chosen to enter your new world in a form you have no say over? Have you chosen to just drop in as you are now, or maybe you've chosen to Character-Insert into a canon character, or even became their twin? Then this perk will grant you access to the Sex and Appearance sections in the Character tab, and you may also choose your age freely.\nWarning: This transformation is not 'lore-friendly.' If your chosen method of insertion into your new world grants you a past in this world (Character-Insert or Reincarnation), then people will not recognize you as your 'old' self. This can be both an advantage and a hindrance.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/cosmetic%20shapeshift.png"
     },
     {
         "title": "Blank",
-        "SPCost": 5,
-        "CPCost": 10,
-        "desc": "You become a blind spot for Thinkers.\nPowers that predict the future cannot account for your actions; clairvoyants that peer into the past or watch over the present cannot search for you; people trying to conjure up information about you using only their power would find nothing.\nSome powers will register your presence if their host can perceive you with their senses but they will be unable to gain further information, Gallant would be unable to sense your emotions, danger-sense would not warn their user of your actions, but they'd register your presence and show a neutral state.\nThis does not, however, stop someone from noticing that the future they were expecting has changed or the result and ripple effects of your actions altogether. It does not block direct observation either — in person or via technological means — and does not prevent a Thinker from building a model using this information.\nPowers that work primarily through their user's senses can draw their own conclusions unimpeded. For example, if Tattletale sees you visibly getting upset at something she said, she would be able to tell that what she said had a negative effect on you.\nYou can, at will, allow selected thinker powers to perceive you and can rescind this allowance at will at any time.",
+        "SPCost": 8,
+        "CPCost": 8,
+        "desc": "You will become a blind spot for Thinkers.\nPowers that predict the future can't account for your actions, and clairvoyants that peer into the past or watch over the present can't search for you. People trying to conjure up information about you using only their power would find nothing.\nSome powers will register your presence if their host can perceive you with their senses, but they will be unable to gain any further information. For example, Gallant would be unable to sense your emotions, and danger-sense would not warn their user of your actions, but they would register your presence and show a neutral state.\nThis does not, however, stop someone from noticing that the future they were expecting has changed, or the result and ripple effects of your actions altogether. It also does not block direct observation, in person or via technological means, and does not prevent a Thinker from building a model using this information.\nPowers that work primarily through their user's senses can draw their own conclusions unimpeded. For example, if Tattletale sees you visibly getting upset at something she said, she would be able to tell that what she said had a negative effect on you.\nYou can, at will, allow selected thinker powers to perceive you and can rescind this allowance at any time.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/blank.webp"
     },
     {
         "title": "Mental Barrier",
         "SPCost": 5,
         "CPCost": 5,
-        "desc": "You become immune to powers that directly affect your mind, emotions, or senses. This also protects against perception filters, hypnotic tinker-tech, body control or possession, and all forms of memetic hazards.\nHowever, physical effects like drugs, pheromones, or parasites will still affect you. Tinker-tech drugs or viruses will have their effects reduced but not completely negated.\nThis protection adapts to the form you take. If you somehow become a mechanical or digital life form, the protection would extend to cover viruses, hacking, and other forms of subversion or reprogramming.\nWith your permission, you can allow powers to influence you.",
-        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/mental%20barrier.png"
-    },
-    {
-        "title": "Blood-Brain Barrier",
-        "requirement": "Mental Barrier; Frankenstein",
-        "desc": "You also gain immunity to physical effects like drugs, pheromones, and parasites.",
-        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/blood-brain%20barrier.png"
+        "desc": "You will become immune to powers that directly affect your mind, emotions, or senses. This will also protect against perception filters, hypnotic Tinker-tech, body control or possession, and all forms of memetic hazards.\nHowever, physical effects like drugs, pheromones, or parasites will still affect you, though Tinker-tech drugs or viruses will have their effects reduced but not completely negated.\nThis protection will adapt to the form you take. If you somehow become a mechanical or digital life form, the protection would extend to cover viruses, hacking, and other forms of subversion or reprogramming.\nWith your permission, you can allow powers to influence you.",
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/mental%20barrier.png",
+        "subItems": [
+            {
+                "title": "Blood-Brain Barrier",
+                "synergy": "Frankenstein",
+                "desc": "You will also gain immunity to physical effects like drugs, pheromones, and parasites."
+            }
+        ]
     },
     {
         "title": "Trumped the Trump",
         "SPCost": 5,
         "incompatibility": "Shardless",
-        "desc": "Any powers and internal power supplies you possess cannot be drained, suppressed, weakened, stolen, copied, altered, controlled, reproduced, or otherwise manipulated against your will. Unless you will it to be otherwise, Trump powers do not work on you. You could even block certain aspects of powers influencing you, either yours or theirs. Such as being given a power and not being Mastered through it. You can be Mastered into consenting to a Trump working on you if you haven’t selected Mental Barrier, though.",
+        "desc": "Any powers and internal power supplies you possess cannot be drained, suppressed, weakened, stolen, copied, altered, controlled, reproduced, or otherwise manipulated against your will. Unless you will it to be otherwise, Trump powers will not work on you. You could even block certain aspects of powers influencing you, either yours or theirs. For instance, you could be given a power and not be Mastered through it.\nWarning: You could be Mastered into consenting to a Trump working on you if you haven’t selected Mental Barrier, though.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/trumped%20the%20trump.jpg"
     },
     {
         "title": "Powered Sustenance",
         "SPCost": 2,
         "incompatibility": "Shardless",
-        "desc": "You no longer need to eat, drink water, breathe, or exercise as your Shard or Power will sustain your body for as long as it has [Energy].",
+        "desc": "You will no longer need to eat, drink water, breathe, or exercise, as your Shard will sustain your body for as long as it has [Energy].",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/powered%20sustenance.jpeg"
     },
     {
         "title": "Who Wants to Live Forever?",
         "SPCost": 2,
-        "incompatibility": "Shardless",
-        "desc": "Your ability to age can be altered whenever you want. You can make yourself younger or older whenever you want. You can also fake age as if you were growing up normally, although you wouldn't suffer the normal effects of old age.\nThis doesn't increase toughness or physical ability aside from protecting you from the frailty of age.",
+        "incompatibility": "Shardless; Childlike",
+        "desc": "You will be able to alter your ability to age at will. You can make yourself younger or older. You can fake age as if you were growing up normally, although you would not suffer the normal effects of old age.\nNote: This does not increase toughness or physical ability aside from protecting you from the frailty of age.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/who%20wants%20to%20live%20forever.png"
     },
     {
         "title": "Immortality Failsafe",
         "CPCost": 3,
-        "desc": "This perk eliminates any issues that may arise from an infinite, or just extremely long, lifespan. You can experience everything the world has to offer, visit every place, meet every type of person, learn every skill, and then do it all over again, each time feeling just as fresh and new as the first if you so desire.\nThis does not affect your personality, only making sure that you'll never be susceptible to boredom, ennui, and listlessness unless you wish for it.",
+        "desc": "This perk will eliminate any issues that may arise from an infinite, or just extremely long, lifespan. You can experience everything the world (and beyond) has to offer, visit every place, meet every type of person, learn every skill, and then do it all over again, each time feeling just as fresh and new as the first if you so desire.\nThis will not affect your personality, but it will make sure that you will never be susceptible to boredom, ennui, and listlessness unless you wish for it.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/immortality%20failsafe.webp"
     },
     {
         "title": "Noctis Cape",
         "SPCost": 3,
         "incompatibility": "Shardless",
-        "desc": "You have no need to sleep, you'll constantly be alert and awake. You also have an infinite and perfectly eidetic memory, capable of perfectly recalling anything that has happened to you since you received your powers. Any memories prior to your trigger are remembered as well as you could recall them when you triggered.",
+        "desc": "You will have no need to sleep; you'll constantly be alert and awake. You will also have an infinite and eidetic memory, capable of perfectly recalling anything that has happened to you since you first received your powers. Any memories prior to your trigger will be remembered as well as you could recall them at the time of your trigger. However, from that point on they will not degrade, lose their clarity or change as would be typical in a normal human mind.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/noctis%20cape.png"
     },
     {
         "title": "Off Switch",
         "SPCost": 4,
-        "desc": "You can toggle on and off any perk, power or skill you want, at any time. This does not work on drawbacks or on perks that rely on items like Wealthy. You can whitelist specifics powers and effect to work through the Blindspot, Enigma, and Mental Barrier perks if you have them."
+        "desc": "You will be able to toggle on and off any perk, power, or skill you want at any time. This does not work on drawbacks or on perks that rely on items, such as Wealthy. You can whitelist specific powers and effects if you so desire."
     },
     {
         "title": "False Corona Pollentia",
         "SPCost": 4,
         "incompatibility": "Shardless",
-        "desc": "Your Shard no longer needs a Corona Pollentia to connect with you. Instead, it's somehow connected to your very soul. This removes the weakness of your Corona Pollentia. You can choose to have a fake Corona Pollentia in case you need one."
+        "desc": "Your Shard will no longer need a Corona Pollentia to connect with you. Instead, it will be connected to your very soul. This will remove the weakness of your Corona Pollentia. You can choose to have a fake Corona Pollentia in case you need one."
     },
     {
         "title": "Fan Service",
         "CPCost": 10,
-        "desc": "Now, calling you beautiful or handsome would be a massive understatement. While you are still recognizably you, your appearance has been overhauled to become an idealized version of yourself. The magnitude of this enhancement can be anywhere from being more attractive than a supermodel to making a goddess of beauty jealous.\nNothing can ever tarnish your looks. Unless you desire otherwise, any wounds you receive will heal perfectly and not leave any scars, you will not gain weight, visible muscle mass, body hair, or retain any other unwanted physical changes that can be healed, etc. Even sick and injured, you will look magnificent.\nNote: This may manifests itself in strange ways if you've chosen to incarnate into your new world as an ugly or hideous character.",
+        "desc": "Calling you beautiful or handsome would be a massive understatement. While you will still be recognizably yourself, your appearance will be an idealized version of you. The magnitude of this enhancement can range from making a supermodel jealous to making a goddess of beauty envious.\nNothing will ever tarnish your looks. Unless you desire otherwise, any wounds you receive will heal perfectly and not leave any scars. You will not gain weight, visible muscle mass, body hair, or retain any other unwanted physical changes... up to a certain point. Debilitating injuries that are beyond the ability of a normal human body to heal will stick around. However, even when sick or injured, you will look magnificent.\nNote: This may manifest in strange ways if you've chosen to incarnate into your new world as an ugly or hideous character.\nWarning: Be careful! While this will generally improve your health, it does not mean you can't get sick. Sure, it'll stop you from gaining weight, which will obviously improve your health, but eating a terrible diet long term may very well cause you other health issues, like high cholesterol or diabetes.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/fan%20service.webp"
     },
     {
         "title": "Wealthy",
-        "CPCost": 10,
+        "CPCost": 12,
         "incompatibility": "Poor",
-        "desc": "You have Batman's real superpower: Money. This comes in the form of numerous bank accounts, investments, and assets worth millions, several properties worldwide, and a few safehouses. These assets are only on your world of arrival.\nThe money refreshes as you spend it, either from interest or dividends, but you only have 5 million dollars in liquid assets, if you need to withdraw any more than that you'll need to talk to your private banker.",
+        "desc": "You will have Batman's real superpower: money. This will come in the form of numerous bank accounts, investments, and assets worth millions, several properties worldwide, and a few safehouses. These assets will only be on your world of arrival.\nThe money will refresh as you spend it, either from interest or dividends, but you will only have 5 million dollars in liquid assets. If you need to withdraw any more than that, you'll need to talk to your private banker.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/wealthy.webp"
     },
     {
         "title": "Legal Identity",
-        "CPCost": 3,
-        "desc": "You have a legal identity in the place of your arrival. You can choose to customize this legal identity within reason, ranging from a student of a certain school to a dockworker to a lawyer.\nThis is mostly useless if you choose Reincarnate or Character-Insert, though a homeless person or a sufficiently young orphan might not have one.",
+        "CPCost": 5,
+        "desc": "You will have a legal identity in the place of your arrival. You can customize this legal identity within reason, ranging from a student of a certain school to a dockworker or a lawyer.\nThis is mostly useless if you choose to reincarnate or Character-Insert, though a homeless person or a sufficiently young orphan might not have one.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/legal%20identity.webp"
     },
     {
         "title": "Multiversal Citizenship",
-        "SPCost": 2,
-        "CPCost": 3,
+        "CPCost": 10,
         "requirement": "Legal Identity or Homecoming",
-        "desc": "Whenever you travel to a new universe, you already have a legal identity there. You can choose to customize this legal identity within reason, ranging from a student to a certain school to an adventurer from a guild."
+        "desc": "Whenever you travel to a new universe, you will already have a legal identity there. You can customize this legal identity within reason, ranging from a student of a certain school to an adventurer from a guild."
     },
     {
         "title": "Peaceful Vibes",
-        "CPCost": 2,
+        "CPCost": 6,
         "incompatibility": "Personality Conflict",
-        "desc": "People with the same goals, principles, or personality are more likely to mesh well together. Even if they were your enemies yesterday, you find it easier to befriend and work with them. Yesterday's enemies can be today's friends, against a common foe the both of you somehow work wonderfully together.\nIt's easier for people to set aside their differences and work together. You'll be more likely to work well together on a team. This even makes actions like Tinkering together easier.",
+        "desc": "People with similar goals, principles, or personalities will more easily get along with you. Even if they were your enemies yesterday, you will find it easier to befriend and work with them. Yesterday's enemies can become today's friends. Against a common foe, you will work wonderfully together.\nThis will make it easier for people to set aside their differences and work together on a team. This also makes actions like Tinkering together easier.",
         "image": "https://github.com/zorlix/WormCYOA/raw/refs/heads/main/Images/perks/peaceful%20vibes.webp"
     },
     {
         "title": "Cauldron Membership",
         "CPCost": 10,
-        "desc": "Within 6 months of your arrival, you'll be contacted by Cauldron extending their recruitment offer.\nYour exact position within Cauldron will depend on how useful your powerset is to them and the time period you arrive at.",
+        "desc": "Within 6 months of your arrival, you will be contacted by Cauldron with a recruitment offer.\nYour exact position within Cauldron will depend on how useful your powerset is going to be to them and the time period you arrive at.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/cauldron%20membership.png"
     },
     {
         "title": "The Prototype",
         "CPCost": 5,
         "requirement": "May 19, 1982; Cauldron Membership; Shard of the Wanderer or Shard of the Thinker Entity",
-        "desc": "You are the first successful Cauldron Cape and are a shoo-in for becoming a high ranking member of the multidimensional conspiracy.",
+        "desc": "You will be the first successful Cauldron Cape and are going to be a shoe-in for becoming a high-ranking member of the multidimensional conspiracy.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/the%20prototype.webp"
     },
     {
         "title": "Invictus",
         "CPCost": 10,
-        "desc": "Your will is absolute, boundless, and unbreakable. Maybe it’s your ideals, an all-consuming ambition, or maybe it's just a rock-solid certainty in how you see the world. You are patient beyond belief, even capable of spending countless hours doing mind-numbing tasks. Your willpower is endless and no matter how difficult the situation, even if you're torn in half, locked in a time loop of endless agony for thousands of years, or subjected to a fate worse than death, you'll be able to shrug it off. You will never be left drifting without a sense of purpose, and though you might change your goals and refine your ideals you always have the motivation to fuel turning them into a reality.\nThis will greatly bolster your sense of self in the face of adversity, and you’ll be able to plant your feet when everyone else is giving up. Of course, you still have emotions and you can still be hurt emotionally, but you'll always be able to maintain your composure and keep your emotions from ruling your decision-making. Take care that you don't become so tunnel-visioned that you fail to see others as actual people with agency.",
+        "desc": "Your will will be absolute, boundless, and unbreakable. You might be driven by your ideals, an all-consuming ambition, or a rock-solid certainty in your worldview. You will be patient beyond belief, capable of spending countless hours on mind-numbing tasks. Your willpower will be endless, and no matter how difficult the situation, even if you get torn in half, locked in a time loop of endless agony for thousands of years, or subjected to a fate worse than death, you can shrug it off. You will never be left drifting without a sense of purpose, and though you might change your goals and refine your ideals, you will always have the motivation to make them a reality.\nThis will greatly bolster your sense of self in the face of adversity, allowing you to stand firm when everyone else is giving up. Of course, you'll still have emotions and can still be hurt emotionally, but you will always maintain your composure and prevent your emotions from ruling your decision-making. Be careful not to become so tunnel-visioned that you fail to see others as actual people with agency.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/invictus.png"
     },
     {
         "title": "Well-Adjusted",
-        "CPCost": 5,
-        "incompatibility": "Cold Heart",
-        "desc": "You won't lose your sanity or rationality under any circumstances unless you're being controlled by a power. And even if you somehow did, no matter the circumstances, you will never lose your humanity and empathy. Your team, family, or friends will always be there to bring you back from the abyss. Your personal issues are much easier to work through and even without help you'll be able to get through them in time. This might take a while if it's bad, but you'll make it out eventually.\nThis also makes you highly resistant to mental health problems and emotional manipulation, though not completely immune. You’re also really good at helping others through their issues, and it’ll stick more often than not as long as you can get through to them.",
+        "CPCost": 10,
+        "incompatibility": "Cold Heart; Insane",
+        "desc": "You will not lose your sanity or rationality under any circumstances unless you are being controlled by a power. And even if you somehow did, you will never lose your humanity and empathy. Your team, family, or friends will always be there to bring you back from the abyss. Your personal issues will be much easier to work through, and even without help, you will get through them in time. This may take a while if it's truly bad, but you will make it out eventually.\nThis also makes you highly resistant to mental health problems and emotional manipulation, though not completely immune. You are also really good at helping others through their issues, and your help will stick more often than not, as long as you can get through to them.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/well-adjusted.jpg"
     },
     {
         "title": "Patience of a Saint",
-        "CPCost": 4,
-        "desc": "Your patience is inexhaustible. You could sit without moving for days with no problem, or easily spend countless hours on a single, mind-numbing task.",
+        "CPCost": 5,
+        "desc": "Your patience will be inexhaustible. You could sit without moving for days with no problem, or easily spend countless hours on a single, mind-numbing task.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/patience%20of%20a%20saint.jpg.webp"
     },
     {
         "title": "Altered History",
         "CPCost": 5,
-        "desc": "Your character’s history has been altered slightly.\nPerhaps you are Taylor Herbert, the son of Danny Herbert, the Great Hero Eidolon. Maybe you grew up in a different city; maybe you have more family members; maybe you had your powers for far longer; maybe you had your powers even before going through the CYOA, etc.\nWith all methods of Incarnation, this allows you to alter the Meta (Target)’s history prior to the CYOA. If bought as a Character Insert or Reincarnation, this also allows you to apply it to the character your Meta (Target) is inserting into.\nNote: While you can’t make any large changes directly to the setting or storyline with just this, any changes that would make sense with your other choices are fair game. If you character insert as Victoria Dallon, but alter your history to have always had an Endbringer controlling power you bought here then the world's history will be altered accordingly.",
+        "incompatibility": "Original Character; Drop-In",
+        "desc": "Your character’s history will be slightly altered.\nPerhaps you are Taylor Hebert, the son of Danny Hebert, the Great Hero Eidolon. Maybe you grew up in a different city, have more family members, or had your powers for far longer.\nWith all methods of incarnation, this allows you to alter your history prior to the CYOA.\nNote: While you can't make large changes directly to the setting or storyline with just this, any changes that would make sense with your other choices are fair game. For example, if you Character-Insert as Victoria Dallon but alter your history to have always had an Endbringer-controlling power you bought here, the world's history will be altered accordingly.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/altered%20history.jpg"
     },
     {
         "title": "Reputable",
-        "CPCost": 5,
+        "CPCost": 7,
         "incompatibility": "Disreputable",
-        "desc": "You gain a reputation easily, a spark of appearance that makes you shine. Your accomplishments are often embellished by others or people just credit things happening to you. Anything you do will be amazing and astounding. Even in losing, you seem to lose gracefully and in winning you seem like an unsurmountable giant. The impression you give can change depending on how you want, you could be cool or cute, handsome or beautiful. The way you move, talk, and fight will always be astonishing, even if you didn't intend to.\nThis makes it easier to bluff your way out of a situation and gives you leverage in getting what you want. This can be toggled on and off."
+        "desc": "You will gain a reputation easily, a spark of appearance that makes you shine. Your accomplishments will often be embellished by others, or people will simply credit things to you. Everything you do will be amazing and astounding. Even in losing, you will seem to lose gracefully, and in winning, you will seem like an insurmountable giant. The impression you give can change depending on how you want — you could be cool or cute, handsome or beautiful. The way you move, talk, and fight will always be astonishing, even if you didn't intend it.\nThis makes it easier to bluff your way out of a situation and gives you leverage in getting what you want. This can be toggled on and off."
     },
     {
         "title": "A Pencil. A Fucking Pencil!",
-        "CPCost": 5,
-        "incompatibility": "Disreputable",
+        "CPCost": 7,
         "requirement": "Reputable; Reincarnation or Altered History",
-        "desc": "You’ve already built up an incredibly intimidating reputation for yourself, having spent years tearing apart enemies that everyone thought were unbeatable. Those that manage to get away are usually crippled and doing whatever they can to avoid a second encounter. Most will not dare to go against you without it being absolutely necessary and armed to the teeth, and even then they’ll triple-check to make sure. They’ll still feel like they’re about to get their teeth kicked in."
+        "desc": "You will have already built up an incredibly intimidating reputation for yourself, having spent years tearing apart enemies that everyone thought were unbeatable. Those who escape are usually crippled and will do whatever they can to avoid a second encounter. Most will not dare to go against you without it being absolutely necessary and armed to the teeth, and even then, they'll triple-check to make sure. They'll still feel like they're about to get their teeth kicked in."
     },
     {
         "title": "Natural Leader",
         "CPCost": 5,
-        "incompatibility": "Lonely; Personality Conflict",
-        "desc": "People tend to look to you for guidance and leadership. You have an easy time recruiting people, and for some reason, they tend to be pretty loyal. People with powers might take a bit more convincing, mostly because they know their value.",
+        "incompatibility": "Lonely; Personality Conflict; Indecisive Nature",
+        "desc": "People will tend to look to you for guidance and leadership. You will have an easy time recruiting people, and for some reason, they will tend to be very loyal. People with powers might take a bit more convincing, mostly because they know their value.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/natural%20leader.jpg"
     },
     {
         "title": "Cover Story",
-        "CPCost": 5,
+        "CPCost": 10,
         "incompatibility": "Case 53; Unmasked",
-        "desc": "No matter what happens, you will keep your identity hidden even by using one minor cosmetic change. For example, putting on glasses or styling your hair differently.",
+        "desc": "No matter what happens, you will keep your identity hidden, even by using one minor cosmetic change. For example, putting on glasses or styling your hair differently.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/cover%20story.jpg"
     },
     {
-        "title": "'Plot' Armor",
-        "CPCost": 5,
-        "desc": "You're not unlucky. You won't get killed by accident, only by something someone did intentionally. Someone has to go out of their way to kill you if they want you dead. This power doesn't protect you from Endbringers (or any other truly overpowered or world-ending threats).",
+        "title": "Plot Armor",
+        "CPCost": 8,
+        "desc": "You will not be unlucky. You will not get killed by accident, only by something someone did intentionally. Someone will have to go out of their way to kill you if they want you dead. This power does not protect you from Endbringers or any other truly overpowered or world-ending threats.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/plot%20armor.jpeg"
     },
     {
         "title": "Controlled Intoxication",
-        "SPCost": 3,
-        "CPCost": 3,
+        "CPCost": 4,
         "requirement": "Alcoholic or Druggie",
-        "desc": "As someone with experience with either alcohol or hard drugs, your body has adapted to their effects, allowing you to maintain some level of control in your actions even when drunk or drugged. You still experience the physical and emotional symptoms of intoxication and drugs, but you are able to better control your impulses and stay focused on the tasks at hand. This doesn't completely negate the effects of alcohol or drugs, but it can help you stay somewhat regulated."
+        "desc": "As someone with experience with either alcohol or hard drugs, your body will have adapted to their effects, allowing you to maintain some level of control of your actions even when drunk or drugged. You will still experience the physical and emotional symptoms of intoxication and drugs, but you will be better able to control your impulses and stay focused on the tasks at hand. This does not completely negate the effects of alcohol or drugs, but it can help you stay somewhat regulated."
     },
     {
         "title": "Conflicted Predictions",
-        "SPCost": 3,
-        "CPCost": 3,
-        "desc": "Wildbow's Shard, like any other Warrior Shard, was geared for conflict, and so what would really happen is a bit more spaced out. In other words, you have an extra two years, two months, and 13 days until Gold Morning, and the events of Ward also took twice as long and started two years, two months, and 13 days later."
+        "SPCost": 4,
+        "CPCost": 4,
+        "desc": "Wildbow's Shard, like any other Warrior Shard, was geared for conflict, and so what would really happen is a bit more spaced out. In other words, you will have an extra two years, two months, and 13 days until Gold Morning, and the events of Ward will also take twice as long and start two years, two months, and 13 days later."
     },
     {
         "title": "Thematic",
         "SPCost": 1,
         "CPCost": 2,
-        "desc": "Your powers take on a certain theme. Teleportation now melds with the shadows if you have a dark theme, and Tinker abilities can decorate swords without negatively impacting performance. This doesn't weaken or strengthen any of your powers, but it does make it more thematically accurate to whatever you choose.\nYou can choose to follow or switch your theme whenever you wish. And rebranding yourself comes to you easier."
+        "desc": "Your powers will take on a certain theme. Teleportation, for example, will meld with shadows if you have a dark theme, and Tinker abilities can decorate swords without negatively impacting their performance. This does not weaken or strengthen any of your powers, but it does make them more thematically accurate to whatever you choose.\nYou can choose to follow or switch your theme whenever you wish, and rebranding yourself will come easier to you."
     },
     {
         "title": "Just as Planned",
-        "CPCost": 10,
-        "desc": "The Fate or 'Canon' of this world is molded by those much higher than yourself and unless intentionally acted against shall follow the same path. Unless you involve yourself directly in the events foretold by Wildbow everything shall follow the path he laid out more or less. You can breathe a sigh of relief knowing that a teenager will sacrifice her humanity to save the Multi-Verse because you decided to take the easy way out. Coward.",
+        "CPCost": 12,
+        "desc": "The fate or 'canon' of this world is predetermined, and unless you deliberately intervene, the timeline will follow the same path. In the case of Worm, this means that you can relax knowing that a teenager will sacrifice her humanity to save the multiverse.\nIf you arrive in a different world, this perk will ensure that events will proceed along the canonical path set by its respective creators, so long as you do not directly involve yourself in the main storyline.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/just%20as%20planned.jpg"
     },
     {
         "title": "Manton Protected",
         "SPCost": 5,
         "CPCost": 10,
-        "desc": "The inside of your body is protected against influences that attempt to target it. For example, a telekinetic cannot crush your heart inside of your chest.\nYou also gain some measure of resistance to esoteric attacks like instant death or erasure. This is not complete immunity and will still hurt you, severely, but you will at least have a chance to survive."
+        "incompatibility": "Manton Unlimited",
+        "desc": "The inside of your body will be protected against influences that attempt to target it. For example, a telekinetic will not be able to crush your heart inside of your chest.\nYou also gain some measure of resistance to esoteric attacks like instant death or erasure. This is not complete immunity and will still hurt you severely, but you will at least have a chance to survive."
     },
     {
         "title": "Homecoming",
-        "SPCost": 5,
-        "desc": "Any teleportation or similar power you possess now allows you to travel to other universes. You can travel to any universe you have previously been to, including your home universe, as well as target universes based on any knowledge you possess, such as memories you had prior to gaining powers, awareness of a setting through some form of media, etc.\nIf you have no such ability, you can still travel to other worlds by accessing the medium in which it is depicted. For example, a Harry Potter book for the Harry Potter universe, a Skyrim game for Skyrim, etc."
+        "SPCost": 12,
+        "CPCost": 5,
+        "desc": "Any teleportation or similar power or item you possess will allow you to travel to other universes. You can travel to any universe you have previously been to, including your home universe, and target universes based on any knowledge you possess. This includes memories you had prior to gaining powers or awareness of a setting from media. It also includes knowledge you gain in whatever world you enter. If you find a piece of media in Worm that either doesn't exist on your Earth or that you just didn't know before, you can choose to travel there.\nWarning: Be sure to pick an appropriate teleportation ability or find one in your chosen world, because without one, this is useless.",
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/homecoming.png"
     },
     {
         "title": "Resume",
+        "SPCost": 5,
         "CPCost": 15,
         "requirement": "Homecoming",
-        "desc": "Now you can choose to re-enter any universe you have been to at the exact same time you left it, no matter how much time has passed. This includes your original world.\nIf you have any powers that allow you to interact with other universes without actually moving to them, they will count as if you were there when used."
+        "desc": "You can choose to re-enter any universe you have been to at the exact same time you left it, no matter how much time has passed. This includes your original world.\nIf you have any powers that allow you to interact with other universes without actually moving to them, they will count as if you were there when used.\nWhat this effectively means is that your teleportation power will also transport you back in time to when you left that universe.",
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/resume.webp"
     },
     {
         "title": "Holding Back",
         "SPCost": 5,
-        "desc": "Every single aspect of your powers, strength, and perks can be selectively toggled and dialed to the point they can be turned completely off. You can also select people and individuals who are not affected by your perks and powers, making it seem as if they're capable of withstanding reality-breaking attacks. You can scale your reality-ending destruction to be tuned down to cause mild concussions, granting you the ability to not overkill everything in existence. As long as you wish it, it’s almost impossible to kill someone if you don't want to.\nWarning: This does not work on drawbacks or on perks that rely on items like Wealthy."
+        "desc": "Every single aspect of your powers, strength, and perks can be selectively toggled and dialed down until they are completely off. You can also select people and individuals to not be affected by your perks and powers, making it seem as if they can withstand reality-breaking attacks. You can tune down your reality-ending destruction to cause mild concussions, giving you the ability to not overkill everything in existence. With this, it will be almost impossible to kill someone if you do not want to.\nWarning: This does not work on drawbacks or on perks that rely on items, such as Wealthy.",
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/holding%20back.png"
     },
     {
         "title": "Hidden Strength",
-        "SPCost": 3,
-        "desc": "Now you can selectively conceal your true capabilities. When doing so, no device or ability will be able to detect your hidden powers.\nYou can either conceal any or all of your powers and skills completely, appearing as if you never possessed them in the first place, hide only one some aspects of those, or, alternatively, just limit the detectable level of strength, appearing weaker than you truly are."
+        "SPCost": 5,
+        "desc": "You will be able to selectively conceal your true capabilities. When you do so, no device or ability can detect your hidden powers.\nYou can conceal any or all of your powers and skills completely, appearing as if you never possessed them in the first place, hide only some aspects of them, or limit the detectable level of strength, appearing weaker than you truly are.",
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/hidden%20strength.png",
+        "subItems": [
+            {
+                "title": "Red Herring",
+                "synergy": "Explained",
+                "desc": "With both perks combined, you will have control over how others interpret the nature of any and all of your powers and abilities. For example, you can disguise any of your powers so that they appear to belong to a completely different power system, such as masking your magic powers as psionics and vice versa or making your Shard powers appear as esoteric magic. This is so powerful that even if the nature of powers may be revealed through something like a blood test, everyone will still come to the conclusion that your powers are exactly what you present as.\nWhile not granting you any direct buffs, as the nature of your powers doesn't truly change, if something in the world is conditioned upon you having the right nature of power, you can appear as if you satisfy any such requirement."
+            }
+        ]
     },
     {
         "title": "Accentuate the Positive",
-        "SPCost": 8,
-        "CPCost": 8,
-        "desc": "You are now immune to the negative side effects of power sources from outside yourself, whether combat drugs, enchantments, items, divine blessings, curses, and anything that empowers you or that you wield in some manner.\nThis means that if a drug could enhance your strength 10 fold but reduced your life by half, you could take it as you please with no worry for the cost as it doesn’t impact you.\nLikewise, if an item granted you the power to see the future at the cost of inevitable madness, feel free to use it as you please as your mind remains as sharp and crystal clear decades after, as before you even touched the item.\nMade a pact with a demon for the ability to manipulate light, the cost being your soul, weakness to holy objects, and an inability to use your powers or even walk on holy ground? Walk into a church, pray, utilize your light to create an interesting spectacle for the parishioners, and fret not for your soul is still your own.\nThis also comes with complete immunity to addiction.\nThe perk doesn’t expand upon the power, nor does it add new abilities; it merely removes the complications that may arise from the power.\nThis allows you to benefit from all the positives of your powers, with any negative mechanics and complications wiped away or shifted to be non-detrimental, such as a demonic force’s natural weakness and aversion to holy objects. It would not, however, add new aspects; it removes negative effects and factors, but doesn’t create new beneficial ones.",
+        "SPCost": 15,
+        "desc": "You will be immune to the negative side effects of power sources from outside yourself, whether they are combat drugs, enchantments, items, divine blessings, curses, or anything that empowers you or that you wield in some manner.\nThis means that if a drug could enhance your strength tenfold but reduced your lifespan by half, you could take it without worry.\nLikewise, if an item granted you the power to see the future at the cost of inevitable madness, your mind would remain as sharp and clear decades later as it was before you touched it.\nMade a pact with a demon for the ability to manipulate light at the cost of your soul as well as weakness to holy objects and the inability to walk on holy ground? Walk right into a church, pray, utilize your light to entertain parishioners, and fret not for your soul is still your own.\nThis also grants you complete immunity to addiction to said abilities.\nThis perk does not add new abilities; it merely removes the negative complications that may arise from a power, allowing you to benefit from all its positives without any negative mechanics or complications.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/accentuate%20the%20positive.jpg"
     },
     {
         "title": "Eliminate the Negative",
-        "SPCost": 12,
-        "CPCost": 12,
-        "desc": "You are now immune to the negative side effects of your self-derived powers.\nFor example, magic that may have used your emotions and/or stamina to fuel its power now has a separate pool to draw upon so as to not leech off you.\nLikewise, any aspect of your abilities that negatively affects your mental state, your body, your soul, or any other aspect of yourself is wiped away or shifted to a non-detriment.\nAre you a Kryptonian and weak to Green Kryptonite? Now chuck that useless rock as if it was some common quartz rock. Let those grunts think they have a chance because they’ve got their magic bullet only to laugh in their face as that bullet does nothing.\nDoes your magic leave you barely able to stand, fog your mind, or scar your soul? Not anymore. Fire as many spells as you wish – your health, body, mind, and soul remains unfazed. Your magic instead drains from a separate pool that replenishes over time.\nDoes your bloodline grant you the power to enter a form that gives phenomenal cosmic power in exchange for giving up your humanity? Feel free to shift back and forth as you wish. Enjoy the benefits of remaining who you were with all the pleasure of having all that power.\nThe perk doesn’t expand upon the power, nor does it add new abilities; it merely removes the complications that may arise from the power.\nThis allows you to benefit from all the positives of your powers. Any drawbacks, powers, biological traits, or magic systems that may have held any negative complication or mechanics have been wiped away or shifted to be non-detrimental.\nFor example, it would remove a Kryptonian's natural weakness to Green Kryptonite, but not their dependence on sunlight, nor would it grant new abilities for perceived limitations. It removes negative effects and factors; it doesn’t create new beneficial ones."
+        "SPCost": 20,
+        "desc": "You will be immune to the negative side effects of your self-derived powers.\nFor example, magic that might have used your emotions or stamina to fuel its power will now have a separate pool to draw upon, so as not to leech off you.\nAny aspect of your abilities that negatively affects your mental state, body, or soul will be wiped away or shifted to a non-detriment.\nAre you a Kryptonian and weak to Green Kryptonite? Now you can throw that useless rock around as if it were a common quartz rock. Let your enemies think they have a chance only to laugh in their face when their magic bullet does nothing.\nDoes your magic leave you barely able to stand, fog your mind, or scar your soul? Not anymore. Fire as many spells as you wish—your health, body, mind, and soul will remain unfazed. Your magic will instead drain from a separate pool that replenishes over time.\nDoes your bloodline grant you the power to enter a form that gives phenomenal cosmic power in exchange for giving up your humanity? Feel free to shift back and forth as you wish.\nThis perk does not expand upon the power or add new abilities; it merely removes the complications that may arise from it."
     },
     {
         "title": "Platinum Kryptonite",
-        "SPCost": 5,
-        "CPCost": 5,
+        "SPCost": 10,
         "requirement": "Accentuate the Positive; Eliminate the Negative",
-        "desc": "Alongside eliminating any drawbacks your powers come with, you can turn them into strengths.\nWhenever you encounter an effect that would naturally weaken or debilitate you as a result of the powers you possess, you are instead enhanced by the same margin.\nFor example, as a Kryptonian, Green Kryptonite would amplify your power, pushing you as far away in strength from your normal form as you are to humans.\nThis applies automatically; however, you can choose for it to not take effect if you wish, for any reason.",
+        "desc": "In addition to eliminating any drawbacks your powers come with, you can turn them into strengths.\nWhenever you encounter an effect that would naturally weaken or debilitate you as a result of the powers you possess, you will instead be enhanced by the same margin.\nFor example, as a Kryptonian, Green Kryptonite would amplify your power, pushing you as far away in strength from your normal form as you are from humans.\nThis applies automatically; however, you can choose for it to not take effect if you wish.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/platinum%20kryptonite.webp"
     },
     {
         "title": "Comic Book Physics",
         "SPCost": 5,
         "CPCost": 5,
-        "desc": "In some universes, certain champions of justice travel through the atmosphere at superluminal speeds without igniting everything for miles and lift buildings, even though they should crumble due to structural integrity. Now, so can you.\nNot only do you have any required secondary powers that your primary powers might require to be used without horrifying or destructive implications, but, provided you have the powers for it, you can lift buildings without them falling apart and move at speeds in the multiple digits without destroying everything if you don't want to.\nYou now have complete control over the amount of collateral damage your attacks can output such that a planet-busting punch will only affect your enemy, not the planet itself. It all just works.",
+        "desc": "In some universes, champions of justice travel through the atmosphere at superluminal speeds without igniting everything for miles and lift buildings even though they should crumble due to structural integrity. Now, so can you.\nThis perk will give you any required secondary powers that your primary powers might need to be used without horrifying or destructive implications.\nYou will have complete control over the amount of collateral damage your attacks can output such that a planet-busting punch will only affect your enemy, not the planet itself. It all just works.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/comic%20book%20physics.jpg"
     },
     {
         "title": "Friendly",
-        "CPCost": 5,
+        "CPCost": 3,
         "incompatibility": "Personality Conflict; Lonely",
-        "desc": "You find it easier to make friends, and the friends you do make are in it for the long run.",
+        "desc": "You will find it easier to make friends, and the friends you do make will be in it for the long run.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/friendly.jpg.webp"
     },
     {
         "title": "Explained",
         "CPCost": 5,
         "incompatibility": "In One Ear...",
-        "desc": "You find it easier to explain how your powers work and people will have an easier time accepting it in a way that works for them. There can't be some misunderstanding on what you can or can't do unless you purposely make yourself vague.\nTo the greater world, your out-of-context powers will be forcefully shoved into some random explanation. Maybe your magical totems are some kind of Tinker restriction or psychic powers are some kind of PR move. If you choose to, even doctors doing in-depth medical scans would treat the strange growth in your brain as normal.",
+        "desc": "You will find it easier to explain how your powers work, and people will have an easier time accepting it in a way that works for them. There cannot be a misunderstanding about what you can or cannot do unless you purposely make yourself vague.\nTo the greater world, your out-of-context powers will be forcefully shoved into some random explanation. Perhaps your magical totems are some kind of Tinker restriction or psychic powers are some kind of PR move. If you choose to, even doctors doing in-depth medical scans would treat the strange growth in your brain as normal.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/eplained.jpg.avif"
     },
     {
         "title": "Peaceful Life",
         "CPCost": 10,
-        "incompatibility": "Always on The Clock",
-        "desc": "With all those troubles that come with a super life, you can never have enough 'me time'. This Perk helps you by letting all your troubles take a 'day off'. An eldritch monster is trying to devour reality, and you are the only one who can stop it? Relax, it won't happen until you have your 'free day'.\nA super tinker is planning to take over the world? Relax, that won't happen when you are playing your games, having a date, or even on the beach. This perk takes action from time to time while you are relaxing or too stressed.",
+        "incompatibility": "Always on the Clock; Parker Luck",
+        "desc": "With all the troubles that come with a super life, you can never have enough 'me time.' This perk will help you by letting all your troubles take a 'day off.' An eldritch monster is trying to devour reality, and you are the only one who can stop it? Relax, it won't happen until you have your 'free day.'\nA super Tinker is planning to take over the world? Relax, that won't happen when you are playing games, on a date, or even on the beach. This perk will take action from time to time when you are relaxing or too stressed.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/peaceful%20vibes.webp"
     },
     {
         "title": "World Clean",
-        "CPCost": 2,
-        "desc": "Your body will be completely self-cleaning. The moment you close your eyes, and wish to be clean, any filth, dirt, and grime built up on your body and or your clothing will magically disappear, this also includes your dental hygiene. Not only that, but you'll also carry a wonderful scent, perfectly tailored to the liking of yourself and those around you, such that everyone smells you a little different, but loves it all the same. You'll both smell, feel, and be heavenly fresh forevermore.",
+        "CPCost": 3,
+        "desc": "Your body will be completely self-cleaning. The moment you close your eyes and wish to be clean, any filth, dirt, and grime built up on your body or clothing will magically disappear. This also includes your dental hygiene. Not only that, but you will also carry a wonderful scent, perfectly tailored to the liking of yourself and those around you. Everyone will smell you a little differently, but everyone will love it all the same. You will both smell, feel, and be heavenly fresh forevermore.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/world%20clean.webp"
     },
     {
@@ -328,124 +347,145 @@
         "count": 0,
         "SPCost": 2,
         "incompatibility": "Power Tweak (All)",
-        "desc": "You can change how some aspects of a power, object of power, or perk of yours work. This doesn't make it more powerful but can change some of its mechanics."
+        "desc": "You can change how some aspects of a power, an object of power, or a perk of yours works. This does not make it more powerful but can change some of its mechanics.\nIf you wish to take more than 4 copies of this, you might want to instead take the following perk."
     },
     {
         "title": "Power Tweak (All)",
         "SPCost": 10,
         "incompatibility": "Power Tweak",
-        "desc": "You can change how any aspects of any of your powers, objects of powers, or perks work. This doesn't make it more powerful but can change some of its mechanics.\nYou can use this to alter the mechanics of some of your powers or OoPs, a single one of them, fuse all of them or allow them to be expressed through one power or object, or any combination of alterations you can think of. This doesn’t allow you to make yourself more powerful on its own."
+        "desc": "You can change how any aspect of any of your powers, objects of power, or perks works. This does not make it more powerful, but it can change some of its mechanics.\nYou can use this to alter the mechanics of only some of your abilities, fuse all of them, allow them to be expressed through one power or object, or any combination of alterations you can think of.\nThis does not allow you to make yourself more powerful on its own."
     },
     {
         "title": "Tailor Made",
-        "SPCost": 2,
+        "SPCost": 4,
         "requirement": "Power Tweak (All)",
-        "desc": "Your powers, OoPs, and perks are all adjusted to fit you perfectly. The little nuances and the subtle details that you may have otherwise overlooked or miscalculated are no longer an issue, instead all the little nuances and details are smoothed out entirely on their own to become the best possible fit for you."
-    },
-    {
-        "title": "Personal Touch",
-        "requirement": "Power Tweak (All); Thematic",
-        "desc": "Your powers, objects of powers, and perks aren’t just fixed in at one point in time; instead, they’ll alter and shift to continuously match you perfectly.\nThis also allows you to manually make adjustments at will, freely shifting it to suit your needs. If you prefer, you can always allow it to default back to shifting into an optimal state for you once more."
+        "desc": "Your powers, objects of power, and perks will all be adjusted to fit you perfectly. The little nuances and subtle details that you may have otherwise overlooked or miscalculated are no longer an issue; instead, all the little nuances and details are smoothed out entirely on their own to become the best possible fit for you.",
+        "subItems": [
+            {
+                "title": "Personal Touch",
+                "synergy": "Thematic",
+                "desc": "Your powers, objects of power, and perks are not just fixed at one point in time; instead, they will alter and shift to continuously match you perfectly.\nThis also allows you to manually make adjustments at will, freely shifting it to suit your needs. If you prefer, you can always allow it to default back to shifting into an optimal state for you once more."
+            }
+        ]
     },
     {
         "title": "Countdown",
         "SPCost": 5,
         "CPCost": 5,
-        "desc": "Once you have defeated Zion or any equivalent enemy in threat (not necessarily power) to whatever universe you're in any self-targeted drawbacks you have chosen will be removed. (Examples: Monologue, Trouble Magnet, etc.) This specifically targets the side effects, limitations, and other adverse consequences associated with the selected drawbacks.\nIt is important to note that certain drawbacks may require the achievement of specific goals for their complete removal. In such cases, the associated drawbacks will persist until the designated objective has been successfully accomplished. Examples: CUI Summer Camp, Endbringer Target, etc.\nThis perk will also activate after 25 years even if you don't defeat Zion or an equivalent enemy.\nWarning: This perk does not apply to drawbacks that involve environmental changes or the acclimation drawback."
+        "desc": "Once you have defeated Zion or any equivalent enemy in threat (not necessarily power) to whatever universe you're in, any self-targeted drawbacks you have chosen will be removed. This specifically targets the side effects, limitations, and other adverse consequences associated with the selected drawbacks.\nNote: Certain drawbacks may require the achievement of specific goals for their complete removal, in which case the associated drawbacks will persist until the designated objective has been successfully accomplished.\nThis perk will also activate after 25 years even if you do not defeat Zion or an equivalent enemy.\nWarning: This perk does not apply to drawbacks that involve environmental changes or the acclimation drawback.",
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/countdown.webp"
     },
     {
         "title": "Brief Protection",
         "count": 0,
         "SPCost": 1,
         "CPCost": 1,
-        "desc": "With your first purchase, you gain protection from external threats that could harm you or your powers. This includes Paragon users who can erase powers, and time travelers who can alter your past. Schemes against you will be delayed until your Brief Protection ends. This includes drawbacks such as Slaughterhouse Eight, Fairy Goddess, or Worst Day Ever but not those that affect you directly like Case 53, Acclimation, or Corona Pollentia.\nBrief Protection lasts for one day per purchase. The time is based on your own perception, so it doesn’t change if you travel in time. This protection also extends to your friends and family."
+        "desc": "This will give you complete protection from external threats that could harm you or your powers. This protection also extends to your friends and family. Schemes against you will be delayed until your Brief Protection ends. This includes drawbacks such as Slaughterhouse Eight, Fairy Goddess, or Worst Day Ever, but not those that affect you directly like Case 53, Acclimation, or Pint Sized.\nBrief Protection lasts for one day per purchase. The time is based on your own perception, so it does not change if you travel in time."
     },
     {
         "title": "Momentary Protection",
         "count": 0,
         "SPCost": 5,
         "CPCost": 5,
-        "desc": "With your first purchase, you gain protection from external threats that could harm you or your powers. This includes Paragon users who can erase powers, and time travelers who can alter your past. Schemes against you will be delayed until your Momentary Protection ends. This includes drawbacks such as Slaughterhouse Eight or Fairy Goddess but not those that affect you directly like Case 53, Acclimation, or Corona Pollentia.\nMomentary Protection lasts for one month per purchase. The time is based on your own perception, so it doesn’t change if you travel in time. This protection also extends to your friends and family."
+        "desc": "This will give you complete protection from external threats that could harm you or your powers. This protection also extends to your friends and family. Schemes against you will be delayed until your Momentary Protection ends. This includes drawbacks such as Slaughterhouse Eight, Fairy Goddess, or Worst Day Ever, but not those that affect you directly like Case 53, Acclimation, or Pint Sized.\nMomentary Protection lasts for one month per purchase. The time is based on your own perception, so it does not change if you travel in time."
     },
     {
         "title": "Serendipitous Luck",
         "SPCost": 10,
-        "desc": "The universe conspires in your favor, no matter what you seek to achieve or overcome. Good luck follows you at every turn, increasing the likelihood of success and decreasing the likelihood of failure in all your endeavors, no matter how challenging they may be. Luck smiles upon you always. This might not help you win the lottery, or find your soulmate but it can be felt in almost every aspect of your life.",
+        "desc": "The universe will conspire in your favor, no matter what you seek to achieve or overcome. Good luck will follow you at every turn, increasing the likelihood of success and decreasing the likelihood of failure in all your endeavors, no matter how challenging they may be. Luck will smile upon you always. This might not help you win the lottery or find your soulmate, but it can be felt in almost every aspect of your life.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/serendipitous%20luck.jpg"
     },
     {
         "title": "Sixth Sense",
         "SPCost": 8,
-        "desc": "You possess an innate ability to perceive and anticipate danger or hidden information.",
+        "desc": "You will possess an innate ability to perceive and anticipate danger or hidden information.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/sixth%20sense.jpeg"
     },
     {
         "title": "Inner Harmony",
         "SPCost": 4,
-        "desc": "You have attained inner peace and balance, allowing you to remain calm and centered in any situation.",
+        "desc": "You will have attained inner peace and balance, allowing you to remain calm and centered in any situation. Difficult situations may disrupt your state of Inner Harmony, but this perk will give you the mental tools you'll need to regain it. Overall, they'll help you become a more happy and content person.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/inner%20harmony.webp"
     },
     {
         "title": "Charismatic Aura",
         "CPCost": 3,
-        "desc": "You radiate charisma and magnetic charm, effortlessly drawing others towards you and influencing them positively."
+        "desc": "You will radiate charisma and magnetic charm, effortlessly drawing others towards you and influencing them positively.",
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/charismatic%20aura.png"
     },
     {
         "title": "Inheritable",
-        "SPCost": 3,
-        "CPCost": 3,
-        "desc": "Your powers, perks, and skills can be passed down to your descendants, and to adopted children who have been in your care for at least 5 years, or not in any combination of your choice.\nTaking this with reincarnation will allow you to retroactively add any of your powers, perks, and skills to any family members or loved ones in your new life in any combination of your choice. You can choose for their versions to be weaker than your own, or with certain weaknesses, or to manifest different expressions of power.\nYou can apply this to any ancestors you may have as if you inherited it from them instead of the other way around."
+        "SPCost": 10,
+        "CPCost": 10,
+        "desc": "Your powers and perks can be passed down to your descendants and to adopted children who have been in your care for at least 5 years. You can choose exactly which abilities are inheritable.\nperks are directly inheritable and your loved ones will simply have them from day one. Shard powers will manifest once they're older – they will receive a bud of your Shard. A classic trigger event will not be needed, they'll just get the powers when your Shard feels like they need them. You can decide what exactly their versions will look like. You can choose for them to weaker than you, have certain weaknesses, or manifest different power expressions entirely.\nTaking this with Reincarnation will allow you to retroactively add any of your powers and perks to any family members or loved ones in your new life. You can also apply this to any ancestors you may have as if you inherited it from them instead of the other way around.",
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/inheritable.jpg"
     },
     {
         "title": "Heir to the Throne",
-        "SPCost": 5,
+        "SPCost": 10,
+        "CPCost": 10,
         "requirement": "Inheritable",
-        "desc": "Your powers aren't just passed down through your family - they become a legacy. Your descendants inherit not just your abilities, but also your charisma, intelligence, and even your sense of purpose. They feel a deep sense of connection to you and your past and will carry on your legacy even after you're gone.\nEach generation’s inherent power is much greater than the previous, capable of inheriting a far more powerful version of their predecessor’s abilities. They will suffer no difficulty because of the increase in potency. You can also control whether they inherit a different expression of your abilities and what differences they possesses, as well as scale back anything they would inherit if you wish.\nBut this isn't just a one-way street - as your family grows, so too does your power. Your abilities grow stronger with each new generation, and you can feel their presence like a comforting blanket, even in the afterlife."
+        "desc": "Your powers will not just be passed down through your family; they will become a legacy. Your descendants will inherit not just your abilities, they will improve them. Each generation's inherent power will be much greater than the previous, capable of inheriting a far more powerful version of their predecessor’s abilities. They will suffer no difficulty because of the increase in potency.\nThey will feel a deep sense of connection to you and your past and will carry on your legacy even after you are gone... if you don't just live forever, that is.\nBut this isn't just a one-way street – as your family grows, so too does your power. Your abilities will grow stronger with each new generation, and you will feel their presence like a comforting blanket, even in the afterlife.",
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/heir%20to%20the%20throne.png"
     },
     {
         "title": "Humanity",
         "CPCost": 10,
         "incompatibility": "Inhumanity",
-        "desc": "No matter what powers you take, no matter what changes you undergo, you will remain human.\nWhether this means you are Mentally Human, Biologically Human, Spiritually Human, Fundamentally Human, or all of the above is up to you, but regardless of your choice, you will never lose the benefits, abilities, or physical might of any alternative race you picked."
+        "desc": "No matter what powers you take, no matter what changes you undergo, you will remain human. Whether this means you are mentally human, biologically human, spiritually human, fundamentally human, or all of the above is up to you, but regardless of your choice, you will never lose the benefits, abilities, or physical might of any alternative race you might become.",
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/humanity.webp"
     },
     {
         "title": "Worriless",
-        "CPCost": 5,
+        "CPCost": 12,
         "incompatibility": "Parker Luck",
-        "desc": "Those you care about, such as your friends, family, and loved ones, are protected by fate. Similar to 'Plot' Armor, they're protected from negative or unfortunate circumstances, even when it comes to the supernatural. People are less likely to target them, and your enemies will prefer to use other methods of getting to you."
+        "desc": "Those you care about, such as your friends, family, and loved ones, will be protected by fate. Similar to Plot Armor, they are protected from negative or unfortunate circumstances, even when it comes to the supernatural. People are less likely to target them, and your enemies will prefer to use other methods of getting to you.",
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/worriless.png"
     },
     {
         "title": "Beneath Notice",
-        "SPCost": 4,
-        "CPCost": 4,
-        "desc": "Beings that are two or more magnitudes of power above you won't notice you unless you are explicitly brought to their attention. Even if they were to somehow learn of you, the information would seem to be of little importance, causing their mind to unconsciously prioritize other subjects over you. This also protects against any passive effects they have that would affect you or protect against this perk."
+        "CPCost": 8,
+        "desc": "Beings that are two or more magnitudes of power above you will not notice you unless you are explicitly brought to their attention. Even if they were to somehow learn of you, the information would seem to be of little importance, causing their mind to unconsciously prioritize other subjects over you. This also protects against any passive effects they have that would affect you or protect against this perk.",
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/beneath%20notice.png"
     },
     {
         "title": "World Knowledge",
         "CPCost": 5,
-        "desc": "Upon entering a new universe, you will gain access to a comprehensive repository of knowledge pertaining to that world. This knowledge encompasses all relevant media, lore, and information, granting you an in-depth understanding of the intricacies and details of the world you are about to explore. This includes not only the official canon but also the insights and notes of the author(s) and/or creator(s), ensuring that you are well-equipped to navigate the world you are entering."
+        "desc": "Upon entering a new universe, you will gain access to a comprehensive repository of knowledge pertaining to that world. This knowledge encompasses all relevant media, lore, and information, granting you an in-depth understanding of the intricacies and details of the world you are about to explore. This includes not only the official canon but also the insights and notes of the author(s) or creator(s), ensuring that you are well-equipped to navigate the world you are entering.\nNote: A lot of this knowledge may be useless if you chose Reincarnation or Character-Insert, as you'd gain the knowledge of your chosen character. Still, this might give you knowledge your character would not know. Also, certain drawbacks could remove their memories. This knowledge will survive even Cauldron Amnesia."
     },
     {
         "title": "Teacher",
         "SPCost": 5,
         "CPCost": 5,
-        "desc": "Shortly after arriving in your chosen verse, someone with a skill/power you want decides to take you as an apprentice. Whatever skill or power (and their upgrades) you choose, they are a master at it and would do everything they can to mentor you through your journey towards the same mastery and beyond.\nYou can only choose one skill or power, however, you can choose the entirety of a power, upgrades, and add-ons included."
+        "desc": "Shortly after arriving in your chosen verse, someone with a skill or power you want will decide to take you as an apprentice. Whatever skill or power (and their upgrades) you choose, they will be a master at it and will do everything they can to mentor you through your journey towards the same mastery and beyond.\nYou can only choose one skill or power; however, you can choose the entirety of a power, upgrades, and add-ons included.\nWarning: You may not choose individual Shard abilities, as they're giften by a Shard and nobody is going to be a master at controlling *your* particular power. However, you might be taken as an apprentice by an experienced cape who will show you the ropes of the cape business and might help you control your power better. Or if you're a Tinker, another Tinker might notice you and help you realize your potential.",
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/teacher.webp"
     },
     {
         "title": "I Don't Get It",
-        "SPCost": 2,
-        "CPCost": 2,
+        "SPCost": 3,
+        "CPCost": 3,
         "comment": "Gaze your eyes, tune your ears.\nWitness the snap of sanity, the scream of existence unraveling.\nFeel it, hear it, understand... absolutely nothing.",
-        "desc": "They say that looking upon an eldritch horror can make you mentally snap, and the void staring back will have you cease all brain functions... Well, you can safely say that's a load of crap. When you looked at Cthulhu, you just saw a bipedal squid; and when you looked into the void, you didn't see anything."
-    },
-    {
-        "title": "I Get It Now... But Not Really...?",
-        "requirement": "Invictus or Well-Adjusted",
-        "desc": "Now, instead of being unbothered by everything because you are unable to comprehend it, now you are unbothered by everything because even though you get everything, you just simply don't get what about it bothers others.\nSure, Cthulhu looks all scary, and its appearance is definitely a bit unique, and quite a bit impossible, however, you really don't get why that can be mind shattering."
+        "desc": "They say that looking upon an eldritch horror can make you mentally snap, and the void staring back will have you cease all brain functions. Well, you can safely say that's a load of crap. When you looked at Cthulhu, you just saw a bipedal squid; and when you looked into the void, you did not see anything.",
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/i%20don't%20get%20it.webp",
+        "subItems": [
+            {
+                "title": "I Get It Now... But Not Really...?",
+                "synergy": "Invictus or Well-Adjusted",
+                "desc": "Now, instead of being unbothered by everything because you are unable to comprehend it, you are unbothered because even though you understand everything, you just do not get what about it bothers others. Sure, Cthulhu looks scary, and its appearance is unique and quite impossible; however, you do not get why that can be mind-shattering."
+            }
+        ]
     },
     {
         "title": "Naturalized Foreigner",
         "SPCost": 12,
-        "desc": "An odd situation normally comes up if you're not from a certain universe or were originally not from there—would certain universal concepts or restrictions apply to you?\nThis perk settles that—now, you’re immune to any negative concepts and restrictions resulting from a setting’s interactions, rules, and metaphysics.\nWhereas taking the Psyker power may have made you vulnerable to the Warp corrupting or devouring your soul in the 40k universe—now, you’re treated as if you were utilizing your power in a foreign setting with no Warp, no soul, and no corruption, regardless of whether you possess a soul or not.\nIf you went to the Nasuverse and Shiki Tohno's Mystic Eyes of Death Perception were used against you, their power would be ineffective, as you are not connected to the Root or to that setting’s concept of death.\nThis only affects negative effects; positive ones are retained and applied as normal.\nLikewise, if a positive effect from one setting would no longer apply to you if you traveled to another, you can choose to retain it and apply it to yourself. You can toggle this on and off at will.\nYou can also choose to apply this to other beings, items, specific power systems, or any other factors, allowing you to implant them with this ability when they cross worlds.\nNote: It doesn’t make you entirely immune to others' abilities—only to the negative effects that would not otherwise apply due to the setting’s rules."
+        "desc": "An odd situation normally comes up if you are not from a certain universe or were originally not from there—would certain universal concepts or restrictions apply to you?\nThis perk settles that. Now, you are immune to any negative concepts and restrictions resulting from a setting’s interactions, rules, and metaphysics.\nFor example, trying to utilize the Warp in the Warhammer 40k universe would normally result in the Warp corrupting or devouring your soul. With this perk, you will be able to shrug off the Warp's influence as though it were a fly.\nIf you went to the Nasuverse and Shiki Tohno's Mystic Eyes of Death Perception were used against you, their power would be ineffective, as you are not connected to the Root or to that setting’s concept of death.\nThis only applies to negative effects; positive ones are retained and applied as normal. You can toggle this on and off at will. If you for some reason want a negative effect to affect you, you can allow it to happen and control how much it will affect you.\nYou can also choose to apply this to other beings, items, specific power systems, or any other factors, allowing you to implant them with this ability when they cross worlds.\nNote: It does not make you entirely immune to others' abilities, only to the negative effects that would otherwise apply due to the setting’s rules.",
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/naturalized%20foreigner.png"
+    },
+    {
+        "title": "Awakened",
+        "SPCost": 18,
+        "incompatibility": "Deadened",
+        "desc": "You will possess a natural resonance with the subtle energies and fundamental laws of different worlds, allowing for significantly easier interaction with various power systems. You will find it much simpler to learn, understand, and utilize external power systems like magic, ki manipulation, or psionics that draw from ambient energy.\nThis means a reduced learning curve and potentially increased potency and efficiency when using such systems. If a system requires specific rituals, components, or knowledge, your inherent connection will make it easier to discern what's needed and why, or even allow for minor improvisations.\nThis perk itself will not automatically grant you access to a world's inherent power systems, such as RWBY's Aura, Naruto's chakra, or Avatar's bending. Instead, your Awakened nature will consistently present you with unique opportunities to acquire them.\nFor instance, Cauldron vials will produce better, more controllable results, and any genetic manipulation you perform to incorporate such inherent abilities into your own body will have a significantly higher chance of success.\nOpportunities to integrate these powers will simply arise more readily for you than for others.",
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/awakened.png"
     }
 ]

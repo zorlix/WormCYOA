@@ -18,7 +18,7 @@ struct Reincarnation: View {
     
     var body: some View {
         ScrollView {
-            Headline(heading: "Reincarnation Type", subheading: "What kind of body is your soul going to inhabit?\nNote that adding an 'original character' who has lived in your chosen world for many years may cause many changes to canon events. However, by default this will have minimal impact. It's only when you're trying to force your way into a position where changes are inevitable that this becomes a bigger issue.")
+            Headline(heading: "Reincarnation Type", subheading: "What kind of body is your soul going to inhabit?\nNote that adding an original character who has lived in your chosen world for many years may cause many changes to canon events. However, by default this will have minimal impact. It's only when you're trying to force your way into a position where changes are inevitable that this becomes a bigger issue.")
             
             GridView {
                 ForEach(incarnation["incarnationTypes"]!, id: \.self) { option in
@@ -29,7 +29,6 @@ struct Reincarnation: View {
                         ItemView(item: option, selected: character.reincarnationType == option)
                     }
                     .buttonStyle(.plain)
-                    .disabled(disableOption(current: option.title))
                 }
             }
             .onChange(of: character.reincarnationType) {
@@ -52,20 +51,6 @@ struct Reincarnation: View {
             }
         }
         .defaultScrollAnchor(.top)
-    }
-    
-    func disableOption(current: String) -> Bool {
-        var tempBool = true
-        
-        if character.setting?.title == "Canon Earth Bet" {
-            tempBool = false
-        }
-        
-        if current == "Original Character" {
-            tempBool = false
-        }
-        
-        return tempBool
     }
 }
 

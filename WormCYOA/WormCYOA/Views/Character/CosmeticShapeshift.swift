@@ -16,7 +16,7 @@ struct CosmeticShapeshift: View {
     let incarnation: [String: [Item]]
     
     var body: some View {
-        Headline(heading: "Cosmetic Shapeshift", subheading: "You've taken the perk Cosmetic Shapeshift, and as such you may change your new body in any way you desire.\nWarning: Other will know you by your old appearance, and will react to your new form accordingly. This does not matter if you've chosen to be Dropped-In.")
+        Headline(heading: "Cosmetic Shapeshift", subheading: "You've taken the perk Cosmetic Shapeshift, and as such you may change your new body in any way you desire.\nWarning: Other will know you by your old appearance, and will react to your new form accordingly. This does not matter if you've chosen Drop-In.")
         
         SexView(character: character, sexes: incarnation["sex"]!)
         

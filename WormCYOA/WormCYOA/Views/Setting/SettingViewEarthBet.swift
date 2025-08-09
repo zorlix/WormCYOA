@@ -28,7 +28,7 @@ struct SettingViewEarthBet: View {
             }
         }
         
-        MinorHeadline(text: "Random locations across the world.")
+        MinorHeadline(text: "Random locations across the world")
         GridView {
             ForEach(settings["wormRandom"]!, id: \.title) { location in
                 Button {

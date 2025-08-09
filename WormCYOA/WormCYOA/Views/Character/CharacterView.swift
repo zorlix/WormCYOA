@@ -84,12 +84,12 @@ struct CharacterView: View {
                 CharacterInsert(character: character, focused: $focused, incarnation: incarnation)
                 
             case "Reincarnation":
-                Reincarnation(character: character, incarnation: incarnation, focused: $focused) // Get better image
+                Reincarnation(character: character, incarnation: incarnation, focused: $focused)
                 
-            case "Drop–In":
+            case "Drop-In":
                 if character.setting?.title == "No Transfer" {
                     MinorHeadline(text: "No Transfer")
-                    PureText("You've chosen to remain in your original universe. There are no characters you can choose to character-insert into because there are no characters at all in your world. Only real people. I know... boring.")
+                    PureText("You've chosen to remain in your original universe. There are no characters you can choose to Character-Insert into because there are no characters at all in your world. Only real people. I know... boring.")
                 }
                 
                 if character.perks.contains(where: { $0.title == "Cosmetic Shapeshift" }) {
@@ -124,16 +124,18 @@ struct CharacterView: View {
     }
     
     func disableOption(_ string: String) -> Bool {
-        var tempBool = true
-        
-        if string == "Reincarnation" || string == "Drop–In" {
-            tempBool = false
-        }
-        
         if character.setting?.title == "Canon Earth Bet" {
-            tempBool = false
+            return false
         }
         
-        return tempBool
+        if character.setting?.title == "No Transfer" {
+            if string == "Drop-In" {
+                return false
+            } else {
+                return true
+            }
+        }
+        
+        return true
     }
 }

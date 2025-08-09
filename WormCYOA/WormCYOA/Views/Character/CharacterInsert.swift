@@ -19,7 +19,7 @@ struct CharacterInsert: View {
         if let setting = character.setting {
             switch setting.title {
             case "Canon Earth Bet":
-                Headline(heading: "Identity", subheading: "You've chosen to go to Earth Bet, and you've chosen to character-insert into someone from this universe. Who will it be?\nAll data is assuming it's April 8, 2011.\nIf you've chosen a Scenario prior to the time the individual becomes self-aware, which usually happens when they are about 4 years old, you will not take over until that time. The brain is simply not developed enough to support adult consciousness. Be warned that while your mind will largely remain your own after insertion, your body will still be that of a young child, and that will inevitably affect you.\nIf you choose to character-insert into your chosen character after their death, it'll work. You'll wake up near the location of (what's left of) the body. Good luck explaining that one!\nWarning: If you character-insert into a member of the Protectorate or New Wave, your presence might be easily discovered. For example, Gallant might suddenly become unable to read your emotions, or Panacea might notice the differences in your brain's physiology (of which there will undoubtedly be many). This might lead them to unfortunate conclusions; they might consider you a Stranger only pretending to be the original person, or they might assume you've been mastered.")
+                Headline(heading: "Identity", subheading: "You've chosen to go to Earth Bet, and you've chosen to Character-Insert into someone from this universe. Who will it be?\nAll data is assuming it's April 8, 2011.\nIf you've chosen a scenario prior to the time the individual becomes self-aware, which usually happens when they are about 4 years old, you will not take over until that time. The brain is simply not developed enough to support adult consciousness. Be warned that while your mind will largely remain your own after insertion, your body will still be that of a young child, and that will inevitably affect you.\nIf you choose to Character-Insert into your chosen character after their death, it'll work. You'll wake up near the location of (what's left of) the body. Good luck explaining that one!\nWarning: If you Character-Insert into a member of the Protectorate or New Wave, your presence might be easily discovered. For example, Gallant might suddenly become unable to read your emotions, or Panacea might notice the differences in your brain's physiology (of which there will undoubtedly be many). This might lead them to unfortunate conclusions; they might consider you a Stranger only pretending to be the original person, or they might assume you've been mastered.")
                 
                 if let identity = character.overtakenIdentity {
                     ItemView(item: identity, selected: true)
@@ -43,10 +43,10 @@ struct CharacterInsert: View {
                 }
                 
             case "Alternate World":
-                PureText("Apologies, but the wider multiverse will become available at a later date. You may still go with a custom characters, but character-inserts and relationships aren't available yet.")
+                PureText("Apologies, but the wider multiverse will become available at a later date. You may still go with a custom characters, but Character-Inserts and relationships aren't available yet.")
             
             case "Crossover":
-                PureText("Apologies, but the wider multiverse will become available at a later date. You may still go with a custom characters, but character-inserts and relationships aren't available yet.")
+                PureText("Apologies, but the wider multiverse will become available at a later date. You may still go with a custom characters, but Character-Inserts and relationships aren't available yet.")
                 
             default:
                 EmptyView()
