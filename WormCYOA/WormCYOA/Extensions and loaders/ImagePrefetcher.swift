@@ -19,6 +19,7 @@ final class ImagePrefetcher {
         let incarnation: [String: [Item]] = Bundle.main.decode("characters.json")
         let wormCharacter: [String: [Item]] = Bundle.main.decode("worm.json")
         let perks: [Item] = Bundle.main.decode("perks.json")
+        let drawbacks: [Item] = Bundle.main.decode("drawbacks.json")
         
         for item in difficulties {
             if let image = item.image, let url = URL(string: image) {
@@ -52,6 +53,12 @@ final class ImagePrefetcher {
         
         for perk in perks {
             if let image = perk.image, let url = URL(string: image) {
+                tempArr.append(url)
+            }
+        }
+        
+        for drawback in drawbacks {
+            if let image = drawback.image, let url = URL(string: image) {
                 tempArr.append(url)
             }
         }
