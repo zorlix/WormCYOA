@@ -1,10 +1,11 @@
 [
     {
-        "title": "Case 53",
-        "SPGain": 10,
-        "CPGain": 10,
-        "incompatibility": "Shardless; Cover Story",
-        "desc": "When your Shard connects to you, your appearance will mutate into a non-human form. Your new appearance may or may not in some way reflect your chosen powerset.\nThis will open up a new section in the Character tab where you may customize your Case 53 form.",
+        "title": "Deviant",
+        "SPGain": 8,
+        "CPGain": 8,
+        "incompatibility": "Shardless; Cover Story; Cauldron Debt; Unmasked",
+        "requirement": "Shard of the Thinker Entity or Shard of the Loner Entity or Enmity",
+        "desc": "You will be a Cauldron cape, having gained your powers from a vial rather than triggering naturally. Unfortunately, the vial produced significant deviations (mutations), so your appearance will be permanently altered in a distinctly non-human way.\nYou will not considered a Case 53 (unless you also take that drawback), as that's a PRT classification for deviants whose memories Cauldron wiped. Your memories will be intact. This likely means that your vial did not come directly from Cauldron; perhaps you found it somewhere, as Cauldron would not have willingly let you go free.\nNote: This opens up a new section in the Character tab where you can customize your deviant form.\nAlso note: Unless you chose to reincarnate as a particularly young child, you will wake up as a deviant, and this will be your character's established past upon arriving in the new world. If you do reincarnate as a child, this event has not happened yet, but it is fated to occur at some point in your future. Even if you try to avoid it, it will somehow come to pass.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/drawbacks/case%2053.png.jpeg"
     },
     {
@@ -12,25 +13,25 @@
         "SPGain": 5,
         "CPGain": 10,
         "incompatibility": "Drop-In",
-        "desc": "Your backstory will be altered in a significant way. Somehow, someway you had dealings with Cauldron in the past (prior to your awakening). Perhaps you worked for them for a while, perhaps they kidnapped you because you weren’t cooperative, and they needed you for something. Perhaps you are a Case 53. Either way, Cauldron will be aware of you, and your relationship with them will not be strictly friendly. Or at the very least, they will not consider you a valuable colleague.\nThis means that Cauldron will have thorough knowledge of youor abilities, and that includes the abilities and bonuses gained from perks (though perhaps there may be some they are not aware of). In fact, your perks may have been exactly the reason why they reached out to you.\nNote: This relationship may be altered by other drawbacks and perks such as Cauldron Membership, Cauldron Debt, or Cauldron Amnesia.",
+        "desc": "Your backstory will be altered in a significant way. Somehow, someway you had dealings with Cauldron in the past (prior to your awakening). Perhaps you worked for them for a while, perhaps they kidnapped you because you weren’t cooperative, and they needed you for something. Perhaps you are a Case 53. Either way, Cauldron will be aware of you, and your relationship with them will not be strictly friendly. Or at the very least, they will not consider you a valuable colleague.\nThis means that Cauldron will have thorough knowledge of youor abilities, and that includes the abilities and bonuses gained from perks (though perhaps there may be some they are not aware of). In fact, your perks may have been exactly the reason why they reached out to you.\nNote: This relationship may be altered by other drawbacks and perks such as Cauldron Membership, Cauldron Debt, or Case 53.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/drawbacks/cauldron%20tattoo.webp"
     },
     {
         "title": "Cauldron Debt",
         "SPGain": 5,
         "CPGain": 15,
-        "incompatibility": "Drop-In; Cauldron Amnesia",
-        "requirement": "Shard of the Thinker Entity",
+        "incompatibility": "Drop-In; Case 53; Deviant",
+        "requirement": "Shard of the Thinker Entity or Shard of the Loner Entity",
         "desc": "You did not go through a ‘natural’ trigger event, but you gained your powers from a Cauldron vial that you purchased from the organization. This means that you still owe them money for your vial. You will owe $100,000 for every SP you gained in this CYOA. You will still need to pay this back, though reincarnations into a rich family or the Wealthy perk may make this easy.\nYou also owe them 3 favors of their choosing, to be called in whenever they wish.\nNote: Cauldron may be willing to make a deal with to do away with your debt in exchange for more favors or more direct cooperation. Alternatively, they may be willing to do away with the debt and the favors in exchange for your knowledge of the Shard network and your future knowledge. ",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/drawbacks/cauldron%20debt.jpg"
     },
     {
-        "title": "Cauldron Amnesia",
+        "title": "Case 53",
         "SPGain": 25,
         "CPGain": 50,
         "incompatibility": "Drop-In; Cauldron Debt; Clean Slate; Half of Who I Am; What Do You Mean I Did This to Myself?",
-        "requirement": "Case 53",
-        "desc": "In your past, you purchased a vial from Cauldron, and that is how you gained your abilities. Unfortunately for you, your vial did not connect properly, and you suffered severe deviations. As such, Cauldron put you through the Slug and destroyed all your memories. You will awaken right as they dumped you in the location of your choosing (in the Setting tab). Therefore, you will not remember anything of your past.",
+        "requirement": "Deviant; Cauldron Tattoo",
+        "desc": "In your past, you purchased a vial from Cauldron, and that is how you gained your abilities. Unfortunately for you, your vial did not connect properly, and you suffered severe deviations. As a result, Cauldron put you through the Slug and destroyed all your memories. You will awaken right as they dumped you in the location of your choosing (in the Setting tab), with no memory of your past.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/drawbacks/cauldron%20debt.jpg"
     },
     {
@@ -259,7 +260,7 @@
     {
         "title": "Unmasked",
         "CPGain": 8,
-        "incompatibility": "Cover Story; Keep the Secret",
+        "incompatibility": "Cover Story; Keep the Secret; Deviant",
         "desc": "No matter what, you will be unable to keep your civilian identity secret. Perhaps your voice will be recognized by a childhood friend and they'll tell everyone, or perhaps you'll be forced into revealing your identity to save someone's life. It doesn't matter how, but your civilian identity will be revealed one way or another within a month.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/drawbacks/unmasked.png"
     },
@@ -354,7 +355,7 @@
         "title": "Clean Slate",
         "SPGain": 5,
         "CPGain": 10,
-        "incompatibility": "Another Person; Cauldron Amnesia",
+        "incompatibility": "Another Person; Case 53",
         "requirement": "Reincarnation or Character-Insert",
         "desc": "You will lose access to the memories your new self made prior to your awakening. You will be like a walking duckling who has no clue who or what everything outside of your knowledge of canon. Any friends your new self made, any family, and even any enemies – you won't remember them.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/drawbacks/clean%20slate.jpg"
@@ -363,7 +364,7 @@
         "title": "Half of Who I Am",
         "SPGain": 5,
         "CPGain": 10,
-        "incompatibility": "Cauldron Amnesia",
+        "incompatibility": "Case 53",
         "desc": "You will forget a large part of everything from your first life EXCEPT Wildbow's predictions. While you'll forget a lot of facts such as the name of your parents or maybe even yourself, you'll still remember important key information like pets you had or key events that shaped your personality. While you will no longer remember your past self, the memories you do have will ensure you still retain your personality, goals, emotions, and overall identity.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/drawbacks/half%20of%20who%20i%20am.jpeg"
     },
@@ -378,7 +379,7 @@
         "title": "What Do You Mean I Did This to Myself?",
         "SPGain": 5,
         "CPGain": 10,
-        "incompatibility": "Cauldron Amnesia",
+        "incompatibility": "Case 53",
         "desc": "All the choices you made in this CYOA leading up to your dimensional displacement will be forgotten. You won't even remember you filled out this CYOA in the first place. You will keep all the perks, drawbacks, missions, powers, skills, and items you have chosen, but you will have to (re)discover yourself what exactly these are. You won't remember your chosen challenges either, which might make completing them... complicated. You will be given hints that need to complete them, though. You will still have a fated meeting with your Companions."
     },
     {
@@ -389,7 +390,7 @@
         "subItems": [
             {
                 "title": "Nightmares",
-                "synergy": "Selective Amnesia or Cauldron Amnesia",
+                "synergy": "Selective Amnesia or Case 53",
                 "desc": "Your amnesia will fail to fully scrub the memory of your death from your mind, merely causing it to seem more like a persistent, weirdly realistic daydream than a straight-up memory.\nYour conscious mind may have trouble remembering it fully, but your subconscious will not, leading to nightmares and instinctive discomfort whenever topics related to your death come up, as at least some part of your mind will be forced to relive that moment."
             }
         ]
@@ -811,8 +812,8 @@
         "subItems": [
             {
                 "title": "Monster Cape",
-                "synergy": "Case 53",
-                "desc": "As you're a Case 53, healing you might be much more difficult. Your form was warped by your Shard, possibly into an entirely alien form. Therefore, biokinetics like Panacea might have a hard time understanding your biology, much less working on it. However, depending on your mutations, healing you might still be possible."
+                "synergy": "Deviant",
+                "desc": "As you've suffered deviations from a Cauldron vial, healing you might be much more difficult. Your form was warped by your Shard, possibly into an entirely alien form. Therefore, biokinetics like Panacea might have a hard time understanding your biology, much less working on it. However, depending on your mutations, healing you might still be possible."
             },
             {
                 "title": "Grievous Injury",
@@ -830,8 +831,8 @@
         "subItems": [
             {
                 "title": "Monster Cape",
-                "synergy": "Case 53",
-                "desc": "As you're a Case 53, healing you might be much more difficult. Your form was warped by your Shard, possibly into an entirely alien form. Therefore, biokinetics like Panacea might have a hard time understanding your biology, much less working on it. However, depending on your mutations, healing you might still be possible."
+                "synergy": "Deviant",
+                "desc": "As you've suffered deviations from a Cauldron vial, healing you might be much more difficult. Your form was warped by your Shard, possibly into an entirely alien form. Therefore, biokinetics like Panacea might have a hard time understanding your biology, much less working on it. However, depending on your mutations, healing you might still be possible."
             },
             {
                 "title": "Debilitating Injury",
@@ -844,8 +845,8 @@
         "title": "Returning Monsterous Form",
         "SPGain": 10,
         "CPGain": 10,
-        "requirement": "Minor Disability; Case 53",
-        "desc": "Your Case 53 mutations are forever stuck as they are, and whatever disabilities you have are now a part of that form. This works by giving you a minor Changer power that actively works against you, constantly returning you to your base form. You are beyond saving.\nThough, this means that you effectively have a healing factor – you are returning to your base form, which does not include any injuries you might sustain. The injuries and disabilities gained from drawbacks obviously don't count."
+        "requirement": "Minor Disability; Deviant",
+        "desc": "Your mutations are forever stuck as they are, and whatever disabilities you have are now a part of that form. This works by giving you a minor Changer power that actively works against you, constantly returning you to your base form. You are beyond saving.\nThough, this means that you effectively have a healing factor – you are returning to your base form, which does not include any injuries you might sustain. The injuries and disabilities gained from drawbacks obviously don't count."
     },
     {
         "title": "Morsel",
@@ -991,7 +992,7 @@
         "title": "Tinfoil Hat",
         "SPGain": 5,
         "CPGain": 10,
-        "desc": "No one will believe you if you tell them about the entity or Cauldron unless you show them definite proof or they already know about what you're telling them. Powers like (Stranger) Truth overpowers this drawback.\nThe effects of this drawback become less and less potent the more an individual trusts you. If you're trying to explain things to a stranger, the chances of them believing you are pretty much zero. If you're talking to a family member like Carol Dallon who is unable to fully trust anyone, the chances are low as well. But if you're talking to your best friend, a loving parent, or a romantic partner who respects you and trusts you, they will naturally find your claims outlandish, but they will accept them as the truth. They might still want to see a proof, though.",
+        "desc": "No one will believe you if you tell them about the Entity or Cauldron unless you show them definite proof or they already know about what you're telling them. Powers like (Stranger) Truth overpowers this drawback.\nThe effects of this drawback become less and less potent the more an individual trusts you. If you're trying to explain things to a stranger, the chances of them believing you are pretty much zero. If you're talking to a family member like Carol Dallon who is unable to fully trust anyone, the chances are low as well. But if you're talking to your best friend, a loving parent, or a romantic partner who respects you and trusts you, they will naturally find your claims outlandish, but they will accept them as the truth. They might still want to see a proof, though.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/drawbacks/tinfoil%20hat.jpg"
     },
     {
@@ -1450,7 +1451,7 @@
         "title": "Reign of the Kaiju",
         "SPGain": 40,
         "CPGain": 40,
-        "desc": "All the Endbringers will now be fully charged and no longer holding back. You can never be sure which Endbringer will attack, as they will abandon their specific attack order and regular dormant periods between attacks. Additionally, they will be around twice as strong as they were before this power-up.\nIf this drawback is taken in a world without Endbringers, it will inevitably lead to another Endbringer network awakening there, with a potential maximum of 20 such entities. The first three will emerge within the next 7 years at seemingly random times – the network will adapt to the actions of the locals and you."
+        "desc": "All the Endbringers will now be fully charged and no longer holding back. You can never be sure which Endbringer will attack, as they will abandon their specific attack order and regular dormant periods between attacks. Additionally, they will be around twice as strong as they were before this power-up.\nIf this drawback is taken in a world without Endbringers, it will inevitably lead to another Endbringer network awakening there, with a potential maximum of 20 such Entities. The first three will emerge within the next 7 years at seemingly random times – the network will adapt to the actions of the locals and you."
     },
     {
         "title": "The Cycle Begins Anew",

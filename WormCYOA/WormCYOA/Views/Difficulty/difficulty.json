@@ -7,13 +7,13 @@
     },
     {
         "title": "God Mode",
-        "SPGain": 30,
+        "SPGain": 50,
         "desc": "You gain as much SP and CP from Scenarios and Drawbacks as on Easy difficulty, but you also get a lot of extra SP. ",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/difficulty/god%20mode.jpg"
     },
     {
         "title": "Very Easy",
-        "SPGain": 15,
+        "SPGain": 30,
         "desc": "You gain as much SP and CP from Scenarios and Drawbacks as on Easy difficulty, but you also get a bit of extra SP.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/difficulty/very%20easy.webp"
     },
@@ -34,19 +34,19 @@
     },
     {
         "title": "Very Hard",
-        "SPCost": 15,
+        "SPCost": 30,
         "desc": "You gain as much SP and CP from Scenarios and Drawbacks as on Hard difficulty, but you also get an SP penalty.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/difficulty/very%20easy.webp"
     },
     {
         "title": "Skitter Mode",
-        "SPCost": 30,
+        "SPCost": 50,
         "desc": "You gain as much SP and CP from Scenarios and Drawbacks as on Hard difficulty, but you must pay an even higher SP penalty.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/difficulty/skitter%20mode.jpg"
     },
     {
         "title": "Masochist Mode",
-        "SPCost": 50,
+        "SPCost": 80,
         "desc": "You gain as much SP and CP from Scenarios and Drawbacks as on Hard difficulty, but you also pay an extremely high SP penalty. Why do this to yourself?",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/difficulty/masochist.jpg"
     }

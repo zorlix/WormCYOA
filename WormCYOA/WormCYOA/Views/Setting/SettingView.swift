@@ -32,6 +32,12 @@ struct SettingView: View {
                 .padding(.bottom)
             }
             
+            NavigationLink {
+                AbilityInfoView()
+            } label: {
+                MinorHeadline(text: "Learn more about how abilities native to other universes work")
+            }
+            
             if let setting = character.setting {
                 switch setting.title {
                 case "Canon Earth Bet":

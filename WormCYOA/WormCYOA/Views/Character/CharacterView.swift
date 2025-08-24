@@ -23,41 +23,22 @@ struct CharacterView: View {
             NavigationLink {
                 BasicCharacterInfo(character: character, genders: incarnation["genders"]!)
             } label: {
-                VStack {
-                    Text("Basic Character Info")
-                        .foregroundStyle(.white)
-                        .font(.title)
-                        .bold()
-                        .padding(.bottom, 10)
-                    
-                    HStack {
-                        Text("Name:").bold()
-                        Text(character.name ?? "None")
-                    }
-                    
-                    HStack {
-                        Text("Nickname:").bold()
-                        Text(character.nickName ?? "None")
-                    }
-                    
-                    HStack {
-                        Text("Gender:").bold()
-                        Text(character.gender?.title ?? "None")
-                    }
-                    .padding(.bottom, 8)
-                    
-                    Text("Tap to change")
-                        .font(.caption)
-                        .italic()
-                }
-                .padding()
-                .overlay(
-                    RoundedRectangle(cornerRadius: 10)
-                        .stroke(.white)
-                )
-                .padding(.bottom)
+                ItemView(item: Item(title: "Basic Character Info", desc: "**Name:** \(character.name ?? "None")\n**Nickname:** \(character.nickName ?? "None")\n**Gender:** \(character.gender?.title ?? "None")\n*Tap to change*"))
             }
             .buttonStyle(.plain)
+            .padding(.bottom)
+            
+            if character.drawbacks.contains(where: { $0.title == "Deviant" }) {
+                NavigationLink {
+                    DeviantView(character: character)
+                } label: {
+                    ItemView(item: Item(title: "Deviant Cape Form", desc: "Select you mutant form"))
+                }
+                .buttonStyle(.plain)
+                .padding(.bottom)
+            }
+            
+            MinorHeadline(text: "Incnarnation method")
             
             GridView {
                 ForEach(incarnation["incarnationMethods"]!, id: \.title) { inc in

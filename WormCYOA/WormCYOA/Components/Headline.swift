@@ -26,7 +26,7 @@ struct Headline: View {
             
             if let subheading = subheadingFormatted {
                 ForEach(subheading, id: \.self) { line in
-                    Text(line)
+                    Text(.init(line))
                         .font(.subheadline)
                         .multilineTextAlignment(.center)
                         .padding(.bottom, line == subheading.last ? 0 : 5)

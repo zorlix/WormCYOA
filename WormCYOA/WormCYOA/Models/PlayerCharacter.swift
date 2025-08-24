@@ -68,6 +68,11 @@ import SwiftUI
     /// Notes
     var characterNotes: String?
     
+    /// Deviant cape
+    var deviantForm: Item?
+    var deviantRolledRandomly = false
+    var reRoll: Item = Item(title: "Reroll", SPCost: 0, CPCost: 0, desc: "Here be rerolls.")
+    
     // Perks
     var perks: [Item] = []
     
@@ -86,7 +91,7 @@ import SwiftUI
     ]
     
     private static let arraysToCheck: [ReferenceWritableKeyPath<PlayerCharacter, [Item]>] = [
-        \.extraFamily, \.perks
+        \.extraFamily, \.perks, \.drawbacks
     ]
     
     // Item structs that have count
@@ -402,6 +407,8 @@ import SwiftUI
     }
     
     func validateAgeReq() {
+        print("Validating age...")
+        
         for keypath in Self.itemsToCheck {
             if let classItem = self[keyPath: keypath], let req = classItem.requirement {
                 if req.contains("Age ") {
@@ -414,7 +421,7 @@ import SwiftUI
                             if requirement.starts(with: "Age ") {
                                 return verifyAge(from: requirement)
                             } else {
-                                return true
+                                return ownsItem(withTitle: requirement)
                             }
                         })
                         
@@ -439,7 +446,7 @@ import SwiftUI
                                 if requirement.starts(with: "Age ") {
                                     return verifyAge(from: requirement)
                                 } else {
-                                    return true
+                                    return ownsItem(withTitle: requirement)
                                 }
                             })
                             

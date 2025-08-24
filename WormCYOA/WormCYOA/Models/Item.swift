@@ -10,10 +10,10 @@ import SwiftUI
 struct Item: Codable, Equatable, Comparable, Hashable {
     let title: String
     var count: Int?
-    let SPCost: Int?
-    let CPCost: Int?
-    let SPGain: Int?
-    let CPGain: Int?
+    var SPCost: Int?
+    var CPCost: Int?
+    var SPGain: Int?
+    var CPGain: Int?
     let incompatibility: String?
     let requirement: String?
     let comment: String?

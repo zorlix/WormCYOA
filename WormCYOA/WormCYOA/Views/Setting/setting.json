@@ -70,17 +70,17 @@
         },
         {
             "title": "Containment Camp",
-            "CPGain": 20,
+            "CPGain": 25,
             "desc": "You'll find yourself at a containment camp you fit the criteria for. You can decide which organization the containment camp you'll appear in belongs to. Maybe you want to try your luck with a Gesellschaft (Neo-Nazi) camp, or maybe you think the CUI would be easier to escape. Either way, it'll be your choices here that decide whether or not you'll get out of there alive and still yourself."
         },
         {
             "title": "Radioactive Wasteland",
-            "CPGain": 10,
+            "CPGain": 20,
             "desc": "You'll find yourself at a location that Behemoth made uninhabitable during one of his attacks prior to 2011."
         },
         {
             "title": "Birdcage",
-            "CPGain": 15,
+            "CPGain": 30,
             "desc": "You'll find yourself trapped within the confines of the Baumann Parahuman Containment Center — a prison specifically designed to only allow prisoners to enter and never leave. So, be sure to pick some power that (you think) might allow you to escape."
         }
     ],
@@ -121,44 +121,44 @@
         },
         {
             "title": "South America",
-            "CPGain": 3,
+            "CPGain": 5,
             "desc": "Choose any location in South America, and you'll find yourself there."
         },
         {
             "title": "Asia",
-            "CPGain": 4,
+            "CPGain": 10,
             "desc": "Choose any location Western Asia, and you'll find yourself there. Warning: Many places in Asia are very dangerous. For example, China is home to the brainwashed military cape team known as the Yangban. Japan, as of November 3rd, 1999 is completely flooded. Russia is home to Sleeper, the most mysterious of the S-Class Threats."
         },
         {
             "title": "Africa",
-            "CPGain": 5,
+            "CPGain": 10,
             "desc": "Africa is full of warlords and is also home to Ashbeast and Moord Nag. Choose any location in Africa, and you'll find yourself there."
         },
         {
             "title": "Antarctica",
-            "CPGain": 4,
+            "CPGain": 7,
             "desc": "Choose any location in Antarctica, and you'll find yourself there. Not sure what you'd want to there, but you've got the option."
         },
         {
             "title": "Greenland",
-            "CPGain": 3,
+            "CPGain": 4,
             "desc": "Choose any location in Greenland, and you'll find youself there. "
         }
     ],
     "wormGeneric": [
         {
             "title": "Ocean",
-            "CPGain": 10,
+            "CPGain": 15,
             "desc": "You'll find youself in a random location in the middle of an ocean. You won't be anywhere close to shore, and there won't be any islands anywhere near. "
         },
         {
             "title": "Barren Island",
-            "CPGain": 10,
+            "CPGain": 13,
             "desc": "You'll find yourself on a single lone barren island. There are no trees or food. It's just a rocky island with little life."
         },
         {
             "title": "Personal Island",
-            "CPCost": 7,
+            "CPCost": 8,
             "desc": "You'll find yourself on an island far from civilization and rich with any kind of resource you'll need to create a base. It'll have a rich underground, and it will be a long-lasting place with various animals and fruits. It'll even have an abandoned ruined shack with various damaged tools inside."
         },
         {
@@ -168,12 +168,12 @@
         },
         {
             "title": "Underwater Cave",
-            "CPGain": 15,
+            "CPGain": 20,
             "desc": "You'll find yourself in a random underwater cave with limited oxygen supply. "
         },
         {
             "title": "Mountains",
-            "CPGain": 10,
+            "CPGain": 12,
             "desc": "You'll find yourself in a random location in barren mountains. You won't find civilisation anywhere close by."
         },
         {
@@ -185,7 +185,7 @@
     "wormAlernateEarths": [
         {
             "title": "Earth Aleph",
-            "CPCost": 7,
+            "CPCost": 10,
             "desc": "You'll appear somewhere on Earth Aleph. It is a world that diverged paths from the time of Scion's first appearance. This world has variations of everyone born before said appearance (about 30 years before the start of Worm), though anyone born after will not have a duplicate in Earth Bet. It is much closer to your world than other Earths in the Worm local multiverse, even Earth Bet, but it still has capes. However, they're much weaker than the ones on Earth Bet."
         },
         {
@@ -195,12 +195,12 @@
         },
         {
             "title": "Earth Cheit",
-            "CPGain": 10,
+            "CPGain": 15,
             "desc": "You'll appear somewhere on Earth Cheit. Its point of divergence is situated around the fifteenth century and associated with over-inclusive reactionary movement against authoritarian anti-theist sentiment in some unknown monarchy. This went on to form a single Theocratic world government based on abrahamic roots, that provides for nearly twelve billion people. However, it is culturally stagnant. Like some other worlds, they have a relevant amount of parahumans, many of whom conceal their abilities and occupied positions of civilian power."
         },
         {
             "title": "Earth Shin",
-            "CPGain": 15,
+            "CPGain": 20,
             "desc": "You'll appear somewhere on Earth Shin. It is an alternate reality that featured villains operating like terrorist cells, destabilizing society to make people dependent on superhumans to get energy, food and safety. These parahumans eventually stages a global takverover, with non-superhumans as second class citizens. Eventually, these parahumans fell under controll of Goddess. Basically put, it is a world with superhumans that had no superheroes."
         },
         {

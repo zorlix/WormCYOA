@@ -14,6 +14,8 @@ struct ScenarioView: View {
     
     let scenarios: [String: [Item]] = Bundle.main.decode("scenarios.json")
     
+    @State private var searchString = ""
+    
     var body: some View {
         ScrollView {
             Headline(heading: "Scenario")
@@ -21,7 +23,7 @@ struct ScenarioView: View {
             if let setting = character.setting {
                 switch setting.title {
                 case "Canon Earth Bet":
-                    ScenarioViewEarthBet(character: character, scenarios: scenarios)
+                    ScenarioViewEarthBet(character: character, scenarios: scenarios, searchString: $searchString)
                 case "Alternate World":
                     Text("Coming soon...")
                 case "Crossover":
@@ -38,6 +40,7 @@ struct ScenarioView: View {
         }
         .scrollBounceBehavior(.basedOnSize)
         .contentMargins(30, for: .scrollContent)
+        .searchable(text: $searchString)
         .onChange(of: character.scenario) {
             character.reset([\.timeShift])
             try? modelContext.save()

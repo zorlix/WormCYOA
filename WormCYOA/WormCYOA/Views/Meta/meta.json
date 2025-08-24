@@ -12,22 +12,24 @@
         },
         {
             "title": "Fictional Character (with Powers)",
-            "SPCost": 10,
+            "SPCost": 25,
+            "CPCost": 5,
             "desc": "Choose a fictional character, they're the person to whom the choices you choose will apply to. They'll keep all their powers, even if it doesn't really make sense that they do. If you choose a character from Worm, their original version will remain (unless they reincarnate as themselves)."
         },
         {
             "title": "Fictional Character (Without Powers)",
-            "SPGain": 5,
             "CPCost": 5,
             "desc": "Choose a fictional character, they're the person to whom the choices you choose will apply. They'll lose all their powers, though their skillset will remain. If you choose a character from Worm, their original version will remain (unless they reincarnate as themselves)."
         },
         {
             "title": "Original Character (with Powers)",
-            "SPCost": 15,
+            "SPCost": 25,
+            "CPCost": 10,
             "desc": "Create a character with powers from scratch. Then put them through this CYOA. They'll keep their original powers."
         },
         {
             "title": "Original Character (Without Powers)",
+            "CPCost": 10,
             "desc": "Create a character from scratch. This character might have powers, or they might not, but after this CYOA they won't have them anymore. Or perhaps they'd always had the powers chosen for them here."
         },
         {
@@ -39,7 +41,7 @@
     "awareness": [
         {
             "title": "Someone Else",
-            "CPCost": 5,
+            "CPGain": 5,
             "desc": "Someone else will make the choices, but the (Meta) Target will have to deal with the results."
         },
         {

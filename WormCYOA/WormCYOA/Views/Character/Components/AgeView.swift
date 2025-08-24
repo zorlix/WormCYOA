@@ -24,7 +24,7 @@ struct AgeView: View {
     }
     
     var body: some View {
-        Headline(heading: "Age", subheading: "How old is your body going to be when you awaken within it?\nIf you choose a particularly young or particularly old form, you will receive some extra points for it. After all, it may and likely will cause you some complications.\nAge 0 to 5 — Gain: 10 SP\nAge 6 to 9 — Gain: 7 SP\nAge 10 to 12 — Gain: 5 SP\nAge 13 to 49 — You do not receive any points\nAge 50 to 69 — Gain: 2 SP, Gain: 5 CP\nAge 70+ — Gain: 5 SP, Gain: 10 CP\nWarning: Changing age may remove your chosen items if they require certain age.")
+        Headline(heading: "Age", subheading: "How old is your body going to be when you awaken within it?\nIf you choose a particularly young or particularly old form, you will receive some extra points for it. After all, it may and likely will cause you some complications.\nAge 0 to 5 — Gain: 10 SP and 15 CP\nAge 6 to 9 — Gain: 7 SP and 10 CP\nAge 10 to 12 — Gain: 5 SP and 8 CP\nAge 13 to 18 – Gain: 5 CP\nAge 18 to 49 — You do not receive any points\nAge 50 to 69 — Cost: 5 SP, Gain: 20 CP\nAge 70+ — Cost: 8 SP, Gain: 30 CP")
         
         if let insert = character.overtakenIdentity {
             MinorHeadline(text: "Character-Insert")
@@ -52,7 +52,11 @@ struct AgeView: View {
             PureText("You've chosen to become a family member of \(famMember.title).\nAs stated before, you may choose exactly which family member you'll become as long as it's not the character's identical twin. Therefore, you may choose how old you'll be when you awaken in your new body.")
         }
         
-        MinorHeadline(text: "You age")
+        if character.incarnationMethod?.title == "Drop-In" && character.drawbacks.contains(where: { $0.title == "Pint Sized" }) {
+            PureText("Warning: You've selected the drawback Pint Sized which will reduce your age to 6-12 years old. Normally, this is chosen at random, but with Cosmetic Shapeshift you may choose the exact age. You must remain within the bounds of 6-12 years old.")
+        }
+        
+        MinorHeadline(text: "Your age:")
         
         PureText(displayAge)
             .font(.largeTitle.bold())
@@ -69,6 +73,8 @@ struct AgeView: View {
                     character.age = num
                     try? modelContext.save()
                     tempString = ""
+                } else {
+                    tempString = ""
                 }
             }
             
@@ -78,5 +84,11 @@ struct AgeView: View {
         } message: {
             Text("Enter your new age.")
         }
+        
+        PureText("Warning: If you have any character traits, perks, or drawbacks that have a certain age requirement, changing your age here to a number outside that requirement will automatically remove those items from your selection.")
+            .onChange(of: character.age) {
+                character.validateAgeReq()
+                try? modelContext.save()
+            }
     }
 }

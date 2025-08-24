@@ -25,13 +25,9 @@ struct CharacterInsert: View {
                     ItemView(item: identity, selected: true)
                     
                     ButtonView(title: "Choose someone else") {
-                        character.reset([\.overtakenIdentity])
-                        try? modelContext.save()
-                    }
-                    .onChange(of: character.overtakenIdentity) {
-                        character.reset([\.age])
-                        character.reset([\.gender, \.homelife, \.education, \.job])
+                        character.reset([\.overtakenIdentity, \.gender, \.homelife, \.education, \.job])
                         character.reset([\.name, \.nickName, \.capeName, \.homelifeDesc, \.eduJobHistory])
+                        character.reset([\.age])
                         character.extraFamily = []
                         try? modelContext.save()
                     }

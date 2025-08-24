@@ -1,14 +1,14 @@
 [
     {
         "title": "Regular Badass",
-        "CPCost": 10,
+        "CPCost": 13,
         "requirement": "Shardless",
         "desc": "You may be Shardless, but you will be a badass. You will pick up new skills with ease and master them quicker than most. If you aren't already a genius, you will become a low-end genius and more perceptive. You will find that discovering weaknesses in a parahuman's powers or creations is a lot easier for you than for others.\nNote: This means you may not select any parahuman powers in this CYOA, but you can still trigger once you are in your new world or acquire a power from a Cauldron vial. If you choose to Character-Insert into parahuman or become a family member of one, you may also gain their power or its bud. You simply may not take a Shard from this CYOA.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/regular%20badass.jpg"
     },
     {
         "title": "Olympic",
-        "CPCost": 5,
+        "CPCost": 8,
         "desc": "Your muscles, natural regeneration, bone density, intelligence, perception, and senses will all be just short of parahuman levels.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/olympic.jpg"
     },
@@ -27,7 +27,7 @@
     },
     {
         "title": "Genius",
-        "CPCost": 10,
+        "CPCost": 15,
         "desc": "You will represent the mental apex of humanity, and a little beyond. Your mental faculties will be just short of parahuman levels. You will be up there with the likes of Hawking and Einstein, though you will need to study to accumulate the same amount of knowledge as them. Your creativity, critical thinking, and problem-solving skills will all be boosted. You can pick up and master new skills much quicker than most, and you will also have eidetic memory, capable of perfectly recalling anything that has happened to you.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/genius.jpg"
     },
@@ -53,7 +53,7 @@
     {
         "title": "Cosmetic Shapeshift",
         "CPCost": 5,
-        "desc": "Have you chosen to enter your new world in a form you have no say over? Have you chosen to just drop in as you are now, or maybe you've chosen to Character-Insert into a canon character, or even became their twin? Then this perk will grant you access to the Sex and Appearance sections in the Character tab, and you may also choose your age freely.\nWarning: This transformation is not 'lore-friendly.' If your chosen method of insertion into your new world grants you a past in this world (Character-Insert or Reincarnation), then people will not recognize you as your 'old' self. This can be both an advantage and a hindrance.",
+        "desc": "Have you chosen to enter your new world in a form you have no say over? Have you chosen to just drop in as you are now, or maybe you've chosen to Character-Insert into a canon character, or even became their twin? Then this perk will grant you access to the Sex and Appearance sections in the Character tab, and you may also choose your age freely.\nNote: This does nothing if you already have access to those sections.\nWarning: This transformation is not 'lore-friendly.' If your chosen method of insertion into your new world grants you a past in this world (Character-Insert or Reincarnation), then people will not recognize you as your 'old' self. This can be both an advantage and a hindrance.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/cosmetic%20shapeshift.png"
     },
     {
@@ -93,7 +93,7 @@
     },
     {
         "title": "Who Wants to Live Forever?",
-        "SPCost": 2,
+        "SPCost": 5,
         "incompatibility": "Shardless; Childlike",
         "desc": "You will be able to alter your ability to age at will. You can make yourself younger or older. You can fake age as if you were growing up normally, although you would not suffer the normal effects of old age.\nNote: This does not increase toughness or physical ability aside from protecting you from the frailty of age.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/who%20wants%20to%20live%20forever.png"
@@ -163,7 +163,7 @@
     {
         "title": "The Prototype",
         "CPCost": 5,
-        "requirement": "May 19, 1982; Cauldron Membership; Shard of the Wanderer or Shard of the Thinker Entity",
+        "requirement": "May 19, 1982; Cauldron Membership; Shard of the Loner Entity or Shard of the Thinker Entity",
         "desc": "You will be the first successful Cauldron Cape and are going to be a shoe-in for becoming a high-ranking member of the multidimensional conspiracy.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/the%20prototype.webp"
     },
@@ -215,7 +215,7 @@
     {
         "title": "Cover Story",
         "CPCost": 10,
-        "incompatibility": "Case 53; Unmasked",
+        "incompatibility": "Deviant; Unmasked",
         "desc": "No matter what happens, you will keep your identity hidden, even by using one minor cosmetic change. For example, putting on glasses or styling your hair differently.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/cover%20story.jpg"
     },
@@ -233,8 +233,8 @@
     },
     {
         "title": "Conflicted Predictions",
-        "SPCost": 4,
-        "CPCost": 4,
+        "SPCost": 5,
+        "CPCost": 5,
         "desc": "Wildbow's Shard, like any other Warrior Shard, was geared for conflict, and so what would really happen is a bit more spaced out. In other words, you will have an extra two years, two months, and 13 days until Gold Morning, and the events of Ward will also take twice as long and start two years, two months, and 13 days later."
     },
     {
@@ -370,8 +370,8 @@
     },
     {
         "title": "Countdown",
-        "SPCost": 5,
-        "CPCost": 5,
+        "SPCost": 12,
+        "CPCost": 12,
         "desc": "Once you have defeated Zion or any equivalent enemy in threat (not necessarily power) to whatever universe you're in, any self-targeted drawbacks you have chosen will be removed. This specifically targets the side effects, limitations, and other adverse consequences associated with the selected drawbacks.\nNote: Certain drawbacks may require the achievement of specific goals for their complete removal, in which case the associated drawbacks will persist until the designated objective has been successfully accomplished.\nThis perk will also activate after 25 years even if you do not defeat Zion or an equivalent enemy.\nWarning: This perk does not apply to drawbacks that involve environmental changes or the acclimation drawback.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/countdown.webp"
     },
@@ -380,24 +380,24 @@
         "count": 0,
         "SPCost": 1,
         "CPCost": 1,
-        "desc": "This will give you complete protection from external threats that could harm you or your powers. This protection also extends to your friends and family. Schemes against you will be delayed until your Brief Protection ends. This includes drawbacks such as Slaughterhouse Eight, Fairy Goddess, or Worst Day Ever, but not those that affect you directly like Case 53, Acclimation, or Pint Sized.\nBrief Protection lasts for one day per purchase. The time is based on your own perception, so it does not change if you travel in time."
+        "desc": "This will give you complete protection from external threats that could harm you or your powers. This protection also extends to your friends and family. Schemes against you will be delayed until your Brief Protection ends. This includes drawbacks such as Slaughterhouse Eight, Fairy Goddess, or Worst Day Ever, but not those that affect you directly like Deviant, Acclimation, or Pint Sized.\nBrief Protection lasts for one day per purchase. The time is based on your own perception, so it does not change if you travel in time."
     },
     {
         "title": "Momentary Protection",
         "count": 0,
-        "SPCost": 5,
-        "CPCost": 5,
-        "desc": "This will give you complete protection from external threats that could harm you or your powers. This protection also extends to your friends and family. Schemes against you will be delayed until your Momentary Protection ends. This includes drawbacks such as Slaughterhouse Eight, Fairy Goddess, or Worst Day Ever, but not those that affect you directly like Case 53, Acclimation, or Pint Sized.\nMomentary Protection lasts for one month per purchase. The time is based on your own perception, so it does not change if you travel in time."
+        "SPCost": 8,
+        "CPCost": 8,
+        "desc": "This will give you complete protection from external threats that could harm you or your powers. This protection also extends to your friends and family. Schemes against you will be delayed until your Momentary Protection ends. This includes drawbacks such as Slaughterhouse Eight, Fairy Goddess, or Worst Day Ever, but not those that affect you directly like Deviant, Acclimation, or Pint Sized.\nMomentary Protection lasts for one month per purchase. The time is based on your own perception, so it does not change if you travel in time."
     },
     {
         "title": "Serendipitous Luck",
-        "SPCost": 10,
+        "SPCost": 12,
         "desc": "The universe will conspire in your favor, no matter what you seek to achieve or overcome. Good luck will follow you at every turn, increasing the likelihood of success and decreasing the likelihood of failure in all your endeavors, no matter how challenging they may be. Luck will smile upon you always. This might not help you win the lottery or find your soulmate, but it can be felt in almost every aspect of your life.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/serendipitous%20luck.jpg"
     },
     {
         "title": "Sixth Sense",
-        "SPCost": 8,
+        "SPCost": 10,
         "desc": "You will possess an innate ability to perceive and anticipate danger or hidden information.",
         "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/perks/sixth%20sense.jpeg"
     },
@@ -451,7 +451,7 @@
     {
         "title": "World Knowledge",
         "CPCost": 5,
-        "desc": "Upon entering a new universe, you will gain access to a comprehensive repository of knowledge pertaining to that world. This knowledge encompasses all relevant media, lore, and information, granting you an in-depth understanding of the intricacies and details of the world you are about to explore. This includes not only the official canon but also the insights and notes of the author(s) or creator(s), ensuring that you are well-equipped to navigate the world you are entering.\nNote: A lot of this knowledge may be useless if you chose Reincarnation or Character-Insert, as you'd gain the knowledge of your chosen character. Still, this might give you knowledge your character would not know. Also, certain drawbacks could remove their memories. This knowledge will survive even Cauldron Amnesia."
+        "desc": "Upon entering a new universe, you will gain access to a comprehensive repository of knowledge pertaining to that world. This knowledge encompasses all relevant media, lore, and information, granting you an in-depth understanding of the intricacies and details of the world you are about to explore. This includes not only the official canon but also the insights and notes of the author(s) or creator(s), ensuring that you are well-equipped to navigate the world you are entering.\nNote: A lot of this knowledge may be useless if you chose Reincarnation or Character-Insert, as you'd gain the knowledge of your chosen character. Still, this might give you knowledge your character would not know. Also, certain drawbacks could remove their memories. This knowledge will survive even Case 53."
     },
     {
         "title": "Teacher",

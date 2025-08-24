@@ -11,7 +11,7 @@ struct PureText: View {
     let text: String
     
     var body: some View {
-        Text(text)
+        Text(.init(text))
             .multilineTextAlignment(.center)
             .padding(.bottom)
     }

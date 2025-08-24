@@ -1,0 +1,592 @@
+[
+    {
+        "title": "Chromatophore Skin",
+        "SPCost": 5,
+        "desc": "Your skin is laced with chromatophores, similar to a cephalopod's. It subtly shifts in color and pattern to reflect your emotional state. Strong emotions can cause dramatic, rippling displays of color across your body."
+    },
+    {
+        "title": "Crystalline Features",
+        "SPCost": 5,
+        "desc": "Your hair grows as thin, flexible crystalline filaments, and your fingernails and toenails grow as the same tough, glittering material. The color is determined by trace minerals in your diet."
+    },
+    {
+        "title": "Pale Luminescence",
+        "SPCost": 5,
+        "desc": "The fine vellus hair on your body emits a soft, constant glow, and the sclera (the whites) of your eyes share this same pale luminescence. The color is a single hue, like blue or green, and is most visible in low-light conditions."
+    },
+    {
+        "title": "Metallic Sheen",
+        "SPCost": 5,
+        "desc": "Your irises have the appearance of polished, liquid metal (like gold, silver, or copper), and your skin carries a faint, complementary metallic sheen, most noticeable on the high points of your face like cheeks and your knuckles."
+    },
+    {
+        "title": "Symmetrical Vitiligo",
+        "SPCost": 5,
+        "desc": "Your skin displays a perfectly symmetrical pattern of depigmentation, creating striking, Rorschach-like designs across your face and body. The patterns are unique to you."
+    },
+    {
+        "title": "Selachian Atavism",
+        "CPGain": 5,
+        "desc": "Your mouth is filled with multiple rows of sharp, serrated teeth, much like a shark's. Lost or broken teeth are replaced within a day. While intimidating, they make chewing certain foods awkward. Slits along your neck house functional gills, allowing you to breathe underwater, though they can be a point of vulnerability on land. Additionally, your skin has a rough, sandpapery texture, composed of microscopic, tooth-like scales known as dermal denticles."
+    },
+    {
+        "title": "Lupine Hypertrichosis",
+        "CPGain": 5,
+        "desc": "Your legs are restructured to a digitigrade stance, forcing you to walk on the balls of your feet like a canine. This is complemented by systemic hypertrichosis, which covers your body in a thick, fur-like coat of hair, making the use of normal shoes and most clothing difficult. Shaving the hair is also not effective, as the hair grows back within hours."
+    },
+    {
+        "title": "Simian Alopecia",
+        "CPGain": 5,
+        "desc": "Your body is affected by total alopecia, leaving you completely hairless with skin that is a stark, paper-white. This is coupled with simian features: a long, prehensile tail and fully prehensile feet with opposable digits, granting you exceptional agility in complex environments but making your appearance profoundly unnatural."
+    },
+    {
+        "title": "Surgical Integration",
+        "CPGain": 5,
+        "desc": "You are a Bio-Tinker specializing in flesh-crafting and cybernetic augmentation. Your own body has mutated to reflect this specialty, taking on the appearance of a demented surgeon. The corners of your mouth are pulled back by taut, metallic sutures fused to your cheekbones, creating a permanent, unnerving grin. Your right arm is a grotesque but functional fusion of flesh and polished steel, able to retract your hand and extrude a variety of surgical tools: scalpels, bone saws, clamps, and injectors. Your eyes are complex, multi-lensed constructs; the irises can audibly click and whir as they reconfigure, shifting between a normal view, a magnified macro lens for detail work, or a thermal vision mode."
+    },
+    {
+        "title": "Ophidian Vestiges",
+        "CPGain": 5,
+        "desc": "Your mutation manifests as several snake-like traits. You possess nictitating membranes that act as a third eyelid, a forked tongue, and shallow pits near your nostrils that grant you a crude thermal sense. Patches of fine, iridescent scales cover parts of your body, most notably along your spine and cheekbones."
+    },
+    {
+        "title": "Porous Glands",
+        "SPGain": 4,
+        "CPGain": 12,
+        "desc": "Your skin is covered in a network of visible, porous glands, giving it a perpetually dewy and unnaturally smooth texture. These glands release potent, mood-altering pheromones into the air, causing those nearby to experience mild euphoria or dizziness, which complicates all social and physical interactions."
+    },
+    {
+        "title": "Dermal Photosynthesis",
+        "SPGain": 4,
+        "CPGain": 12,
+        "desc": "Your skin has a green, chlorophyll-like tint and is covered in vein-like patterns. While it allows you to generate some energy from sunlight, you now require at least four hours of direct sun exposure daily to avoid becoming sluggish, fatigued, and chronically ill."
+    },
+    {
+        "title": "Heat Vent Body",
+        "SPGain": 4,
+        "CPGain": 12,
+        "desc": "Your metabolism is overclocked to a superhuman degree, causing steam to constantly vent from prominent pores across your body, especially in cool air or after exertion. This grants you incredible reflexes and allow you to heal relatively fast, but it also requires you to consume over 8,000 calories a day to avoid collapsing from ravenous hunger."
+    },
+    {
+        "title": "Resonant Nodules",
+        "SPGain": 4,
+        "CPGain": 12,
+        "desc": "Your throat, upper chest, and cheeks feature several pulsating, resonant nodules that visibly thrum and vibrate, much like a frog's vocal sac. These produce a constant, low-frequency hum that you can never fully silence, which disturbs animals and interferes with sensitive audio equipment. You have a degree of conscious control over them, allowing you to focus and intensify the vibrations, amplifying the subsonic effect to induce severe headaches and intense nausea in those around you."
+    },
+    {
+        "title": "Catalytic Hemolymph",
+        "SPGain": 4,
+        "CPGain": 12,
+        "desc": "Your skin is faintly translucent, revealing a complex network of veins that glow and pulse with vibrant, bioluminescent blood. When this blood is exposed to air, it catalyzes and hardens almost instantly into a tough, amber-like resin, sealing wounds with incredible speed but leaving you covered in brittle scabs after any injury."
+    },
+    {
+        "title": "Ferrous Form",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "Your body is composed of a dense, liquid-like metal that perfectly mimics your human form, though your skin has a cool, metallic sheen. You can absorb other metals on contact to rapidly regenerate wounds or increase your mass. Living in this body feels heavy and solid; touch is perceived as pressure and vibration rather than texture or warmth. The downside is your constant vulnerability to magnetism, the risk of rust in damp environments, and a total loss of taste and smell."
+    },
+    {
+        "title": "Petrified Epidermis",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "Your skin, hair, and nails are replaced by a substance resembling petrified wood, complete with grain and texture, while your insides remain organic. This grants you incredible durability against physical harm. Living this way feels muted, as if you're sensing the world through a thin wooden shell. The major downside is your stiffness; your movements are slightly restricted. Your wooden shell is also very slow to regenerate."
+    },
+    {
+        "title": "Vitreous Body",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "You appear to be a flawless glass sculpture of a human, with dark, smoky glass replacing skin and organs. You can internally focus ambient light and project it from your hands as searing beams. Sensation is strange; you feel vibrations with perfect clarity but have no sense of temperature. The obvious downside is your fragility; strong impacts can cause cracks or even shatter a limb, which is agonizing to slowly reform."
+    },
+    {
+        "title": "Living Coral Graft",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "Your body is covered in patches of stony, brightly-colored coral that grow in place of skin on your arms, back, and shoulders. These growths serve as incredibly hard natural armor. This feels like wearing a heavy, living shell; the coral itself has no sensation. The drawback is a biological need to submerge yourself in saltwater for several hours each day, or the coral will start to bleach and die, causing excruciating pain."
+    },
+    {
+        "title": "Pressurized Vessel",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "While you look human, your skin is a translucent, flexible membrane, and your circulatory system is filled with water under immense pressure. You can release this as focused, cutting jets from your palms. You live with a constant feeling of internal pressure, where touch is felt as a displacement of this inner sea. The downside is that any deep cut or puncture can be catastrophic, leading to a violent, localized decompression."
+    },
+    {
+        "title": "Unbound Myomer",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "Your skin is thin and semi-translucent, revealing a musculature made of thick, red, ropy fibers. You possess incredible strength and can unnaturally extend your limbs for surprise attacks. Living this way feels like being a constantly coiled spring, with a heightened, almost painful sense of touch. The downside is that your muscles are prone to tearing if over-extended, and your visibly writhing form is deeply unsettling to others."
+    },
+    {
+        "title": "Symbiotic Pores",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "Your skin is riddled with a network of tiny, hexagonal pores, barely visible up close. These pores house a colony of microscopic, symbiotic organisms. You can exhale them in a shimmering cloud that can be directed to scout or create a disorienting buzz around a target. You constantly feel a faint, ticklish, internal vibration. The drawback is that the colony demands a high-sugar diet, and in quiet rooms, a faint hum is always audible from your body."
+    },
+    {
+        "title": "Ectoplasmic Cohesion",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "You look human, but your body is composed of a cool, semi-solid, faintly glowing substance that constantly sheds a cold mist. You can will yourself to become briefly intangible. This body feels perpetually cold and disconnected; sensations of touch are vague and distant. The downside is that you are constantly losing mass and must 'feed' on bioenergy to remain solid. Essentially, you're an bioenergy vampire. The energy does not need to come from humans – in fact, larger animals and plants may give you far more energy."
+    },
+    {
+        "title": "Data Body (Data Specialty)",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "You are a Tinker specializing in Data, focusing on predictive modeling, hyper-encryption, and sensory data processing. Your body has been rebuilt into the ultimate 'wetware' computer. Your flesh is a pale, semi-translucent substrate threaded with a visible, pulsating network of fiber-optic nerve bundles. Your brain has been augmented into an organic quantum computer, allowing you to process vast amounts of information at impossible speeds. Instead of hands, your arms terminate in clusters of multi-purpose filaments that can interface with any data port, serve as diagnostic tools, or weave together into complex manipulators for delicate assembly. You don't just build supercomputers; you are one, and your technology is an extension of your own mind."
+    },
+    {
+        "title": "Malleable Clay",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "Your body is formed of a smooth, sculpted, living clay that perfectly holds your human shape. You have a limited form of shapeshifting, able to mold your face to resemble others or shape your hands into simple, blunt tools. Sensation is direct; you feel touch as pressure that deforms your body. The significant downside is your need to remain moist; if you dry out, you become brittle and will crack and crumble."
+    },
+    {
+        "title": "Prismatic Solid",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "You are a being of solidified light, appearing as a human silhouette filled with a soft, shifting internal luminescence. You can project simple, non-solid holograms from your body or create a blinding flash of light. Living this way feels weightless and detached, with sharp senses but no sense of touch at all. The drawback is a constant need for light; complete darkness is painful and causes your form to slowly dissipate."
+    },
+    {
+        "title": "Woven Carbon",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "Your skin and musculature are interwoven with black, carbon-fiber filaments, giving you a dark, patterned appearance. You are incredibly light for your size and possess a high tensile strength, making you both durable and fast. You feel everything with a strange, conductive quality, as if sensations are electric. The downside is that your body is a poor electrical insulator, making you extremely vulnerable to shocks and tasers."
+    },
+    {
+        "title": "Living Loam",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "Your flesh is infused with rich soil and a network of fine roots, giving your skin a dark, earthy texture from which tiny sprouts sometimes grow. You can draw nutrients and water from any patch of soil to heal wounds. You also have limited biokinesis over the plants to grow in your body. If you're in direct contact with soil, your biokinesis extends to roughly 500 feet around you, provided that it also composed of soil, though after 400 feet it starts weakening. The drawback is a dependency on the soil; you become weak and sick if you go too long without physical contact with the ground."
+    },
+    {
+        "title": "Sentient Wax",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "Your body is composed of a living, warm wax, similar to a candle sculpture. You can raise your body temperature to soften your form, allowing you to squeeze through tight spaces or mend wounds by melting the wax back together. You feel a constant warmth, and touch is a soft, yielding sensation. The downside is your extreme vulnerability to heat and cold; high temperatures can melt you into a puddle, while cold makes you brittle. However, unless your wax is vaporized, you can easily recover from this. As long as even a little bit of wax remains, you can regenerate the rest, though regeneration takes time."
+    },
+    {
+        "title": "Dermal Atramentum",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "Your body is composed of a dense, semi-liquid black substance that has the appearance and texture of living ink, giving your skin a deep, matte finish that seems to absorb light. You possess the unique ability to temporarily flatten yourself against a surface, becoming a two-dimensional ink drawing for stealth or hiding. Living this way feels fluid and cool; you perceive touch as a disruption in your internal viscosity rather than a surface sensation. The primary drawback is your solubility. Prolonged exposure to large amounts of water, like heavy rain or being submerged, will cause your form to bleed and lose cohesion, a painful and disorienting experience."
+    },
+    {
+        "title": "Spun Silk",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "Your body is composed of incredibly dense, tightly-wound silk fibers, giving your skin a pale, soft-looking texture. You can produce and project strands of this silk from your wrists, creating strong, sticky nets or swinging lines. Life feels light and airy, but you are very sensitive to vibrations. The downside is your vulnerability to fire, as your body is highly flammable."
+    },
+    {
+        "title": "Fungal Symbiosis",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "Your body hosts a unique, aggressive fungal strain, with fruiting bodies resembling pale cordyceps sprouting from your shoulders and scalp. You can release microscopic spores from these growths, but the true power is delivered through touch. By introducing the fungus into a target's bloodstream, it aggressively colonizes their nervous system, killing the host within an hour but preserving their body relatively well (though, you can see sprouts of the fungus bursting through their skin in certain areas). You can then puppet the corpse, which remains functional for weeks. If the victim was a parahuman, you gain full, intuitive control of their powers. Living this way feels strangely connected, a constant low-level awareness of your entire fungal network. The drawback is your need for humidity and dim light; dry conditions or direct sun cause your fungal parts to wither painfully, weakening your control."
+    },
+    {
+        "title": "Living Sound",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "You appear human, but your body is a standing wave of sonic energy, held in a shimmering, vaguely visible field. You can generate focused blasts of concussive force or create pitches that can shatter glass. You don't 'feel' touch, but 'hear' it as a distortion in your personal frequency. The downside is that a loud, chaotic environment can disrupt your form, and a vacuum could cause you to unravel completely."
+    },
+    {
+        "title": "Workshop Body (Architecture Specialty)",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "You are a Tinker specializing in Architecture, creating automated fortifications and self-assembling structures. Your body has become a mobile command and fabrication unit. Your flesh has been replaced by a lightweight, off-white ceramic composite, segmented with seams that glow with a soft light. Your forearms can peel back to reveal an array of micro-manipulators, laser cutters, and welding tools, while your back houses a compact, high-efficiency fabricator capable of producing the complex components your larger constructions require. You don't become the fortress; you are the living blueprint and factory that directs an army of construction drones to build it in minutes."
+    },
+    {
+        "title": "Salt Form",
+        "SPGain": 10,
+        "CPGain": 20,
+        "desc": "You appear to be a human carved from a single, massive crystal of salt, with light refracting through your form. You can absorb moisture from the air or from other people on touch, causing rapid dehydration. You feel dry and crystalline, and sensations are sharp and jarring, like scraping crystal. The downside is your solubility; being exposed to large amounts of water, like heavy rain or being submerged, will literally dissolve you. This will not kill you, but it will leave you completely unable to do anything (but use your other powers, should you have any and should they not rely on your physical body), until the water evaporates. You can also slowly start absorbing the water, but that is a very slow process."
+    },
+    {
+        "title": "Panopticon Swarm",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are not a single being, but a hive-minded swarm of winged, grapefruit-sized eyeballs. You can coalesce into a rough humanoid shape to interact with objects, but your natural state is a dispersed cloud. Your ability is ultimate reconnaissance; you have a perfect 360-degree field of vision and can be in multiple places at once by splitting the swarm. Your swarm is bound by a single rule of cohesion. No two parts of your consciousness can ever be more than five city blocks apart. Lost eyeballs regenerate over time through a process similar to mitosis, where an existing eyeball splits in two to create a perfect duplicate. Even a single surviving eyeball is enough to come back."
+    },
+    {
+        "title": "Caustic Skitterer",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "Your form is that of a large, centipede-like creature with dozens of scuttling legs and a chitinous hide. You are incredibly fast and can climb any surface. As a primary ability, your blood is a potent, high-pressure acid, which you can spray from nozzles on your head as a defensive weapon. You are also immune to acidic substances."
+    },
+    {
+        "title": "The Weaver",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "Your body is spider-like, with a small, hard torso suspended by six long, spindly, multi-jointed limbs made of a dark, metallic substance. You can extrude incredibly durable, conductive filaments from your limbs, allowing you to create complex webs that can serve as traps, communication networks, or razor-sharp barriers."
+    },
+    {
+        "title": "Amorphous Predator",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are a shapeless, translucent mass of protoplasm, like a giant amoeba. You have no fixed form but possess a dense, protected core that houses your consciousness. Your power is stealth and envelopment; you can squeeze through any crack and engulf targets, slowly digesting them with powerful enzymes."
+    },
+    {
+        "title": "Abyssal Fabricator (Hydraulics Specialty)",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "Your form is a biomechanical fusion of a human torso and a massive, crab-like lower body. Your original legs are gone, replaced by six powerful, articulated limbs that can anchor you to any surface, even under immense pressure. Your original arms remain, but they are supplemented by two larger, secondary manipulator arms tipped with high-torque claws and plasma welders. Your back is a hardened carapace that houses a specialized fabricator and ballast tanks, allowing you to function as a living submarine and deep-sea workshop for creating your advanced aquatic drones and high-pressure hydraulic systems."
+    },
+    {
+        "title": "The Architect",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "Your body is a walking nexus of bone and flesh that perpetually grows and reabsorbs organic material. You are a living Shaker effect; by planting yourself, you can rapidly grow bone-like pillars, walls, and cages from your own body, reshaping the battlefield around you."
+    },
+    {
+        "title": "Flicker-State Entity",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You exist in a state of quantum flux, appearing as a blurred, glitching humanoid silhouette. You can't be easily targeted or contained. Your ability is to 'stutter-step' through reality, teleporting a few feet in any direction instantaneously, making you an untouchable duelist. This effect also applies to whatever it is you're holding, as long as it is not a living object."
+    },
+    {
+        "title": "Echo Locus",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are an incorporeal being of pure sound, a localized distortion in the air. You cannot physically interact with the world, but you can perceive everything through vibrations. Your power is to absorb and perfectly replicate any sound, from a whisper to an explosion, which you can 'play back' at will to create diversions or sonic attacks."
+    },
+    {
+        "title": "Symbiotic Armor",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are a small, soft-bodied, squid-like creature permanently fused to the back of a large, humanoid golem made of stone and coral. You control the golem as your body, granting it immense strength and durability. Your personal ability is to detach small, autonomous pieces of the coral as scouts."
+    },
+    {
+        "title": "The Host",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "Your body is a lurching, multi-limbed creature whose flesh is a breeding ground for countless parasitic, worm-like organisms. You can telepathically command these parasites, launching them at targets to burrow into their flesh and grant you a temporary, agonizing form of sensory control over them."
+    },
+    {
+        "title": "Gravity Well",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are a floating, vaguely spherical creature made of a pitch-black material that absorbs all light. You cannot move quickly, but you passively and constantly warp gravity around yourself. By concentrating, you can intensify this effect, creating a crushing gravitational field or making yourself the center of a localized orbit for nearby objects."
+    },
+    {
+        "title": "Sentient Spore Cloud",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are a cohesive, intelligent cloud of billions of microscopic fungal spores, able to alter your density from an intangible mist to a solid, humanoid shape. Your ability is infiltration; in your mist form, you can pass through any filter and are impossible to contain. Prolonged inhalation of your spores by others is also highly toxic."
+    },
+    {
+        "title": "The Puppeteer",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are a massive, immobile tangle of organic 'strings' and neural ganglia, usually hidden. Your power is to extend these near-invisible, incredibly strong filaments to latch onto the nervous systems of nearby creatures, including humans, allowing you to puppet their bodies like marionettes."
+    },
+    {
+        "title": "Living Furnace",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "Your body is a walking cage of blackened, obsidian-like ribs, containing a miniature, self-sustaining star. You constantly shed intense heat and light. By opening your rib cage, you can unleash the full force of your core as a devastating wave of plasma and radiation."
+    },
+    {
+        "title": "The Core Pilot (Powersuit Specialty)",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "Your true body is a fist-sized, biomechanical heart of hyper-dense, armored flesh, from which sprout four delicate, multi-jointed manipulator arms. You are an Powersuit Tinker, specializing in creating a vast array of complex, piloted drones that serve as your temporary bodies. You build these shells for any purpose — a hulking combat chassis, a nimble stealth suit, or a simple humanoid interface — and your core docks deep within their chest cavity, piloting them as an extension of yourself. You are a ghost in your own machines, a tiny, invulnerable creature forever disconnected from the world, experiencing it only through the sensors of the temporary bodies you create."
+    },
+    {
+        "title": "The Index",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are a floating, crystalline structure covered in constantly shifting, glowing runes. You cannot speak, but you have a Thinker power that lets you intuit the surface thoughts and core data of any object or person you focus on. Your ability is to project this information as hard-light constructs for others to see."
+    },
+    {
+        "title": "Doppleganger Slime",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are a featureless, grey slime in your natural state. However, after consuming a small amount of organic material from a target, you can perfectly replicate their form, voice, and mannerisms for several hours. This mimicry is purely physical; you do not gain their memories or powers."
+    },
+    {
+        "title": "Fractal Horror",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "Your body is a constantly shifting, self-replicating geometric pattern that defies Euclidean space. Looking at you for too long is disorienting and nauseating. Your power is to 'unfold' a part of yourself, creating non-Euclidean traps where distances are warped and straight lines curve."
+    },
+    {
+        "title": "The Conductor",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are a tall, thin creature made of a material resembling petrified lightning, crackling with contained energy. You can absorb, store, and redirect any form of energy in your environment, from kinetic impacts to thermal heat to electricity, and release it in controlled blasts."
+    },
+    {
+        "title": "Miasma Spreader",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "Your body is a bloated, bladder-like sack on several spindly legs, with vents across its surface. You constantly produce and exhale a cocktail of debilitating chemical agents. You can alter the mix at will, creating clouds that cause paralysis, fear, memory loss, or uncontrolled laughter."
+    },
+    {
+        "title": "Noctule",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are a large, bat-like creature with a humanoid torso and massive, leathery wings instead of arms. You are blind but possess a hyper-advanced echolocation that allows you to create a perfect 3D map of your surroundings, perceiving everything down to the molecular level within a certain range."
+    },
+    {
+        "title": "Phase-Spider",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "Your form is arachnid, but your body flickers in and out of a parallel dimension. This allows you to walk through walls and obstacles by briefly shunting yourself into the other reality. You can also 'bite' targets and inject them with a venom that forces them into this disorienting phased state for a short time."
+    },
+    {
+        "title": "The Gardener",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are a being of woven vines and wood with a glowing flower for a head. You are a living catalyst for plant life. By touch, you can cause plants to grow at an explosive rate, turning a seed into a tree in seconds or animating vines to entangle your foes."
+    },
+    {
+        "title": "The Siege Horror (Battalion Specialty)",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "Your form is that of a grotesque, quadrupedal war machine. Your original human torso is fused into the front of a powerful, four-legged chassis made of blackened, chitinous plating and exposed muscle. Your back and shoulders are a shifting, unstable mass of biomechanical ports, power conduits, and ammunition feeds — the chaotic interface for the arsenal you build. When conflict begins, these ports violently reconfigure into a random pattern, accepting only one specific type of your incomplete gear. You are forced to adapt on the fly, plugging in the compatible weapon or armor piece you've built — be it a missile launcher housing, a rotary cannon, or a defensive shield generator. You build a versatile arsenal, but you are a slave to the chaotic whims of your own body, which decides what kind of soldier you get to be in any given moment."
+    },
+    {
+        "title": "The Bell-Ringer",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "Your body is a hollow, metallic, vaguely humanoid construct. You do not walk, but hover. Your power is to generate specific resonant frequencies that can affect matter and minds. One frequency can shatter glass and stone, another can induce intense fear, and a third can temporarily nullify certain parahuman powers."
+    },
+    {
+        "title": "Dream Eater",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are an incorporeal, shadowy wisp that is only visible in peripheral vision. You are a psychic parasite. You can enter the dreams of sleeping individuals to feed on their emotions, gaining sustenance and gleaning information from their subconscious."
+    },
+    {
+        "title": "Living Cipher",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "Your form is physically present, but it lacks any defining features that a mind can latch onto, like a perfectly average mannequin or a humanoid blur. This isn't invisibility; you are a perceptual cipher. Onlookers' brains actively refuse to categorize you as a person of interest, automatically editing you out of their conscious perception and filing you away as 'unimportant scenery' unless you interact with them directly. Unlike a memory effect like Imp's, people are aware of you while looking at you, but the moment their attention shifts, they cannot recall any details about you and feel no compulsion to think about you further. This effect persists on recordings."
+    },
+    {
+        "title": "The Cartographer",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "Your body is a strange, multi-jointed creature with skin like aged parchment, covered in an ever-changing map. Your power is spatial manipulation; by 're-drawing' a part of the map on your skin, you can alter the physical space around you, swapping the locations of two doors, stretching a hallway, or creating a loop."
+    },
+    {
+        "title": "Mercury Hydra",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are a being of liquid metal, able to split your mass into multiple, smaller, semi-independent bodies. You can attack from several angles at once, and a 'killed' part of you can be reabsorbed into the main body with no permanent damage. Your consciousness is distributed across the entire mass."
+    },
+    {
+        "title": "The Siren",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are an amphibious creature with a beautiful, vaguely humanoid upper body and a lower body of powerful, fish-like tentacles. Your primary power is your voice, which you can use to generate hypersonic frequencies or to create compelling auditory illusions and suggestions."
+    },
+    {
+        "title": "Quantum Leech",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are a small, armored, leech-like creature. Your power activates on physical contact. You latch onto a parahuman and 'borrow' their power, gaining a weaker, temporary version of it for yourself while slightly dampening theirs. The connection can be maintained as long as you are attached."
+    },
+    {
+        "title": "Kinetic Nexus",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are a hovering, perfectly spherical object made of an invincible, smooth, white material. You have conscious control over kinetic energy within a radius of roughly 500 feet. You can siphon momentum from moving objects to bring them to a dead stop, store that energy within your core, and then release it to propel yourself at high speeds or launch nearby objects as devastating projectiles. You are a mobile nexus of inertia."
+    },
+    {
+        "title": "Solar Moth",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are a massive, moth-like creature with beautiful, stained-glass wings. You are drawn to energy sources. You can absorb light and radiation through your wings, metabolizing it and then releasing it as blinding flashes or concentrated thermal blasts from your antennae."
+    },
+    {
+        "title": "The Progenitor Mass (Repair Specialty)",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You begin as a roughly humanoid-shaped mass of grey, undifferentiated protoplasm, with a single, armored organ at your core that houses your consciousness. You are a 'blank slate' organism, able to extrude crude, temporary tentacles from your mass to act as hands and tools. You are a Perfect Form Tinker with a specialty in Repair; your power does not change your body directly. Instead, it provides you with the blueprints and intuitive knowledge to perform radical surgery and augmentation upon yourself. Your body is your megaproject. Using your crude manipulators, you must gather raw materials, fabricate advanced components, and then perform the slow process of grafting them onto your own form. Your first project will likely be creating permanent, efficient arms. From there, you will build towards a perfect, immortal body of your own design, one self-repairing system and redundant organ at a time."
+    },
+    {
+        "title": "Emotional Sink",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are a pale, multi-limbed creature with no discernible face. You are a psychic sponge. You passively absorb the ambient emotions of those around you, leaving them calm and suggestible, while you become agitated and powerful. You can then vent this stored emotion in a terrifying psychic scream."
+    },
+    {
+        "title": "The Glutton",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are a creature with a disproportionately large mouth and a body that is mostly stomach. You have the power of absolute consumption. You can eat and digest literally any material — steel, concrete, energy, etc. — converting it into biomass to increase your size and strength temporarily. You can also use it to heal."
+    },
+    {
+        "title": "Living Mirage",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "Your body is composed of super-heated air and shimmering light. You are a walking illusion. You can bend light around yourself to become invisible, create hyper-realistic copies of yourself, or make it appear as though the environment is warping and twisting."
+    },
+    {
+        "title": "The Archivist",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are a creature made of living paper and ink, with pages for skin that are covered in fine, shifting script. You have perfect memory and total recall of everything you experience, and through psychometry, you can touch an object and 'read' its entire history. You can also peel off sheets of your own paper skin and instantly transcribe any information you know or have just learned onto them. You can reproduce the entire history of an object in seconds, creating perfect, detailed records at will."
+    },
+    {
+        "title": "Viral Replicator",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are a single, complex viral organism in a humanoid shell. Your power is infection. Through touch, you can 'infect' non-living objects, converting them into temporary, semi-sentient minions under your control. A fire hydrant could sprout legs and attack, or a lamp post could bend to block a path."
+    },
+    {
+        "title": "Wraith Core",
+        "SPGain": 17,
+        "CPGain": 32,
+        "desc": "You are an incorporeal, sentient sphere of absolute darkness, like a hole in space, with a green light flickering deep within. You have no physical body to damage and are effectively immortal. Your primary ability is possession. You can enter the body of a living creature and effectively put yourself into the driver's seat. You experience the world as though the body were your own. When you do, their eyes glow with the same eerie green light as your core. If the host is a parahuman, you gain full access to their powers."
+    },
+    {
+        "title": "The Ganglion",
+        "SPGain": 27,
+        "CPGain": 47,
+        "desc": "Your body has been turned inside-out, existing as a single, massive, exposed nerve cluster roughly in a humanoid shape, protected only by a thin layer of mucus. Every sensation—the brush of air, the vibration of a footstep, the warmth of light—is an unfiltered, overwhelming torrent of pure agony. You can weaponize this torment, focusing it into devastating psychic blasts that inflict your own sensory hell upon others."
+    },
+    {
+        "title": "The Hunger",
+        "SPGain": 27,
+        "CPGain": 47,
+        "desc": "You are a being of nanoscopic, self-replicating grey goo, held in a humanoid shape through sheer force of will. You have the power to consume and convert any inorganic matter into more of your own mass. The debilitating aspect is the constant, ravenous, and alien hunger of the swarm that makes up your body; a moment's weakness or loss of focus could lead you to compulsively consume everything around you, including a city."
+    },
+    {
+        "title": "The Receiver",
+        "SPGain": 27,
+        "CPGain": 47,
+        "desc": "Your body has become a biological antenna of immense sensitivity, with crystalline growths across your skin that intercept the entire electromagnetic spectrum. You live in a constant, deafening sensory cacophony of every radio, television, cell phone, and wifi signal for miles. While you can learn to parse this data and even transmit your own powerful signals, the noise is a form of perpetual torture that makes normal thought a struggle."
+    },
+    {
+        "title": "The Breach",
+        "SPGain": 27,
+        "CPGain": 47,
+        "desc": "Your torso is an unstable gateway to a hostile dimension, a shimmering, tearing rift in space. You can puppet a small number of the alien creatures that live within 700 feet of the portal, on their side or yours. The struggle is that the portal *wants* to remain open, it constantly pushes against your will, and the longer you keep it closed, the more likely you're to lose control. Then it'll just tear open on its own. And once open, you have a very difficult time closing it. More creatures than you can control are very likely to pour through, and you have no control over the overflow, forcing you into a constant battle to contain the very source of your power. "
+    },
+    {
+        "title": "Parasitic Ego",
+        "SPGain": 27,
+        "CPGain": 47,
+        "desc": "A monstrous, semi-sentient parasitic twin is fused to your back, its limbs coiling around your torso. The parasite shares all your powers, including the one this form gives you: a powerful Master ability to permanently rewrite the loyalties of anyone within a 300-foot radius, turning them into fanatically devoted followers. It has its own alien consciousness and desires. The struggle of your life is the constant mental battle to remain the dominant will. A moment of weakness or injury could allow the parasite to seize control, using any of your powers to cause destruction or activating the Master power to enslave everyone nearby."
+    },
+    {
+        "title": "The Engine of Want",
+        "SPGain": 27,
+        "CPGain": 47,
+        "desc": "Half of your torso and one arm have been replaced by a biomechanical engine of immense power, granting you superhuman strength and the ability to vent blasts of energy. The engine, however, runs on a specific, exotic 'fuel' — be it fresh blood, radioactive material, or intense human emotion. You are in a constant state of agonizing withdrawal, driven by a desperate, unnatural hunger to acquire more fuel before your body shuts down."
+    },
+    {
+        "title": "The Geode Vein (Alloy Specialty)",
+        "SPGain": 27,
+        "CPGain": 47,
+        "desc": "Your form is a grotesque, pulsating mass of semi-translucent flesh and dark, jagged bone, anchored to the ground by thick, root-like appendages. You are almost entirely sessile. Your unique biology functions as a living crucible; over time, your body metabolizes raw materials from the ground and slowly, painfully precipitates exotic, programmable alloys within your own veins and organs as crystalline 'geodes.' To craft, you must perform excruciating self-surgery, cracking open these bone-and-flesh nodules to harvest the unique components within. The quality is directly tied to gestation time: a component harvested after only a few hours might be a simple, self-repairing metal, while one allowed to mature for weeks could be a gravity-warping filament or a dimensionally-stable alloy, the critical component for your most advanced technology."
+    },
+    {
+        "title": "The Anchorite",
+        "SPGain": 27,
+        "CPGain": 47,
+        "desc": "Your upper body is human, but from the waist down you are a mass of impossibly dense, crystalline material that is fused to the ground, warping gravity around you. You are a living anchor. Your power is to control this gravitational field, allowing you to pull, crush, or deflect objects with immense force. The struggle is your near-total immobility; moving requires you to telekinetically levitate your own crushing weight, a slow and exhausting ordeal."
+    },
+    {
+        "title": "The Runner",
+        "SPGain": 27,
+        "CPGain": 47,
+        "desc": "Your body has been optimized for perpetual motion. As long as you are moving at a brisk pace, you possess incredible stamina and a powerful regeneration factor that knits wounds in seconds. The debilitating part is that you *cannot stop*. Remaining stationary for more than a minute is physically painful, and stillness causes your regeneration to reverse, your body rapidly deteriorating. Sleep is a frantic, restless marathon."
+    },
+    {
+        "title": "Emotional Cascade",
+        "SPGain": 27,
+        "CPGain": 47,
+        "desc": "Your body is made of a psycho-reactive, unstable biomass. To remain in a stable, humanoid form requires a constant, zen-like state of emotional calm. Any strong emotion triggers a painful, uncontrolled metamorphosis into a monstrous form suited to that feeling — rage makes you a hulking brute, fear a skittering horror, sorrow a weeping puddle. Your power is immense, but you live in terror of your own feelings."
+    },
+    {
+        "title": "The Unstable Prototype (Wretched Tinker)",
+        "SPGain": 27,
+        "CPGain": 47,
+        "desc": "You begin as a physically pathetic creature: a massive, pulsating, exposed brain that serves as your head and torso, attached to a few atrophied, barely functional limbs. You are a being of immense intellect but extreme physical vulnerability, forced to drag your fragile body across the ground. You are a Wretched Tinker; your power grants you a chaotic and ever-expanding library of blueprints from a multitude of specialties. Your primary project is yourself — building shells and life-support systems just to survive. However, this process is a dangerous gamble. Each time you integrate new technology into your body, there is a significant chance the process will go wrong, triggering a random and permanent mutation or mental alteration. An upgrade might work perfectly, granting you a powerful robotic arm with no strings attached. Or, it could succeed but also leave you with crippling hallucinations. You can build anything to improve your condition, but every step forward is a roll of the dice that risks breaking your mind or body in a new, unforeseen way."
+    },
+    {
+        "title": "Oracle's Blindness",
+        "SPGain": 27,
+        "CPGain": 47,
+        "desc": "Your head is a smooth, featureless ovoid of flesh, utterly devoid of eyes, ears, or any other sensory organs. You are physically blind and deaf to the world around you. However, your mind is a chaotic lens into time itself, constantly bombarded with a disorienting storm of sensory fragments—images of what happened on this spot yesterday, the sounds of a conversation that will happen tomorrow, the feeling of rain an hour from now. This torrent of precognitive and postcognitive information is your only way of perceiving the world, and it flashes between moments and possibilities at random. With immense concentration, you can attempt to 'nudge' your perception towards a general timeframe, but you can never truly focus it on the present, forcing you to navigate reality by interpreting ghosts and echoes."
+    },
+    {
+        "title": "The Aegis Core",
+        "SPGain": 27,
+        "CPGain": 47,
+        "desc": "You are no longer a being of flesh, but a disembodied consciousness residing within a small, hyper-dense core. This core is a font of unimaginable power, constantly and omnidirectionally releasing beams of pure, disintegrating energy. Your only power, and your only means of survival, is to project powerful, tangible forcefields. Through sheer force of will, you shape these fields into a containment shell — usually in a human form — which holds the deadly energy at bay and can be used as a focused weapon. The debilitating curse is that your containment is entirely dependent on your unbroken concentration. You do not sleep; every second of your existence is spent consciously maintaining the aegis that prevents you from unleashing an omnidirectional wave of total destruction. You have no human senses, perceiving the world only through a crude Thinker-based sonar that maps the space around you."
+    },
+    {
+        "title": "The Chrysalis",
+        "SPGain": 27,
+        "CPGain": 47,
+        "desc": "You are trapped in a 24-hour cycle of metamorphosis and death. Each day at dawn, your previous body crumbles to dust, and you are 'reborn' from the remains. This rebirth is never the same. Each morning you manifest a new, random parahuman ability, and your physical form is a monstrous, alien shape intrinsically linked to that day's power. One day, you might be a crystalline brute; the next, a floating mass of tentacles with telekinetic abilities. The debilitating nature of your existence is this absolute instability. You can never master a power or become accustomed to a body. Your identity is fractured, your memories of past days are dream-like, and you awaken each morning as a stranger to yourself."
+    },
+    {
+        "title": "The Composer",
+        "SPGain": 27,
+        "CPGain": 47,
+        "desc": "Your lower body has fused into a grotesque, immobile pedestal of flesh, bone, and organic musical instruments — pipes, taut sinews for strings, and drum-like membranes. You can play this 'body' to create music with powerful hypnotic or destructive Shaker effects. The constant curse is that you are never silent; your own movements, your breathing, even your heartbeat, create a constant, low-level cacophony of discordant noise that slowly drives you and those around you mad."
+    },
+    {
+        "title": "The God-Flesh",
+        "SPGain": 42,
+        "CPGain": 72,
+        "desc": "You have been reduced to a sprawling, cancerous mass of flesh, organs, and bone that is constantly and explosively regenerating. Your only sense is a raw, agonizing sense of touch across your entire surface. You cannot be killed by conventional means — any damage is instantly repaired with new, disorganized growth — but you also cannot think, move, or perceive beyond the unending torment of your own uncontrolled creation. Your consciousness is a prisoner in a self-renewing hell, and your only hope is a Master power that can grant you a minion to pilot."
+    },
+    {
+        "title": "The Anomaly",
+        "SPGain": 42,
+        "CPGain": 72,
+        "desc": "Your existence has been shattered and scattered across a multitude of pocket dimensions. You do not have a physical body in any one reality; instead, each part of you exists in a different plane simultaneously, appearing as an intangible, glitching afterimage in the real world. You are unable to move or interact with anything. Your consciousness is a screaming chorus of conflicting sensations as parts of you are simultaneously burned by acid, soothed by healing energies, crushed by immense pressures, and left in silent voids. It is a state of perpetual, multi-dimensional torture."
+    },
+    {
+        "title": "The Short-Lived Phoenix",
+        "SPGain": 42,
+        "CPGain": 72,
+        "desc": "Your body is mostly humanoid, but it is a flawed vessel for a brilliant, agonizing fire. Your skin is dotted with beautiful, soft golden feathers that also intertwine with your hair, and your irises glow like pools of molten gold. You are trapped in a violent, inescapable loop, like a phoenix with a tragically short lifespan. Every few minutes, your flesh and feathers spontaneously combust, consuming you in seconds in an eruption of unnatural, soul-searing flames. From the cooling ash, your body is then forced to painfully regrow — feathers sprouting, nerves knitting, bones snapping into place — over the course of another agonizing minute, only to become fully whole just in time for the cycle to begin anew. Any attempt to kill you is futile; catastrophic damage simply triggers the fiery self-destruction ahead of schedule, ensuring your agonizing rebirth is never more than a few moments away."
+    },
+    {
+        "title": "The Discord",
+        "SPGain": 42,
+        "CPGain": 72,
+        "desc": "Your body has dissolved into a swarm of billions of semi-sentient, insect-like organisms. However, your consciousness did not become a guiding hive-mind; it shattered. A fragment of your awareness is trapped within each individual creature, screaming in silence. The swarm itself has no leader and acts on a cacophony of conflicting primal urges — hunger, fear, reproduction — while the myriad pieces of your mind are helpless passengers in a body that is at war with itself."
+    },
+    {
+        "title": "The Moment",
+        "SPGain": 42,
+        "CPGain": 72,
+        "desc": "Your body has been locked into a single, unchanging moment of time, making it a perfectly indestructible, statue-like object. The Shard's attempt at immortality was a partial success. Unfortunately, your consciousness was not separated from this process. You are fully aware, trapped within that single microsecond of existence, endlessly experiencing the one thought and the single sensory input you had at the moment of your transformation. You cannot move, think, or change. You are a conscious statue, a mind imprisoned in an eternal, unchanging now."
+    },
+    {
+        "title": "The Conductor",
+        "SPCost": 45,
+        "CPCost": 18,
+        "desc": "Your body has been transformed into a being of living shadow, a graceful, humanoid silhouette of pure darkness whose only constant feature is a pair of glowing purple eyes. In this default state, you are intangible and un-anchored from physical laws, allowing you to float or fly freely. At will, you can condense this shadow into a solid, tangible body with dark, umbral skin that allows you to interact with the world and experience physical sensations normally. Seeing as your body is no longer physical, you no longer need to worry about aging.\nYour power is to manifest projections — constructs of solidified shadow. Before you can manifest them, you must first mentally 'design' your projection loadouts, deciding their forms and their assigned powers. Switching between different loadouts takes times and concentration. Switching to a loadout you've previously used is slighly faster since you can use your memories to direct your power. The projections are extensions of your will that you control simultaneously and with perfect precision.\nWhen designing a projection loadout, you can choose one of the three discting 'modes:' You can have a single projection imbued with a single high-tier ability that makes it a match for even the most powerful of capes. Or you can design a 'squad' of up to five projections, each with a unique power. Their strength depends on their numbers – the more you have, the weaker they'll each individually be. But even if your 'squad' has all five members, they'll each be about as powerful as the average parahuman. Finally, you can also design a 'swarm' of many projections, which will all share a single, relatively simple power or property.\nNo matter how many projections you have, you'll always have the multitasking needed to direct them all directly with perfect precision.\nNote: What the projections look like is determined both by your will during the design process and by the nature of the power they have."
+    },
+    {
+        "title": "The Analyst",
+        "SPCost": 45,
+        "CPCost": 18,
+        "desc": "Your body has been rebuilt into a perfect biomechanical form. What appears to be skin is a seamless, pearl-white polymer, and what looks like muscle is a network of black, myomer-fiber bundles visible beneath the semi-translucent shell. This form does not age, and despite its artificiality, your sensory experience is perfectly human; your body feels as real to you as flesh and blood ever did. Your eyes are your most obvious feature: complex, multi-lensed constructs that can perceive any spectrum of energy and even glimpse the interdimensional mechanics of Shards, granting you an intuitive understanding of any power you witness.\nYou are a Scanner Tinker. A single observation of a power is enough to provide you with the blueprints for devices that can crudely mimic its effect, though you must still take the time to build them. Further observation allows for more refined and powerful designs. Your body is equipped with a limited number of modular sockets on your arms, torso, and head. While much of your tech can be used normally, these ports are essential for devices that require fine control or a direct neural link, allowing you to integrate your technology as if it were a part of your own body.\nYour power provides you with one set of blueprints from the start: the knowledge to repair your own intricate systems."
+    },
+    {
+        "title": "The Apex",
+        "SPCost": 45,
+        "CPCost": 18,
+        "desc": "Your form is a perfected, featureless humanoid silhouette of pearlescent white, a 'blank slate' of biological potential. You are the ultimate Changer/Thinker. Your primary ability is to make physical contact with any living organism, from a microbe to a parahuman, and perfectly scan its entire biological and genetic structure in seconds. Once scanned, you can flawlessly shapeshift into a copy of that creature, gaining all of its natural abilities and an intuitive, comprehensive understanding of its physiology. This allows you to accumulate a perfect library of forms, from a hawk for flight to a specific person for infiltration, or even monstrous parahuman forms to gain their biological advantages. You are the pinnacle of adaptation."
+    },
+    {
+        "title": "The Conduit",
+        "SPCost": 45,
+        "CPCost": 18,
+        "desc": "Your form is a being of pure, stable energy, contained within a graceful, humanoid shell of gleaming, articulated silver. You are an ageless and perfect energy manipulator. Your power is to absorb, metabolize, and perfectly control any form of energy. You can draw electricity from a power grid, absorb the kinetic force of a punch, or even drain the thermal energy from the air to create absolute zero. This stored energy can be converted into any other form and released at will—as constructs of hard light, blasts of concussive force, or waves of debilitating radiation. You are the ultimate energy capacitor, a living, breathing nexus of power with an almost limitless potential."
+    },
+    {
+        "title": "The Palimpsest",
+        "SPCost": 45,
+        "CPCost": 18,
+        "desc": "Your body has been reformed into a flawless, humanoid shape made of a smooth, durable crystalline material. Though it feels perfectly normal to you, this form is ageless and will regenerate from any damage as long as a single fragment remains. But your true power is a seamless, reactive precognition that gives you subjective control over your own timeline. To you, it feels as if you can rewind time — not just seconds, but hours, weeks, or even years, back to the moment you first received your power. In reality, your Shard runs flawless simulations of your life, and every 'revision' is effectively a precognitive vision your Shard showed you. Only the final timeline you accept becomes real, leaving all other paths as perfect memories of what could have been. This creates a profound uncertainty: in any given moment, you can never know if your current experience is 'real' or just another draft you will eventually discard. But it doesn't matter – to you, it all feels real. All the alternative simulations are real possibilities, and it's ultimately up to you if what you're experiencing is real – it's your choice to rewind, after all."
+    }
+]

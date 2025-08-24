@@ -13,10 +13,21 @@ struct ScenarioViewEarthBet: View {
     @Bindable var character: PlayerCharacter
     
     let scenarios: [String: [Item]]
+    
+    @Binding var searchString: String
+    var filteredScenarios: [Item] {
+        let list = scenarios["earthBet"]!
+        
+        if searchString.isEmpty {
+            return list
+        } else {
+            return list.filter { $0.title.contains(searchString) }
+        }
+    }
 
     var body: some View {
         GridView {
-            ForEach(scenarios["earthBet"]!, id: \.title) { scenario in
+            ForEach(filteredScenarios, id: \.title) { scenario in
                 Button {
                     character.setValue(for: &character.scenario, from: scenario)
                     try? modelContext.save()

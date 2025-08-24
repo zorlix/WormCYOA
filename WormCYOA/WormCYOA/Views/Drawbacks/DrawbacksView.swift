@@ -38,6 +38,7 @@ struct DrawbacksView: View {
                                 item: character.displayCountedItem(drawback, forArr: character.drawbacks),
                                 selected: character.isItemSelected(drawback, inArr: character.drawbacks),
                                 subItems: character.processSubItems(drawback.subItems),
+                                difficulty: character.difficulty,
                                 increase: {
                                     character.changeCount(of: drawback, in: &character.drawbacks, action: .increase)
                                     try? modelContext.save()
@@ -55,7 +56,8 @@ struct DrawbacksView: View {
                                 ItemView(
                                     item: drawback,
                                     selected: character.drawbacks.contains(drawback),
-                                    subItems: character.processSubItems(drawback.subItems)
+                                    subItems: character.processSubItems(drawback.subItems),
+                                    difficulty: character.difficulty
                                 )
                             }
                             .buttonStyle(.plain)
@@ -73,6 +75,15 @@ struct DrawbacksView: View {
         .onChange(of: character.deletedItems) {
             character.validateRequirements()
             try? modelContext.save()
+        }
+        .onChange(of: character.drawbacks) { oldValue, newValue in
+            let title = "Deviant"
+            
+            if oldValue.contains(where: { $0.title == title }) && !newValue.contains(where: {$0.title == title }) {
+                character.deviantForm = nil
+                character.deviantRolledRandomly = false
+                try? modelContext.save() 
+            }
         }
     }
 }
