@@ -45,6 +45,8 @@ struct CrossroadsView: View {
                 PerksView(character: character)
             case "Drawbacks":
                 DrawbacksView(character: character)
+            case "Power Origins":
+                PowerOriginsView(character: character)
             default:
                 Text("Never should happen...")
             }

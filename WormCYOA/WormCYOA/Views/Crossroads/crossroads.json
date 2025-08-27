@@ -30,5 +30,9 @@
     {
         "title": "Drawbacks",
         "desc": "Unique effects created by this CYOA (and not your Shard) that hinder you in some way."
+    },
+    {
+        "title": "Power Origins",
+        "desc": "What Entity does your Shard originate from?"
     }
 ]

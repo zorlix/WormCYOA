@@ -76,14 +76,5 @@ struct DrawbacksView: View {
             character.validateRequirements()
             try? modelContext.save()
         }
-        .onChange(of: character.drawbacks) { oldValue, newValue in
-            let title = "Deviant"
-            
-            if oldValue.contains(where: { $0.title == title }) && !newValue.contains(where: {$0.title == title }) {
-                character.deviantForm = nil
-                character.deviantRolledRandomly = false
-                try? modelContext.save() 
-            }
-        }
     }
 }

@@ -79,6 +79,13 @@ import SwiftUI
     // Drawbacks
     var drawbacks: [Item] = []
     
+    // Power origins
+    var powerOrigin: Item?
+    var shardType: Item?
+    var shardRank: Item?
+    var shardRelationship: Item?
+    var shardDeviancy: [Item] = []
+    
     init(id: UUID, sp: Int, cp: Int) {
         self.id = id
         self.sp = sp
@@ -87,11 +94,11 @@ import SwiftUI
     
     // All values to check for methods below
     private static let itemsToCheck: [ReferenceWritableKeyPath<PlayerCharacter, Item?>] = [
-        \.metaTarget, \.metaAwareness, \.metaOther, \.difficulty, \.setting, \.altWorld, \.crossover, \.location, \.scenario, \.timeShift, \.gender, \.incarnationMethod, \.overtakenIdentity, \.reincarnationType, \.twin, \.familyMember, \.sex, \.appearance, \.family, \.homelife, \.education, \.job
+        \.metaTarget, \.metaAwareness, \.metaOther, \.difficulty, \.setting, \.altWorld, \.crossover, \.location, \.scenario, \.timeShift, \.gender, \.incarnationMethod, \.overtakenIdentity, \.reincarnationType, \.twin, \.familyMember, \.sex, \.appearance, \.family, \.homelife, \.education, \.job, \.deviantForm, \.powerOrigin, \.shardType, \.shardRank, \.shardRelationship
     ]
     
     private static let arraysToCheck: [ReferenceWritableKeyPath<PlayerCharacter, [Item]>] = [
-        \.extraFamily, \.perks, \.drawbacks
+        \.extraFamily, \.perks, \.drawbacks, \.shardDeviancy
     ]
     
     // Item structs that have count
@@ -320,6 +327,9 @@ import SwiftUI
         print("Validating...")
         
         for item in deletedItems {
+            var removedTitles = [String]()
+            removedTitles.append(item.title)
+            
             for keypath in Self.itemsToCheck {
                 if let classItem = self[keyPath: keypath], let req = classItem.requirement {
                     if req.contains(item.title) {
@@ -330,6 +340,7 @@ import SwiftUI
                                 var orSegments = segment.split(separator: " or ").map { $0.trimmingCharacters(in: .whitespaces) }
                                 
                                 if orSegments.contains(item.title) && orSegments.count == 1 {
+                                    removedTitles.append(classItem.title)
                                     self[keyPath: keypath] = nil
                                 }
                                 
@@ -344,12 +355,14 @@ import SwiftUI
                                             }
                                         }
                                         if !reqFulfilled {
+                                            removedTitles.append(classItem.title)
                                             self[keyPath: keypath] = nil
                                         }
                                     }
                                 }
                             }
                         } else {
+                            removedTitles.append(classItem.title)
                             self[keyPath: keypath] = nil
                         }
                     }
@@ -368,6 +381,7 @@ import SwiftUI
                                     
                                     if orSegments.contains(item.title) && orSegments.count == 1 {
                                         if let index = self[keyPath: keypath].firstIndex(of: classItem) {
+                                            removedTitles.append(classItem.title)
                                             self[keyPath: keypath].remove(at: index)
                                         }
                                     }
@@ -384,6 +398,7 @@ import SwiftUI
                                             }
                                             if !reqFulfilled {
                                                 if let index = self[keyPath: keypath].firstIndex(of: classItem) {
+                                                    removedTitles.append(classItem.title)
                                                     self[keyPath: keypath].remove(at: index)
                                                 }
                                             }
@@ -392,11 +407,26 @@ import SwiftUI
                                 }
                             } else {
                                 if let index = self[keyPath: keypath].firstIndex(of: classItem) {
+                                    removedTitles.append(classItem.title)
                                     self[keyPath: keypath].remove(at: index)
                                 }
                             }
                         }
                     }
+                }
+            }
+            
+            // Exceptions and additional operations for specific items
+            if removedTitles.contains(where: { $0 == "Deviant"} ) {
+                deviantForm = nil
+                deviantRolledRandomly = false
+            }
+            
+            if removedTitles.contains(where: { $0 == "Cosmetic Shapeshift" }) {
+                if overtakenIdentity != nil || twin != nil || incarnationMethod?.title == "Drop-In" {
+                    sex = nil
+                    appearance = nil
+                    appearanceDesc = nil
                 }
             }
             

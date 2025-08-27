@@ -69,15 +69,6 @@ struct PerksView: View {
         .defaultScrollAnchor(.top)
         .contentMargins(30, for: .scrollContent)
         .searchable(text: $searchString)
-        .onChange(of: character.perks) { oldValue, newValue in
-            if oldValue.contains(where: { $0.title == "Cosmetic Shapeshift" }) && !newValue.contains(where: { $0.title == "Cosmetic Shapeshift" }) {
-                if character.overtakenIdentity != nil || character.twin != nil || character.incarnationMethod?.title == "Drop-In" {
-                    character.reset([\.sex, \.appearance])
-                    character.reset([\.appearanceDesc])
-                    try? modelContext.save()
-                }
-            }
-        }
         .onChange(of: character.deletedItems) {
             character.validateRequirements()
             try? modelContext.save()

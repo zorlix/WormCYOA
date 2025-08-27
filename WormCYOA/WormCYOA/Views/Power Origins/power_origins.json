@@ -1,0 +1,126 @@
+{
+    "powerOrigins": [
+        {
+            "title": "Shard",
+            "desc": "You get a Shard, a symbiotic piece of a great crystalline Entity.\nBelow, you will be able to select what Entity your Shard comes from, its specific benefits and limitations, and the 'ranking' of your Shard within the Entity.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/power%20origins/shard.webp"
+        },
+        {
+            "title": "Shardless",
+            "comment": "Well now... this is certainly the brave choice. Are you sure you want to face an overwhelmingly dangerous multiverse without the power of a Shard?",
+            "desc": "By choosing this option, this CYOA does not give you a Shard, you cannot take any powers in the Powers tab, and some drawbacks and perks are unavailable.\nThis does not mean you cannot still trigger or drink a Cauldron vial once you arrive in Worm.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/power%20origins/shardless.jpg"
+        }
+    ],
+    "shardType": [
+        {
+            "title": "Shard of the Warrior Entity",
+            "desc": "Your power comes from the Warrior Entity.\n**\\~ Personality Influence:** Your Shard may subtly push you toward conflict or have a more direct effect on your personality. However, this influence is often minimal or even absent if the Shard is satisfied with your proactive or conflict-driven actions.\n**+ Intuitive Grasp:** You will likely have a distinct and instinctive understanding of how to use your powers from the very beginning.\n**+ Energy Reserves:** Your Shard is robust and powerful. It definitely has enough energy to last for several centuries of active use.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/power%20origins/shard%20of%20the%20warrior%20entity.webp"
+        },
+        {
+            "title": "Shard of the Thinker Entity",
+            "desc": "Your power is a fragment of the Thinker Entity, whose network is now shattered. The nature of your Shard depends heavily on how it was sourced.\n**If sourced from a Natural Trigger:** The Shard will be 'live' and behave much like one from the Warrior Entity. It might have a direct, if subtle, influence on you and will be relatively intuitive to use.\n**If sourced from a Cauldron Vial:** The Shard is likely a 'dead' fragment, inert and without any instructions on how to affect you.\n**- Minimal Influence:** It is very unlikely to mess with your mind, but it also won't proactively help or hinder you. It is a tool, nothing more.\n**- A Gradual Discovery:** You will have less instinctive understanding of your power. Mastering it might be a long process of experimentation, and some of its aspects or applications may remain hidden for years.\n**\\~ Variable Energy:** The Shard's energy reserves are an unknown quantity. They could last for ages or be depleted within decades, depending entirely on how energy-hungry the power it provides is.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/power%20origins/shard%20of%20the%20thinker%20entity.webp"
+        },
+        {
+            "title": "Shard of the Loner Entity",
+            "desc": "Your power comes from the Loner Entity, a third Entity independant of the Warrior and Thinker.\n**\\~ Creative Influence:** This Shard is less likely to alter your personality directly. Instead, its influence manifests as creative 'nudges' or intuitive solutions it believes will help you. It has a more nuanced understanding of human psychology.\n**\\~ A Dynamic Partner:** The Shard's creativity and deep understanding of your needs make it a potent force. Depending on its disposition towards you (which you will determine below), it can be an exceptionally clever ally or a subtle and effective saboteur.\n**+ Unmatched Efficiency:** Loner shards are the most energy-efficient. Your power will have vast reserves and can likely last the longest of any type.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/power%20origins/shard%20of%20the%20loner%20entity.webp"
+        }
+    ],
+    "shardRanking": [
+        {
+            "title": "Peripheral Shard",
+            "desc": "These are the workhorses of the Cycle, broadcast in the trillions to gather a wide array of data. While the loss of any single Peripheral Shard is insignificant, they form the foundation of the Entity's research. They are functional, reliable, and essential to the Cycle as a whole, but are considered individually expendable.\nYou can choose **Tier 1** powers.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/power%20origins/peripheral%20shard.webp"
+        },
+        {
+            "title": "Strategic Shard",
+            "SPCost": 5,
+            "desc": "A clear step above the norm. Strategic Shards are important subsystems and tools the Entity relies on for specific, high-value tasks — like advanced combat analysis or environmental manipulation. The loss of a Strategic Shard would be a noticeable tactical disadvantage, hindering the Entity's mission in that area. They are not given out lightly.\nYou can choose **Tier 1** and **Tier 2** powers.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/power%20origins/strategic%20shard.webp"
+        },
+        {
+            "title": "Core Shard",
+            "SPCost": 15,
+            "desc": "This represents a fundamental aspect of the Entity's arsenal or primary operational functions — its ultimate weapons, key administrative hubs, or reality-defining trump cards. Under normal circumstances, an Entity would never deploy a Core Shard on a host. Or if it would, such a Shard would be heavily restricted. Its loss would be a crippling blow to the Entity, severely jeopardizing the entire Cycle. To receive one is unprecedented.\nYou can choose **Tier 1**, **Tier 2**, and **Tier 3** powers.",
+            "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/power%20origins/core%20shard.webp"
+        }
+    ],
+    "shardRelationship": [
+        {
+            "title": "Antagonistic",
+            "SPGain": 15,
+            "CPGain": 15,
+            "desc": "Your Shard, for some reason, doesn't like you. It sees you as a defective tool or a failed experiment. This will make it harder to control your powers. Sometimes, they might activate on their own at the worst moment possible. They might also not activate as they should when you most need them. Your Shard may even start engineering situations designed to replace you with a more suitable host.\nYou might be able to improve your Shard's view of you by being a good host, but it will take time."
+        },
+        {
+            "title": "Indifferent",
+            "desc": "Your Shard is a dispassionate observer. It provides the power as required and records the data. It offers no special assistance but applies no undue pressure. The symbiosis is purely functional.\nWarning: Your Shard might still grow to like or despise you depending on how you use the abilities it provides."
+        },
+        {
+            "title": "Supportive",
+            "SPCost": 7,
+            "CPCost": 15,
+            "desc": "A successful symbiosis. Your Shard views you as a prime specimen, a partner in data collection. It will creatively interpret your needs, grant you significant leeway in your power's application, and actively work to ensure its prize host survives and thrives.\nNote: At this point it'd be very hard for you to screw up your Shard's view of you. The only way it could happen would be if you stopped using your powers entirely."
+        }
+    ],
+    "shardDeviancy": [
+        {
+            "title": "Negentropy",
+            "SPCost": 10,
+            "desc": "Your Shard contains a secret the Entities searched for across galaxies: a true violation of entropy. It doesn't just store energy; it creates it. Your powers will never run dry, no matter how taxing or powerful they are. This fundamental break from the cycle's laws marks your Shard as an invaluable anomaly."
+          },
+          {
+            "title": "Pocket Shard",
+            "SPCost": 4,
+            "CPCost": 2,
+            "desc": "Unlike most Shards that reside on a distant, alternate Earth, yours is housed in a pocket dimension directly linked to your Corona Pollentia. This removes all range limitations; your powers function perfectly whether you're across the street or across the galaxy. The only way to lose them is the physical destruction of their anchor point in your brain."
+          },
+          {
+            "title": "The Conversation",
+            "SPCost": 4,
+            "CPCost": 4,
+            "desc": "You have a direct line to the entity within. Your Shard can communicate with you, not with words, but with direct transfers of data, intent, and imagery. While awake, this can be jarring and cause headaches until you both learn to moderate the flow. When you sleep, it can pull your consciousness into a shared dreamscape — a mental construct where you can interact with it more directly.\nWarning: You might not like what this does if you have an antagonistic relationship with your Shard."
+          },
+          {
+            "title": "Ghost in the Machine",
+            "SPCost": 3,
+            "CPCost": 3,
+            "desc": "Your Shard can directly manifest its intelligence through your power. It can take control of a minion, animate a projection, or even direct a swarm. While you lose direct control of the affected part of your power, you gain an autonomous, intelligent partner on the battlefield acting in concert with you.\nWarning: Having antagonistic relationship with your Shard might make this a little more problematic."
+          },
+          {
+            "title": "Uninhibited",
+            "SPCost": 10,
+            "desc": "Most Shards are heavily restricted, acting as passive tools. Yours is not. It has more freedom to interpret its function and directly influence the world through your abilities. This is a double-edged sword, heavily influenced by your relationship. A Supportive Shard might subtly alter a power's trajectory to ensure a hit or act on its own to save you from a fatal blow. A Antagonistic Shard, however, now has more leeway to make your powers malfunction at critical moments or 'creatively' interpret your commands to cause collateral damage."
+          },
+          {
+            "title": "Closed Communications",
+            "SPCost": 10,
+            "desc": "Your Shard's connection to the greater network is severed, allowing it to operate in complete isolation. This provides a powerful defense against abilities that rely on Shard-to-Shard coordination. Your Shard can no longer be co-opted or influenced by powers like Jack Slash's **[Broadcast]**, preventing it from being turned against you. While it may offer some protection against Trump powers that function by 'requesting' your Shard to shut down, other Trump abilities may just forcefully close your connection to your Shard. The Trumped the Trump perk in much safer bet. This also does not make you a universal blind spot. Powers that gather information by analyzing your brain and body language, like many precognitive and Thinker abilities, are unaffected. Likewise, Master powers that target your mind directly still work perfectly fine."
+          },
+          {
+            "title": "Synchronicity",
+            "SPCost": 2,
+            "CPCost": 2,
+            "desc": "The barrier between host and Shard is unusually thin. Your Shard doesn't just observe your emotions; it experiences them with you. This creates a deep, empathetic bond, allowing it to understand your intent and motivations on a fundamental level. While this doesn't directly alter your power's output, it is the foundation of a truly unique and profound relationship.\nWarning: Once again, this is affected by your relationship with the Shard. An antagonistic Shard might despise you for 'forcing' it to feel all those human emotions, while a supportive Shard might empathize with you even more."
+          },
+          {
+            "title": "Co-Pilot",
+            "SPCost": 10,
+            "desc": "Your Shard acts as a true partner. It provides 'gut feelings' about threats and opportunities, steering you toward your goals. You can cede partial or full control of your powers, allowing the Shard to manage them with inhuman precision—maintaining a shield while you focus on attacking, for instance. In extreme situations, you can even allow it to 'ride shotgun,' taking control of your body to execute complex maneuvers or fight on while you are stunned."
+          },
+          {
+            "title": "Nexus Shard",
+            "SPCost": 18,
+            "CPCost": 5,
+            "desc": "Your Shard is capable of forming a sub-network with the Shards of those you defeat or bring under your sway, making you its administrator. This manifests in numerous ways similar to the infamous **[Broadcast]** Shard, with the network actively working to fulfill your desires. For instance, the networked Shards may subtly influence their hosts to be more receptive to joining your team, or actively sabotage them during a conflict.\nAt its most potent, your network can analyze a complex problem you face and orchestrate a solution, even going as far as engineering a new Trigger Event through a bud to create the perfect power to solve it. You can also draw upon the network's [DATA] for subtle augmentations to your own powers, giving you an edge. This won't grant you new abilities outright, but a Tinker in your network might suddenly invent a device mimicking another's power, or a Brute might find they have a slight, specific resistance to a networked opponent's attacks."
+          },
+          {
+            "title": "No Blind Spots",
+            "SPCost": 13,
+            "desc": "This perk applies specifically to any precognitive or information-gathering abilities you possess. Blind spots? Not for you. Scion, Endbringers, Eidolon, Mantellum — your precognition can see them all, perceiving their actions and futures where others see only static. Your foresight functions perfectly against these otherwise-immune targets. Your power does have one final limitation: it cannot perceive those with the Blank perk."
+          }
+    ]
+}

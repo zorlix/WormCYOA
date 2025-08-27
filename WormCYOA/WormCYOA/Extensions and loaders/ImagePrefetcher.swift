@@ -20,6 +20,7 @@ final class ImagePrefetcher {
         let wormCharacter: [String: [Item]] = Bundle.main.decode("worm.json")
         let perks: [Item] = Bundle.main.decode("perks.json")
         let drawbacks: [Item] = Bundle.main.decode("drawbacks.json")
+        let powerOrigins: [String: [Item]] = Bundle.main.decode("power_origins.json")
         
         for item in difficulties {
             if let image = item.image, let url = URL(string: image) {
@@ -60,6 +61,14 @@ final class ImagePrefetcher {
         for drawback in drawbacks {
             if let image = drawback.image, let url = URL(string: image) {
                 tempArr.append(url)
+            }
+        }
+        
+        for (_,origins) in powerOrigins {
+            for origin in origins {
+                if let image = origin.image, let url = URL(string: image) {
+                    tempArr.append(url)
+                }
             }
         }
         
