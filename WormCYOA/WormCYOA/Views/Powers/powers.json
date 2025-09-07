@@ -1,0 +1,2069 @@
+[
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Mover"],
+        "details": {
+            "title": "Reaction",
+            "SPCost": 1,
+            "desc": "You now perceive and react to any stimulus in one-third of the time it would normally take you. This effect stacks with any other abilities that enhance your reflexes. For example, an average human's reaction time of 0.2 seconds would be reduced to a lightning-fast 0.067 seconds."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Shaker"],
+        "details": {
+            "title": "Minor Telekinesis",
+            "SPCost": 1,
+            "desc": "You can exert up to 5 newtons of force on objects within 50 meters. This force can be focused on a single object or distributed among multiple targets."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Shaker"],
+        "details": {
+            "title": "Alarm",
+            "SPCost": 1,
+            "desc": "You can 'record' any stimulus you perceive — a sound, a sight, a smell — and set it to 'replay' at a later time. The trigger can be anything, such as the passage of time or a specific emotional state. In other words, you can 'save' any stimulus you wish, and then you can experience it as many times as you desire.\nFor example, you could 'record' the sound of a rooster and have it play every 24 hours, or whenever you wish to wake up, or whenever you feel hurt."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Shaker"],
+        "details": {
+            "title": "Handmade",
+            "SPCost": 1,
+            "desc": "By touching an object, you can create a replica of it. This process causes physical strain proportional to the object's mass, and you can only replicate a volume of roughly 10 cubic centimeters per use. Replicas are limited to the complexity of a handmade object and cannot be used on Tinker-tech or other supernatural items."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Shaker", "Stranger"],
+        "details": {
+            "title": "Privacy",
+            "SPCost": 1,
+            "desc": "You can summon an intangible curtain that selectively reflects light and sound, creating a zone of perfect privacy.",
+            "subItems": [
+                {
+                    "title": "Tangibility",
+                    "synergy": "Minor Forcefield",
+                    "desc": "Your intangible curtains can now be made selectively tangible. While durable enough to block a simple punch, they can now be pushed, moved, or damaged like any physical object."
+                },
+                {
+                    "title": "Shaping",
+                    "synergy": "Minor Telekinesis; Precise Strike",
+                    "desc": "You can now freely move and shape your curtains, allowing you to bend them around objects or even form them into a mask that moves with your face."
+                },
+                {
+                    "title": "Senses",
+                    "synergy": "Finger Painting; Finger Food",
+                    "desc": "Your curtains can now affect all senses, allowing you to create fully immersive illusions. A projected image of a cookie, for example, would also carry its scent and warmth."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute"],
+        "details": {
+            "title": "Hysterical Strength",
+            "SPCost": 1,
+            "desc": "You can consciously tap into your body's full adrenal strength at any time, performing feats normally possible only in life-or-death situations. Using this power can strain your muscles and bones, but you are guaranteed to heal from such injuries without lasting complications.",
+            "subItems": [
+                {
+                    "title": "Shattered Limits",
+                    "synergy": "Pink Muscles; Black Bone",
+                    "desc": "Your Black Bone skeleton can now fully withstand the explosive force of your Pink Muscles. The natural mental and physical limiters that prevented you from using your full strength are gone, allowing you to exert maximum force without fear of self-inflicted fractures or tears.\nYour enhanced muscle fibers also grant durability, allowing you to deflect weapons or even stop low-caliber rounds simply by flexing. Despite this immense power, you retain complete control over your muscle output, letting you regulate your strength as the situation demands."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute"],
+        "details": {
+            "title": "Pink Muscles",
+            "SPCost": 1,
+            "desc": "Your muscles have evolved into a superior hybrid form, fusing the explosive power of fast-twitch fibers with the relentless endurance of slow-twitch fibers. This mutation grants you exceptional strength and stamina across all physical activities.\nRefined and densely packed, your musculature maximizes power without excess bulk. Yet, despite this immense strength, your dexterity and precision remain untouched, allowing for seamless, controlled movement."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute"],
+        "details": {
+            "title": "Black Bone",
+            "SPCost": 1,
+            "desc": "Your bones have become unnaturally dense and refined, granting them incredible durability capable of withstanding immense pressure and deflecting blades. The heightened rigidity of your skeleton also allows your muscles to exert far greater force without risk of fracture. If you wish, your bones can take on a black coloration."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute"],
+        "details": {
+            "title": "Countless Joints",
+            "SPCost": 1,
+            "desc": "Your skeleton is composed of thousands of micro-joints, allowing your limbs to behave like whips. This elasticity lets you strike at supersonic speeds, but since your durability is not increased, each full-power strike causes significant harm to your own body. A minor regenerative factor ensures your bones always heal correctly from this self-inflicted damage."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute"],
+        "details": {
+            "title": "Lung",
+            "SPCost": 1,
+            "desc": "Your lung capacity is increased fourfold, and your respiration is hyper-efficient, absorbing over 80% of the oxygen in the air you breathe. This enhanced oxygenation strengthens your body and grants you immunity to oxygen poisoning, allowing you to perform at your peak in any environment."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute"],
+        "details": {
+            "title": "Stiff",
+            "SPCost": 1,
+            "desc": "You can remain perfectly still for extended periods, suspending your need to breathe, eat, or sleep."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Breaker"],
+        "details": {
+            "title": "Icy Hot",
+            "SPCost": 1,
+            "desc": "You can alter your body's surface temperature anywhere from -50°C to 100°C (-58°F to 212°F) with no negative effects on yourself."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Breaker"],
+        "details": {
+            "title": "Vibration",
+            "SPCost": 1,
+            "desc": "You can vibrate any part of your body at up to supersonic speeds. This power does not protect you from the consequences of this vibration, such as friction or air resistance."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Master"],
+        "details": {
+            "title": "Hypnotist",
+            "SPCost": 1,
+            "desc": "You have an innate talent for implanting ideas. Through a mesmerizing voice or hypnotic gestures, you can cause people who interact with you to fall into a light trance, making them more pliable to your influence.",
+            "subItems": [
+                {
+                    "title": "True Hypnotist",
+                    "synergy": "Speaker; Colorful Eyes",
+                    "desc": "Your influence deepens, allowing you to issue unquestionable commands and partially alter a subject's consciousness. Your voice and gaze can capture anyone's attention, placing them in a semi-conscious state where they will carry out your orders without question and retain no memory of their actions. This power does not work on individuals with exceptionally strong willpower."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Tinker"],
+        "details": {
+            "title": "Handyman",
+            "SPCost": 1,
+            "desc": "Your mind subconsciously fills in the gaps when you design blueprints, as long as you possess the prerequisite knowledge to eventually reach the solution yourself. This power also makes it easier to learn engineering and programming.",
+            "subItems": [
+                {
+                    "title": "True Tinker",
+                    "synergy": "Jack of All Trades; Basic Tinker; Research And Development; Dwarf; A Spark of Genius (Girl Genius); Super System: Mechanic (Legendary Mechanic); The Tinker Toolbox or Progression Tree",
+                    "desc": "You are a prodigy in the tinkering process. Your ability to design and visualize technology is fluid and intuitive, instantly accounting for flaws you might have otherwise overlooked. Ideas come far more readily and easily, and you’ve gained an innate understanding and talent that allows you to creatively apply and develop your knowledge base, particularly in the practice of invention of new technologies.\nYour tinker cycle can be shortened by creating minor 'white-boxed' tools to rapidly speed up the construction process."
+                },
+                {
+                    "title": "Internalized Knowledge",
+                    "synergy": "Understanding; Gut Instinct; Organized Mind",
+                    "desc": "This ability has evolved from schematics to understanding everything. Your mind now subconsciously fixes false or otherwise incomplete ideas based on your knowledge. Not only will this also incorporate new knowledge into past ideas, knowledge, or thoughts, making it more complete, but it will also bring up past knowledge or ideas if the situation demands for it. This can range from schematics all the way to theories on people or even the fundamental forces of the universe."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Blaster"],
+        "details": {
+            "title": "Deadshot",
+            "SPCost": 1,
+            "desc": "You have an intuitive understanding of angles and trajectories, granting you nearly perfect aim. You can line up complex ricochet shots almost instantly, though you can still miss if your aim is physically thrown off."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Multitask",
+            "SPCost": 1,
+            "desc": "You can give your full focus to several things at once. The number of tasks depends on their mental complexity; you might hold two complex conversations at once, or perform a dozen minor physical tasks simultaneously. This does not grant you extra limbs to perform these tasks.",
+            "subItems": [
+                {
+                    "title": "Automated Deduction",
+                    "synergy": "Handyman; Bullet Time",
+                    "desc": "You can dedicate a separate stream of consciousness to subconscious calculations. When given a goal, this mental process will work to find a solution at an accelerated pace, using all your knowledge in the most efficient way possible, as if you were constantly under the effect of Bullet Time."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Rubber Ducky",
+            "SPCost": 1,
+            "desc": "You solve problems and understand concepts twice as fast when you speak your thought process out loud."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Bullet Time",
+            "SPCost": 1,
+            "desc": "You can accelerate your perception, making the world appear to move in slow motion. This allows you ample time to process information, strategize, and make decisions. While your body still moves at its normal speed, your mind operates orders of magnitude faster. This effect can be toggled, but overuse leads to severe headaches.",
+            "subItems": [
+                {
+                    "title": "V.A.T.S.",
+                    "synergy": "Deadshot",
+                    "desc": "The Vault-Tec Assisted Targeting System is a visually dynamic auto-targeting system that grants you pin-point accuracy with almost no effort. Simply make a conscious choice of what you want to hit, and your body moves with unnatural smoothness to aim and fire with dazzling speed and precision."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Gut Instinct",
+            "SPCost": 1,
+            "desc": "You can instantly sense the validity of an answer to any question you pose. Your gut will tell you if a conclusion is correct, incorrect, or only partially true. This works on information from any source, including your own intuition, but is more reliable when you have more context on the subject."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Hindsight",
+            "SPCost": 1,
+            "desc": "Your insight into past actions is enhanced, allowing you to identify your mistakes with exceptional clarity. Your mind automatically adjusts your future behavior to avoid repeating these errors, improving your decision-making over time. This power helps you learn from the past, but doesn't guarantee a flawless future.",
+            "subItems": [
+                {
+                    "title": "Independent Review (Power Creator Xenon)",
+                    "synergy": "Handyman; Bullet Time; Gut Instinct; Organized Mind; Understanding; Problem Solving; Attention to Detail; Papert's Principle",
+                    "desc": "You become instantly aware of any flaw or human error you make in a task, the moment you make it. Your mind will then never make that same mistake twice. This guarantees a flawless end product in any feat of design and exponentially minimizes errors in physical and intellectual tasks over time. It can be exploited to slowly but surely learn to perform tasks you are completely unfamiliar with through trial and error, such as high-level mathematics."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Striker"],
+        "details": {
+            "title": "Finger Painting",
+            "SPCost": 1,
+            "desc": "You can permanently change the texture and color of any non-living surface you touch. This effect can be undone at will."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Striker"],
+        "details": {
+            "title": "Precise Strike",
+            "SPCost": 1,
+            "desc": "You can exert a precise force on any surface you touch. The maximum force is based on your own strength, and the precision increases with contact time. A quick punch has the precision of a simple poke, while a minute of contact could allow for atomic-level manipulation."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Striker"],
+        "details": {
+            "title": "Optimal",
+            "SPCost": 1,
+            "desc": "Your touch can transform any raw ingredient used for creation (such as chemicals for a formula or metals for forging) into its most optimal state for the intended task."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Striker"],
+        "details": {
+            "title": "Heat Exchange",
+            "SPCost": 1,
+            "desc": "You can exchange the temperature between your body and any object you touch, cooling a hot coffee by heating your finger, for example. The speed of the exchange causes proportional physical strain."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Changer"],
+        "details": {
+            "title": "Hair/Nails",
+            "SPCost": 1,
+            "desc": "You can control the length and strength of your hair and nails, a process that allows for the growth of steel-hard claws or piano-wire-durable hair in minutes."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Changer"],
+        "details": {
+            "title": "Contortionist",
+            "SPCost": 1,
+            "desc": "You have inhuman flexibility, able to contort your body to fit into a space the size of your head.",
+            "subItems": [
+                {
+                    "title": "Spring",
+                    "synergy": "Sinew Coils",
+                    "desc": "Your body acts as a living tension coil. You can contort yourself to store kinetic energy like a loaded spring, then release it in a sudden burst of speed or power. A twisted torso becomes a whirling kick, and a compressed crouch can launch you skyward or let you ricochet off walls.\nThis comes with a risk: release too much energy at once, and you could lose control, straining muscles or even fracturing bones."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Changer"],
+        "details": {
+            "title": "Ritsuka",
+            "SPCost": 1,
+            "desc": "You can transform your gender and appearance to what you would have looked like if born the opposite gender, and switch back at will."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Trump"],
+        "details": {
+            "title": "A Word",
+            "SPCost": 1,
+            "desc": "You know when other parahumans are nearby and instantly receive a one-word summary of their power (e.g., 'Fire,' 'Teleportation,' 'Control')."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Stranger"],
+        "details": {
+            "title": "Weakling",
+            "SPCost": 1,
+            "desc": "People's initial impression of you is that you are weak and easily defeated. You can disable this effect, allowing them to form their own, unbiased conclusions."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute", "Breaker"],
+        "details": {
+            "title": "Power Nap",
+            "SPCost": 1,
+            "desc": "You can enter a state of hibernation at will. This state is four times more effective than normal sleep, allowing a full night's rest in just two hours. While hibernating, your subconscious mind remains alert to danger and will wake you at a predetermined time.",
+            "subItems": [
+                {
+                    "title": "Like a Log",
+                    "synergy": "Stiff",
+                    "desc": "When hibernating, your body shuts down all non-essential functions, drastically reducing your need for food, water, and oxygen. Your subconscious remains hyper-aware, absorbing details from your surroundings which you can recall upon waking.\nYour mind also processes complex problems during this state, often allowing you to wake with intuitive solutions to unresolved challenges."
+                },
+                {
+                    "title": "Split Mind",
+                    "synergy": "Multitask; Organized Mind",
+                    "desc": "You can split off a portion of your mind dedicated to sleeping, allowing the rest of your brain to function as if fully rested, 24/7. This satisfies any requirements for sleep that your other powers may have."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker", "Master"],
+        "details": {
+            "title": "Autopilot",
+            "SPCost": 1,
+            "desc": "You can place yourself under a self-Master effect to perform tasks on autopilot. You must create a mental 'script' for the task beforehand, and the quality of the performance depends on the thoroughness of the script.",
+            "subItems": [
+                {
+                    "title": "Thought Programming",
+                    "synergy": "Handyman",
+                    "desc": "You can create perfect, gapless instructions for your autopilot. These programs are so complete that your body can execute tasks as if fully conscious. However, these programs are not truly sentient and will not learn or adapt over time."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker", "Master"],
+        "details": {
+            "title": "Emotional Magnet",
+            "SPCost": 1,
+            "desc": "You can sense the predominant emotion of any sentient being in your line of sight. Furthermore, you can subtly influence this emotional state, guiding it from anger to fear, or from hate to happiness."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker", "Master"],
+        "details": {
+            "title": "Organized Mind",
+            "SPCost": 1,
+            "desc": "You have enhanced control over your own mind, allowing you to rewire it as you wish. Applications include perfect memory organization and recall, emotional regulation, and conscious management of your subconscious.",
+            "subItems": [
+                {
+                    "title": "Automated Power Management",
+                    "synergy": "Autopilot",
+                    "desc": "You can construct subconscious programs that utilize your powers in response to specific stimuli. For example, you could set a defensive power to activate if you fall unconscious, or a teleportation power to trigger when an ally calls your name and a destination."
+                },
+                {
+                    "title": "Brain Formatting",
+                    "synergy": "Noctis Cape",
+                    "desc": "When you sleep, your subconscious brain parses and organizes all information you received during the day, even fleeting sensory details you weren't consciously aware of. Skimming a book and then taking a nap is equivalent to having read and perfectly comprehended the entire text. Your mind's indexing is also enhanced, instantly providing you with all relevant information when you face a problem."
+                },
+                {
+                    "title": "Cognitive Language",
+                    "synergy": "Cypher; Handyman",
+                    "desc": "Your mind now continuously adapts and integrates any language you learn, optimizing its structure for efficiency. This can result in naturally encrypted thoughts, increased memory storage, and faster thinking speed."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Shaker", "Master"],
+        "details": {
+            "title": "Speaker",
+            "SPCost": 1,
+            "desc": "You have perfect control over your voice, allowing you to be a world-class orator, vocalist, or ventriloquist, with the ability to alter and project your voice to the limits of human ability and slightly beyond.",
+            "subItems": [
+                {
+                    "title": "Vocals",
+                    "synergy": "Vibration",
+                    "desc": "Your supernatural control over your vocal cords allows you to mimic any voice you've ever heard with perfect accuracy. You also have perfect pitch."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker", "Stranger"],
+        "details": {
+            "title": "Fitting In",
+            "SPCost": 1,
+            "desc": "You have a perfect instinct for navigating social circles. You can effortlessly blend into any group or situation, becoming a true social chameleon."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Tinker", "Changer"],
+        "details": {
+            "title": "Cosmetic Artist",
+            "SPCost": 1,
+            "desc": "You are a Tinker specializing in makeup, hygiene products, hairstyling, and general cosmetics."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Tinker", "Stranger"],
+        "details": {
+            "title": "Faker",
+            "SPCost": 1,
+            "desc": "You specialize in making convincing, non-functional fakes. This includes replica weapons, dummy bodies, and other props. While convincing to most observers, Thinkers and other Tinkers can detect their true nature. A fake gun will not fire."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute", "Thinker"],
+        "details": {
+            "title": "Painkiller",
+            "SPCost": 1,
+            "desc": "Your sense of pain is replaced by a light, undistracting tingling sensation, allowing you to operate at full capacity regardless of injury. You receive a different sensation, like an itch, if you are about to perform an action that would exacerbate an existing injury."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Blaster", "Striker"],
+        "details": {
+            "title": "Caustic Fluids",
+            "SPCost": 1,
+            "desc": "At will, you can cause your bodily fluids like spit and sweat to become caustic, causing mildly painful, short-term irritation to anyone they touch."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Striker", "Brute"],
+        "details": {
+            "title": "Unwavering Grip",
+            "SPCost": 1,
+            "desc": "Your grip is absolute. Nothing you hold can be knocked from your hand, taken from you, or unintentionally released unless you consciously choose to let it go.",
+            "subItems": [
+                {
+                    "title": "Grounded",
+                    "synergy": "Stiff; Finger Painting",
+                    "desc": "Your grip extends to the world around you. By touching a surface, you can make yourself immovable relative to that point. This also allows you to easily climb walls and hang from ceilings."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Changer", "Mover"],
+        "details": {
+            "title": "Chibi",
+            "SPCost": 1,
+            "desc": "You can shrink down into a 'fun-sized' version of yourself, proportionately decreasing your weight and strength but greatly increasing your speed and mobility."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Changer", "Brute"],
+        "details": {
+            "title": "Meathead",
+            "SPCost": 1,
+            "desc": "You can grow and increase your muscle mass, enough to roughly triple your base strength."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute", "Mover"],
+        "details": {
+            "title": "Surge",
+            "SPCost": 1,
+            "desc": "You can boost your strength, speed, and reaction time by a factor of five. This boost lasts only for a split second, costs stamina, and has a one-second cooldown."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Stranger", "Mover"],
+        "details": {
+            "title": "Stealth Mode",
+            "SPCost": 1,
+            "desc": "Your movements and clothing are unnaturally quiet. Most people will be unable to hear you unless you are in a full sprint or wearing something exceptionally loud like plate armor."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Tinker", "Thinker"],
+        "details": {
+            "title": "Public Relations",
+            "SPCost": 1,
+            "desc": "You specialize in creating designs that resonate with people. This grants you parahuman levels of skill in fashion, graphic design, and marketing, allowing you to make a powerful first impression.",
+            "subItems": [
+                {
+                    "title": "PR’s Dream",
+                    "synergy": "Garment",
+                    "desc": "You can imbue your creations with emotional resonance, allowing them to influence the perceptions of those who see or wear them. A suit you design could enhance charisma, while armor could instill courage. This helps the wearer embody the persona their attire represents."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker", "Mover"],
+        "details": {
+            "title": "Graceful",
+            "SPCost": 1,
+            "desc": "Your movements are unnaturally fluid and graceful, enabling you to effortlessly dodge attacks, maintain your balance in any situation, and perform extremely difficult acrobatic maneuvers."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Stranger"],
+        "details": {
+            "title": "Strange Blood",
+            "SPCost": 1,
+            "desc": "The moment your blood leaves your body, it becomes mundane and untraceable. This makes it useless for DNA tests, cloning, or any blood-related powers used by others."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute"],
+        "details": {
+            "title": "Genetic Template",
+            "SPCost": 1,
+            "desc": "You heal flawlessly. This power doesn't increase your healing speed, but it ensures your body's natural recovery processes are perfect. Wounds close without scarring, broken bones set perfectly, and even congenital issues like myopia will gradually correct themselves.",
+            "subItems": [
+                {
+                    "title": "Golden Body",
+                    "synergy": "Hysterical Strength; Pink Muscles; Black Bone; Lung; Reaction; Efficient Autonomic Systems; Waste Not Want Not; Contortionist or Spongey Organs",
+                    "desc": "Your body is physically perfect, combining immense strength, endurance, and agility without any trade-offs. You are biologically immortal, remaining in your peak condition indefinitely without aging or deteriorating.\nYou possess strength at the absolute peak of human potential, capable of lifting up to 4,000 kg (8,800 lbs). Your endurance is limitless, and your durability is exceptional, able to withstand low-to-medium caliber bullets. Your speed, agility, and reaction time are unmatched, and your movements are perfectly efficient.\nYour appearance reflects this perfection. Every feature is symmetrical and ideally sculpted. You are the embodiment of power and grace, an existence without physical flaw."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Understanding",
+            "SPCost": 1,
+            "desc": "Your mind's neuroplasticity is off the charts. You intuitively understand and comprehend new concepts at an incredible speed. What used to take you weeks to learn now takes hours, or even minutes.",
+            "subItems": [
+                {
+                    "title": "Swift Insight",
+                    "synergy": "Bullet Time; Gut Instinct; Organized Mind",
+                    "desc": "Your mind processes information at an accelerated pace. Your enhanced neuroplasticity, reliable gut instinct, and organized mind combine to grant you unparalleled cognitive prowess, allowing for seamless navigation through thought, perception, and decision-making."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute"],
+        "details": {
+            "title": "Water Breathing",
+            "SPCost": 1,
+            "desc": "Your lungs can now filter oxygen from water, allowing you to breathe in both fresh and saltwater as if it were air. This process also satisfies your body's daily need for water. You can handle water pressure 50% better than an average human, but polluted water is still dangerous. You also no longer have a gag reflex for liquids.",
+            "subItems": [
+                {
+                    "title": "Aquatic Lifestyle",
+                    "synergy": "Swimming; Blood Guidance; Lung; Spongey Organs",
+                    "desc": "You no longer just survive underwater; you thrive. You can swim through the ocean at double your top running speed without hindrance and are immune to aquatic toxins like chemicals and microplastics, which your body now quickly filters out.\nWater pressure is now merely an annoyance that can slow you down, with only the most extreme depths (over 4,000 meters) posing a true threat. This resilience makes you immune to the bends and allows you to leap from the water with your full momentum.\nYour eyes also adapt perfectly to the aquatic world, gaining a protective nictitating membrane (a third, horizontal eyelid). This grants you immunity to sudden flashes of light and the ability to see clearly in low-light depths.\nFinally, you possess an innate grasp of underwater construction, giving you the foundational knowledge to build a habitat, or with enough resources, even a city beneath the waves."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Striker"],
+        "details": {
+            "title": "John 2:1-11",
+            "SPCost": 1,
+            "desc": "With a touch, you can transform any liquid into any beverage you desire."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Clarity",
+            "SPCost": 1,
+            "desc": "Your mind gains a profound sense of clarity, improving your focus, memory, and creative output. Your thoughts flow from one to the next unhindered by distractions, making it impossible to lose your train of thought or forget a good idea. While this power doesn't increase your raw intelligence, it allows you to make the absolute most of the intellect you already possess.",
+            "subItems": [
+                {
+                    "title": "Comprehension",
+                    "synergy": "Rapid Learning; Noctis Cape; Organized Mind; Bullet Time; Handyman; Gut Instinct; Understanding",
+                    "desc": "Your mind constantly organizes all the knowledge you receive through all your senses, without the need for downtime and rest. For example — the moment you see a page in a book, it is imprinted into your memory with instant and perfect understanding of every bit of information. Your mind will also automatically extrapolate any missing information based on your knowledge, as well as correct false data."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker", "Brute"],
+        "details": {
+            "title": "Waste Not Want Not",
+            "SPCost": 1,
+            "desc": "You get the most out of everything. Your body extracts maximum nutrients from food, and you get the benefits of a full night's rest from less sleep. This efficiency applies to all resource management, from crafting to time management."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Stranger"],
+        "details": {
+            "title": "King Engine",
+            "SPCost": 1,
+            "desc": "You can make your heartbeat incredibly loud, up to 130 decibels. The stronger you are, the louder it can be. This effect is purely for intimidation and provides no other benefits. It can be toggled, but may activate on its own during moments of intense emotion."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Tinker"],
+        "details": {
+            "title": "Medieval",
+            "SPCost": 1,
+            "desc": "You are an expert in the techniques and materials used to create medieval technology, such as forged blades, catapults, and fortifications.",
+            "subItems": [
+                {
+                    "title": "Exotic Forgemaster",
+                    "synergy": "Interactable",
+                    "desc": "When tinkering, you can selectively treat any material as if it had the properties of iron or steel. This allows you to forge futuristic alloys using medieval methods or create swords of ice with the durability of steel. With time, you could even learn to forge light into armor or create blades from fire."
+                },
+                {
+                    "title": "Blast of the Past",
+                    "synergy": "Goa'uld",
+                    "desc": "You have access to all the skills and knowledge from medieval times. You can fight like a knight, practice herbal medicine, and navigate court politics like a diplomat. However, this knowledge is rooted in a medieval understanding of the world and may be outdated or incorrect by modern standards."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Striker"],
+        "details": {
+            "title": "Thwip!",
+            "SPCost": 1,
+            "desc": "You can shoot sticky, spider-web-like threads from your wrists. The amount you can produce depends on your stamina and caloric intake. The threads are useful for creating barriers, traps, or bindings."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Changer", "Brute"],
+        "details": {
+            "title": "Skin",
+            "SPCost": 1,
+            "desc": "You can manipulate the texture, color, density, and health of your skin. You could harden it for slight protection, change its hue for camouflage, or heighten its sensitivity, giving you a borderline parahuman sense of touch."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Changer"],
+        "details": {
+            "title": "Colorful Eyes",
+            "SPCost": 1,
+            "desc": "You can change the color and shape of your irises and pupils, and even make them shine faintly. While mostly cosmetic, this allows you to perfectly copy another person's retina to fool biometric scanners.",
+            "subItems": [
+                {
+                    "title": "Animalistic Ocular Variance",
+                    "synergy": "Flawless Ocular Donor",
+                    "desc": "You can replicate the unique ocular characteristics of any animal whose eyes you have studied. This could grant you the compound vision of an insect, the heat vision of a snake, or the tetrachromatic color perception of a mantis shrimp."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker", "Trump"],
+        "details": {
+            "title": "Dare to Be Stupid",
+            "SPCost": 1,
+            "desc": "When formulating a plan, you can prompt your power to provide a semi-plausible but incredibly stupid idea. If you commit to this idea, it becomes immune to most prediction-based Thinker abilities and has a higher chance of success depending on how intelligent your opponent is.",
+            "subItems": [
+                {
+                    "title": "I Can't Believe That Worked",
+                    "synergy": "Shamrock",
+                    "desc": "Your stupid ideas are now guaranteed to be at least as effective as a well-thought-out plan. The smarter your opponent, the more potent this 'luck' becomes, drastically increasing your chance of success. Against a logistical genius like Accord, your nonsensical plans might be nearly unstoppable. You are also a blind spot to all but the most powerful precognitive abilities."
+                },
+                {
+                    "title": "Weaponized Smoothbrain",
+                    "synergy": "I Don't Get It",
+                    "desc": "Your mind operates with an unshakable simplicity. Abstract concepts, illusions, metaphors, and indirect mental attacks fail against you because you interpret everything in its most literal sense. Direct mind control that bypasses interpretation still works, but any attempt to confuse or mislead you through psychological tricks is doomed to fail."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute", "Breaker"],
+        "details": {
+            "title": "Efficient Autonomic Systems",
+            "SPCost": 1,
+            "desc": "Your body's autonomic systems — like your liver, lungs, and immune response — are optimized for peak efficiency. Your body detoxifies itself at an accelerated rate, minor injuries and illnesses heal faster, and you require less sleep to feel fully rested.",
+            "subItems": [
+                {
+                    "title": "Refined Biology",
+                    "synergy": "Waste Not Want Not",
+                    "desc": "Your body operates at 99% efficiency, maximizing every biological function. Your stamina is nearly limitless, and you can even utilize unihemispheric sleep, allowing one half of your brain to rest while the other remains active, eliminating the need for full sleep. When you do sleep, one hour is enough to feel rested for a week."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Striker", "Thinker"],
+        "details": {
+            "title": "Book Osmosis",
+            "SPCost": 1,
+            "desc": "By touching a book, you can absorb its contents and gain a perfect understanding of the knowledge within. Absorbing information too quickly can cause headaches. If used while sleeping, the knowledge is stored subconsciously, accessible as instincts or sudden insights. This does not protect you from hazardous information."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Breaker", "Striker"],
+        "details": {
+            "title": "Clothes",
+            "SPCost": 1,
+            "desc": "Any outfit you wear grants you complete comfort, regardless of the circumstances. You could hike for hours in high heels or wear a winter coat in the desert without discomfort. Your attire will never hinder your movement. This does not apply to the protective qualities of armor, only its comfort."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute", "Changer"],
+        "details": {
+            "title": "Sharp Teeth",
+            "SPCost": 1,
+            "desc": "Your teeth are as strong as titanium and sharp as razors. You can alter their shape, with their default appearance being shark-like. Your oral cavity is equally durable, preventing you from accidentally cutting your own mouth.",
+            "subItems": [
+                {
+                    "title": "Strong Jaws",
+                    "synergy": "Contortionist; Hysterical Strength",
+                    "desc": "Your jaw muscles and structure are enhanced to complement your teeth, granting you an incredible bite force and a wider range of motion. You could easily crush bricks in your mouth."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Cypher",
+            "SPCost": 1,
+            "desc": "You are a natural hyper-linguist. A subsection of your brain is dedicated to rapidly storing and processing all forms of language you encounter, including verbal, written, and body language. This doesn't grant instant understanding, but massively accelerates the learning process.",
+            "subItems": [
+                {
+                    "title": "Babel²",
+                    "synergy": "Babel",
+                    "desc": "You have mastered every known language and can create new ones with a mere thought. You can speak to multiple people at once, with each person hearing you in their native tongue. This effect is so potent that even deaf individuals can understand you without sign language."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute", "Master"],
+        "details": {
+            "title": "Creeping Hand",
+            "SPCost": 1,
+            "desc": "You can detach your hands at will, and they continue to function as if attached. Your body will regrow new hands over the course of a few weeks.",
+            "subItems": [
+                {
+                    "title": "Tenome",
+                    "synergy": "Flawless Ocular Donor",
+                    "desc": "You can implant functional eyes into your detached hands, granting you additional points of view. The time it takes to regrow both hands and eyes is halved."
+                },
+                {
+                    "title": "Flying Hand",
+                    "synergy": "Minor Telekinesis",
+                    "desc": "Your detached hands can now move freely through the air. They do not have much force behind their movements and cannot lift anything heavier than a wrench."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker", "Shaker"],
+        "details": {
+            "title": "Bane of Paperwork",
+            "SPCost": 1,
+            "desc": "You have defeated the greatest threat to any bureaucracy: paperwork. No matter the volume, you can complete any amount of paperwork in 30 minutes, with the quality of someone who dedicated their full knowledge and abilities to the task.",
+            "subItems": [
+                {
+                    "title": "Lawyer from Hell",
+                    "synergy": "Lawyer",
+                    "desc": "Your legal knowledge expands to include all the laws of whatever governing body you are currently under, from a city to a star system. You also intuitively know every loophole and trap within those laws."
+                },
+                {
+                    "title": "Legalese",
+                    "synergy": "Cypher; Understanding",
+                    "desc": "Your ability to complete paperwork now extends to all forms of legalese. Every document you create is legally foolproof, with no loopholes for any lawyer — or devil — to exploit."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker", "Master"],
+        "details": {
+            "title": "What, You Egg?",
+            "SPCost": 1,
+            "desc": "You are a savant of insults. Your taunts are astonishingly accurate, always hitting where it hurts emotionally. You have no direct control over how a person will respond; one might break down sobbing while another flies into a blind rage."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker", "Brute"],
+        "details": {
+            "title": "Flawless Ocular Donor",
+            "SPCost": 1,
+            "desc": "You have perfect 20/20 vision. Your eyes can regenerate from any damage and have perfect graft tolerance as transplants. You can also painlessly detach your eyes, which will remain functional and regrow within a week.",
+            "subItems": [
+                {
+                    "title": "Multiple POVs",
+                    "synergy": "Third Person POV",
+                    "desc": "Each of your eyes, attached or not, can generate its own third-person perspective. You can only perceive through one point of view at a time, but you are subconsciously aware of the sensory input from all of them."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute"],
+        "details": {
+            "title": "Blood Guidance",
+            "SPCost": 1,
+            "desc": "You have precise control over the flow of blood within your body. This allows you to modify your heart rate, make wounds scab instantly, redistribute body heat, or even force toxins out of your bloodstream.",
+            "subItems": [
+                {
+                    "title": "Favourite of Landsteiner",
+                    "synergy": "King Engine; Strange Blood; Caustic Fluids",
+                    "desc": "Your bloodstream has become a weaponized corrosive medium. You can project your caustic blood with pinpoint accuracy up to dozens of meters away. Your heartbeat generates powerful vibrations that enhance blood flow, granting temporary bursts of superhuman strength and speed. The faster your heart beats, the quicker you replenish your blood supply."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Gitchy Feelin'",
+            "SPCost": 1,
+            "desc": "You have a minor but reliable danger sense. It manifests as a brief, uncomfortable sensation, warning you of a negative event that will occur within the next six hours. The intensity of the feeling does not correlate to the severity of the event, so it could be warning you of anything from an Endbringer attack to a heated argument. When the event occurs, you will know it was the one you were warned about.",
+            "subItems": [
+                {
+                    "title": "Closing The Gap",
+                    "synergy": "Sixth Sense",
+                    "desc": "Your danger sense can now help you infer what the 'Gitchy Feelin' is warning you about. As the forewarned event draws closer, your sense of danger will grow heavier and more intense, peaking within the final hour."
+                },
+                {
+                    "title": "Half Remembered Echoes",
+                    "synergy": "Gut Instinct",
+                    "desc": "When warned by your 'Gitchy Feelin', you experience fleeting moments of déjà vu. These moments grow stronger and more frequent as the event approaches, locking you into an eerie certainty that you've lived this moment before. This doesn't reveal the future, but it sharpens your instincts, helping you sense if a choice feels right or wrong."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Problem Solving",
+            "SPCost": 1,
+            "desc": "Your ability to solve problems is increased tenfold. You process information and evaluate options at incredible speed, analyzing a problem and running through dozens of potential solutions in seconds to find the most viable path."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute"],
+        "details": {
+            "title": "Biocompatibility",
+            "SPCost": 1,
+            "desc": "Your genetic makeup is malleable, allowing you to act as a universal donor and recipient for blood transfusions and organ transplants without fear of rejection. This works with any species, and even allows you to have hybrid children with races that are normally biologically incompatible.",
+            "subItems": [
+                {
+                    "title": "Godrick the Grafted Jr.",
+                    "synergy": "Full Body Detachment",
+                    "desc": "You can now attach foreign body parts or organs onto yourself, and they will integrate seamlessly, no matter how alien. If the part came from a superhuman, you may gain boons from it. You can have only one brain. At any time, you can trigger a process to revert your body to its original state, which takes up to a week."
+                },
+                {
+                    "title": "Guided Evolution",
+                    "synergy": "Type: Humanity",
+                    "desc": "When you graft a new body part onto yourself, your DNA will assimilate its positive traits and gradually spread them to the rest of your body. This allows you to achieve any mutation with the right biological template. You can also reverse any changes to your biology at will."
+                },
+                {
+                    "title": "Regenerative Transfusion",
+                    "synergy": "Genetic Template; Hysterical Strength; Guided Growth; Meathead or Hair/Nails",
+                    "desc": "Any organ transplant or blood transfusion you provide to others grants them a temporary, high-speed healing factor. In a pinch, you can apply your blood to external wounds or have someone drink it to heal internal injuries, though these methods are less effective. If you possess the Efficient Autonomic Systems power, your blood also supercharges their immune system, allowing them to fight off diseases and infections their system could not handle on its own."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Knowledge Condensation",
+            "SPCost": 1,
+            "desc": "Your mind can condense up to an hour of a specific experience — a memory, a piece of knowledge, or a skill — into a physical crystal. This process takes one second for every minute of information stored. The experience is wiped from your mind, but can be regained by someone (including you) consuming the crystal. Keep in mind that since the time limit is one hour, any condensed skills will be rudimentary at best.",
+            "subItems": [
+                {
+                    "title": "Managed Knowledge",
+                    "synergy": "Organized Mind",
+                    "desc": "Your control over the condensation process is now far more precise. You can store multiple memories in a single crystal, customize how the knowledge is presented to the recipient, or even combine several skills into a more versatile, purpose-built version. While you are still limited to one total hour of condensed experience per crystal, with this upgrade you now retain the memories and skills that you crystallize."
+                },
+                {
+                    "title": "Improved Condensation",
+                    "synergy": "Power Nap; Bullet Time",
+                    "desc": "By combining mental hibernation with accelerated thought, you can now condense massive amounts of information while you sleep. There is no longer a limit to the storage size of a crystal created this way, and the process is hyper-efficient, condensing one hour of information for every second you are napping."
+                },
+                {
+                    "title": "Crystal Clear",
+                    "synergy": "Clarity; Cypher",
+                    "desc": "Your clarity of thought and innate grasp of communication allow you to greatly increase the quality of your condensed knowledge. Anyone consuming your crystals will perfectly understand the information within, regardless of their background or prior experience. This refinement also allows for a much higher concentration of data, letting you store up to ten times the information in a crystal of the same size."
+                },
+                {
+                    "title": "Download",
+                    "synergy": "Book Osmosis",
+                    "desc": "You can now channel external information directly into a knowledge crystal without first having to learn it yourself. This data can come from any source — digital media, a book, or even a living being — as long as you have ownership of the information or the explicit consent of the person."
+                },
+                {
+                    "title": "Display",
+                    "synergy": "Alarm",
+                    "desc": "Instead of being consumed, a crystal can now be used to generate a detailed illusion that replays the experience within in real time for others to see. Once a crystal is used to create a display, its knowledge is expended and it cannot be used again for another purpose."
+                },
+                {
+                    "title": "Fuse",
+                    "synergy": "Mapright",
+                    "desc": "By touching two crystals together, you can merge them into a single, combined crystal. The quality of the fusion is higher if the two pieces of knowledge are closely related. However, if a crystal being fused was itself the result of a previous fusion, its contribution to the new crystal suffers a 20% penalty."
+                },
+                {
+                    "title": "Skill Crystals",
+                    "synergy": "Über",
+                    "desc": "You can use other powers that grant temporary, instantaneous skill mastery to create a crystal of that skill. This allows you to condense a highly refined technique into a crystal, bypassing the normal one-hour time limit. Note that if the source power only grants mastery of a specific technique (like how to throw a perfect punch) rather than a complete skill set, the crystal will reflect that limitation."
+                },
+                {
+                    "title": "Schematics",
+                    "synergy": "Handyman",
+                    "desc": "Your talent for creating mental blueprints allows you to insert a 'how-to' guide for a simple piece of Tinker-tech into a crystal. This is extremely limited; you can only include a single, non-complex component (e.g., an engine part, but not the whole engine). The resulting tech is equivalent in complexity to a 1 SP Tinker power, though other addons to Knowledge Condensation may increase this limit slightly."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Changer"],
+        "details": {
+            "title": "Guided Growth",
+            "SPCost": 1,
+            "desc": "You can guide your body's natural growth to copy mundane physical features from anyone you touch, such as hair color, height, or even immunities. Larger modifications require more time and calories, often taking months or years to fully manifest. This can only copy from those that are of the same species as you.",
+            "subItems": [
+                {
+                    "title": "Biocompatibility",
+                    "synergy": "Biocompatibility",
+                    "desc": "You are no longer restricted to your own species, allowing you to copy features from any mundane organism you touch."
+                },
+                {
+                    "title": "Growth Override",
+                    "synergy": "Hysterical Strength; Genetic Template; Meathead or Hair/Nails",
+                    "desc": "You can now force your body to regenerate and grow at rapid rates, at the cost of immense physical strain and calorie consumption."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute", "Thinker"],
+        "details": {
+            "title": "Solar",
+            "SPCost": 1,
+            "desc": "While you are stationary in direct sunlight, your body and mind are invigorated. This provides physical sustenance, quickens your metabolism, enhances regeneration, and improves mental clarity and willpower."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker", "Trump"],
+        "details": {
+            "title": "HUD",
+            "SPCost": 1,
+            "desc": "You can summon a mental Heads-Up Display that shows all of your current powers and their upgrades. You can only observe this information, not interact with it."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Attention to Detail",
+            "SPCost": 1,
+            "desc": "You are exceptionally perceptive, noticing the smallest details nearly instantly and recalling them with perfect clarity. This power only helps you notice details; making deductions from them is still up to you.",
+            "subItems": [
+                {
+                    "title": "Watchmaker",
+                    "synergy": "Problem Solving; Papert's Principle; Organized Mind",
+                    "desc": "Your mind has evolved into a perfect analytical engine, capable of deconstructing any system—be it a machine, a social dynamic, or a battlefield—into its fundamental components. You don't just see details; you instantly comprehend their significance and long-term implications, allowing you to spot weaknesses, opportunities, and the most efficient path forward with near-supernatural clarity. Crucially, your mind also optimizes its own thought processes in real-time, constantly refining how you analyze and apply knowledge to make your decision-making nearly flawless.\nThis analytical prowess extends to any field. In combat or social situations, you are always several moves ahead, able to predict actions, devise counterstrategies on the fly, and orchestrate long-term plans with ruthless efficiency, adapting faster than your opponents can possibly react."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Affection Meter",
+            "SPCost": 1,
+            "desc": "You can see a visual representation of how much affection or general positivity a person feels toward you. You can customize the format (gauges, numbers, auras) and observe how your actions cause the value to increase or decrease.",
+            "subItems": [
+                {
+                    "title": "Ideal Route",
+                    "synergy": "Attention to Detail; Hindsight",
+                    "desc": "You possess a mental notebook that automatically and meticulously records everything you learn about the people you interact with. It tracks their preferences, dislikes, habits, and even the subtlest emotional shifts in response to your actions. This profile grows more detailed over time, creating a perfect psychological model of each individual.\nAt will, you can activate 'Ideal Route' mode for a chosen person. The power will then use the data from your mental notebook to guide your behavior, subtly adjusting your words and actions to align with their preferences. This ensures you avoid social missteps and consistently present yourself as their 'ideal type,' allowing you to forge a perfect connection."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "The Perfect Shot",
+            "SPCost": 1,
+            "desc": "Whenever you are being visually recorded, you gain an awareness of the camera's perspective. You can perceive how the shot will turn out (good, bad, or perfect), allowing you to adjust your pose to ensure you are always captured in the best possible way."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Third Person POV",
+            "SPCost": 1,
+            "desc": "You can generate a third-person perspective centered on yourself, much like in a video game. This view can be zoomed out up to five meters and is always focused on you, looking in your direction. While it cannot pass through solid ground or thick walls, it can clip through thin surfaces if you press against them.\nYou perceive this view alongside your normal senses without difficulty, and it remains functional even if you are blinded or deafened, providing its own sight and hearing. Furthermore, this perspective can act as a vector for any other sensory powers you possess, allowing you to use them from a different angle."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Physical Profile",
+            "SPCost": 1,
+            "desc": "You can access a complete, real-time diagnostic of your own body, which you perceive mentally as if navigating a complex series of sub-menus. The overview can show broad stats like your maximum speed and lifting strength, while deeper menus reveal incredibly specific data, such as your current blood cell count or the metabolic processes in your kidneys. The information is far more detailed and accurate than any mundane test and is always up-to-the-second, reflecting only your body's current state."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Indirect Oracle",
+            "SPCost": 1,
+            "desc": "By touching an object, you can perceive its sensory timeline (smell, touch, taste) for up to an hour into the past or future. This would allow you to sense if an object has recently been in a distinct environment, like a sewer or a landfill."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Tinker", "Stranger"],
+        "details": {
+            "title": "Skinbelt",
+            "SPCost": 1,
+            "desc": "Your body has natural folds of skin that function as multi-use pockets, allowing you to hide a variety of small items on your person with easy storage and retrieval."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Striker", "Thinker"],
+        "details": {
+            "title": "Diagnostic",
+            "SPCost": 1,
+            "desc": "With a single touch, you can instantly diagnose any ailment, wound, or toxin affecting a person's body. This provides a complete understanding of the condition, its duration, and potential complications, but does not reveal a cure. This also works on the recently deceased to determine the cause of death."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Shaker"],
+        "details": {
+            "title": "Badass Aura",
+            "SPCost": 1,
+            "desc": "The world itself acknowledges your power. You generate a variety of minor, purely cosmetic environmental effects that reflect your mood and presence — the ground might tremble as you walk, or the sky might darken with your anger. You cannot turn this power off, but you can scale it down.",
+            "subItems": [
+                {
+                    "title": "I am the Storm",
+                    "synergy": "SFX",
+                    "desc": "The addition of sound effects makes your cosmetic aura even more impressive. The rumble of your footsteps or the distinct charging sound of your signature attack makes your presence more intimidating and satisfying. Even your mundane actions carry more weight."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Papert's Principle",
+            "SPCost": 1,
+            "desc": "Rather than learning new information faster, your mind now constantly works to optimize how you use what you already know. It intuitively recognizes patterns, finds new connections between concepts, and restructures your thoughts and experiences into more effective mental systems, improving processes that were previously disjointed. While this power doesn't increase your raw intelligence, it helps you maximize your mental potential, leading to faster growth and greater efficiency in everything you do."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Eye Measurement",
+            "SPCost": 1,
+            "desc": "You can instantly and perfectly determine the exact measurements of any object you look at. The data is transmitted to your mind in your preferred unit system."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Flow State",
+            "SPCost": 1,
+            "desc": "You are always in the 'flow state,' a zone of focus and clarity where your mind and body operate in perfect conjunction. Whether you’re solving problems, fighting someone, or cooking, you’re always functioning at the peak of your natural abilities. Distractions fade away, hesitation disappears, and every action feels exact and precise.\nYou won’t surpass your physical or mental limits, but you’ll always perform at 100% of what you’re truly capable of, and no less. In any situation, you’re at your best. However, this does *not* make you better at your given talents; you’re simply doing your best, so you will have to train to become *the* best.",
+            "subItems": [
+                {
+                    "title": "Locked In",
+                    "synergy": "Papert's Principle",
+                    "desc": "At will, for ninety minutes a day, you can *'Lock In'*. When *Locked In*, the boost from Flow State is expanded to include your powers and more abstract capabilities, such as learning speed and strength.\nAdditionally, all of your attributes that have been boosted by Flow State and Locked In are improved by 20%.\nYou can spread out the activation period, such as *Locking In* for ten minutes and using the rest later, with no limit to how much you spread it over the day.\nNote: *Locking In* still doesn't improve your abilities beyond your own maximum potential; for example, you won't suddenly be able to lift the most a human can, but you will be able to lift the absolute most for your current physical condition."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Shaker"],
+        "details": {
+            "title": "Shadow Puppet",
+            "SPCost": 1,
+            "desc": "You possess a supernatural talent for creating shadow puppets. You don't even need to move your hands — just think of whatever you want, and the shadows will form it with ease. You still need to use your hands as a focus, of course.",
+            "subItems": [
+                {
+                    "title": "Autonomous Shadow",
+                    "synergy": "Body Language",
+                    "desc": "You're not limited to just your hands; your entire body can be used as a focus and, by extension, your own shadow. Furthermore, you can be far more creative than simply animating your entire shadow — you can split parts of it apart, and those pieces can form new shapes of their own.\nYour only limit is that your shadow stays bound to wherever it is cast."
+                },
+                {
+                    "title": "Shadow Show",
+                    "synergy": "Body Language; Dramatics or Magician or Presentation",
+                    "desc": "All shadows within your vicinity are now your stage to control. They can slither and jump across surfaces with serpentine grace, form horrifying glares, or create anything else you can think of.\nThe only thing stopping you from becoming a true campfire story is the lack of auditory cues, which would need to come from your other powers."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute"],
+        "details": {
+            "title": "Minor Forcefield",
+            "SPCost": 1,
+            "desc": "You are surrounded by a thin, skintight, invisible forcefield that forms a protective barrier. While it offers some defense, the field is delicate. It can absorb and completely nullify the force of a standard punch. When subjected to impacts stronger than a punch, the field will only partially disperse the impact across the hit area while creating a temporary hole. This means you still take damage, but it is spread out, much like the effect of a bulletproof vest. The stronger the force of the hit, the less effective this dispersion becomes. The holes repair themselves rapidly, healing at a rate of approximately five square inches per second."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Changer", "Mover"],
+        "details": {
+            "title": "Wings",
+            "SPCost": 1,
+            "desc": "You now have wings on your back that are proportional to your body size. You may choose their appearance, but only once before their initial creation. You can’t fly with them, but you can glide. The wings are made of thin but powerful muscle and bone and can fold into your body. The wings heal at a similar rate to any other limb, so if they are cut off, they cannot regrow with this power alone. They can’t fold up if heavily injured, and if they are injured while retracted inside your body, they will be forced out."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker", "Mover"],
+        "details": {
+            "title": "Cat’s Landing",
+            "SPCost": 1,
+            "desc": "You always land on your feet. Even if someone knocks you off balance or pushes you, you will always land on your feet. Even if you are upside down and only an inch off the ground, you will flip over and land safely. This does not prevent you from breaking your legs from the landing. If you are launched at a wall, you can choose to temporarily count the wall as your landing spot, allowing you to hit it feet-first."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute"],
+        "details": {
+            "title": "Muscular Growth",
+            "SPCost": 1,
+            "desc": "Your muscles grow stronger and more durable at an accelerated rate, becoming denser without increasing in size. As you exert yourself, your muscles adapt, improving your stamina and allowing you to perform demanding tasks for longer periods without fatigue. This power makes you more resilient to physical strain, increasing both your strength and endurance over time, but it comes with higher maintenance, requiring more nutrition to sustain.",
+            "subItems": [
+                {
+                    "title": "Muscle Head’s Skill",
+                    "synergy": "Understanding",
+                    "desc": "You have an unparalleled mastery of physical movement. Your understanding of body mechanics, coordination, and technique is near-instantaneous, allowing you to absorb and master any physical skill — from martial arts and sports to precision-based tasks like surgery or marksmanship — in record time. If you see it, you can learn it. If you practice it, you perfect it.\nYour muscular adaptation now works in harmony with your accelerated learning, ensuring that your body physically adapts as quickly as your mind. Movements that would normally take years of training to refine become second nature in days, even hours. When learning a new skill, your muscles optimize themselves for the act, ensuring that every action is backed by a body perfectly tuned for the task.\nAdditionally, your muscle memory is enhanced, allowing you to recall and execute learned movements flawlessly, even under extreme stress. You don’t just remember how to perform a technique — you internalize it, making it feel as natural as breathing."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Breaker"],
+        "details": {
+            "title": "Wasteless",
+            "SPCost": 1,
+            "desc": "Your body no longer needs to sweat or produce waste. As such, processes that would have required them are now handled by your power; for example, your temperature is constantly adjusted to what it would have been if your body still produced sweat.\nThis also extends to any organism in your body, which means you get no eye crust and your teeth won't decay."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Stranger"],
+        "details": {
+            "title": "Internal Intangibility",
+            "SPCost": 1,
+            "desc": "You can selectively cause any foreign object inside your body to become intangible. This could allow you to put an apple in your mouth and store it for later consumption or swallow a sword for a magic trick. Objects maintain their position relative to your center of mass while intangible.\nYou also gain a basic spatial sense of what is currently inside your body.",
+            "subItems": [
+                {
+                    "title": "Internal Manipulation",
+                    "synergy": "Minor Telekinesis",
+                    "desc": "You can now telekinetically move objects around inside your body, allowing you to regurgitate them or even eject them through your skin."
+                },
+                {
+                    "title": "Organ Storage",
+                    "synergy": "Full Body Detachment",
+                    "desc": "You are able to store your body parts within one another, such as storing a spare leg in your torso, though it may take time to absorb or extrude them.\nThis also grants you the ability to grow spare limbs even if you currently have all of yours attached, allowing you to always have bodily autonomy without sacrificing your potential number of limbs."
+                },
+                {
+                    "title": "Organ Transportation",
+                    "synergy": "Full Body Detachment; Golem",
+                    "desc": "You may treat your projections as part of your own body, allowing you to move your limbs through them to interact with things on the other side. This requires you to keep your core organs on your side, so unless you have multiple torsos, you are not able to fully travel via projection."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute"],
+        "details": {
+            "title": "Orange Bone Marrow",
+            "SPCost": 1,
+            "desc": "Your bone marrow has radically changed, becoming densely packed with essential materials and serving as both a reservoir for energy and a powerhouse for cellular regeneration. It's able to store vast amounts of nutrients for times of need, even allowing for rapid bursts of strength and stamina in a pinch. Additionally, your red and white blood cell production has been greatly reinforced, bolstering your immune system to the point where most infections struggle to take hold before being eradicated. This, however, doesn't make you immune to illness.\nThis shift has also triggered a surge in stem cell production, subtly enhancing your body's natural healing and granting a mild but noticeable boost to regeneration. Altogether, these enhancements make you significantly more resilient and durable — though at the cost of increased body mass, making you noticeably heavier than before."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute", "Stranger"],
+        "details": {
+            "title": "Stomach Storage",
+            "SPCost": 1,
+            "desc": "With the power of an endless stomach, you can eat without limits. No matter how much you consume — whether it’s a whole buffet or mountains of snacks — you’ll always feel satisfied and never uncomfortably full. Your digestive system has been altered to store excess nutrients and calories indefinitely, completely digested and ready for use when needed. You won't get fat and will only feel hungry when your reserves start running low.\nNote: This power only applies to food you can already eat, not things outside your capability to consume."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Stranger"],
+        "details": {
+            "title": "Voices Are Like Onions",
+            "SPCost": 1,
+            "desc": "Your vocal cords have mutated, allowing you to speak in more than one voice simultaneously without expending any more breath than you usually do. These voices can be the same or completely different from one another, provided you have the vocal range. Initially, your soft limit is two to three voices speaking in unison; anything more risks damaging your throat.\nEventually, with time and practice, you will be able to use more voices simultaneously and even have them speak different sentences.",
+            "subItems": [
+                {
+                    "title": "Layers Upon Layers of Processing Power",
+                    "synergy": "Rubber Ducky; Parallel Processing",
+                    "desc": "The workload of having a number of voices, each saying something different, is no longer so impossible. With this, you can delegate a thought process to one of your voices, making the task of having them say different things almost as easy as breathing.\nAll of your voices with delegated lines of thought count towards Rubber Ducky when speaking their respective thought processes out loud. While it works as normal when your voices are figuring out different things, focusing more than one of them on the same subject will link them together. This increases the overall multiplier of how fast those lines of thought figure things out (i.e., one voice by itself is x2, two voices on the same thing is x4, three is x6, and so on). Any voices involved must speak out loud to contribute towards the multiplier."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Dialogue",
+            "SPCost": 1,
+            "desc": "When you’re faced with a situation where you don’t know what to say, you can activate this power, which will present you with six possible responses. Time slows to one-tenth of its normal speed while you make your decision, giving you plenty of time to think without pressure.\nEach of these six responses will be distinct. Two of them are neutral — they won’t bring you any significant benefits, but they also won’t cause any harm. Another two will lead to positive outcomes, offering different types of rewards. The last two will result in negative consequences, which could vary from minor setbacks to more serious costs.\nYou won’t be able to tell which response falls into which category. The options appear equally valid, leaving you to rely on your judgment and instincts to decide. Additionally, some options won't stay available forever. If you take too long to choose, certain responses will disappear, limiting your choices and increasing the risk.\nThe effects of your chosen response depend on the situation. It could change how someone sees you, influence decisions, or trigger unexpected events.\nOnce you select an option, your body will automatically say or do it without hesitation.\nYou can use this power as many times as you want. There’s no cooldown or cost beyond the inherent risk of making the wrong choice."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute"],
+        "details": {
+            "title": "Spongey Organs",
+            "SPCost": 1,
+            "desc": "Your organs have become hardier and more durable. The soft flesh inside you has become harder to tear, instead stretching and deforming in response to trauma before returning to its shape. Even when damaged, they are quicker to heal and less prone to disease. Their higher limits mean they can be pushed much further than normal, increasing things like your alcohol tolerance. You are consequently more resistant to the forces of inertia, able to handle speeds that would turn normal organs into soup."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Striker"],
+        "details": {
+            "title": "Finger Food",
+            "SPCost": 1,
+            "desc": "You can permanently change the taste and smell of any object you touch, such as making salt taste like pepper or making old shoes smell like freshly baked cookies. This does not affect nutritional value, so be careful not to trick your body into eating something it shouldn't.\nYou aren't able to create any stimuli that you haven't personally experienced before."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Changer"],
+        "details": {
+            "title": "Chroma Hair",
+            "SPCost": 1,
+            "desc": "You have the ability to change the color of your hair at will. This includes natural shades, vibrant neon colors, or even patterns like gradients and stripes. The transformation is instant and can be undone just as quickly. This power only affects the color of your hair and cannot alter its texture, length, or other properties. It is purely cosmetic."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Blaster"],
+        "details": {
+            "title": "Projectile Vomit",
+            "SPCost": 1,
+            "desc": "You can vomit at a distance of 5 feet at will. The necessary muscles temporarily strengthen themselves for the duration of this ability. Additionally, your stomach, esophagus, and mouth become more durable, allowing anything you vomit to be ejected safely. Note that this doesn’t aid you in eating something like glass, only in successfully vomiting it out.\nYou can also modify the viscosity of your digestive fluids and other liquids within your stomach, allowing you to alter the contents of your vomit. If you want to send a vomit slimeball at someone, you can.",
+            "subItems": [
+                {
+                    "title": "Projectile, Projectile Vomit",
+                    "synergy": "Hysterical Strength or Pink Muscles",
+                    "desc": "The force with which you can vomit is now much higher, thanks to your muscles. You can now vomit up to a distance of 20 feet. Up close, you could knock over a man with a vomit slimeball, splashing it all over him like a thick slush."
+                },
+                {
+                    "title": "Emetokinetics",
+                    "synergy": "Minor Telekinesis",
+                    "desc": "You can now manipulate your vomit telekinetically, moving it as if you were holding it and shaping it with your hands. This allows you to manipulate other objects from a distance by, for example, increasing the vomit's viscosity to its maximum or forcing it into others’ mouths to make them retch and distract them."
+                },
+                {
+                    "title": "Upchuck",
+                    "synergy": "Wasteless; Stomach Storage; Spongey Organs",
+                    "desc": "Instead of producing no waste, your body converts all waste products into more digestive acids, safely stored within your endless stomach. This allows you to vomit frequently and in greater quantities, letting you throw up rapid-fire streams of bile or a continuous torrent like a hose.\nYou can now also ‘charge up’ vomit in your stomach like you were filling a water balloon before unleashing it. The effect would be something like a fire hydrant bursting open, spreading outwards in a deluge of your own sick.\nLastly, for a much less disgusting function, you can harmlessly swallow any object that would fit down your throat and retrieve it whenever you want. You can charge your vomit with small debris, allowing you to spit them out like they were fired from a slingshot; you can do this with a single object for greater accuracy or many to act like a shotgun."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Striker"],
+        "details": {
+            "title": "Bite-Sized Portals",
+            "SPCost": 1,
+            "desc": "You can create static pairs of miniature portals that permanently link to each other. Each end originates at the tips of two different chosen fingers.\nThese portals are 2 cm in radius and cannot move or change their destination once created. You may dismiss them at will."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "GPS",
+            "SPCost": 1,
+            "desc": "You always know your exact geographic coordinates, according to the dominant positioning system of your current world."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute", "Mover"],
+        "details": {
+            "title": "Sinew Coils",
+            "SPCost": 1,
+            "desc": "Your tendons and ligaments have transformed into something resembling coiled steel springs, anchoring more efficiently to bone and muscle while balancing elasticity with rigidity. This allows them to absorb, store, and release kinetic energy with every movement, significantly improving agility and flexibility while sharply reducing the risk of strains or sprains.\nThis mutation shines during acts of running and jumping, where your sinews store impact forces and release them in bursts, letting you move faster and leap higher with less effort. However, their immense recoil strength means that under extreme stress, they're more likely to fracture your bones before snapping themselves.\nAdditionally, they'll also soften landings and reduce fall damage, but this won't prevent injury from excessive heights. Fortunately, they can regenerate quickly, minimizing wear from repeated exertion.",
+            "subItems": [
+                {
+                    "title": "Kinetic Sink",
+                    "synergy": "Spongey Body",
+                    "desc": "Due to the synergistic adaptation of your sponge-like tissues and coiled sinew system, your entire body acts as a living shock absorber, redirecting impacts instead of enduring them. When struck, your body instinctively deforms and stretches, reducing resistance while offloading a significant portion of the incoming kinetic energy into your reinforced tendons and ligaments.\nThis process allows you to 'catch' force with your body, channeling it through your sinew coils where it's absorbed, stored, and harmlessly dissipated or redirected. The more elastic and relaxed your body, the greater the energy transfer.\nHowever, as your body accumulates damage, this kinetic transference becomes less effective — your sinews strain, and the force begins to hit harder."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Shaker", "Trump"],
+        "details": {
+            "title": "Mirror Mirror",
+            "SPCost": 1,
+            "desc": "You can summon fingers out of any mirrors that you can see. As a result, this allows mirrors to be a conduit for your powers."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Human Calculator",
+            "SPCost": 1,
+            "desc": "Your brain now has specifically developed areas designed for calculation that are naturally adept at arithmetic, giving you a computer-like ability to calculate things. You also gain a natural ability to remember mathematical formulas.\nWithout any training, you can mentally perform calculations using roughly 2MB worth of 'memory' per second, operating at 25-40 MHz — about four times more memory and 10 MHz faster than the average scientific calculator. Unlike most computers, this ability only allows you to calculate in base ten instead of binary. With training, your body will slowly adapt to utilizing this instinctively."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Stranger"],
+        "details": {
+            "title": "Changing Room",
+            "SPCost": 1,
+            "desc": "You are able to swiftly put on and remove various items, whether it be makeup, clothing, or equipment. This allows you to change your appearance or gear in an instant. Whether you’re preparing for an event, gearing up for a mission, or disguising yourself on the fly, your speed and efficiency make you incredibly versatile. Likewise, when the moment calls for it, you can just as quickly shed any attire or gear, making transitions effortless.\nHowever, while you can remove anything immediately, you must have it within arm’s reach before you can rapidly put it on."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Striker"],
+        "details": {
+            "title": "Budget Projection",
+            "SPCost": 1,
+            "desc": "You can create simple projections in your hands, limited to 15 cubic centimeters in volume and fitting within a 15 cm cube at creation. The projections must be based on your general understanding, cannot have supernatural properties, and cannot be more complex than a hand crank or gearbox. If significantly damaged, they dissipate and must be reformed. Examples include a blade, rubber band, or stylus."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Striker"],
+        "details": {
+            "title": "Custom Fit",
+            "SPCost": 1,
+            "desc": "Have you ever noticed the difference between something that isn’t really fitted for you and something that is? It’s quite an experience to have something so customized just for you. Now, you’ll experience this all the time.\nAs you pick up armor, try on new clothing, or just sit in a chair, reality will subtly readjust the items to suit you perfectly, changing the fit, balance, weight, and any other features to match your needs as if they had been custom-designed for you alone.\nThis only works while you have ‘possession’ of the item; as soon as you stop touching it, these changes will revert."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Mover"],
+        "details": {
+            "title": "Lazy Bum",
+            "SPCost": 1,
+            "desc": "You have the ability to teleport anywhere within your line of sight, but it requires charging at a rate of 1 second for every 10 centimeters of distance. This may be selectively applied to anything within a 10-centimeter range of yourself.\nYou can also choose to teleport in arbitrarily small increments to create a fluid, continuous motion."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "No Lag",
+            "SPCost": 1,
+            "desc": "Human sensory systems naturally introduce slight delays in perception, meaning everything you see, hear, and feel is slightly behind reality. Now, however, your brain can receive and process sensory input instantaneously.\nMotion blur is nonexistent, with fast-moving objects appearing with perfect clarity. Your perception of time is flawlessly accurate, with no inconsistencies between your senses. Hand-eye coordination and balance feel effortlessly precise, as every movement is perfectly synchronized with what you perceive. Your physical reaction time remains the same, but hesitation caused by misinterpreted timing is a thing of the past.\nThe world unfolds before you in perfect real-time. No lag, no delay — just pure, uninterrupted perception."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Changer"],
+        "details": {
+            "title": "Resized Hands",
+            "SPCost": 1,
+            "desc": "You may choose to change the size of your hands at the cost of scaling the rest of your body in the opposite direction. You may at most scale your hands by a factor of two, and your body must maintain its volume throughout any changes."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Longshot",
+            "SPCost": 1,
+            "desc": "Superpowered individuals fighting in media is always entertaining to watch due to the omnipresence of the viewers. The actual characters don't experience that, being limited by their own field of vision. You are the exception.\nNow, whenever you fire your big blue laser, send an opponent hurling through terrain, or fly at incredible speeds, a snapshot showcasing the scale of your attack, property damage, or distance covered is automatically and instantly beamed into your brain. This also works if you're a victim of the same treatment.\nYou will always know where you and your opponent(s) stand within each snapshot. This only activates AFTER an action that warrants it has occurred.",
+            "subItems": [
+                {
+                    "title": "Eye Catcher",
+                    "synergy": "The Perfect Shot; Third Person POV; Eye Measurement",
+                    "desc": "This power is now always active when you're engaged in combat, regardless of whether it's flashy or not. You also process the snapshots at a subconscious level, meaning you no longer need to actively think about them. On top of that, the information you gain from each snapshot now covers every detail you could possibly ask for.\nIf you throw an opponent into the sky, you'll know their exact trajectory and coordinates, allowing you to easily make follow-up combos. If you're on the other side of the Milky Way and your opponent is on Earth, you'll know to fly to their exact location when you crash back to the planet like a meteor.\nYou can filter the rate you receive this information or turn it off completely at any time."
+                },
+                {
+                    "title": "Spectacle",
+                    "synergy": "Badass Aura; Third Person POV; Papert's Principle or Flow State",
+                    "desc": "What do audiences love most about watching two or more superpowered individuals fight? The Cool Factor! You now have this in spades. Not only does your every move in combat look cool, but you also know how to act to maximize it to the extreme. Be careful not to get drunk on your own aura, but I wouldn't blame you if you did. You get to see how awesome you look, for crying out loud!\nThe cosmetic effects you generate allow your snapshots to be more colorful and expressive, like manifesting onomatopoeia, arrows, or leaving beacons of light from your last attack that conveniently highlight your opponent's location.\nYou always have an intuitive sense of balance between knowing the coolest possible stunt you could do, when to do it, how to execute it, and maximizing both practicality with spectacle."
+                },
+                {
+                    "title": "Burst Shot",
+                    "synergy": "Multitask; Bullet Time; Organized Mind",
+                    "desc": "Just like pressing the shutter button on a camera, instead of just one snapshot, you can choose to receive multiple at once that showcase the feat from many different angles and distances. These are all photographically memorized instantly and can be discarded just as easily.\nYour increased perception and multitasking also allow you to rewind and fast-forward through the snapshots in rapid succession as a separate, minor thought process. This works for both the current snapshots you're sorting through and previous ones, ensuring virtually no detail about the battlefield escapes you."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker", "Brute"],
+        "details": {
+            "title": "Colorful Gaze",
+            "SPCost": 1,
+            "desc": "While normal humans have three photo-color receptors and some have four, you now possess sixteen of them — the same as a Pistol Shrimp. You can perceive a vast portion of the electromagnetic spectrum, including ultraviolet, infrared, and polarized light, and even segments of microwaves and X-rays.\nDespite this overwhelming input, your brain effortlessly interprets and filters the visual data. You can toggle up to ten of these photoreceptors off at will, allowing you to return to human-normal-ish vision but with enhanced sensitivity to violet, red, and cyan hues."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Stranger"],
+        "details": {
+            "title": "Mask Of A Face",
+            "SPCost": 1,
+            "desc": "People just really cannot recognize you. Whether they’ve known you all your life or just met you a minute ago, when you activate this power, people are unable to recognize you. That being said, there are ways for them to figure out that it's you, mainly by you telling them. This power doesn't make people unable to recognize you; it just makes them view the 'you' using the power and the 'you' not using it as two different people.\nNote: This also affects digital records and digital entities (like AIs). But this doesn't mean that the identity people will perceive you to be with this power active will have any recorded background, legal or otherwise. It'll be as though you simply appeared out of nowhere."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Stranger"],
+        "details": {
+            "title": "Confusing Body Language",
+            "SPCost": 1,
+            "desc": "You can introduce a level of randomness into your body, confusing Thinkers and others trying to get a sense of what you’re feeling, thinking, or going to do. This alters your micro-expressions and mildly shifts your movement by centimeters at a time, making physical prediction much more difficult. This doesn't protect you from precogs or sufficiently strong Thinkers, but it mildly changes your actions, so a precog would see you moving slightly differently in each future, even if they didn’t change anything.\nYou’d still be doing the same thing; you’d just be going about it a tad differently, like using different muscles to form a smile, walking slightly more to the left, saying synonyms of a word, or rarely even attacking with a different limb.",
+            "subItems": [
+                {
+                    "title": "Sheep in Wolf's Clothing",
+                    "synergy": "Weakling",
+                    "desc": "You’ll now occasionally move in ways that will make your opponents underestimate you: lowering your eyes to give the impression that you’re giving up, flinching to seem like you’re scared, or making movements that make opponents think you’re leaving an opening. These will be convincing, as the specifics will slightly adjust for each opponent to look realistic."
+                },
+                {
+                    "title": "Ricochet",
+                    "synergy": "Deadshot",
+                    "desc": "You’re now much more capable of ricocheting your projectiles, good enough that you could hit enemies from their blind spots or calculate how to hit them even if they dodge. This makes projectiles you throw much harder to predict, as they’ll ricochet seemingly randomly yet still manage to land where they were aimed."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute"],
+        "details": {
+            "title": "Histskin",
+            "SPCost": 1,
+            "desc": "You will regenerate 0.5% of your health per second for a minute. You have three charges of this ability. You can either spread them out or stack them all on top of each other. Each charge is refreshed 24 hours after its time of usage."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Fine Manipulation",
+            "SPCost": 1,
+            "desc": "You possess extraordinary fine motor control, allowing you to perform intricate tasks with effortless precision. Whether threading a needle, assembling complex machinery, or writing in microscopic script, your movements are exact and fluid. Delicate activities like handling fragile objects, cooking with finesse, or walking on a tightrope come easily to you."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Breaker"],
+        "details": {
+            "title": "Just Long Enough To See This Through",
+            "SPCost": 1,
+            "desc": "You can select a single goal of yours, and until it's completed, you can't die of old age. If you complete the goal and have long since passed your original lifespan, you will die of old age. Additionally, you can choose whether your body still appears to age and, if it does, at what speed.\nThe goal must be something you genuinely want to accomplish."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Copy",
+            "SPCost": 1,
+            "desc": "You have a knack for copying things, but it’s not as overpowered as it might sound. You can only mimic what you actually notice, so if you miss the finer details, they’re gone. Plus, your memory still works the same way it always has — you won’t magically retain copied movements forever. And most importantly, just because you can copy something doesn’t mean you can actually do it. If it’s beyond your physical limits, tough luck.\nThat said, this is still incredibly useful. For example, by watching someone skilled at a task, you can fast-track your learning process, shaving hours off the time it takes to develop muscle memory.",
+            "subItems": [
+                {
+                    "title": "Crash Out",
+                    "synergy": "Hysterical Strength or Limit Break",
+                    "desc": "Now, you can copy not just how someone moves, but also the force behind it. Strength, speed, and even raw kinetic output can be mimicked if you observe it directly. The catch? Your body still has to pay for what it borrows.\nThe greater the gap between your own physicality and the one you’re copying, the nastier the backlash. Additionally, if you copy something but miss details, the consequences worsen. Exceeding your natural limits by too much in a short span can rupture tendons, tear muscle, or even cause limbs to literally explode.\nFortunately, you get a built-in danger sense — when you watch someone move, you immediately feel how much it would mess you up to copy it."
+                },
+                {
+                    "title": "Mirror",
+                    "synergy": "Attention to Detail or Full Picture",
+                    "desc": "You can now perceive and internalize even the subtlest nuances of what you’re observing — micro-movements, muscle twitches, vocal inflections, and patterns most people would never consciously register. These details don’t just catch your eye anymore; they imprint clearly into your memory, ready to be drawn on when copying.\nThe result? When you copy, you’re doing so with near-total fidelity, replicating actions with uncanny precision — again, within the limits of your physical ability. You still can’t lift a car just because you saw someone else do it, but if it’s something you could do, your version is as close to the original as humanly (or inhumanly) possible.\nThis also doesn’t eliminate the limitations of your natural memory entirely. You can still forget things over time, but it does significantly mitigate them. What you observe with intent tends to stick much more clearly and for much longer."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Meditation",
+            "SPCost": 1,
+            "desc": "You are able to focus inwards, entering a meditative state where you filter out your senses and unrelated thoughts, highlighting and focusing on specific ideas. In this state, you can unpack complex ideas, solve problems, or trace patterns of thought with near-superhuman precision. Mental interference — such as fear, doubt, or confusion — melts away, granting you unwavering concentration and emotional stillness. This also helps deal with mental exhaustion and lessens headaches, even Thinker headaches.\nThis works best when you enter it in a calm or relaxed state. Sitting in a lotus position also helps."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Shaker"],
+        "details": {
+            "title": "Bug Zapper",
+            "SPCost": 1,
+            "desc": "Congratulations. You’ve just defeated one of the greatest nuisances known to mankind: bugs.\nYour body is now always surrounded by an invisible forcefield that instantly kills any small insect that gets within a 10 cm radius. This process is instantaneous, silent, and leaves no trace behind.\nAdditionally, this field muffles the sounds of nearby insects, making it easier to ignore those that are smart enough to keep their distance.\nYou can also choose to selectively spare individual bugs or species from being zapped, like butterflies and bees, for example."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Shaker"],
+        "details": {
+            "title": "SFX",
+            "SPCost": 1,
+            "desc": "Your actions now become punctuated by audio cues: the snap of your fingers produces a satisfying crack, the thuds of your footsteps command a terrifying presence, and the boom of your fist smashing concrete conveys your might. You're not limited to just these, as you can generate a variety of sound effects based on the intent behind your actions.\nYou can toggle this on and off, filter the rate at which it happens, adjust the volume, and choose whether only you or others can hear them.",
+            "subItems": [
+                {
+                    "title": "Sound Designer",
+                    "synergy": "Alarm",
+                    "desc": "You can now store your own sound effects within a mental playlist and play them at any time. This playlist can be visualized in your mind, projected outward as a screen, or something else entirely.\nThe scale, pitch, tone, frequency, and other aspects of these sounds are completely toggleable. You can also mix these sounds in a variety of ways to create unique results."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Striker"],
+        "details": {
+            "title": "Hydro Ooze",
+            "SPCost": 1,
+            "desc": "You can selectively secrete a sticky, transparent substance that attracts and absorbs water to unnatural levels. When stuck to an object, it is very difficult to remove. Absorbing water increases its volume, and its ability to absorb water increases with volume. This can cause a chain reaction that rapidly 'sucks up' all the water in the area that it can which causes it to rapidly grow.\nIt cannot aborb water from the air, and it cannot aborb water from living organism. However, it can rapidly dry out the skin that it touches.\nAt very low temperatures (around -30°C), it temporarily shrinks into a powdery substance with less adhesion.",
+            "subItems": [
+                {
+                    "title": "Ooze Manipulation",
+                    "synergy": "Projectile Vomit; Minor Telekinesis",
+                    "desc": "You can now use your ooze as a blaster power, allowing you to eject it from your body at high speeds and move it telekinetically with your mind. While stuck objects will still weigh it down, any attracted water is not factored in, allowing you to attract large amounts of water with little force required."
+                },
+                {
+                    "title": "Thermal Catalyst",
+                    "synergy": "Heat Exchange",
+                    "desc": "Your ability to heat up surfaces allows you to turn your ooze into a more permanent glue. This causes it to lose its attractive properties towards water but has the advantage of letting you perfectly fuse surfaces together."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Show Your Work",
+            "SPCost": 1,
+            "desc": "By writing down each step as you solve a problem — whether it’s calculations, decisions, or reasoning — you will be able to solve that problem three times faster."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute", "Breaker"],
+        "details": {
+            "title": "Radiation Eater",
+            "SPCost": 1,
+            "desc": "Your body has mutated to metabolize ionizing radiation as a source of energy. While not perfectly efficient, this ability allows you to survive and even thrive near hazardous radiation levels. Your cells are far more resistant than a normal human's, enabling you to stand near something like the Elephant's Foot for a few hours with only minor radiation sickness that your body can quickly purge.\nHowever, extreme rapid exposure — like to the Demon Core — can still overload your system, temporarily shutting down your ability and causing acute radiation poisoning, though you'd still survive where others wouldn't.\nA steady, high-radiation source puts your body into a temporary overdrive, pushing you to peak human physicality. But stay in that state too long, and you'll crash from the strain. Moderate levels, on the other hand, boost your stamina, reduce your need for food or sleep, and make you healthier overall.\nThis heightened metabolism will also make your body emit noticeable heat, enough that anyone touching you might be alarmed by how hot your skin feels."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Striker"],
+        "details": {
+            "title": "Squeeze",
+            "SPCost": 1,
+            "desc": "You can spatially compress any object, but at a very slow and tiring rate. For every minute you squeeze an object between your hands, its volume permanently shrinks by 20%.\nThis cannot work on living beings and uses more and more stamina the longer you shrink something."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Tinker"],
+        "details": {
+            "title": "Game Dev",
+            "SPCost": 1,
+            "desc": "You are a Tinker 1 with a specialization in developing games of all kinds. Card games, video games, board games — you name it, you can probably make it. While your technology isn't useful in combat, you can create household masterpieces that can impact people indirectly. Furthermore, the speed at which you can develop these games is practically the only thing that could be considered 'parahuman,' able to make enough progress in a day that a full and experienced team of developers would take a month to match.\nFinally, your products aren't tinkertech outright, more like technology that would be a decade or so ahead of its time.",
+            "subItems": [
+                {
+                    "title": "More Fun for Less",
+                    "synergy": "Optimization; Compact",
+                    "desc": "Your games are organized to pack as much as possible into small packages: playing cards perfectly scaled for beautiful artwork and clear writing; models and pieces neatly organized to minimize damage and loss while positioned to take as little space as possible; and fitting what seems to be double the limit of any game cartridge or disk, all while pushing their systems to work 50% better than their limit through clever coding tricks."
+                },
+                {
+                    "title": "Better Games",
+                    "synergy": "Resourcefulness; Idiot Proofing; Clarity",
+                    "desc": "You don't merely make games; you elevate them. Those you create have such a level of detail and care that it would take years of dedicated effort to replicate. They are easy to play and understand but capable of possessing layers upon layers of mastery. Even at their worst, they never feel half-hearted or unfinished, as your games become the pinnacle others follow: a guiding star to light the way to a future."
+                },
+                {
+                    "title": "The Quest Giver",
+                    "synergy": "The Writer; Clarity",
+                    "desc": "The point of a game is, first and foremost, to do something. Sometimes it’s solving puzzles, sometimes it’s killing monsters, or maybe it’s fetching an item — regardless, these activities also need to be fun, something you have a real talent for.\nYou can easily make tasks in your games enjoyable to just about any player and can also easily come up with dozens of ideas to keep players occupied.\nThe stories you tell, the characters you design, and the worlds you create are all exquisitely detailed, and many would be hard-pressed to consider them incomplete. They have a depth that makes them almost lifelike in their design, as if the characters could actually exist or that the worlds themselves were once real.\nBeyond making you one of the best storytellers, character designers, and world-builders to have ever been born on Earth, you will also have the ability to flesh out just about any idea. This means that anything you design, whether it be the ornate details of a sword or the winding paths of a maze, will be incredibly intricate and well-thought-out."
+                },
+                {
+                    "title": "Designer",
+                    "synergy": "Optimization",
+                    "desc": "As a designer, you are one of the best of your craft. You know just how to design your games to be well-balanced, intuitive, and easily explained, with a depth to their mechanics.\nYou could easily design a game that suits many playstyles without favoring any specific one, intuitive enough for a baby to use, and could add aspects for the real hardcore players to search for and master."
+                },
+                {
+                    "title": "Niche Product",
+                    "synergy": "Present Perfect",
+                    "desc": "When developing your games, you can choose to gear them towards a certain clientele, whether they are enjoyers of specific genres or a broad demographic. You gain an up-to-date, instinctual ability to know what they want and why. This massively improves reception among these people without affecting the rest of the market too much. With this insight, you can increase the amount of work you can do in a day by roughly 50%, with a similar boost to quality."
+                },
+                {
+                    "title": "Cultural Craze",
+                    "synergy": "Media; Public Relations",
+                    "desc": "Your skills with games have expanded beyond creation into something more vile and cutthroat: marketing. As you make games, you'll know instantly how to make them noticeable and draw people in, capturing the imagination of the public while navigating public opinion and the media to easily make your games popular, regardless of the medium. All of this comes to you effortlessly, as even games that become failures earn you a nice profit and some fans. With a little luck and hard work, it's very possible for you to build an empire that rivals the Pokémon Media Franchise at its peak."
+                },
+                {
+                    "title": "Educational",
+                    "synergy": "Teaching",
+                    "desc": "Your games can be not only fun but also educational, with your players never realizing they're learning. Literacy, mathematics, critical thinking, short- and long-term planning, situational awareness, history, wilderness survival, occult defenses, economic theories, game theory, visualization, mind games, social skills, and learning something about themselves — all become part of your games. These games transform into more than treasured memories for many; they become the building blocks for brighter futures."
+                },
+                {
+                    "title": "Play together",
+                    "synergy": "Healer; Doctor; Communication",
+                    "desc": "Games are meant to be played for fun, but that's not their limit. Due to your knowledge of helping others and your medical expertise, you can prove this.\nNow, you can easily design your games to help people in various ways — whether it's helping them work through issues by venting in safe and constructive manners, processing their emotions and traumas, or even reaching out to others. While these elements can be the centerpiece of a game, they can also be easily added to other projects.\nIt's not just mental or emotional, either. You intuitively know how to make your games more accessible to others, such as by including Braille on your cards or designing controllers for a wide range of abilities. It may not seem like much at first, but it will make a world of difference for some people. Sadly, there is only so much you can do for game journalists."
+                },
+                {
+                    "title": "Trust me with IP",
+                    "synergy": "Connection; Diplomat",
+                    "desc": "You are something nearly unheard of — an anomaly in an industry where image is worth more than gold. You are someone others can trust their intellectual properties (IPs) with. Because of this, you have a much easier time using IP, from something as minor as using it for a theme for a game to much grander things, such as an expansive game that uses the characters and lore of the IP in new ways, or even creating crossovers of multiple IPs.\nWith every successful product, you find it easier to acquire the rights to use new IPs, with restrictions being loosened with every success. And if you have the Reputation perk, it wouldn't be long before people are just handing their IP to you — or even begging you to use them."
+                },
+                {
+                    "title": "Pipelines & Middlemen",
+                    "synergy": "Construction; Logistics; Red Tape Wizard",
+                    "desc": "You know how to make games, but even if it's the greatest ever conceived, production and distribution can bring it all to a halt — until now. You intuitively grasp what will be needed to mass-produce and distribute your games on every level of the supply chain, along with knowing who would be worth partnering with and who can be trusted to act as middlemen. Should no infrastructure exist for your needed supply lines, you know where and how they can be built, along with having fallbacks to minimize risk.\nYou can effectively weigh the cost and resources of each step of the supply chain and consider factors that may go over the heads of others, such as seeing the value in a local partner you can hold great soft power over when compared to an overseas mass producer. You use all you have to get the best results, leveraging everything you can to turn setbacks around.\nWhen all is said and done, you know how to make games and how to get them to people, making a profit where others would have lost money."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute"],
+        "details": {
+            "title": "Harmonization",
+            "SPCost": 1,
+            "desc": "Your body is your sanctuary, and with this subtle but life-changing power, it finally feels like it.\nEvery morning, you wake up feeling truly rested — no grogginess or lingering fatigue. Your skin is always clear and comfortable, free from breakouts or irritation.\nYour body’s internal cycles and hormonal rhythms are perfectly balanced. You experience no mood swings, cramps, or other unpleasant side effects.\nIf you have a menstrual cycle, it is silent and painless; your body quietly recycles what it needs, leaving you unbothered. If you don’t, you still benefit from stable hormones and smooth regulation.\nReproductive health is optimized for comfort, with your reproductive system remaining healthy and trouble-free. For those who can become pregnant, the process is gentle and manageable, with minimal discomfort and a swift recovery.\nThe symptoms of aging — aches, stiffness, and forgetfulness — are softened. You still age, but the transition into old age is easier and more comfortable.\nYou’re not immune to disease or injury, nor are you superhuman. Your body simply works with you, not against you, making daily life that much more pleasant.\nYou don’t glow or sparkle, but every day you wake up with a body that feels like it’s on your side. The little annoyances of life fade into the background, letting you focus on living, not just enduring.",
+            "subItems": [
+                {
+                    "title": "Symphonic Flesh",
+                    "synergy": "Genetic Template",
+                    "desc": "Your body is not merely healed — it is whole. With this power, your form exists in perfect internal harmony, not just as you are now, but as you always should have been. Every strand of muscle, every fiber of tissue, and every cell in your body sings in accord with your core self. This is no mutation or enhancement; it is simply you, aligned completely with your ideal genetic expression.\nFrom the moment you choose, your body reshapes itself according to the best it could have become, guided by ideal growth conditions and perfect health from the start of life. It does not grant power, height, or features you never had in your blood, but it does ensure every feature you could have had is brought to full bloom. Your body becomes the ideal execution of your natural template.\nEvery inch of your skin, the structure of your bones, the slope of your shoulders, the sharpness of your jawline, and the tone of your muscles — all of it becomes a living symphony. You are not superhuman, but you are the absolute best version of a human you were ever meant to be.\nThis harmony is not static. Each morning, your body re-aligns itself to maintain its internal rhythm.\nYou are not flashy. You do not glow. But you are always right: the way you move, the way you sit, the way you breathe. You are not what others dreamed you could be. You are what you were always meant to become."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute"],
+        "details": {
+            "title": "Calisthenics",
+            "SPCost": 1,
+            "desc": "You need no equipment beyond your own body weight to train yourself. No matter how strong you become, you can get a good workout with nothing but a calisthenics routine suitable for a normal human.\nA routine that is moderate for a normal person will keep you in shape if you have no other powers to do so; a routine that would be intense for the average athlete will see you making impressive gains, even when you can normally bench-press mountains.\nWhen this power is active, the actions you take for the purpose of exercise will both strain and tire you as they would a baseline human, even if your other powers would normally prevent this.\nThis effect will cease the moment you stop exercising."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute", "Striker"],
+        "details": {
+            "title": "Tai Chi",
+            "SPCost": 1,
+            "desc": "You can redirect and reflect kinetic energy, but only by moving with the force rather than resisting it. By shifting the energy's path away from you — much like the principles of Tai Chi — you can deflect attacks and momentum-based impacts. This ability applies to both your body and weapons, allowing for fluid parries.\nHowever, its effectiveness depends on the force's power and mass — a punch or thrown object is easy to redirect, but something as heavy as a speeding car would simply overwhelm you. Your reaction speed is another crucial limitation; if an attack is too fast or catches you off guard, you won't be able to respond, making this ability ineffective against bullets or similar high-speed projectiles."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Changer", "Striker"],
+        "details": {
+            "title": "Arms",
+            "SPCost": 1,
+            "desc": "You are capable of growing and retracting two extra arms from your lower back. This pair of arms possesses every characteristic of your regular arms, with a few key differences. For one, they are a third longer to account for reach and possess an extra elbow each for greater flexibility. Additionally, certain muscles along your back also grow when these arms are manifested to allow for the same stability and strength as if they were on your shoulders. Any clothes or armor you are wearing will adapt to the new arms, with sleeves or greaves being created ad-nihilo as they grow. When you retract your arms, these are similarly retracted.",
+            "subItems": [
+                {
+                    "title": "Grasping Pinions",
+                    "synergy": "Wings",
+                    "desc": "Your wings have been genetically spliced with your extra arms. Your ‘arms’ are now grotesque wing-limbs, twisted by biological necessity. These wings’ muscles are corded and strengthened to the point of being veiny, blurring the line between the two body parts.\nThe hands at the end of these limbs are replaced by talon-like formations consisting of a fan of hyperflexible digits. The excess flaps of skin on these wings, ending in what look like keratin scales, are in fact fingers complete with fingernails, originating from thinned hands that flare out from the base of the wings.\nWhile these are more fragile, they are nonetheless numerous and possess the same dexterity and tactile sensitivity as your dominant hand, allowing you to pick a hundred locks at once or play on a dozen phones at the same time, given the ability to multitask. The support musculature on your back has been significantly enhanced as well, now acting as ‘wrists’ to support the hundred-handed appendages. Additionally, these wings can still retract, and your clothing and armor still adapt to them."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker", "Breaker"],
+        "details": {
+            "title": "Tea lady",
+            "SPCost": 1,
+            "desc": "Whenever you drink tea that you made yourself, your body and mind are nudged back to a normalized version of yourself.\nIf you are too hot, you are cooled down; if you are overexcited, you will be calmed; but if you are tired, you will regain energy.\nThe more your current condition differs from your 'normal,' the more tea you need to fully normalize yourself.\nThis ability also works on both malignant and beneficial power effects of many kinds, so long as they directly affect your body or mind.\nDrinking tea diminishes powers granted by others, many kinds of Master effects, and Striker effects such as teleportation marks or granted invulnerability.\nDrinking tea does nothing against environmental effects and does not heal you or revert your form in any way."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker", "Master"],
+        "details": {
+            "title": "Rent Free",
+            "SPCost": 1,
+            "desc": "One or more things about you are guaranteed to leave a lasting impression on the people you meet. From your accent and mannerisms to your opinions and voice, one person might remember your quirks as an amusing hiccup, while another might find them stuck in their head like a new song, unconsciously adopting your habits.\nYou can't control the specifics of what people will remember you for and won't be aware of them unless you can read minds, but each impression you make is guaranteed to paint you in a neutral light at worst or a positive one at best.\nYou can control the intensity of your impressions based on intent and skew them towards a specific perception."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Tinker"],
+        "details": {
+            "title": "It's Magic!",
+            "SPCost": 1,
+            "desc": "You are a Tinker 1 specializing in magic tricks of all kinds, such as vanishing cards, swallowable swords, and rabbit-producing hats. This does not grant you more skill when performing these tricks."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "God’s Tongue",
+            "SPCost": 1,
+            "desc": "You gain an ultra-acute sense of taste, capable of detecting the tiniest imperfections in any dish with a single taste. For example, you'd be capable of recognizing and differentiating different types of salt by country and knowing exactly how long a specific ingredient was overcooked. If you tried, you could also learn to gain information from tasting inedible things."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Master"],
+        "details": {
+            "title": "Intimidating Crepitation",
+            "SPCost": 1,
+            "desc": "By cracking your knuckles, neck, or any other part of your body, you can intimidate those that hear the crack. This can range from earning you some respect to inducing intense fear, depending on the situation. You can intensify the effect through slow repetition, pointed threats, or typical intimidation tactics. You can limit who is affected, though the effect becomes diluted the more targets it affects."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute"],
+        "details": {
+            "title": "Heartless",
+            "SPCost": 1,
+            "desc": "Your circulatory system has changed to function without the need for a heart. Specialized muscular contractions along your veins and arteries keep your blood in constant motion, effectively replacing the heart’s pumping action. Cuts seal themselves almost instantly, and blood vessels clamp shut to prevent bleeding, drastically increasing your survivability against punctures or ruptures.\nWhile you can still suffer from severe trauma or blood loss if enough tissue is destroyed at once, ordinary injuries that would normally cause fatal bleeding are now mere inconveniences. Your body naturally maintains stable blood pressure and flow, even under extreme exertion.\nYou are immune to up to 20gs of force and any heart-related powers, whether benign or not, such as being killed by a heart attack from the Death Note, as you lack the organ."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Striker", "Shaker"],
+        "details": {
+            "title": "Wireless Charger",
+            "SPCost": 1,
+            "desc": "You possess the ability to generate weak, variable electromagnetic fields to wirelessly charge or power electronic devices. This process draws directly from your own biological energy — primarily in the form of calories but potentially from other sources like magical energy, if you possess them.\nDistance to the object may drastically decrease charging efficiency; similarly, direct physical contact increases it. Additionally, you are limited in the number of devices you can charge at the same time without a multi-tasking power because each device will need its own field due to different requirements.",
+            "subItems": [
+                {
+                    "title": "Tingles and Tricks",
+                    "synergy": "Surge; Muscular Growth; Skin; Radiation Eater or Solar",
+                    "desc": "Your electromagnetic power has evolved due to other powers in play. First, you can now generate additional electrical energy through your muscles and skin. This allows you to shock people with a maximum power that depends on the surface area; your open palms are akin to a defibrillator, whereas your fingertips would be like a stun gun. This can, in turn, be used on yourself to stimulate your muscles for extra power or restart your heart should the need arise.\nYou can produce a magnetic field from your skin, which will also drain your energy. Holding a bunch of spoons to your face won't use too much, but creating a field strong enough to damage vulnerable hardware would require more energy. You cannot use this to hold your own weight for long without additional energy reserves.\nThe boosts from Surge can be increased further by drawing upon your biological energy, raising it to 60 as the hard limit. This could leave you bedridden at best or dead at worst, with the lower levels having less severe but still present backlash."
+                }
+            ]
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Brute"],
+        "details": {
+            "title": "Eye Protection",
+            "SPCost": 1,
+            "desc": "A thin, near-invisible film covers your eye sockets from the inside. It stops foreign substances from touching your eyes and slowly eradicates them. You can allow things to pass through it.\nThe film absorbs any tears that touch it to lubricate your eyes and absorbs excessive light — from all parts of the light spectrum — to fuel the eradication of substances. As a side effect, your eyes are protected from light, and you will be unable to cry unless you allow your tears to go through the film."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Changer", "Blaster"],
+        "details": {
+            "title": "Bioluminescent Stripes",
+            "SPCost": 1,
+            "desc": "Luminous bands bloom beneath your skin along the natural lines of muscle and bone. You can turn them on or off at will, choose any color, and modulate their brightness from a faint glow to a retina — searing glare, though extreme output rapidly burns calories. The light is cool, non-laser, and carries no concussive force.\nYou can hold a steady glow, pulse, or strobe in any pattern and can sync it to your heartbeat or steps. This works perfectly underwater: brightness isn’t dampened by immersion, strobes can cut through murk for signaling, and you can tighten the glow to your skin to reduce backscatter."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Forecast",
+            "SPCost": 1,
+            "desc": "You have a sixth sense that informs you of the upcoming weather for your general location for the next few days."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Shaker"],
+        "details": {
+            "title": "Invisible Air",
+            "SPCost": 1,
+            "desc": "Any weapon or object you hold can become invisible as the air around it conceals it. This does not apply to organic beings. You cannot see the object yourself.\nWhen you make the object visible again, the concealed wind surges violently in all directions."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker", "Brute"],
+        "details": {
+            "title": "Smart Organs",
+            "SPCost": 1,
+            "desc": "Each of your organs now possesses neuron-like networks that continuously monitor vital data such as blood pressure, sugar balance, oxygen saturation, and toxin levels. These pre-programmed neural circuits expand each organ’s natural capacity by integrating new 'senses,' allowing them to detect subtle imbalances or threats before they become serious.\nThe organs do not make you stronger or faster, but they vastly improve your body’s internal awareness and regulation. With practice, you can consciously access this data as though receiving silent status updates from within."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Bat Ears",
+            "SPCost": 1,
+            "desc": "Your auditory system has been drastically enhanced. While the average human perceives sounds in the 20 Hz to 20 kHz range, your hearing now spans from 10 Hz to 200 kHz — putting you on a similar level to bats.\nIn addition, loud or high-frequency sounds no longer cause pain or disorientation. Your eardrums are highly resistant to damage and recover far more rapidly than normal if injured.\nYour brain is fully equipped to process the increased sensory input without strain. Unwanted sounds can be effortlessly filtered out, allowing you to focus only on what matters."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Master", "Shaker"],
+        "details": {
+            "title": "Infectious Yawns",
+            "SPCost": 1,
+            "desc": "Whenever you yawn, you can choose to selectively make everyone else around you feel somewhat tired. You can also now yawn on command."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Dimensional Awareness",
+            "SPCost": 1,
+            "desc": "You now possess the ability to attune yourself to the dimensional fabric of reality, granting you a form of Dimensional Awareness.\nWith this heightened perception, you can detect dimensional irregularities in your immediate vicinity. This includes things like time bubbles, spatial distortions, portals, unstable space-time, and even warped or altered reality.\nNote that this awareness does not provide protection against these phenomena, nor does it offer a means to manipulate them. It simply allows you to sense their presence and understand their nature.\nAdditionally, while you can technically detect the micro-portals within the corona pollentia of Parahumans, these are so minuscule that you would need to be within 5 meters of a Parahuman to perceive them — unless they are actively using their powers, in which case you can detect them from 20 meters away."
+        }
+    },
+    {
+        "category": "Base Power",
+        "tier": 0,
+        "classifications": ["Thinker"],
+        "details": {
+            "title": "Pacinian Corpuscles",
+            "SPCost": 1,
+            "desc": "Your feet have developed sensory structures that grant them the tactile abilities of an elephant's foot. With them, you can detect minute, low-frequency seismic vibrations through the ground with your bare feet, effectively allowing you to 'hear' distant movements across a wide area.\nYours, however, are far more sensitive by area to compensate for the smaller surface of a human foot, but this also means injuries to your feet will feel significantly more painful. Your brain has been tweaked to interpret this new sensory input without confusion."
+        }
+    }
+]

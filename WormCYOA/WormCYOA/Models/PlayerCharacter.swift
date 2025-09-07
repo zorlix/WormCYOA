@@ -86,6 +86,9 @@ import SwiftUI
     var shardRelationship: Item?
     var shardDeviancy: [Item] = []
     
+    // Selected powers
+    var powers: [Power] = []
+    
     init(id: UUID, sp: Int, cp: Int) {
         self.id = id
         self.sp = sp
@@ -124,7 +127,7 @@ import SwiftUI
         return item
     }
     
-    func isItemSelected(_ item: Item, inVar: Item? = nil, inArr: [Item]? = nil) -> Bool {
+    func isItemSelected(_ item: Item, inVar: Item? = nil, inArr: [Item]? = nil, inPowArr: [Power]? = nil) -> Bool {
         if let variable = inVar {
             if item.title == variable.title {
                 return true
@@ -135,6 +138,17 @@ import SwiftUI
         
         if let array = inArr {
             for classItem in array {
+                if item.title == classItem.title {
+                    return true
+                }
+            }
+            
+            return false
+        }
+        
+        if let powersArray = inPowArr {
+            for classPower in powersArray {
+                let classItem = classPower.details
                 if item.title == classItem.title {
                     return true
                 }
@@ -223,6 +237,14 @@ import SwiftUI
             }
         }
         
+        for powerItem in powers {
+            let classItem = powerItem.details
+            
+            if classItem.title == title {
+                return true
+            }
+        }
+        
         return false
     }
     
@@ -293,6 +315,22 @@ import SwiftUI
             }
         }
         
+        for powerItem in powers {
+            let classItem = powerItem.details
+            
+            if itemIncompatibilities.contains(classItem.title) {
+                return true
+            }
+            
+            if let incompatibility = classItem.incompatibility {
+                let incompatibilities = incompatibility.split(separator: ";").map { $0.trimmingCharacters(in: .whitespaces) }
+                
+                if incompatibilities.contains(item.title) {
+                    return true
+                }
+            }
+        }
+        
         return false
     }
     
@@ -318,6 +356,16 @@ import SwiftUI
             classArray.append(value)
         }
         
+    }
+    
+    /// Assigning to powers array
+    func setValue(for powerArray: inout [Power], from value: Power) {
+        if powerArray.contains(value) {
+            powerArray.removeAll(where: { $0 == value })
+            deletedItems.append(value.details)
+        } else {
+            powerArray.append(value)
+        }
     }
     
     /// Confirming requirements
@@ -410,6 +458,54 @@ import SwiftUI
                                     removedTitles.append(classItem.title)
                                     self[keyPath: keypath].remove(at: index)
                                 }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            for powerItem in powers {
+                let classItem = powerItem.details
+                
+                if let req = classItem.requirement {
+                    if req.contains(item.title) {
+                        if req.contains(" or ") {
+                            let andSegments = req.split(separator: ";")
+                            
+                            for segment in andSegments {
+                                var orSegments = segment.split(separator: " or ").map { $0.trimmingCharacters(in: .whitespaces) }
+                                
+                                if orSegments.contains(item.title) && orSegments.count == 1 {
+                                    if let index = powers.firstIndex(of: powerItem) {
+                                        removedTitles.append(classItem.title)
+                                        powers.remove(at: index)
+                                    }
+                                }
+                                
+                                if orSegments.contains(item.title) {
+                                    if let orIndex = orSegments.firstIndex(of: item.title) {
+                                        orSegments.remove(at: orIndex)
+                                        
+                                        var reqFulfilled = false
+                                        for orSegment in orSegments {
+                                            if ownsItem(withTitle: orSegment) {
+                                                reqFulfilled = true
+                                            }
+                                        }
+                                        
+                                        if !reqFulfilled {
+                                            if let index = powers.firstIndex(of: powerItem) {
+                                                removedTitles.append(classItem.title)
+                                                powers.remove(at: index)
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        } else {
+                            if let index = powers.firstIndex(of: powerItem) {
+                                removedTitles.append(classItem.title)
+                                powers.remove(at: index)
                             }
                         }
                     }

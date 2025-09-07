@@ -12,6 +12,7 @@ struct ItemView: View {
     var selected: Bool = false
     var subItems: [SubItem]? = nil
     var difficulty: Item?
+    var overlayWidth: CGFloat = 5
     
     var descriptionFormatted: [String] {
         item.desc
@@ -191,13 +192,13 @@ struct ItemView: View {
         }
         .frame(maxWidth: .infinity)
         .padding()
-        .background(.itemSelected.opacity(selected ? 1 : 0))
+        .background(selected ? .itemSelected : Color(uiColor: .systemBackground))
         .overlay(
             RoundedRectangle(cornerRadius: 10)
-                .stroke(.white)
+                .stroke(.white, lineWidth: overlayWidth)
         )
-        .fixedSize(horizontal: false, vertical: true)
-//        .contentShape(.rect(cornerRadius: 10))
+//        .fixedSize(horizontal: false, vertical: true)
+        .clipShape(.rect(cornerRadius: 10))
     }
 }
 

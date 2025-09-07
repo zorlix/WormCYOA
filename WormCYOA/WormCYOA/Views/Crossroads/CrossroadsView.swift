@@ -17,7 +17,7 @@ struct CrossroadsView: View {
     var body: some View {
         ScrollView {
             GridView {
-                ForEach(tabItems, id: \.self) { item in
+                ForEach(tabItems, id: \.title) { item in
                     NavigationLink(value: item) {
                         ItemView(item: item)
                     }
@@ -47,6 +47,8 @@ struct CrossroadsView: View {
                 DrawbacksView(character: character)
             case "Power Origins":
                 PowerOriginsView(character: character)
+            case "Powers":
+                PowersView(character: character)
             default:
                 Text("Never should happen...")
             }

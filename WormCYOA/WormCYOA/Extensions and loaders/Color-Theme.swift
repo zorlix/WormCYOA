@@ -8,6 +8,10 @@
 import SwiftUI
 
 extension ShapeStyle where Self == Color {
+    static var titleColorStyle: Color {
+        Color(red: 251 / 255, green: 191 / 255, blue: 35 / 255)
+    }
+    
     static var itemSelected: Color {
         Color(red: 96 / 255, green: 9 / 255, blue: 130 / 255)
     }

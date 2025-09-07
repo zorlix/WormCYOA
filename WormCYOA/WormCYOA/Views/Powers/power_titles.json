@@ -1,0 +1,41 @@
+{
+    "main": [
+        {
+            "title": "Tier 0",
+            "requirement": "Peripheral Shard or Strategic Shard or Core Shard",
+            "desc": "These are lesser powers accessible to all Shard Calibers with at least a Peripheral Shard. One of these isn't even enough to make you a street-level cape on its own, though if you're clever and skilled enough, it might give you enough of an edge for you to succeed."
+        },
+        {
+            "title": "Tier 1",
+            "requirement": "Peripheral Shard or Strategic Shard or Core Shard",
+            "desc": "The standard fare powers accessible to all those with at least a Peripheral Shard. One (or several) of these should make you at least a street-level cape."
+        },
+        {
+            "title": "Tier 2",
+            "requirement": "Strategic Shard or Core Shard",
+            "desc": "A clear step above the norm. Powers of this caliber are accessible to those with at least a Strategic Shard. They're potent and impactful, capable of giving you at least a fighting chance against an Endbringer."
+        },
+        {
+            "title": "Tier 3",
+            "requirement": "Core Shard",
+            "desc": "The apex of parahuman potential. These powers are available only to those with a Core Shard. They are rare, often reality-defining abilities that can shape the course of entire conflicts. They should generally make you stronger than an Endbringer, and while most of them won't make you capable of fighting an Entity mano a mano, they might at least give you a fighting chance."
+        },
+        {
+            "title": "Power Copy",
+            "requirement": "Peripheral Shard or Strategic Shard or Core Shard",
+            "desc": "This section contains a selection of iconic abilities from the canon of the Worm universe. These powers are available to those with a Peripheral Shard, so this section does not contain the powers of the strongest parahumans like Eidolon or the the Faerie Queen."
+        },
+        {
+            "title": "Power Upgrades",
+            "desc": "This section contains upgrades to the abilities from the previous sections."
+        },
+        {
+            "title": "Power Fusions",
+            "desc": "Unlock unique and powerful synergies. These options become available when you possess specific combinations of other powers, fusing them into something greater."
+        },
+        {
+            "title": "Universal Upgrades",
+            "desc": "Broad enhancements that apply to your entire power set. These perks provide general improvements rather than modifying a single ability."
+        }
+    ]
+}
