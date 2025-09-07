@@ -36,7 +36,7 @@
         "title": "Very Hard",
         "SPCost": 30,
         "desc": "You gain as much SP and CP from Scenarios and Drawbacks as on Hard difficulty, but you also get an SP penalty.",
-        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/difficulty/very%20easy.webp"
+        "image": "https://raw.githubusercontent.com/zorlix/WormCYOA/refs/heads/main/Images/difficulty/very%20hard.jpeg"
     },
     {
         "title": "Skitter Mode",
