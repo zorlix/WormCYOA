@@ -171,9 +171,9 @@ import SwiftUI
             var tempSubItem = subItem
             tempSubItem.isSelected = true
             
-            let andSegments = tempSubItem.synergy.split(separator: ";")
+            let synergySegments = tempSubItem.synergy.split(separator: ";")
             
-            for segment in andSegments {
+            for segment in synergySegments {
                 let orSegments = segment.split(separator: " or ").map { $0.trimmingCharacters(in: .whitespaces) }
                 
                 let classContains = orSegments.contains(where: { synergy in
@@ -182,6 +182,18 @@ import SwiftUI
                 
                 if !classContains {
                     tempSubItem.isSelected = false
+                }
+            }
+            
+            if let incompatibilities = tempSubItem.incompatibility {
+                let incompatibilitiesSegments = incompatibilities.split(separator: ";").map { $0.trimmingCharacters(in: .whitespaces) }
+                
+                for segment in incompatibilitiesSegments {
+                    let classContains = ownsItem(withTitle: segment)
+                    
+                    if classContains {
+                        tempSubItem.isSelected = false
+                    }
                 }
             }
             

@@ -1649,6 +1649,7 @@
             {
                 "title": "Hallucination",
                 "synergy": "Mild Hallucinations or Moderate Hallucinations or Major Hallucinations",
+                "incompatibility": "Day and Night",
                 "desc": "**Note:** This is incompatible with Day and Night. If you take the drawback, hallucinations will function 'normally.'\nOtherwise, possessing any of the Hallucination drawbacks will cause your secondary mind to become a part of your hallucination. Additionally, it'll have a degree of control over what you're seeing and hearing.\nIf you only have Mild Hallucinations, then the only hallucination you'll be seeing is the 'avatar' of this secondary mind of yours.\nIf you have Moderate Hallucinations, you will be seing the 'avatar' of your mental companion as well as other things. It'll still be next to impossible for you to differentiate between your hallucinations and reality. However, your mental companion is going to be fully in control of whatever it is you're seeing. They cannot just 'disable' all your hallucinations, but they can make it extremely obvious what isn't real.\nIf you have Major Hallucinations, you will be living in a hallucinatory dream state. Your mental companion will only have a minor amount of control over your hallucinations. However, they can see 'through' all your hallucinations, and so they can guide you. If you stay on their good side, you can rely on them.\n****\n"
             },
             {

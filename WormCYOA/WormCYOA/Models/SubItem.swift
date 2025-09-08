@@ -10,7 +10,8 @@ import SwiftUI
 struct SubItem: Codable, Hashable {
     let title: String
     let synergy: String
-    var comment: String? = nil 
+    var incompatibility: String? = nil 
+    var comment: String? = nil
     let desc: String
     var isSelected: Bool? = nil
     

@@ -160,6 +160,12 @@ struct ItemView: View {
                             .fontWeight(.semibold)
                             .multilineTextAlignment(.center)
                         
+                        if let incompatibility = subItem.incompatibility {
+                            Text("Incompatibility: \(incompatibility)")
+                                .multilineTextAlignment(.center)
+                                .font(.caption)
+                        }
+                        
                         Text("Synergy: \(subItem.synergy)")
                             .multilineTextAlignment(.center)
                             .font(.caption)
